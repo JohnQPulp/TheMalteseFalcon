@@ -1,0 +1,15 @@
+{
+  "title": "The Maltese Falcon",
+  "shortTitle": "The Maltese Falcon",
+  "author": "Dashiell Hammett",
+  "year": 1930,
+  "source": "https://standardebooks.org/ebooks/dashiell-hammett/the-maltese-falcon",
+  "words": 67019,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/TheMalteseFalcon",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Maltese_Falcon_(novel)",
+  "blurb": "foo",
+  "blurb2": "bar",
+  "useAvif": true,
+  "authorWidth": null
+}
