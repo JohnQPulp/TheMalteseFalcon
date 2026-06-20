@@ -7498,4 +7498,1948 @@ His voice was not loud. It was bitter.
 Spade went out and slammed the door.
 
 
+## XII<br>Merry-Go-Round
+r=title
+
+Spade rode down from Gutman’s floor in an elevator.
+s=none;e:spade=neutral
+
+His lips were dry and rough in a face otherwise pale and damp.
+e:spade=weary
+
+When he took out his handkerchief to wipe his face he saw his hand trembling.
+e:spade=nervous
+
+He grinned at it and said, “Whew!” so loudly that the elevator-operator turned his head over his shoulder and asked: “Sir?”
+
+
+Spade walked down Geary Street to the Palace Hotel, where he ate luncheon.
+e:spade=neutral
+
+His face had lost its pallor, his lips their dryness, and his hand its trembling by the time he had sat down.
+
+
+He ate hungrily without haste, and then went to Sid Wise’s office.
+
+
+When Spade entered, Wise was biting a fingernail and staring at the window.
+e:sid=thinking
+
+He took his hand from his mouth, screwed his chair around to face Spade, and said: “’Lo. Push a chair up.”
+s=sid;e:sid=neutral
+
+Spade moved a chair to the side of the big paper-laden desk and sat down.
+s=none;e:spade=neutral
+
+“Mrs. Archer come in?” he asked.
+s=spade;e:spade=curious
+
+“Yes.”
+s=sid;e:sid=smirking
+
+The faintest of lights flickered in Wise’s eyes.
+s=none
+
+“Going to marry the lady, Sammy?”
+s=sid
+
+Spade sighed irritably through his nose.
+s=none;e:spade=annoyed
+
+“Christ, now you start that!” he grumbled.
+s=spade
+
+A brief tired smile lifted the corners of the lawyer’s mouth.
+s=none;e:sid=sadsmile
+
+“If you don’t,” he said, “you’re going to have a job on your hands.”
+s=sid;e:sid=serious
+
+Spade looked up from the cigarette he was making and spoke sourly: “You mean you are? Well, that’s what you’re for. What did she tell you?”
+s=spade;e:spade=annoyed
+
+“About you?”
+s=sid;e:sid=curious
+
+“About anything I ought to know.”
+s=spade;e:spade=serious
+
+Wise ran fingers through his hair, sprinkling dandruff down on his shoulders.
+s=none;e:sid=weary
+
+“She told me she had tried to get a divorce from Miles so she could﻿—”
+s=sid
+
+“I know all that,” Spade interrupted him.
+s=spade;e:spade=annoyed
+
+“You can skip it. Get to the part I don’t know.”
+
+
+“How do I know how much she﻿—?”
+s=sid;e:sid=confused
+
+“Quit stalling, Sid.”
+s=spade;e:spade=scowling
+
+Spade held the flame of his lighter to the end of his cigarette.
+s=none;e:spade=neutral
+
+“What did she tell you that she wanted kept from me?”
+s=spade;e:spade=serious
+
+Wise looked reprovingly at Spade.
+s=none;e:sid=annoyed
+
+“Now, Sammy,” he began, “that’s not﻿—”
+s=sid
+
+Spade looked heavenward at the ceiling and groaned: “Dear God, he’s my own lawyer that’s got rich off me and I have to get down on my knees and beg him to tell me things!”
+s=spade;e:spade=annoyed
+
+He lowered at Wise.
+s=none;e:spade=angry
+
+“What in hell do you think I sent her to you for?”
+s=spade
+
+Wise made a weary grimace.
+s=none;e:sid=weary
+
+“Just one more client like you,” he complained, “and I’d be in a sanitarium﻿—or San Quentin.”
+s=sid
+
+“You’d be with most of your clients.”
+s=spade;e:spade=smirking
+
+“Did she tell you where she was the night he was killed?”
+e:spade=serious
+
+“Yes.”
+s=sid;e:sid=neutral
+
+“Where?”
+s=spade;e:spade=curious
+
+“Following him.”
+s=sid
+
+Spade sat up straight and blinked.
+s=none;e:spade=surprised
+
+He exclaimed incredulously: “Jesus, these women!”
+s=spade
+
+Then he laughed, relaxed, and asked: “Well, what did she see?”
+s=spade;e:spade=smirking
+
+Wise shook his head.
+s=none;e:sid=neutral
+
+“Nothing much.”
+s=sid
+
+“When he came home for dinner that evening he told her he had a date with a girl at the St. Mark, ragging her, telling her that was her chance to get the divorce she wanted.”
+
+
+“She thought at first he was just trying to get under her skin.”
+
+
+“He knew﻿—”
+
+
+“I know the family history,” Spade said.
+s=spade;e:spade=annoyed
+
+“Skip it. Tell me what she did.”
+
+
+“I will if you’ll give me a chance.”
+s=sid;e:sid=annoyed
+
+“After he had gone out she began to think that maybe he might have had that date.”
+e:sid=neutral
+
+“You know Miles. It would have been like him to﻿—”
+
+
+“You can skip Miles’s character too.”
+s=spade
+
+“I oughtn’t to tell you a damned thing,” the lawyer said.
+s=sid;e:sid=scowling
+
+“So she got their car from the garage and drove down to the St. Mark, sitting in the car across the street.”
+e:sid=neutral
+
+“She saw him come out of the hotel and she saw that he was shadowing a man and a girl﻿—she says she saw the same girl with you last night﻿—who had come out just ahead of him.”
+
+
+“She knew then that he was working, had been kidding her.”
+
+
+“I suppose she was disappointed, and mad﻿—she sounded that way when she told me about it.”
+e:sid=thinking
+
+“She followed Miles long enough to make sure he was shadowing the pair, and then she went up to your apartment.”
+e:sid=neutral
+
+“You weren’t home.”
+
+
+“What time was that?” Spade asked.
+s=spade;e:spade=curious
+
+“When she got to your place? Between half-past nine and ten the first time.”
+s=sid;e:sid=neutral
+
+“The first time?”
+s=spade;e:spade=surprised
+
+“Yes. She drove around for half an hour or so and then tried again.”
+s=sid;e:sid=neutral
+
+“That would make it, say, ten-thirty.”
+
+
+“You were still out, so she drove back downtown and went to a movie to kill time until after midnight, when she thought she’d be more likely to find you in.”
+
+
+Spade frowned.
+s=none;e:spade=scowling
+
+“She went to a movie at ten-thirty?”
+s=spade;e:spade=confused
+
+“So she says﻿—the one on Powell Street that stays open till one in the morning.”
+s=sid;e:sid=neutral
+
+“She didn’t want to go home, she said, because she didn’t want to be there when Miles came. That always made him mad, it seems, especially if it was around midnight.”
+
+
+“She stayed in the movie till it closed.”
+
+
+Wise’s words came out slower now and there was a sardonic glint in his eye.
+s=none;e:sid=smirking
+
+“She says she had decided by then not to go back to your place again.”
+s=sid
+
+“She says she didn’t know whether you’d like having her drop in that late.”
+
+
+“So she went to Tait’s﻿—the one on Ellis Street﻿—had something to eat and then went home﻿—alone.”
+
+
+Wise rocked back in his chair and waited for Spade to speak.
+s=none;e:sid=neutral
+
+Spade’s face was expressionless.
+e:spade=neutral
+
+He asked: “You believe her?”
+s=spade;e:spade=curious
+
+“Don’t you?” Wise replied.
+s=sid;e:sid=curious
+
+“How do I know? How do I know it isn’t something you fixed up between you to tell me?”
+s=spade;e:spade=suspicious
+
+Wise smiled.
+s=none;e:sid=smirking
+
+“You don’t cash many checks for strangers, do you, Sammy?”
+s=sid
+
+“Not basketfuls.”
+s=spade;e:spade=smirking
+
+“Well, what then? Miles wasn’t home.”
+e:spade=serious
+
+“It was at least two o’clock by then﻿—must’ve been﻿—and he was dead.”
+
+
+“Miles wasn’t home,” Wise said.
+s=sid;e:sid=neutral
+
+“That seems to have made her mad again﻿—his not being home first to be made mad by her not being home.”
+
+
+“So she took the car out of the garage again and went back to your place.”
+
+
+“And I wasn’t home. I was down looking at Miles’s corpse. Jesus, what a swell lot of merry-go-round riding. Then what?”
+s=spade;e:spade=annoyed
+
+“She went home, and her husband still wasn’t there, and while she was undressing your messenger came with the news of his death.”
+s=sid;e:sid=neutral
+
+Spade didn’t speak until he had with great care rolled and lighted another cigarette.
+s=none;e:spade=thinking
+
+Then he said: “I think that’s an all right spread. It seems to click with most of the known facts. It ought to hold.”
+s=spade;e:spade=neutral
+
+Wise’s fingers, running through his hair again, combed more dandruff down on his shoulders.
+s=none;e:sid=weary
+
+He studied Spade’s face with curious eyes and asked: “But you don’t believe it?”
+s=sid;e:sid=curious
+
+Spade plucked his cigarette from between his lips.
+s=none;e:spade=neutral
+
+“I don’t believe it or disbelieve it, Sid. I don’t know a damned thing about it.”
+s=spade
+
+A wry smile twisted the lawyer’s mouth.
+s=none;e:sid=sadsmile
+
+He moved his shoulders wearily and said: “That’s right﻿—I’m selling you out.”
+s=sid;e:sid=weary
+
+“Why don’t you get an honest lawyer﻿—one you can trust?”
+
+
+“That fellow’s dead.”
+s=spade;e:spade=smirking
+
+Spade stood up.
+s=none;e:spade=annoyed
+
+He sneered at Wise.
+
+
+“Getting touchy, huh? I haven’t got enough to think about: now I’ve got to remember to be polite to you.”
+s=spade;e:spade=scowling
+
+“What did I do? Forget to genuflect when I came in?”
+
+
+Sid Wise smiled sheepishly.
+s=none;e:sid=happy
+
+“You’re a son of a gun, Sammy,” he said.
+s=sid
+
+—
+s=
+
+Effie Perine was standing in the center of Spade’s outer office when he entered.
+s=none;e:effie=nervous
+
+She looked at him with worried brown eyes and asked:
+e:effie=upset
+
+“What happened?”
+s=effie
+
+Spade’s face grew stiff.
+s=none;e:spade=wary
+
+“What happened where?” he demanded.
+s=spade
+
+“Why didn’t she come?”
+s=effie;e:effie=upset
+
+Spade took two long steps and caught Effie Perine by the shoulders.
+s=none;e:spade=serious
+
+“She didn’t get there?” he bawled into her frightened face.
+s=spade;e:spade=angry;e:effie=fearful
+
+She shook her head violently from side to side.
+s=none
+
+“I waited and waited and she didn’t come, and I couldn’t get you on the phone, so I came down.”
+s=effie
+
+Spade jerked his hands away from her shoulders, thrust them far down in his trousers-pockets, said, “Another merry-go-round,” in a loud enraged voice, and strode into his private office.
+s=none;e:spade=angry
+
+He came out again.
+
+
+“Phone your mother,” he commanded.
+s=spade;e:spade=serious
+
+“See if she’s come yet.”
+
+
+He walked up and down the office while the girl used the telephone.
+s=none;e:spade=thinking
+
+“No,” she said when she had finished.
+s=effie;e:effie=upset
+
+“Did﻿—did you send her out in a taxi?”
+
+
+His grunt probably meant yes.
+s=none;e:spade=scowling
+
+“Are you sure she﻿—Somebody must have followed her!”
+s=effie;e:effie=fearful
+
+Spade stopped pacing the floor.
+s=none;e:spade=serious
+
+He put his hands on his hips and glared at the girl.
+e:spade=angry
+
+He addressed her in a loud savage voice: “Nobody followed her.”
+s=spade
+
+“Do you think I’m a goddamned schoolboy?”
+
+
+“I made sure of it before I put her in the cab, I rode a dozen blocks with her to be more sure, and I checked her another half-dozen blocks after I got out.”
+
+
+“Well, but﻿—”
+s=effie;e:effie=nervous
+
+“But she didn’t get there.”
+s=spade;e:spade=angry
+
+“You’ve told me that.”
+
+
+“I believe it.”
+
+
+“Do you think I think she did get there?”
+
+
+Effie Perine sniffed.
+s=none;e:effie=upset
+
+“You certainly act like a goddamned schoolboy,” she said.
+s=effie;e:effie=annoyed
+
+Spade made a harsh noise in his throat and went to the corridor door.
+s=none;e:spade=annoyed
+
+“I’m going out and find her if I have to dig up sewers,” he said.
+s=spade;e:spade=serious
+
+“Stay here till I’m back or you hear from me.”
+
+
+“For Christ’s sake let’s do something right.”
+
+
+He went out, walked half the distance to the elevators, and retraced his steps.
+s=none;e:spade=thinking
+
+Effie Perine was sitting at her desk when he opened the door.
+e:effie=upset
+
+He said: “You ought to know better than to pay any attention to me when I talk like that.”
+s=spade;e:spade=weary
+
+“If you think I pay any attention to you you’re crazy,” she replied, “only”﻿—she crossed her arms and felt her shoulders, and her mouth twitched uncertainly﻿—“I won’t be able to wear an evening gown for two weeks, you big brute.”
+s=effie;e:effie=sadsmile
+
+He grinned humbly, said, “I’m no damned good, darling,” made an exaggerated bow, and went out again.
+s=none;e:spade=sadsmile
+
+—
+s=
+
+Two yellow taxicabs were at the corner-stand to which Spade went.
+e:spade=neutral
+
+Their chauffeurs were standing together talking.
+
+
+Spade asked: “Where’s the red-faced blond driver that was here at noon?”
+s=spade;e:spade=curious
+
+“Got a load,” one of the chauffeurs said.
+n:chauffeur1=Chauffeur;s=chauffeur1;e:chauffeur1=neutral
+
+“Will he be back here?”
+s=spade
+
+“I guess so.”
+s=chauffeur1
+
+The other chauffeur ducked his head to the east.
+s=none;n:chauffeur2=Other Chauffeur;e:chauffeur2=neutral
+
+“Here he comes now.”
+s=chauffeur2
+
+Spade walked down to the corner and stood by the curb until the red-faced blond chauffeur had parked his cab and got out.
+s=none;n:chauffeur3=Red-Faced Chauffeur;e:chauffeur3=neutral
+
+Then Spade went up to him and said: “I got into your cab with a lady at noontime.”
+s=spade;e:spade=neutral
+
+“We went out Stockton Street and up Sacramento to Jones, where I got out.”
+
+
+“Sure,” the red-faced man said, “I remember that.”
+s=chauffeur3
+
+“I told you to take her to a Ninth-Avenue-number.”
+s=spade;e:spade=serious
+
+“You didn’t take her there.”
+
+
+“Where did you take her?”
+
+
+The chauffeur rubbed his cheek with a grimy hand and looked doubtfully at Spade.
+s=none;e:chauffeur3=wary
+
+“I don’t know about this.”
+s=chauffeur3
+
+“It’s all right,” Spade assured him, giving him one of his cards.
+s=spade;e:spade=neutral
+
+“If you want to play safe, though, we can ride up to your office and get your superintendent’s OK.”
+
+
+“I guess it’s all right.”
+s=chauffeur3;e:chauffeur3=neutral
+
+“I took her to the Ferry Building.”
+
+
+“By herself?”
+s=spade;e:spade=curious
+
+“Yeah. Sure.”
+s=chauffeur3
+
+“Didn’t take her anywhere else first?”
+s=spade
+
+“No.”
+s=chauffeur3
+
+“It was like this: after we dropped you I went on out Sacramento, and when we got to Polk she rapped on the glass and said she wanted to get a newspaper, so I stopped at the corner and whistled for a kid, and she got her paper.”
+
+
+“Which paper?”
+s=spade
+
+“The *Call*.”
+s=chauffeur3
+
+“Then I went on out Sacramento some more, and just after we’d crossed Van Ness she knocked on the glass again and said take her to the Ferry Building.”
+
+
+“Was she excited or anything?”
+s=spade
+
+“Not so’s I noticed.”
+s=chauffeur3
+
+“And when you got to the Ferry Building?”
+s=spade
+
+“She paid me off, and that was all.”
+s=chauffeur3
+
+“Anybody waiting for her there?”
+s=spade
+
+“I didn’t see them if they was.”
+s=chauffeur3
+
+“Which way did she go?”
+s=spade
+
+“At the Ferry?”
+s=chauffeur3;e:chauffeur3=thinking
+
+“I don’t know.”
+
+
+“Maybe upstairs, or towards the stairs.”
+
+
+“Take the newspaper with her?”
+s=spade
+
+“Yeah, she had it tucked under her arm when she paid me.”
+s=chauffeur3;e:chauffeur3=neutral
+
+“With the pink sheet outside, or one of the white?”
+s=spade
+
+“Hell, Cap, I don’t remember that.”
+s=chauffeur3;e:chauffeur3=confused
+
+Spade thanked the chauffeur, said, “Get yourself a smoke,” and gave him a silver dollar.
+s=none;e:spade=neutral
+
+—
+s=
+
+Spade bought a copy of the *Call* and carried it into an office-building-vestibule to examine it out of the wind.
+
+
+His eyes ran swiftly over the front page headlines and over those on the second and third pages.
+e:spade=serious
+
+They paused for a moment under **Suspect Arrested as Counterfeiter** on the fourth page, and again on page five under **Bay Youth Seeks Death with Bullet**.
+e:spade=thinking
+
+Pages six and seven held nothing to interest him.
+
+
+On eight **3 Boys Arrested as S.F. Burglars after Shooting** held his attention for a moment, and after that nothing until he reached the thirty-fifth page, which held news of the weather, shipping, produce, finance, divorce, births, marriages, and deaths.
+
+
+He read the list of dead, passed over pages thirty-six and thirty-seven﻿—financial news﻿—found nothing to stop his eyes on the thirty-eighth and last page, sighed, folded the newspaper, put it in his coat-pocket, and rolled a cigarette.
+e:spade=weary
+
+For five minutes he stood there in the office-building-vestibule smoking and staring sulkily at nothing.
+e:spade=unhappy
+
+Then he walked up to Stockton Street, hailed a taxicab, and had himself driven to the Coronet.
+e:spade=neutral
+
+He let himself into the building and into Brigid O’Shaughnessy’s apartment with the key she had given him.
+
+
+The blue gown she had worn the previous night was hanging across the foot of her bed.
+
+
+Her blue stockings and slippers were on the bedroom floor.
+
+
+The polychrome box that had held jewelry in her dressing table drawer now stood empty on the dressing table top.
+e:spade=serious
+
+Spade frowned at it, ran his tongue across his lips, strolled through the rooms, looking around but not touching anything, then left the Coronet and went downtown again.
+e:spade=scowling
+
+In the doorway of Spade’s office-building he came face to face with the boy he had left at Gutman’s.
+e:spade=surprised;e:youth=neutral
+
+The boy put himself in Spade’s path, blocking the entrance, and said: “Come on.”
+s=youth;e:youth=scowling
+
+“He wants to see you.”
+
+
+The boy’s hands were in his overcoat-pockets.
+s=none;e:youth=wary
+
+His pockets bulged more than his hands need have made them bulge.
+
+
+Spade grinned and said mockingly: “I didn’t expect you till five-twenty-five.”
+s=spade;e:spade=smirking
+
+“I hope I haven’t kept you waiting.”
+
+
+The boy raised his eyes to Spade’s mouth and spoke in the strained voice of one in physical pain: “Keep on riding me and you’re going to be picking iron out of your navel.”
+s=youth;e:youth=angry
+
+Spade chuckled.
+s=none;e:spade=happy
+
+“The cheaper the crook, the gaudier the patter,” he said cheerfully.
+s=spade
+
+“Well, let’s go.”
+
+
+They walked up Sutter Street side by side.
+s=none;e:spade=neutral;e:youth=wary
+
+The boy kept his hands in his overcoat-pockets.
+
+
+They walked a little more than a block in silence.
+
+
+Then Spade asked pleasantly: “How long have you been off the gooseberry lay, son?”
+s=spade;e:spade=smirking
+
+The boy did not show that he had heard the question.
+s=none;e:youth=neutral
+
+“Did you ever﻿—?” Spade began, and stopped.
+s=spade;e:spade=thinking
+
+A soft light began to glow in his yellowish eyes.
+s=none;e:spade=contemplative
+
+He did not address the boy again.
+
+
+They went into the Alexandria, rode up to the twelfth floor, and walked down the corridor towards Gutman’s suite.
+e:spade=neutral
+
+Nobody else was in the corridor.
+
+
+Spade lagged a little, so that, when they were within fifteen feet of Gutman’s door, he was perhaps a foot and a half behind the boy.
+
+
+He leaned sidewise suddenly and grasped the boy from behind by both arms, just beneath the boy’s elbows.
+e:spade=serious;e:youth=surprised
+
+He forced the boy’s arms forward so that the boy’s hands, in his overcoat-pockets, lifted the overcoat up before him.
+
+
+The boy struggled and squirmed, but he was impotent in the big man’s grip.
+e:youth=angry
+
+The boy kicked back, but his feet went between Spade’s spread legs.
+
+
+Spade lifted the boy straight up from the floor and brought him down hard on his feet again.
+
+
+The impact made little noise on the thick carpet.
+
+
+At the moment of impact Spade’s hands slid down and got a fresh grip on the boy’s wrists.
+
+
+The boy, teeth set hard together, did not stop straining against the man’s big hands, but he could not tear himself loose, could not keep the man’s hands from crawling down over his own hands.
+e:youth=upset
+
+The boy’s teeth ground together audibly, making a noise that mingled with the noise of Spade’s breathing as Spade crushed the boy’s hands.
+
+
+They were tense and motionless for a long moment.
+e:youth=weary
+
+Then the boy’s arms became limp.
+
+
+Spade released the boy and stepped back.
+e:spade=smirking
+
+In each of Spade’s hands, when they came out of the boy’s overcoat-pockets, there was a heavy automatic pistol.
+
+
+The boy turned and faced Spade.
+e:youth=fearful
+
+The boy’s face was a ghastly white blank.
+
+
+He kept his hands in his overcoat-pockets.
+
+
+He looked at Spade’s chest and did not say anything.
+
+
+Spade put the pistols in his own pockets and grinned derisively.
+
+
+“Come on,” he said.
+s=spade
+
+“This will put you in solid with your boss.”
+
+
+They went to Gutman’s door and Spade knocked.
+s=none;e:spade=neutral
+
+## XIII<br>The Emperor’s Gift
+r=title
+
+Gutman opened the door. A glad smile lighted his fat face.
+e:gutman=happy
+
+He held out a hand and said: “Ah, come in, sir! Thank you for coming. Come in.”
+s=gutman
+
+Spade shook the hand and entered.
+s=none;e:spade=neutral
+
+The boy went in behind him.
+e:youth=neutral
+
+The fat man shut the door.
+e:gutman=neutral
+
+Spade took the boy’s pistols from his pockets and held them out to Gutman.
+e:spade=serious
+
+“Here. You shouldn’t let him run around with these. He’ll get himself hurt.”
+s=spade
+
+The fat man laughed merrily and took the pistols.
+s=none;e:gutman=happy
+
+“Well, well,” he said, “what’s this?”
+s=gutman;e:gutman=curious
+
+He looked from Spade to the boy.
+s=none
+
+Spade said: “A crippled newsie took them away from him, but I made him give them back.”
+s=spade;e:spade=smirking
+
+The white-faced boy took the pistols out of Gutman’s hands and pocketed them.
+s=none;e:youth=scowling
+
+The boy did not speak.
+
+
+Gutman laughed again.
+e:gutman=happy
+
+“By Gad, sir,” he told Spade, “you’re a chap worth knowing, an amazing character. Come in. Sit down. Give me your hat.”
+s=gutman;e:gutman=excited
+
+The boy left the room by the door to the right of the entrance.
+s=none
+
+The fat man installed Spade in a green plush chair by the table, pressed a cigar upon him, held a light to it, mixed whiskey and carbonated water, put one glass in Spade’s hand, and, holding the other, sat down facing Spade.
+e:gutman=happy
+
+“Now, sir,” he said, “I hope you’ll let me apologize for﻿—”
+s=gutman;e:gutman=neutral
+
+“Never mind that,” Spade said.
+s=spade;e:spade=serious
+
+“Let’s talk about the black bird.”
+
+
+The fat man cocked his head to the left and regarded Spade with fond eyes.
+s=none;e:gutman=smirking
+
+“All right, sir,” he agreed. “Let’s.”
+s=gutman
+
+He took a sip from the glass in his hand.
+s=none
+
+“This is going to be the most astounding thing you’ve ever heard of, sir, and I say that knowing that a man of your caliber in your profession must have known some astounding things in his time.”
+s=gutman;e:gutman=excited
+
+Spade nodded politely.
+s=none;e:spade=neutral
+
+The fat man screwed up his eyes and asked: “What do you know, sir, about the Order of the Hospital of St. John of Jerusalem, later called the Knights of Rhodes and other things?”
+s=gutman;e:gutman=curious
+
+Spade waved his cigar.
+s=none
+
+“Not much﻿—only what I remember from history in school﻿—Crusaders or something.”
+s=spade;e:spade=contemplative
+
+“Very good. Now you don’t remember that Suleiman the Magnificent chased them out of Rhodes in 1523?”
+s=gutman
+
+“No.”
+s=spade
+
+“Well, sir, he did, and they settled in Crete.”
+s=gutman;e:gutman=thinking
+
+“And they stayed there for seven years, until 1530 when they persuaded the Emperor Charles V to give them”﻿—Gutman held up three puffy fingers and counted them﻿—“Malta, Gozo, and Tripoli.”
+
+
+“Yes?”
+s=spade;e:spade=curious
+
+“Yes, sir, but with these conditions: they were to pay the Emperor each year the tribute of one”﻿—he held up a finger﻿—“falcon in acknowledgment that Malta was still under Spain, and if they ever left the island it was to revert to Spain.”
+s=gutman
+
+“Understand? He was giving it to them, but not unless they used it, and they couldn’t give or sell it to anybody else.”
+
+
+“Yes.”
+s=spade
+
+The fat man looked over his shoulders at the three closed doors, hunched his chair a few inches nearer Spade’s, and reduced his voice to a husky whisper: “Have you any conception of the extreme, the immeasurable, wealth of the Order at that time?”
+s=gutman;e:gutman=serious
+
+“If I remember,” Spade said, “they were pretty well fixed.”
+s=spade;e:spade=neutral
+
+Gutman smiled indulgently.
+s=none;e:gutman=smirking
+
+“Pretty well, sir, is putting it mildly.”
+s=gutman
+
+His whisper became lower and more purring.
+s=none;e:gutman=serious
+
+“They were rolling in wealth, sir. You’ve no idea. None of us has any idea.”
+s=gutman
+
+“For years they had preyed on the Saracens, had taken nobody knows what spoils of gems, precious metals, silks, ivories﻿—the cream of the cream of the East.”
+
+
+“That is history, sir. We all know that the Holy Wars to them, as to the Templars, were largely a matter of loot.”
+
+
+“Well, now, the Emperor Charles has given them Malta, and all the rent he asks is one insignificant bird per annum, just as a matter of form.”
+
+
+“What could be more natural than for these immeasurably wealthy Knights to look around for some way of expressing their gratitude?”
+e:gutman=smirking
+
+“Well, sir, that’s exactly what they did, and they hit on the happy thought of sending Charles for the first year’s tribute, not an insignificant live bird, but a glorious golden falcon encrusted from head to foot with the finest jewels in their coffers.”
+e:gutman=excited
+
+“And﻿—remember, sir﻿—they had fine ones, the finest out of Asia.”
+
+
+Gutman stopped whispering.
+s=none;e:gutman=neutral
+
+His sleek dark eyes examined Spade’s face, which was placid.
+e:spade=neutral
+
+The fat man asked: “Well, sir, what do you think of that?”
+s=gutman;e:gutman=curious
+
+“I don’t know.”
+s=spade
+
+The fat man smiled complacently.
+s=none;e:gutman=smirking
+
+“These are facts, historical facts, not schoolbook history, not Mr. Wells’s history, but history nevertheless.”
+s=gutman
+
+He leaned forward.
+s=none
+
+“The archives of the Order from the twelfth century on are still at Malta.”
+s=gutman
+
+“They are not intact, but what is there holds no less than three”﻿—he held up three fingers﻿—“references that can’t be to anything else but this jeweled falcon.”
+
+
+“In J. Delaville Le Roulx’s *Les Archives de l’Ordre de Saint-Jean* there is a reference to it﻿—oblique to be sure, but a reference still.”
+e:gutman=thinking
+
+“And the unpublished﻿—because unfinished at the time of his death﻿—supplement to Paoli’s *Dell’ origine ed instituto del sacro militar ordine* has a clear and unmistakable statement of the facts I am telling you.”
+
+
+“All right,” Spade said.
+s=spade;e:spade=neutral
+
+“All right, sir. Grand Master Villiers de l’Isle d’Adam had this foot-high jeweled bird made by Turkish slaves in the castle of St. Angelo and sent it to Charles, who was in Spain.”
+s=gutman;e:gutman=neutral
+
+“He sent it in a galley commanded by a French knight named Cormier or Corvere, a member of the Order.”
+
+
+His voice dropped to a whisper again.
+s=none;e:gutman=serious
+
+“It never reached Spain.”
+s=gutman
+
+He smiled with compressed lips and asked: “You know of Barbarossa, Redbeard, Khair-ed-Din? No?”
+e:gutman=smirking
+
+“A famous admiral of buccaneers sailing out of Algiers then.”
+
+
+“Well, sir, he took the Knights’ galley and he took the bird. The bird went to Algiers. That’s a fact.”
+
+
+“That’s a fact that the French historian Pierre Dan put in one of his letters from Algiers.”
+
+
+“He wrote that the bird had been there for more than a hundred years, until it was carried away by Sir Francis Verney, the English adventurer who was with the Algerian buccaneers for a while.”
+
+
+“Maybe it wasn’t, but Pierre Dan believed it was, and that’s good enough for me.”
+e:gutman=happy
+
+“There’s nothing said about the bird in Lady Francis Verney’s *Memoirs of the Verney Family During the Seventeenth Century*, to be sure. I looked.”
+e:gutman=thinking
+
+“And it’s pretty certain that Sir Francis didn’t have the bird when he died in a Messina hospital in 1615. He was stony broke.”
+
+
+“But, sir, there’s no denying that the bird *did* go to Sicily.”
+e:gutman=serious
+
+“It was there and it came into the possession there of Victor Amadeus II some time after he became king in 1713, and it was one of his gifts to his wife when he married in Chambéry after abdicating. That is a fact, sir.”
+
+
+“Carutti, the author of *Storia del Regno di Vittorio Amadeo II*, himself vouched for it.”
+
+
+“Maybe they﻿—Amadeo and his wife﻿—took it along with them to Turin when he tried to revoke his abdication.”
+e:gutman=thinking
+
+“Be that as it may, it turned up next in the possession of a Spaniard who had been with the army that took Naples in 1734﻿—the father of Don José Monino y Redondo, Count of Floridablanca, who was Charles III’s chief minister.”
+e:gutman=neutral
+
+“There’s nothing to show that it didn’t stay in that family until at least the end of the Carlist War in ’40.”
+
+
+“Then it appeared in Paris at just about the time that Paris was full of Carlists who had had to get out of Spain.”
+
+
+“One of them must have brought it with him, but, whoever he was, it’s likely he knew nothing about its real value.”
+e:gutman=smirking
+
+“It had been﻿—no doubt as a precaution during the Carlist trouble in Spain﻿—painted or enameled over to look like nothing more than a fairly interesting black statuette.”
+e:gutman=contemplative
+
+“And in that disguise, sir, it was, you might say, kicked around Paris for seventy years by private owners and dealers too stupid to see what it was under the skin.”
+e:gutman=scowling
+
+The fat man paused to smile and shake his head regretfully.
+s=none;e:gutman=weary
+
+Then he went on: “For seventy years, sir, this marvelous item was, as you might say, a football in the gutters of Paris﻿—until 1911 when a Greek dealer named Charilaos Konstantinides found it in an obscure shop.”
+s=gutman;e:gutman=serious
+
+“It didn’t take Charilaos long to learn what it was and to acquire it.”
+
+
+“No thickness of enamel could conceal value from his eyes and nose.”
+e:gutman=smirking
+
+“Well, sir, Charilaos was the man who traced most of its history and who identified it as what it actually was.”
+e:gutman=neutral
+
+“I got wind of it and finally forced most of the history out of him, though I’ve been able to add a few details since.”
+e:gutman=smirking
+
+“Charilaos was in no hurry to convert his find into money at once. He knew that﻿—enormous as its intrinsic value was﻿—a far higher, a terrific, price could be obtained for it once its authenticity was established beyond doubt.”
+e:gutman=thinking
+
+“Possibly he planned to do business with one of the modern descendents of the old Order﻿—the English Order of St. John of Jerusalem, the Prussian Johanniterorden, or the Italian or German *langues* of the Sovereign Order of Malta﻿—all wealthy orders.”
+
+
+The fat man raised his glass, smiled at its emptiness, and rose to fill it and Spade’s.
+s=none;e:gutman=happy
+
+“You begin to believe me a little?” he asked as he worked the siphon.
+s=gutman;e:gutman=curious
+
+“I haven’t said I didn’t.”
+s=spade;e:spade=wary
+
+“No,” Gutman chuckled. “But how you looked.”
+s=gutman;e:gutman=happy
+
+He sat down, drank generously, and patted his mouth with a white handkerchief.
+s=none;e:gutman=neutral
+
+“Well, sir, to hold it safe while pursuing his researches into its history, Charilaos had re-enameled the bird, apparently just as it is now.”
+s=gutman;e:gutman=serious
+
+“One year to the very day after he had acquired it﻿—that was possibly three months after I’d made him confess to me﻿—I picked up the *Times* in London and read that his establishment had been burglarized and him murdered.”
+e:gutman=unhappy
+
+“I was in Paris the next day.”
+e:gutman=serious
+
+He shook his head sadly.
+s=none;e:gutman=sadsmile
+
+“The bird was gone. By Gad, sir, I was wild.”
+s=gutman;e:gutman=angry
+
+“I didn’t believe anybody else knew what it was. I didn’t believe he had told anybody but me.”
+e:gutman=wary
+
+“A great quantity of stuff had been stolen. That made me think that the thief had simply taken the bird along with the rest of his plunder, not knowing what it was.”
+e:gutman=thinking
+
+“Because I assure you that a thief who knew its value would not burden himself with anything else﻿—no, sir﻿—at least not anything less than crown jewels.”
+e:gutman=smirking
+
+He shut his eyes and smiled complacently at an inner thought.
+s=none;e:gutman=happy
+
+He opened his eyes and said: “That was seventeen years ago.”
+s=gutman;e:gutman=neutral
+
+“Well, sir, it took me seventeen years to locate that bird, but I did it. I wanted it, and I’m not a man that’s easily discouraged when he wants something.”
+e:gutman=smirking
+
+His smile grew broad.
+s=none;e:gutman=happy
+
+“I wanted it and I found it. I want it and I’m going to have it.”
+s=gutman;e:gutman=excited
+
+He drained his glass, dried his lips again, and returned his handkerchief to his pocket.
+s=none;e:gutman=neutral
+
+“I traced it to the home of a Russian general﻿—one Kemidov﻿—in a Constantinople suburb.”
+s=gutman
+
+“He didn’t know a thing about it. It was nothing but a black enameled figure to him, but his natural contrariness﻿—the natural contrariness of a Russian general﻿—kept him from selling it to me when I made him an offer.”
+e:gutman=annoyed
+
+“Perhaps in my eagerness I was a little unskillful, though not very. I don’t know about that.”
+e:gutman=thinking
+
+“But I did know I wanted it and I was afraid this stupid soldier might begin to investigate his property, might chip off some of the enamel.”
+e:gutman=wary
+
+“So I sent some﻿—ah﻿—agents to get it. Well, sir, they got it and I haven’t got it.”
+e:gutman=angry
+
+He stood up and carried his empty glass to the table.
+s=none;e:gutman=neutral
+
+“But I’m going to get it. Your glass, sir.”
+s=gutman;e:gutman=smirking
+
+“Then the bird doesn’t belong to any of you?” Spade asked, “but to a General Kemidov?”
+s=spade;e:spade=curious
+
+“Belong?”
+s=gutman;e:gutman=surprised
+
+the fat man said jovially.
+s=none;e:gutman=happy
+
+“Well, sir, you might say it belonged to the King of Spain, but I don’t see how you can honestly grant anybody else clear title to it﻿—except by right of possession.”
+s=gutman;e:gutman=smirking
+
+He clucked.
+s=none
+
+“An article of that value that has passed from hand to hand by such means is clearly the property of whoever can get hold of it.”
+s=gutman
+
+“Then it’s Miss O’Shaughnessy’s now?”
+s=spade;e:spade=smirking
+
+“No, sir, except as my agent.”
+s=gutman;e:gutman=neutral
+
+Spade said, “Oh,” ironically.
+s=spade
+
+Gutman, looking thoughtfully at the stopper of the whiskey-bottle in his hand, asked: “There’s no doubt that she’s got it now?”
+s=gutman;e:gutman=thinking
+
+“Not much.”
+s=spade;e:spade=neutral
+
+“Where?”
+s=gutman;e:gutman=serious
+
+“I don’t know exactly.”
+s=spade
+
+The fat man set the bottle on the table with a bang.
+s=none;e:gutman=angry
+
+“But you said you did,” he protested.
+s=gutman
+
+Spade made a careless gesture with one hand.
+s=none;e:spade=neutral
+
+“I meant to say I know where to get it when the time comes.”
+s=spade;e:spade=smirking
+
+The pink bulbs of Gutman’s face arranged themselves more happily.
+s=none;e:gutman=happy
+
+“And you do?” he asked.
+s=gutman
+
+“Yes.”
+s=spade;e:spade=neutral
+
+“Where?”
+s=gutman;e:gutman=curious
+
+Spade grinned and said: “Leave that to me. That’s my end.”
+s=spade;e:spade=smirking
+
+“When?”
+s=gutman;e:gutman=serious
+
+“When I’m ready.”
+s=spade;e:spade=neutral
+
+The fat man pursed his lips and, smiling with only slight uneasiness, asked: “Mr. Spade, where is Miss O’Shaughnessy now?”
+s=gutman;e:gutman=wary
+
+“In my hands, safely tucked away.”
+s=spade;e:spade=smirking
+
+Gutman smiled with approval.
+s=none;e:gutman=happy
+
+“Trust you for that, sir,” he said.
+s=gutman
+
+“Well now, sir, before we sit down to talk prices, answer me this: how soon can you﻿—or how soon are you willing to﻿—produce the falcon?”
+e:gutman=serious
+
+“A couple of days.”
+s=spade;e:spade=neutral
+
+The fat man nodded.
+s=none;e:gutman=neutral
+
+“That is satisfactory. We﻿—But I forgot our nourishment.”
+s=gutman;e:gutman=surprised
+
+He turned to the table, poured whiskey, squirted charged water into it, set a glass at Spade’s elbow and held his own aloft.
+s=none;e:gutman=happy
+
+“Well, sir, here’s to a fair bargain and profits large enough for both of us.”
+s=gutman
+
+They drank.
+s=none
+
+The fat man sat down.
+e:gutman=neutral
+
+Spade asked: “What’s your idea of a fair bargain?”
+s=spade;e:spade=curious
+
+Gutman held his glass up to the light, looked affectionately at it, took another long drink, and said: “I have two proposals to make, sir, and either is fair.”
+s=gutman;e:gutman=smirking
+
+“Take your choice. I will give you twenty-five thousand dollars when you deliver the falcon to me, and another twenty-five thousand as soon as I get to New York; or I will give you one quarter﻿—twenty-five percent﻿—of what I realize on the falcon.”
+
+
+“There you are, sir: an almost immediate fifty thousand dollars or a vastly greater sum within, say, a couple of months.”
+e:gutman=happy
+
+Spade drank and asked: “How much greater?”
+s=spade;e:spade=curious
+
+“Vastly,” the fat man repeated.
+s=gutman;e:gutman=smirking
+
+“Who knows how much greater? Shall I say a hundred thousand, or a quarter of a million?”
+e:gutman=excited
+
+“Will you believe me if I name the sum that seems the probable minimum?”
+e:gutman=serious
+
+“Why not?”
+s=spade;e:spade=neutral
+
+The fat man smacked his lips and lowered his voice to a purring murmur.
+s=none;e:gutman=smirking
+
+“What would you say, sir, to half a million?”
+s=gutman;e:gutman=excited
+
+Spade narrowed his eyes.
+s=none;e:spade=wary
+
+“Then you think the dingus is worth two million?”
+s=spade;e:spade=surprised
+
+Gutman smiled serenely.
+s=none;e:gutman=happy
+
+“In your own words, why not?” he asked.
+s=gutman;e:gutman=smirking
+
+Spade emptied his glass and set it on the table.
+s=none;e:spade=neutral
+
+He put his cigar in his mouth, took it out, looked at it, and put it back in.
+e:spade=thinking
+
+His yellow-grey eyes were faintly muddy.
+e:spade=weary
+
+He said: “That’s a hell of a lot of dough.”
+s=spade
+
+The fat man agreed: “That’s a hell of a lot of dough.”
+s=gutman;e:gutman=happy
+
+He leaned forward and patted Spade’s knee.
+s=none
+
+“That is the absolute rock-bottom minimum﻿—or Charilaos Konstantinides was a blithering idiot﻿—and he wasn’t.”
+s=gutman;e:gutman=serious
+
+Spade removed the cigar from his mouth again, frowned at it with distaste, and put it on the smoking-stand.
+s=none;e:spade=scowling
+
+He shut his eyes hard, opened them again.
+e:spade=weary
+
+Their muddiness had thickened.
+
+
+He said: “The﻿—the minimum, huh? And the maximum?”
+s=spade;e:spade=confused
+
+An unmistakable *sh* followed the *x* in maximum as he said it.
+s=none
+
+“The maximum?”
+s=gutman;e:gutman=surprised
+
+Gutman held his empty hand out, palm up. “I refuse to guess. You’d think me crazy. I don’t know.”
+e:gutman=serious
+
+“There’s no telling how high it could go, sir, and that’s the one and only truth about it.”
+
+
+Spade pulled his sagging lower lip tight against the upper.
+s=none;e:spade=annoyed
+
+He shook his head impatiently.
+
+
+A sharp frightened gleam awoke in his eyes﻿—and was smothered by the deepening muddiness.
+e:spade=fearful
+
+He stood up, helping himself up with his hands on the arms of his chair.
+e:spade=weary
+
+He shook his head again and took an uncertain step forward.
+
+
+He laughed thickly and muttered: “God damn you.”
+s=spade;e:spade=angry
+
+Gutman jumped up and pushed his chair back. His fat globes jiggled.
+s=none;e:gutman=surprised
+
+His eyes were dark holes in an oily pink face.
+e:gutman=wary
+
+Spade swung his head from side to side until his dull eyes were pointed at﻿—if not focused on﻿—the door.
+e:spade=weary
+
+He took another uncertain step.
+
+
+The fat man called sharply: “Wilmer!”
+s=gutman;e:gutman=angry
+
+A door opened and the boy came in.
+s=none;e:youth=neutral
+
+Spade took a third step.
+e:spade=weary
+
+His face was grey now, with jaw-muscles standing out like tumors under his ears.
+e:spade=upset
+
+His legs did not straighten again after his fourth step and his muddy eyes were almost covered by their lids.
+
+
+He took his fifth step.
+
+
+The boy walked over and stood close to Spade, a little in front of him, but not directly between Spade and the door.
+e:youth=wary
+
+The boy’s right hand was inside his coat over his heart. The corners of his mouth twitched.
+e:youth=nervous
+
+Spade essayed his sixth step.
+
+
+The boy’s leg darted out across Spade’s leg, in front.
+e:youth=angry
+
+Spade tripped over the interfering leg and crashed face-down on the floor.
+e:spade=surprised
+
+The boy, keeping his right hand under his coat, looked down at Spade.
+e:youth=scowling
+
+Spade tried to get up.
+e:spade=weary
+
+The boy drew his right foot far back and kicked Spade’s temple.
+e:youth=angry
+
+The kick rolled Spade over on his side.
+e:spade=upset
+
+Once more he tried to get up, could not, and went to sleep.
+e:spade=weary
+
+## XIV<br>La Paloma
+r=title
+
+Spade, coming around the corner from the elevator at a few minutes past six in the morning, saw yellow light glowing through the frosted glass of his office door.
+e:spade=serious
+
+He halted abruptly, set his lips together, looked up and down the corridor, and advanced to the door with swift quiet strides.
+
+
+He put his hand on the knob and turned it with care that permitted neither rattle nor click. He turned the knob until it would turn no farther: the door was locked.
+
+
+Holding the knob still, he changed hands, taking it now in his left hand. With his right hand he brought his keys out of his pocket, carefully, so they could not jingle against one another.
+
+
+He separated the office-key from the others and, smothering the others together in his palm, inserted the office-key in the lock. The insertion was soundless.
+
+
+He balanced himself on the balls of his feet, filled his lungs, clicked the door open, and went in.
+
+
+Effie Perine sat sleeping with her head on her forearms, her forearms on her desk. She wore her coat and had one of Spade’s overcoats wrapped cape-fashion around her.
+e:effie=weary
+
+Spade blew his breath out in a muffled laugh, shut the door behind him, and crossed to the inner door.
+e:spade=smirking
+
+The inner office was empty. He went over to the girl and put a hand on her shoulder.
+
+
+She stirred, raised her head drowsily, and her eyelids fluttered. Suddenly she sat up straight, opening her eyes wide.
+e:effie=surprised
+
+She saw Spade, smiled, leaned back in her chair, and rubbed her eyes with her fingers.
+e:effie=happy
+
+“So you finally got back?” she said. “What time is it?”
+s=effie
+
+“Six o’clock. What are you doing here?”
+s=spade;e:spade=confused
+
+She shivered, drew Spade’s overcoat closer around her, and yawned.
+s=none;e:effie=weary
+
+“You told me to stay till you got back or phoned.”
+s=effie
+
+“Oh, you’re the sister of the boy who stood on the burning deck?”
+s=spade;e:spade=smirking
+
+“I wasn’t going to﻿—”
+s=effie
+
+She broke off and stood up, letting his coat slide down on the chair behind her.
+s=none
+
+She looked with dark excited eyes at his temple under the brim of his hat and exclaimed:
+e:effie=surprised
+
+“Oh, your head! What happened?”
+s=effie
+
+His right temple was dark and swollen.
+s=none
+
+“I don’t know whether I fell or was slugged. I don’t think it amounts to much, but it hurts like hell.”
+s=spade;e:spade=annoyed
+
+He barely touched it with his fingers, flinched, turned his grimace into a grim smile, and explained:
+s=none;e:spade=smirking
+
+“I went visiting, was fed knockout-drops, and came to twelve hours later all spread out on a man’s floor.”
+s=spade
+
+She reached up and removed his hat from his head.
+s=none;e:effie=upset
+
+“It’s terrible,” she said.
+s=effie
+
+“You’ll have to get a doctor. You can’t walk around with a head like that.”
+
+
+“It’s not as bad as it looks, except for the headache, and that might be mostly from the drops.”
+s=spade;e:spade=neutral
+
+He went to the cabinet in the corner of the office and ran cold water on a handkerchief.
+s=none
+
+“Anything turn up after I left?”
+s=spade
+
+“Did you find Miss O’Shaughnessy, Sam?”
+s=effie;e:effie=curious
+
+“Not yet. Anything turn up after I left?”
+s=spade;e:spade=serious
+
+“The District Attorney’s office phoned. He wants to see you.”
+s=effie;e:effie=serious
+
+“Himself?”
+s=spade;e:spade=curious
+
+“Yes, that’s the way I understood it. And a boy came in with a message﻿—that Mr. Gutman would be delighted to talk to you before five-thirty.”
+s=effie
+
+Spade turned off the water, squeezed the handkerchief, and came away from the cabinet holding the handkerchief to his temple.
+s=none
+
+“I got that,” he said. “I met the boy downstairs, and talking to Mr. Gutman got me this.”
+s=spade;e:spade=annoyed
+
+“Is that the G. who phoned, Sam?”
+s=effie;e:effie=curious
+
+“Yes.”
+s=spade
+
+“And what﻿—?”
+s=effie
+
+Spade stared through the girl and spoke as if using speech to arrange his thoughts:
+s=none;e:spade=thinking
+
+“He wants something he thinks I can get. I persuaded him I could keep him from getting it if he didn’t make the deal with me before five-thirty.”
+s=spade
+
+“Then﻿—uh-huh﻿—sure﻿—it was after I’d told him he’d have to wait a couple of days that he fed me the junk.”
+
+
+“It’s not likely he thought I’d die. He’d know I’d be up and around in ten or twelve hours.”
+
+
+“So maybe the answer’s that he figured he could get it without my help in that time if I was fixed so I couldn’t butt in.”
+
+
+He scowled.
+s=none;e:spade=scowling
+
+“I hope to Christ he was wrong.”
+s=spade
+
+His stare became less distant.
+s=none;e:spade=neutral
+
+“You didn’t get any word from the O’Shaughnessy?”
+s=spade
+
+The girl shook her head no and asked:
+s=none;e:effie=curious
+
+“Has this got anything to do with her?”
+s=effie
+
+“Something.”
+s=spade
+
+“This thing he wants belongs to her?”
+s=effie
+
+“Or to the King of Spain. Sweetheart, you’ve got an uncle who teaches history or something over at the University?”
+s=spade
+
+“A cousin. Why?”
+s=effie
+
+“If we brightened his life with an alleged historical secret four centuries old could we trust him to keep it dark awhile?”
+s=spade;e:spade=smirking
+
+“Oh, yes, he’s good people.”
+s=effie;e:effie=happy
+
+“Fine. Get your pencil and book.”
+s=spade;e:spade=serious
+
+She got them and sat in her chair.
+s=none
+
+Spade ran more cold water on his handkerchief and, holding it to his temple, stood in front of her and dictated the story of the falcon as he had heard it from Gutman, from Charles V’s grant to the Hospitallers up to﻿—but no further than﻿—the enameled bird’s arrival in Paris at the time of the Carlist influx.
+e:spade=neutral
+
+He stumbled over the names of authors and their works that Gutman had mentioned, but managed to achieve some sort of phonetic likeness. The rest of the history he repeated with the accuracy of a trained interviewer.
+
+
+When he had finished the girl shut her notebook and raised a flushed smiling face to him.
+e:effie=excited
+
+“Oh, isn’t this thrilling?” she said. “It’s﻿—”
+s=effie
+
+“Yes, or ridiculous.”
+s=spade;e:spade=smirking
+
+“Now will you take it over and read it to your cousin and ask him what he thinks of it? Has he ever run across anything that might have some connection with it?”
+e:spade=serious
+
+“Is it probable? Is it possible﻿—even barely possible? Or is it the bunk?”
+
+
+“If he wants more time to look it up, OK, but get some sort of opinion out of him now. And for God’s sake make him keep it under his hat.”
+
+
+“I’ll go right now,” she said, “and you go see a doctor about that head.”
+s=effie;e:effie=serious
+
+“We’ll have breakfast first.”
+s=spade
+
+“No, I’ll eat over in Berkeley. I can’t wait to hear what Ted thinks of this.”
+s=effie;e:effie=excited
+
+“Well,” Spade said, “don’t start boo-hooing if he laughs at you.”
+s=spade;e:spade=smirking
+
+—
+s=
+
+After a leisurely breakfast at the Palace, during which he read both morning papers, Spade went home, shaved, bathed, rubbed ice on his bruised temple, and put on fresh clothes.
+s=none;e:spade=neutral
+
+He went to Brigid O’Shaughnessy’s apartment at the Coronet. Nobody was in the apartment. Nothing had been changed in it since his last visit.
+e:spade=thinking
+
+He went to the Alexandria Hotel.
+e:spade=neutral
+
+Gutman was not in. None of the other occupants of Gutman’s suite was in.
+
+
+Spade learned that these other occupants were the fat man’s secretary, Wilmer Cook, and his daughter Rhea, a brown-eyed fair-haired smallish girl of seventeen whom the hotel-staff said was beautiful.
+
+
+Spade was told that the Gutman party had arrived at the hotel, from New York, ten days before, and had not checked out.
+
+
+Spade went to the Belvedere and found the hotel-detective eating in the hotel-café.
+e:luke=neutral
+
+“Morning, Sam. Set down and bite an egg.”
+s=luke;e:luke=happy
+
+The hotel-detective stared at Spade’s temple.
+s=none;e:luke=surprised
+
+“By God, somebody maced you plenty!”
+s=luke
+
+“Thanks, I’ve had mine,” Spade said as he sat down, and then, referring to his temple: “It looks worse than it is.”
+s=spade;e:spade=smirking
+
+“How’s my Cairo’s conduct?”
+e:spade=curious
+
+“He went out not more than half an hour behind you yesterday and I ain’t seen him since. He didn’t sleep here again last night.”
+s=luke;e:luke=serious
+
+“He’s getting bad habits.”
+s=spade;e:spade=smirking
+
+“Well, a fellow like that alone in a big city. Who put the slug to you, Sam?”
+s=luke;e:luke=curious
+
+“It wasn’t Cairo.”
+s=spade;e:spade=neutral
+
+Spade looked attentively at the small silver dome covering Luke’s toast.
+s=none
+
+“How’s chances of giving his room a casing while he’s out?”
+s=spade
+
+“Can do. You know I’m willing to go all the way with you all the time.”
+s=luke;e:luke=happy
+
+Luke pushed his coffee back, put his elbows on the table, and screwed up his eyes at Spade.
+s=none;e:luke=suspicious
+
+“But I got a hunch you ain’t going all the way with me.”
+s=luke
+
+“What’s the honest-to-God on this guy, Sam? You don’t have to kick back on me. You know I’m regular.”
+
+
+Spade lifted his eyes from the silver dome. They were clear and candid.
+s=none;e:spade=neutral
+
+“Sure, you are,” he said.
+s=spade
+
+“I’m not holding out. I gave you it straight. I’m doing a job for him, but he’s got some friends that look wrong to me and I’m a little leery of him.”
+e:spade=serious
+
+“The kid we chased out yesterday was one of his friends.”
+s=luke
+
+“Yes, Luke, he was.”
+s=spade
+
+“And it was one of them that shoved Miles across.”
+s=luke
+
+Spade shook his head.
+s=none
+
+“Thursby killed Miles.”
+s=spade
+
+“And who killed him?”
+s=luke
+
+Spade smiled.
+s=none;e:spade=smirking
+
+“That’s supposed to be a secret, but, confidentially, I did,” he said, “according to the police.”
+s=spade
+
+Luke grunted and stood up saying: “You’re a tough one to figure out, Sam.”
+s=luke;e:luke=weary
+
+“Come on, we’ll have that look-see.”
+
+
+They stopped at the desk long enough for Luke to “fix it so we’ll get a ring if he comes in,” and went up to Cairo’s room.
+s=none;e:luke=neutral
+
+Cairo’s bed was smooth and trim, but paper in the wastebasket, unevenly drawn blinds, and a couple of rumpled towels in the bathroom showed that the chambermaid had not yet been in that morning.
+
+
+Cairo’s luggage consisted of a square trunk, a valise, and a gladstone bag.
+
+
+His bathroom-cabinet was stocked with cosmetics﻿—boxes, cans, jars, and bottles of powders, creams, unguents, perfumes, lotions, and tonics.
+
+
+Two suits and an overcoat hung in the closet over three pairs of carefully treed shoes.
+
+
+The valise and smaller bag were unlocked. Luke had the trunk unlocked by the time Spade had finished searching elsewhere.
+
+
+“Blank so far,” Spade said as they dug down into the trunk.
+s=spade;e:spade=serious
+
+They found nothing there to interest them.
+s=none
+
+“Any particular thing we’re supposed to be looking for?” Luke asked as he locked the trunk again.
+s=luke;e:luke=curious
+
+“No. He’s supposed to have come here from Constantinople. I’d like to know if he did. I haven’t seen anything that says he didn’t.”
+s=spade;e:spade=thinking
+
+“What’s his racket?”
+s=luke
+
+Spade shook his head.
+s=none
+
+“That’s something else I’d like to know.”
+s=spade
+
+He crossed the room and bent down over the wastebasket.
+s=none
+
+“Well, this is our last shot.”
+s=spade
+
+He took a newspaper from the basket. His eyes brightened when he saw it was the previous day’s *Call*.
+s=none;e:spade=surprised
+
+It was folded with the classified advertising page outside. He opened it, examined that page, and nothing there stopped his eyes.
+e:spade=serious
+
+He turned the paper over and looked at the page that had been folded inside, the page that held financial and shipping news, the weather, births, marriages, divorces, and deaths.
+
+
+From the lower left-hand corner, a little more than two inches of the bottom of the second column had been torn out.
+
+
+Immediately above the tear was a small caption “Arrived Today” followed by:
+
+
+12:20 a.m. —*Capac* from Astoria.
+
+
+5:05 a.m. —*Helen P. Drew* from Greenwood.
+
+
+5:06 a.m. —*Albarado* from Bandon.
+
+
+The tear passed through the next line, leaving only enough of its letters to make “from Sydney” inferable.
+
+
+Spade put the *Call* down on the desk and looked into the wastebasket again.
+e:spade=thinking
+
+He found a small piece of wrapping paper, a piece of string, two hosiery tags, a haberdasher’s sale-ticket for half a dozen pairs of socks, and, in the bottom of the basket, a piece of newspaper rolled into a tiny ball.
+
+
+He opened the ball carefully, smoothed it out on the desk, and fitted it into the torn part of the *Call*.
+e:spade=serious
+
+The fit at the sides was exact, but between the top of the crumpled fragment and the inferable “from Sydney” half an inch was missing, sufficient space to have held announcement of six or seven boats’ arrival.
+
+
+He turned the sheet over and saw that the other side of the missing portion could have held only a meaningless corner of a stockbroker’s advertisement.
+
+
+Luke, leaning over his shoulder, asked: “What’s this all about?”
+s=luke;e:luke=curious
+
+“Looks like the gent’s interested in a boat.”
+s=spade;e:spade=smirking
+
+“Well, there’s no law against that, or is there?” Luke said while Spade was folding the torn page and the crumpled fragment together and putting them into his coat-pocket.
+s=luke;e:luke=neutral
+
+“You all through here now?”
+s=luke
+
+“Yes. Thanks a lot, Luke. Will you give me a ring as soon as he comes in?”
+s=spade;e:spade=serious
+
+“Sure.”
+s=luke
+
+—
+s=none
+
+Spade went to the Business Office of the *Call*, bought a copy of the previous day’s issue, opened it to the shipping news page, and compared it with the page taken from Cairo’s wastebasket.
+e:spade=serious
+
+The missing portion had read:
+
+
+5:17 a.m. —*Tahiti* from Sydney and Papeete.
+
+
+6:05 a.m. —*Admiral Peoples* from Astoria.
+
+
+8:07 a.m. —*Caddopeak* from San Pedro.
+
+
+8:17 a.m. —*Silverado* from San Pedro.
+
+
+8:05 a.m. —*La Paloma* from Hong Kong.
+
+
+9:03 a.m. —*Daisy Gray* from Seattle.
+
+
+He read the list slowly and when he had finished he underscored “Hong Kong” with a fingernail, cut the list of arrivals from the paper with his pocketknife, put the rest of the paper and Cairo’s sheet into the wastebasket, and returned to his office.
+e:spade=thinking
+
+He sat down at his desk, looked up a number in the telephone-book, and used the telephone.
+
+
+“Kearny one four oh one, please.﻿﻿… Where is the *Paloma*, in from Hong Kong yesterday morning, docked?”
+s=spade;e:spade=serious
+
+He repeated the question.
+s=none
+
+“Thanks.”
+s=spade
+
+He held the receiver-hook down with his thumb for a moment, released it, and said: “Davenport two oh two oh, please.﻿﻿… Detective bureau, please.﻿﻿… Is Sergeant Polhaus there?﻿﻿… Thanks.﻿﻿…”
+s=spade
+
+“Hello, Tom, this is Sam Spade.﻿﻿… Yes, I tried to get you yesterday afternoon.﻿﻿… Sure, suppose you go to lunch with me.﻿﻿… Right.”
+
+
+He kept the receiver to his ear while his thumb worked the hook again.
+s=none
+
+“Davenport oh one seven oh, please.﻿﻿… Hello, this is Samuel Spade. My secretary got a phone message yesterday that Mr. Bryan wanted to see me. Will you ask him what time’s the most convenient for him?﻿﻿… Yes, Spade, *S*-*p*-*a*-*d*-*e*.”
+s=spade
+
+A long pause.
+s=none
+
+“Yes.﻿﻿… Two-thirty? All right. Thanks.”
+s=spade
+
+He called a fifth number and said: “Hello, darling, let me talk to Sid?﻿﻿… Hello, Sid﻿—Sam.”
+s=spade
+
+“I’ve got a date with the District Attorney at half-past two this afternoon. Will you give me a ring﻿—here or there﻿—around four, just to see that I’m not in trouble?﻿﻿…”
+
+
+“Hell with your Saturday afternoon golf: your job’s to keep me out of jail.﻿﻿… Right, Sid. Bye.”
+e:spade=smirking
+
+He pushed the telephone away, yawned, stretched, felt his bruised temple, looked at his watch, and rolled and lighted a cigarette.
+s=none;e:spade=weary
+
+He smoked sleepily until Effie Perine came in.
+
+
+—
+
+
+Effie Perine came in smiling, bright-eyed and rosy-faced.
+e:effie=happy
+
+“Ted says it could be,” she reported, “and he hopes it is.”
+s=effie;e:effie=excited
+
+“He says he’s not a specialist in that field, but the names and dates are all right, and at least none of your authorities or their works are out-and-out fakes. He’s all excited over it.”
+
+
+“That’s swell, as long as he doesn’t get too enthusiastic to see through it if it’s phoney.”
+s=spade;e:spade=serious
+
+“Oh, he wouldn’t﻿—not Ted! He’s too good at his stuff for that.”
+s=effie
+
+“Uh-huh, the whole damned Perine family’s wonderful,” Spade said, “including you and the smudge of soot on your nose.”
+s=spade;e:spade=smirking
+
+“He’s not a Perine, he’s a Christy.”
+s=effie;e:effie=happy
+
+She bent her head to look at her nose in her vanity case mirror.
+s=none
+
+“I must’ve got that from the fire.”
+s=effie;e:effie=surprised
+
+She scrubbed the smudge with the corner of a handkerchief.
+s=none
+
+“The Perine-Christy enthusiasm ignite Berkeley?” he asked.
+s=spade;e:spade=smirking
+
+She made a face at him while patting her nose with a powdered pink disc.
+s=none;e:effie=annoyed
+
+“There was a boat on fire when I came back. They were towing it out from the pier and the smoke blew all over our ferryboat.”
+s=effie;e:effie=neutral
+
+Spade put his hands on the arms of his chair.
+s=none;e:spade=serious
+
+“Were you near enough to see the name of the boat?” he asked.
+s=spade
+
+“Yes. *La Paloma*. Why?”
+s=effie;e:effie=curious
+
+Spade smiled ruefully.
+s=none;e:spade=smirking
+
+“I’m damned if I know why, sister,” he said.
+s=spade
+
 
