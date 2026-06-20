@@ -3220,4 +3220,619 @@ s=spade;e:spade=surprised
 Then he laughed in his throat and said: “All right. Go ahead. I won’t stop you.”
 e:spade=happy
 
+## VI<br>The Undersized Shadow
+r=title
+
+For half an hour after Joel Cairo had gone Spade sat alone, still and frowning, at his desk.
+e:spade=scowling
+
+Then he said aloud in the tone of one dismissing a problem, “Well, they’re paying for it,” and took a bottle of Manhattan cocktail and a paper drinking cup from a desk drawer.
+s=spade;e:spade=weary
+
+He filled the cup two-thirds full, drank, returned the bottle to the drawer, tossed the cup into the wastebasket, put on his hat and overcoat, turned off the lights, and went down to the night-lit street.
+s=none;e:spade=neutral
+
+An undersized youth of twenty or twenty-one in neat grey cap and overcoat was standing idly on the corner below Spade’s building.
+n:youth=Youth;e:youth=neutral
+
+Spade walked up Sutter Street to Kearny, where he entered a cigar-store to buy two sacks of Bull Durham.
+
+
+When he came out the youth was one of four people waiting for a streetcar on the opposite corner.
+
+
+Spade ate dinner at Herbert’s Grill in Powell Street.
+
+
+When he left the Grill, at a quarter to eight, the youth was looking into a nearby haberdasher’s window.
+
+
+Spade went to the Hotel Belvedere, asking at the desk for Mr. Cairo.
+
+
+He was told that Cairo was not in.
+
+
+The youth sat in a chair in a far corner of the lobby.
+
+
+Spade went to the Geary Theatre, failed to see Cairo in the lobby, and posted himself on the curb in front, facing the theatre.
+
+
+The youth loitered with other loiterers before Marquard’s restaurant below.
+
+
+At ten minutes past eight Joel Cairo appeared, walking up Geary Street with his little mincing bobbing steps.
+e:cairo=neutral
+
+Apparently he did not see Spade until the private detective touched his shoulder.
+
+
+He seemed moderately surprised for a moment, and then said: “Oh, yes, of course you saw the ticket.”
+s=cairo;e:cairo=surprised
+
+“Uh-huh. I’ve got something I want to show you.”
+s=spade;e:spade=serious
+
+Spade drew Cairo back towards the curb a little away from the other waiting theatregoers.
+s=none
+
+“The kid in the cap down by Marquard’s.”
+s=spade
+
+Cairo murmured, “I’ll see,” and looked at his watch.
+s=cairo;e:cairo=thinking
+
+He looked up Geary Street.
+s=none
+
+He looked at a theatre-sign in front of him on which George Arliss was shown costumed as Shylock, and then his dark eyes crawled sidewise in their sockets until they were looking at the kid in the cap, at his cool pale face with curling lashes hiding lowered eyes.
+
+
+“Who is he?” Spade asked.
+s=spade;e:spade=curious
+
+Cairo smiled up at Spade.
+s=none;e:cairo=smirking
+
+“I do not know him.”
+s=cairo
+
+“He’s been tailing me around town.”
+s=spade;e:spade=annoyed
+
+Cairo wet his lower lip with his tongue and asked: “Do you think it was wise, then, to let him see us together?”
+s=cairo;e:cairo=wary
+
+“How do I know?” Spade replied. “Anyway, it’s done.”
+s=spade;e:spade=weary
+
+Cairo removed his hat and smoothed his hair with a gloved hand.
+s=none
+
+He replaced his hat carefully on his head and said with every appearance of candor: “I give you my word I do not know him, Mr. Spade.”
+s=cairo;e:cairo=serious
+
+“I give you my word I have nothing to do with him. I have asked nobody’s assistance except yours, on my word of honor.”
+
+
+“Then he’s one of the others?”
+s=spade;e:spade=thinking
+
+“That may be.”
+s=cairo
+
+“I just wanted to know, because if he gets to be a nuisance I may have to hurt him.”
+s=spade;e:spade=scowling
+
+“Do as you think best. He is not a friend of mine.”
+s=cairo;e:cairo=neutral
+
+“That’s good. There goes the curtain. Good night,” Spade said, and crossed the street to board a westbound streetcar.
+s=spade;e:spade=neutral
+
+The youth in the cap boarded the same car.
+s=none
+
+Spade left the car at Hyde Street and went up to his apartment.
+
+
+His rooms were not greatly upset, but showed unmistakable signs of having been searched.
+e:spade=wary
+
+When Spade had washed and had put on a fresh shirt and collar he went out again, walked up to Sutter Street, and boarded a westbound car.
+e:spade=neutral
+
+The youth boarded it also.
+
+
+Within half a dozen blocks of the Coronet Spade left the car and went into the vestibule of a tall brown apartment-building.
+
+
+He pressed three bell-buttons together. The street door-lock buzzed.
+
+
+He entered, passed the elevator and stairs, went down a long yellow-walled corridor to the rear of the building, found a back door fastened by a Yale lock, and let himself out into a narrow court.
+
+
+The court led to a dark back street, up which Spade walked for two blocks.
+
+
+Then he crossed over to California Street and went to the Coronet. It was not quite half-past nine o’clock.
+
+
+—
+
+
+The eagerness with which Brigid O’Shaughnessy welcomed Spade suggested that she had been not entirely certain of his coming.
+e:brigid=excited;e:spade=neutral
+
+She had put on a satin gown of the blue shade called Artoise that season, with chalcedony shoulder-straps, and her stockings and slippers were Artoise.
+
+
+The red and cream sitting-room had been brought to order and livened with flowers in squat pottery vases of black and silver.
+
+
+Three small rough-barked logs burned in the fireplace.
+
+
+Spade watched them burn while she put away his hat and coat.
+
+
+“Do you bring me good news?” she asked when she came into the room again.
+s=brigid;e:brigid=nervous
+
+Anxiety looked through her smile, and she held her breath.
+s=none
+
+“We won’t have to make anything public that hasn’t already been made public.”
+s=spade
+
+“The police won’t have to know about me?”
+s=brigid
+
+“No.”
+s=spade
+
+She sighed happily and sat on the walnut settee.
+s=none;e:brigid=happy
+
+Her face relaxed and her body relaxed. She smiled up at him with admiring eyes.
+
+
+“However did you manage it?” she asked more in wonder than in curiosity.
+s=brigid
+
+“Most things in San Francisco can be bought, or taken.”
+s=spade;e:spade=smirking
+
+“And you won’t get into trouble? Do sit down.”
+s=brigid
+
+She made room for him on the settee.
+s=none
+
+“I don’t mind a reasonable amount of trouble,” he said with not too much complacence.
+s=spade;e:spade=neutral
+
+He stood beside the fireplace and looked at her with eyes that studied, weighed, judged her without pretense that they were not studying, weighing, judging her.
+s=none;e:spade=contemplative
+
+She flushed slightly under the frankness of his scrutiny, but she seemed more sure of herself than before, though a becoming shyness had not left her eyes.
+e:brigid=wary
+
+He stood there until it seemed plain that he meant to ignore her invitation to sit beside her, and then crossed to the settee.
+
+
+“You aren’t,” he asked as he sat down, “exactly the sort of person you pretend to be, are you?”
+s=spade;e:spade=curious
+
+“I’m not sure I know what you mean,” she said in her hushed voice, looking at him with puzzled eyes.
+s=brigid;e:brigid=confused
+
+“Schoolgirl manner,” he explained, “stammering and blushing and all that.”
+s=spade
+
+She blushed and replied hurriedly, not looking at him: “I told you this afternoon that I’ve been bad﻿—worse than you could know.”
+s=brigid;e:brigid=upset
+
+“That’s what I mean,” he said. “You told me that this afternoon in the same words, same tone. It’s a speech you’ve practiced.”
+s=spade;e:spade=smirking
+
+After a moment in which she seemed confused almost to the point of tears she laughed and said: “Very well, then, Mr. Spade, I’m not at all the sort of person I pretend to be.”
+s=brigid;e:brigid=smirking
+
+“I’m eighty years old, incredibly wicked, and an iron-molder by trade.”
+
+
+“But if it’s a pose it’s one I’ve grown into, so you won’t expect me to drop it entirely, will you?”
+
+
+“Oh, it’s all right,” he assured her. “Only it wouldn’t be all right if you were actually that innocent.”
+s=spade;e:spade=smirking
+
+“We’d never get anywhere.”
+
+
+“I won’t be innocent,” she promised with a hand on her heart.
+s=brigid
+
+“I saw Joel Cairo tonight,” he said in the manner of one making polite conversation.
+s=spade;e:spade=neutral
+
+Gaiety went out of her face. Her eyes, focused on his profile, became frightened, then cautious.
+s=none;e:brigid=fearful
+
+He had stretched his legs out and was looking at his crossed feet.
+
+
+His face did not indicate that he was thinking about anything.
+
+
+There was a long pause before she asked uneasily:
+e:brigid=wary
+
+“You﻿—you know him?”
+s=brigid
+
+“I saw him tonight.”
+s=spade
+
+Spade did not look up and he maintained his light conversational tone.
+s=none
+
+“He was going to see George Arliss.”
+s=spade
+
+“You mean you talked to him?”
+s=brigid;e:brigid=nervous
+
+“Only for a minute or two, till the curtain bell rang.”
+s=spade;e:spade=neutral
+
+She got up from the settee and went to the fireplace to poke the fire.
+s=none
+
+She changed slightly the position of an ornament on the mantelpiece, crossed the room to get a box of cigarettes from a table in a corner, straightened a curtain, and returned to her seat.
+
+
+Her face now was smooth and unworried.
+e:brigid=neutral
+
+Spade grinned sidewise at her and said: “You’re good. You’re very good.”
+s=spade;e:spade=smirking
+
+Her face did not change.
+s=none
+
+She asked quietly: “What did he say?”
+s=brigid
+
+“About what?”
+s=spade
+
+She hesitated.
+s=none;e:brigid=wary
+
+“About me.”
+s=brigid
+
+“Nothing.”
+s=spade
+
+Spade turned to hold his lighter under the end of her cigarette.
+s=none
+
+His eyes were shiny in a wooden satan’s face.
+
+
+“Well, what did he say?” she asked with half-playful petulance.
+s=brigid;e:brigid=annoyed
+
+“He offered me five thousand dollars for the black bird.”
+s=spade;e:spade=neutral
+
+She started, her teeth tore the end of her cigarette, and her eyes, after a swift alarmed glance at Spade, turned away from him.
+s=none;e:brigid=surprised
+
+“You’re not going to go around poking at the fire and straightening up the room again, are you?” he asked lazily.
+s=spade;e:spade=smirking
+
+She laughed a clear merry laugh, dropped the mangled cigarette into a tray, and looked at him with clear merry eyes.
+s=none;e:brigid=happy
+
+“I won’t,” she promised. “And what did you say?”
+s=brigid
+
+“Five thousand dollars is a lot of money.”
+s=spade;e:spade=serious
+
+She smiled, but when, instead of smiling, he looked gravely at her, her smile became faint, confused, and presently vanished.
+s=none;e:brigid=confused
+
+In its place came a hurt, bewildered look.
+e:brigid=upset
+
+“Surely you’re not really considering it,” she said.
+s=brigid
+
+“Why not? Five thousand dollars is a lot of money.”
+s=spade
+
+“But, Mr. Spade, you promised to help me.”
+s=brigid;e:brigid=nervous
+
+Her hands were on his arm.
+s=none
+
+“I trusted you. You can’t﻿—”
+s=brigid
+
+She broke off, took her hands from his sleeve and worked them together.
+s=none
+
+Spade smiled gently into her troubled eyes.
+e:spade=smirking
+
+“Don’t let’s try to figure out how much you’ve trusted me,” he said.
+s=spade
+
+“I promised to help you﻿—sure﻿—but you didn’t say anything about any black birds.”
+
+
+“But you must’ve known or﻿—or you wouldn’t have mentioned it to me. You do know now. You won’t﻿—you can’t﻿—treat me like that.”
+s=brigid;e:brigid=fearful
+
+Her eyes were cobalt-blue prayers.
+s=none
+
+“Five thousand dollars is,” he said for the third time, “a lot of money.”
+s=spade;e:spade=serious
+
+She lifted her shoulders and hands and let them fall in a gesture that accepted defeat.
+s=none;e:brigid=weary
+
+“It is,” she agreed in a small dull voice. “It is far more than I could ever offer you, if I must bid for your loyalty.”
+s=brigid
+
+Spade laughed. His laughter was brief and somewhat bitter.
+s=none;e:spade=angry
+
+“That is good,” he said, “coming from you.”
+s=spade
+
+“What have you given me besides money? Have you given me any of your confidence? any of the truth? any help in helping you?”
+
+
+“Haven’t you tried to buy my loyalty with money and nothing else? Well, if I’m peddling it, why shouldn’t I let it go to the highest bidder?”
+
+
+“I’ve given you all the money I have.”
+s=brigid;e:brigid=upset
+
+Tears glistened in her white-ringed eyes. Her voice was hoarse, vibrant.
+s=none
+
+“I’ve thrown myself on your mercy, told you that without your help I’m utterly lost. What else is there?”
+s=brigid
+
+She suddenly moved close to him on the settee and cried angrily:
+s=none;e:brigid=angry
+
+“Can I buy you with my body?”
+s=brigid
+
+Their faces were a few inches apart. Spade took her face between his hands and he kissed her mouth roughly and contemptuously.
+s=none;e:spade=serious
+
+Then he sat back and said: “I’ll think it over.”
+s=spade;e:spade=angry
+
+His face was hard and furious.
+s=none
+
+She sat still holding her numbed face where his hands had left it.
+e:brigid=surprised
+
+He stood up and said: “Christ! there’s no sense to this.”
+s=spade
+
+He took two steps towards the fireplace and stopped, glowering at the burning logs, grinding his teeth together.
+s=none;e:spade=scowling
+
+She did not move.
+
+
+He turned to face her. The two vertical lines above his nose were deep clefts between red wales.
+
+
+“I don’t give a damn about your honesty,” he told her, trying to make himself speak calmly.
+s=spade;e:spade=angry
+
+“I don’t care what kind of tricks you’re up to, what your secrets are, but I’ve got to have something to show that you know what you’re doing.”
+
+
+“I do know. Please believe that I do, and that it’s all for the best, and﻿—”
+s=brigid;e:brigid=upset
+
+“Show me,” he ordered.
+s=spade
+
+“I’m willing to help you. I’ve done what I could so far.”
+
+
+“If necessary I’ll go ahead blindfolded, but I can’t do it without more confidence in you than I’ve got now.”
+
+
+“You’ve got to convince me that you know what it’s all about, that you’re not simply fiddling around by guess and by God, hoping it’ll come out all right somehow in the end.”
+
+
+“Can’t you trust me just a little longer?”
+s=brigid
+
+“How much is a little? And what are you waiting for?”
+s=spade
+
+She bit her lip and looked down.
+s=none;e:brigid=nervous
+
+“I must talk to Joel Cairo,” she said almost inaudibly.
+s=brigid
+
+“You can see him tonight,” Spade said, looking at his watch.
+s=spade;e:spade=neutral
+
+“His show will be out soon. We can get him on the phone at his hotel.”
+
+
+She raised her eyes, alarmed.
+s=none;e:brigid=fearful
+
+“But he can’t come here. I can’t let him know where I am. I’m afraid.”
+s=brigid
+
+“My place,” Spade suggested.
+s=spade
+
+She hesitated, working her lips together, then asked:
+s=none;e:brigid=wary
+
+“Do you think he’d go there?”
+s=brigid
+
+Spade nodded.
+s=none
+
+“All right,” she exclaimed, jumping up, her eyes large and bright. “Shall we go now?”
+s=brigid;e:brigid=excited
+
+She went into the next room.
+s=none
+
+Spade went to the table in the corner and silently pulled the drawer out.
+
+
+The drawer held two packs of playing cards, a pad of scorecards for bridge, a brass screw, a piece of red string, and a gold pencil.
+
+
+He had shut the drawer and was lighting a cigarette when she returned wearing a small dark hat and a grey kidskin coat, carrying his hat and coat.
+
+
+—
+
+
+Their taxicab drew up behind a dark sedan that stood directly in front of Spade’s street door.
+
+
+Iva Archer was alone in the sedan, sitting at the wheel.
+e:iva=wary
+
+Spade lifted his hat to her and went indoors with Brigid O’Shaughnessy.
+
+
+In the lobby he halted beside one of the benches and asked:
+s=none
+
+“Do you mind waiting here a moment? I won’t be long.”
+s=spade
+
+“That’s perfectly all right,” Brigid O’Shaughnessy said, sitting down. “You needn’t hurry.”
+s=brigid;e:brigid=neutral
+
+Spade went out to the sedan.
+s=none
+
+When he had opened the sedan’s door Iva spoke quickly:
+e:iva=nervous
+
+“I’ve got to talk to you, Sam. Can’t I come in?”
+s=iva
+
+Her face was pale and nervous.
+s=none
+
+“Not now.”
+s=spade;e:spade=serious
+
+Iva clicked her teeth together and asked sharply:
+s=none;e:iva=angry
+
+“Who is she?”
+s=iva
+
+“I’ve only a minute, Iva,” Spade said patiently. “What is it?”
+s=spade;e:spade=weary
+
+“Who is she?” she repeated, nodding at the street door.
+s=iva
+
+He looked away from her, down the street.
+s=none
+
+In front of a garage on the next corner an undersized youth of twenty or twenty-one in neat grey cap and overcoat loafed with his back against a wall.
+e:youth=neutral
+
+Spade frowned and returned his gaze to Iva’s insistent face.
+e:spade=scowling
+
+“What is the matter?” he asked.
+s=spade
+
+“Has anything happened? You oughtn’t to be here at this time of night.”
+
+
+“I’m beginning to believe that,” she complained.
+s=iva;e:iva=upset
+
+“You told me I oughtn’t to come to the office, and now I oughtn’t to come here.”
+
+
+“Do you mean I oughtn’t to chase after you?”
+
+
+“If that’s what you mean why don’t you say it right out?”
+
+
+“Now, Iva, you’ve got no right to take that attitude.”
+s=spade;e:spade=annoyed
+
+“I know I haven’t.”
+s=iva;e:iva=angry
+
+“I haven’t any rights at all, it seems, where you’re concerned.”
+
+
+“I thought I did. I thought your pretending to love me gave me﻿—”
+
+
+Spade said wearily:
+s=none;e:spade=weary
+
+“This is no time to be arguing about that, precious. What was it you wanted to see me about?”
+s=spade
+
+“I can’t talk to you here, Sam. Can’t I come in?”
+s=iva;e:iva=upset
+
+“Not now.”
+s=spade
+
+“Why can’t I?”
+s=iva
+
+Spade said nothing.
+s=none
+
+She made a thin line of her mouth, squirmed around straight behind the wheel, and started the sedan’s engine, staring angrily ahead.
+
+
+When the sedan began to move Spade said, “Good night, Iva,” shut the door, and stood at the curb with his hat in his hand until it had been driven away.
+s=spade;e:spade=neutral
+
+Then he went indoors again.
+s=none
+
+Brigid O’Shaughnessy rose smiling cheerfully from the bench and they went up to his apartment.
+e:brigid=happy
+
 
