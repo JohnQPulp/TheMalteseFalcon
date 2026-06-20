@@ -9265,17 +9265,11 @@ From the lower left-hand corner, a little more than two inches of the bottom of 
 Immediately above the tear was a small caption “Arrived Today” followed by:
 
 
-12:20 a.m. —*Capac* from Astoria.
-
-
-5:05 a.m. —*Helen P. Drew* from Greenwood.
-
-
-5:06 a.m. —*Albarado* from Bandon.
-
+12:20 a.m. —*Capac* from Astoria.<br>&nbsp;5:05 a.m. —*Helen P. Drew* from Greenwood.<br>&nbsp;5:06 a.m. —*Albarado* from Bandon.
+m=margin
 
 The tear passed through the next line, leaving only enough of its letters to make “from Sydney” inferable.
-
+m=
 
 Spade put the *Call* down on the desk and looked into the wastebasket again.
 e:spade=thinking
@@ -9319,26 +9313,11 @@ e:spade=serious
 The missing portion had read:
 
 
-5:17 a.m. —*Tahiti* from Sydney and Papeete.
-
-
-6:05 a.m. —*Admiral Peoples* from Astoria.
-
-
-8:07 a.m. —*Caddopeak* from San Pedro.
-
-
-8:17 a.m. —*Silverado* from San Pedro.
-
-
-8:05 a.m. —*La Paloma* from Hong Kong.
-
-
-9:03 a.m. —*Daisy Gray* from Seattle.
-
+5:17 a.m. —*Tahiti* from Sydney and Papeete.<br>6:05 a.m. —*Admiral Peoples* from Astoria.<br>8:07 a.m. —*Caddopeak* from San Pedro.<br>8:17 a.m. —*Silverado* from San Pedro.<br>8:05 a.m. —*La Paloma* from Hong Kong.<br>9:03 a.m. —*Daisy Gray* from Seattle.
+m=margin
 
 He read the list slowly and when he had finished he underscored “Hong Kong” with a fingernail, cut the list of arrivals from the paper with his pocketknife, put the rest of the paper and Cairo’s sheet into the wastebasket, and returned to his office.
-e:spade=thinking
+e:spade=thinking;m=
 
 He sat down at his desk, looked up a number in the telephone-book, and used the telephone.
 
