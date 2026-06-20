@@ -10951,4 +10951,771 @@ s=none;e:spade=sadsmile
 “You’re a damned good man, sister,” he said and went out.
 s=spade
 
+## XVII<br>Saturday Night
+r=title
+
+Carrying the parcel lightly under his arm, walking briskly, with only the ceaseless shifting of his eyes to denote wariness, Spade went, partly by way of an alley and a narrow court, from his office-building to Kearny and Post Streets, where he hailed a passing taxicab.
+e:spade=wary
+
+The taxicab carried him to the Pickwick Stage terminal in Fifth Street.
+
+
+He checked the bird at the Parcel Room there, put the check into a stamped envelope, wrote “M. F. Holland” and a San Francisco Post Office box-number on the envelope, sealed it, and dropped it into a mailbox.
+e:spade=serious
+
+From the stage-terminal another taxicab carried him to the Alexandria Hotel.
+
+
+Spade went up to suite 12-C and knocked on the door.
+
+
+The door was opened, when he had knocked a second time, by a small fair-haired girl in a shimmering yellow dressing-gown﻿—a small girl whose face was white and dim and who clung desperately to the inner doorknob with both hands and gasped: “Mr. Spade?”
+n:rhea=?;s=rhea;e:rhea=fearful
+
+Spade said, “Yes,” and caught her as she swayed.
+s=spade;e:spade=neutral;e:rhea=weary
+
+Her body arched back over his arm and her head dropped straight back so that her short fair hair hung down her scalp and her slender throat was a firm curve from chin to chest.
+s=none
+
+Spade slid his supporting arm higher up her back and bent to get his other arm under her knees, but she stirred then, resisting, and between parted lips that barely moved blurred words came: “No! Ma’ me wa’!”
+s=rhea;e:rhea=wary
+
+Spade made her walk.
+s=none;e:spade=serious
+
+He kicked the door shut and he walked her up and down the green-carpeted room from wall to wall.
+
+
+One of his arms around her small body, that hand under her armpit, his other hand gripping her other arm, held her erect when she stumbled, checked her swaying, kept urging her forward, but made her tottering legs bear all her weight they could bear.
+e:rhea=weary
+
+They walked across and across the floor, the girl falteringly, with incoordinate steps, Spade surely on the balls of his feet with balance unaffected by her staggering.
+
+
+Her face was chalk-white and eyeless, his sullen, with eyes hardened to watch everywhere at once.
+e:spade=wary
+
+He talked to her monotonously: “That’s the stuff. Left, right, left, right. That’s the stuff. One, two, three, four, one, two, three, now we turn.”
+s=spade;e:spade=serious
+
+He shook her as they turned from the wall.
+s=none
+
+“Now back again. One, two, three, four. Hold your head up. That’s the stuff. Good girl. Left, right, left, right. Now we turn again.”
+s=spade
+
+He shook her again.
+s=none
+
+“That’s the girl. Walk, walk, walk, walk. One, two, three, four. Now we go around.”
+s=spade
+
+He shook her, more roughly, and increased their pace.
+s=none
+
+“That’s the trick. Left, right, left, right. We’re in a hurry. One, two, three.…”
+s=spade
+
+She shuddered and swallowed audibly.
+s=none;e:rhea=upset
+
+Spade began to chafe her arm and side and he put his mouth nearer her ear.
+
+
+“That’s fine. You’re doing fine. One, two, three, four. Faster, faster, faster, faster. That’s it. Step, step, step, step. Pick them up and lay them down. That’s the stuff. Now we turn. Left, right, left, right.”
+s=spade
+
+“What’d they do﻿—dope you? The same stuff they gave me?”
+e:spade=suspicious
+
+Her eyelids twitched up then for an instant over dulled golden-brown eyes and she managed to say all of “Yes” except the final consonant.
+s=rhea;e:rhea=weary
+
+They walked the floor, the girl almost trotting now to keep up with Spade, Spade slapping and kneading her flesh through yellow silk with both hands, talking and talking while his eyes remained hard and aloof and watchful.
+s=none;e:spade=wary
+
+“Left, right, left, right, left, right, turn. That’s the girl. One, two, three, four, one, two, three, four. Keep the chin up. That’s the stuff. One, two…”
+s=spade
+
+Her lids lifted again a bare fraction of an inch and under them her eyes moved weakly from side to side.
+s=none
+
+“That’s fine,” he said in a crisp voice, dropping his monotone. “Keep them open. Open them wide﻿—wide!”
+s=spade;e:spade=serious
+
+He shook her.
+s=none
+
+She moaned in protest, but her lids went farther up, though her eyes were without inner light.
+
+
+He raised his hand and slapped her cheek half a dozen times in quick succession.
+s=none
+
+She moaned again and tried to break away from him.
+
+
+His arm held her and swept her along beside him from wall to wall.
+s=none
+
+“Keep walking,” he ordered in a harsh voice, and then: “Who are you?”
+s=spade;e:spade=annoyed
+
+Her “Rhea Gutman” was thick but intelligible.
+n:rhea=Rhea Gutman;s=rhea
+
+“The daughter?”
+s=spade;e:spade=curious
+
+“Yes.” Now she was no farther from the final consonant than *sh*.
+s=rhea
+
+“Where’s Brigid?”
+s=spade;e:spade=wary
+
+She twisted convulsively around in his arms and caught at one of his hands with both of hers.
+s=none;e:rhea=fearful
+
+He pulled his hand away quickly and looked at it.
+e:spade=surprised
+
+Across its back was a thin red scratch an inch and a half or more in length.
+
+
+“What the hell?” he growled and examined her hands.
+s=spade;e:spade=angry
+
+Her left hand was empty.
+s=none
+
+In her right hand, when he forced it open, lay a three-inch jade-headed steel bouquet-pin.
+
+
+“What the hell?” he growled again and held the pin up in front of her eyes.
+s=spade
+
+When she saw the pin she whimpered and opened her dressing-gown.
+s=none;e:rhea=upset
+
+She pushed aside the cream-colored pajama-coat under it and showed him her body below her left breast﻿—white flesh crisscrossed with thin red lines, dotted with tiny red dots, where the pin had scratched and punctured it.
+
+
+“To stay awake… walk… till you came.… She said you’d come… were so long.”
+s=rhea;e:rhea=weary
+
+She swayed.
+s=none
+
+Spade tightened his arm around her and said: “Walk.”
+s=spade;e:spade=serious
+
+She fought against his arm, squirming around to face him again.
+s=none
+
+“No… tell you… sleep… save her…”
+s=rhea;e:rhea=upset
+
+“Brigid?” he demanded.
+s=spade;e:spade=wary
+
+“Yes… took her… Bur-Burlingame… twenty-six Ancho… hurry… too late…”
+s=rhea
+
+Her head fell over on her shoulder.
+s=none
+
+Spade pushed her head up roughly.
+
+
+“Who took her there? Your father?”
+s=spade
+
+“Yes… Wilmer… Cairo.”
+s=rhea
+
+She writhed and her eyelids twitched but did not open.
+s=none
+
+“… kill her.”
+s=rhea;e:rhea=fearful
+
+Her head fell over again, and again he pushed it up.
+s=none
+
+“Who shot Jacobi?”
+s=spade;e:spade=suspicious
+
+She did not seem to hear the question. She tried pitifully to hold her head up, to open her eyes.
+s=none;e:rhea=weary
+
+She mumbled: “Go… she…”
+s=rhea
+
+He shook her brutally.
+s=none;e:spade=angry
+
+“Stay awake till the doctor comes.”
+s=spade
+
+Fear opened her eyes and pushed for a moment the cloudiness from her face.
+s=none
+
+“No, no,” she cried thickly, “father… kill me… swear you won’t… he’d know… I did… for her… promise… won’t… sleep… all right… morning…”
+s=rhea;e:rhea=fearful
+
+He shook her again.
+s=none;e:spade=serious
+
+“You’re sure you can sleep the stuff off all right?”
+s=spade
+
+“Ye’.”
+s=rhea;e:rhea=weary
+
+Her head fell down again.
+s=none
+
+“Where’s your bed?”
+s=spade
+
+She tried to raise a hand, but the effort had become too much for her before the hand pointed at anything except the carpet.
+s=none
+
+With the sigh of a tired child she let her whole body relax and crumple.
+
+
+Spade caught her up in his arms﻿—scooped her up as she sank﻿—and, holding her easily against his chest, went to the nearest of the three doors.
+
+
+He turned the knob far enough to release the catch, pushed the door open with his foot, and went into a passageway that ran past an open bathroom door to a bedroom.
+
+
+He looked into the bathroom, saw it was empty, and carried the girl into the bedroom. Nobody was there.
+e:spade=wary
+
+The clothing that was in sight and things on the chiffonier said it was a man’s room.
+
+
+Spade carried the girl back to the green-carpeted room and tried the opposite door.
+
+
+Through it he passed into another passageway, past another empty bathroom, and into a bedroom that was feminine in its accessories.
+
+
+He turned back the bedclothes and laid the girl on the bed, removed her slippers, raised her a little to slide the yellow dressing-gown off, fixed a pillow under her head, and put the covers up over her.
+
+
+Then he opened the room’s two windows and stood with his back to them staring at the sleeping girl.
+
+
+Her breathing was heavy but not troubled.
+e:rhea=neutral
+
+He frowned and looked around, working his lips together.
+e:spade=thinking
+
+Twilight was dimming the room. He stood there in the weakening light for perhaps five minutes.
+
+
+Finally he shook his thick sloping shoulders impatiently and went out, leaving the suite’s outer door unlocked.
+
+
+—
+
+
+Spade went to the Pacific Telephone and Telegraph Company’s station in Powell Street and called Davenport 2020.
+e:spade=neutral
+
+“Emergency Hospital, please.… Hello, there’s a girl in suite 12-C at the Alexandria Hotel who has been drugged.… Yes, you’d better send somebody to take a look at her.… This is Mr. Hooper of the Alexandria.”
+s=spade
+
+He put the receiver on its prong and laughed.
+s=none;e:spade=smirking
+
+He called another number and said: “Hello, Frank. This is Sam Spade.… Can you let me have a car with a driver who’ll keep his mouth shut?… To go down the peninsula right away.… Just a couple of hours.… Right. Have him pick me up at John’s, Ellis Street, as soon as he can make it.”
+s=spade;e:spade=serious
+
+He called another number﻿—his office’s﻿—held the receiver to his ear for a little while without saying anything, and replaced it on its hook.
+s=none;e:spade=wary
+
+He went to John’s Grill, asked the waiter to hurry his order of chops, baked potato, and sliced tomatoes, ate hurriedly, and was smoking a cigarette with his coffee when a thickset youngish man with a plaid cap set askew above pale eyes and a tough cheery face came into the Grill and to his table.
+n:frank=Frank
+
+“All set, Mr. Spade. She’s full of gas and rearing to go.”
+s=frank;e:frank=happy
+
+“Swell.”
+s=spade;e:spade=neutral
+
+Spade emptied his cup and went out with the thickset man.
+s=none
+
+“Know where Ancho Avenue, or Road, or Boulevard, is in Burlingame?”
+s=spade;e:spade=curious
+
+“Nope, but if she’s there we can find her.”
+s=frank;e:frank=neutral
+
+“Let’s do that,” Spade said as he sat beside the chauffeur in the dark Cadillac sedan.
+s=spade
+
+“Twenty-six is the number we want, and the sooner the better, but we don’t want to pull up at the front door.”
+e:spade=serious
+
+“Correct.”
+s=frank
+
+They rode half a dozen blocks in silence.
+s=none
+
+The chauffeur said: “Your partner got knocked off, didn’t he, Mr. Spade?”
+s=frank;e:frank=curious
+
+“Uh-huh.”
+s=spade;e:spade=neutral
+
+The chauffeur clucked.
+s=none
+
+“She’s a tough racket. You can have it for mine.”
+s=frank;e:frank=neutral
+
+“Well, hack-drivers don’t live forever.”
+s=spade;e:spade=smirking
+
+“Maybe that’s right,” the thickset man conceded, “but, just the same, it’ll always be a surprise to me if I don’t.”
+s=frank;e:frank=happy
+
+Spade stared ahead at nothing and thereafter, until the chauffeur tired of making conversation, replied with uninterested yeses and noes.
+s=none;e:spade=contemplative
+
+—
+
+
+At a drugstore in Burlingame the chauffeur learned how to reach Ancho Avenue.
+e:spade=neutral
+
+Ten minutes later he stopped the sedan near a dark corner, turned off the lights, and waved his hand at the block ahead.
+
+
+“There she is,” he said. “She ought to be on the other side, maybe the third or fourth house.”
+s=frank
+
+Spade said, “Right,” and got out of the car.
+s=spade
+
+“Keep the engine going. We may have to leave in a hurry.”
+e:spade=serious
+
+He crossed the street and went up the other side. Far ahead a lone streetlight burned.
+s=none
+
+Warmer lights dotted the night on either side where houses were spaced half a dozen to a block.
+
+
+A high thin moon was cold and feeble as the distant streetlight.
+
+
+A radio droned through the open windows of a house on the other side of the street.
+
+
+In front of the second house from the corner Spade halted.
+
+
+On one of the gateposts that were massive out of all proportion to the fence flanking them a 2 and a 6 of pale metal caught what light there was.
+
+
+A square white card was nailed over them.
+e:spade=curious
+
+Putting his face close to the card, Spade could see that it was a “For Sale or Rent” sign.
+
+
+There was no gate between the posts. Spade went up the cement walk to the house.
+e:spade=wary
+
+He stood still on the walk at the foot of the porch-steps for a long moment.
+
+
+No sound came from the house. The house was dark except for another pale square card nailed on its door.
+
+
+Spade went up to the door and listened. He could hear nothing.
+
+
+He tried to look through the glass of the door.
+
+
+There was no curtain to keep his gaze out, but inner darkness.
+
+
+He tiptoed to a window and then to another. They, like the door, were uncurtained except by inner darkness.
+
+
+He tried both windows. They were locked.
+
+
+He tried the door. It was locked.
+
+
+He left the porch and, stepping carefully over dark unfamiliar ground, walked through weeds around the house.
+
+
+The side-windows were too high to be reached from the ground.
+
+
+The back door and the one back window he could reach were locked.
+
+
+Spade went back to the gatepost and, cupping the flame between his hands, held his lighter up to the “For Sale or Rent” sign.
+
+
+It bore the printed name and address of a San Mateo real-estate-dealer and a line penciled in blue: “Key at 31”.
+
+
+Spade returned to the sedan and asked the chauffeur: “Got a flashlight?”
+s=spade;e:spade=neutral
+
+“Sure.” He gave it to Spade.
+s=frank
+
+“Can I give you a hand at anything?”
+s=frank;e:frank=curious
+
+“Maybe.” Spade got into the sedan.
+s=spade;e:spade=thinking
+
+“We’ll ride up to number thirty-one. You can use your lights.”
+
+
+Number 31 was a square grey house across the street from, but a little farther up than, 26.
+s=none
+
+Lights glowed in its downstairs-windows.
+
+
+Spade went up on the porch and rang the bell.
+e:spade=neutral
+
+A dark-haired girl of fourteen or fifteen opened the door.
+n:girl1=Girl
+
+Spade, bowing and smiling, said: “I’d like to get the key to number twenty-six.”
+s=spade;e:spade=happy
+
+“I’ll call Papa,” she said and went back into the house calling: “Papa!”
+s=girl1;e:girl1=neutral
+
+A plump red-faced man, bald-headed and heavily mustached, appeared, carrying a newspaper.
+n:papa1=Papa;s=none
+
+Spade said: “I’d like to get the key to twenty-six.”
+s=spade;e:spade=neutral
+
+The plump man looked doubtful.
+s=none;e:papa1=wary
+
+He said: “The juice is not on. You couldn’t see anything.”
+s=papa1
+
+Spade patted his pocket.
+s=none
+
+“I’ve a flashlight.”
+s=spade
+
+The plump man looked more doubtful.
+s=none;e:papa1=suspicious
+
+He cleared his throat uneasily and crumpled the newspaper in his hand.
+e:papa1=nervous
+
+Spade showed him one of his business cards, put it back in his pocket, and said in a low voice: “We got a tip that there might be something hidden there.”
+s=spade;e:spade=serious
+
+The plump man’s face and voice were eager.
+s=none;e:papa1=excited
+
+“Wait a minute,” he said. “I’ll go over with you.”
+s=papa1
+
+A moment later he came back carrying a brass key attached to a black and red tag.
+s=none;e:papa1=neutral
+
+Spade beckoned to the chauffeur as they passed the car and the chauffeur joined them.
+
+
+“Anybody been looking at the house lately?” Spade asked.
+s=spade;e:spade=curious
+
+“Not that I know of,” the plump man replied.
+s=papa1
+
+“Nobody’s been to me for the key in a couple of months.”
+
+
+The plump man marched ahead with the key until they had gone up on the porch.
+s=none
+
+Then he thrust the key into Spade’s hand, mumbled, “Here you are,” and stepped aside.
+s=papa1;e:papa1=nervous
+
+Spade unlocked the door and pushed it open.
+s=none;e:spade=wary
+
+There was silence and darkness.
+
+
+Holding the flashlight﻿—dark﻿—in his left hand, Spade entered.
+
+
+The chauffeur came close behind him and then, at a little distance, the plump man followed them.
+
+
+They searched the house from bottom to top, cautiously at first, then, finding nothing, boldly.
+
+
+The house was empty﻿—unmistakably﻿—and there was nothing to indicate that it had been visited in weeks.
+e:spade=annoyed
+
+—
+
+
+Saying, “Thanks, that’s all,” Spade left the sedan in front of the Alexandria.
+s=spade;e:spade=neutral
+
+He went into the hotel, to the desk, where a tall young man with a dark grave face said: “Good evening, Mr. Spade.”
+n:clerk2=Clerk;s=clerk2;e:clerk2=serious
+
+“Good evening.” Spade drew the young man to one end of the desk.
+s=spade
+
+“These Gutmans﻿—up in 12-C﻿—are they in?”
+e:spade=curious
+
+The young man replied, “No,” darting a quick glance at Spade.
+s=clerk2;e:clerk2=wary
+
+Then he looked away, hesitated, looked at Spade again, and murmured: “A funny thing happened in connection with them this evening, Mr. Spade.”
+s=clerk2;e:clerk2=nervous
+
+“Somebody called the Emergency Hospital and told them there was a sick girl up there.”
+
+
+“And there wasn’t?”
+s=spade
+
+“Oh, no, there was nobody up there. They went out earlier in the evening.”
+s=clerk2;e:clerk2=confused
+
+Spade said: “Well, these practical-jokers have to have their fun. Thanks.”
+s=spade;e:spade=smirking
+
+He went to a telephone-booth, called a number, and said: “Hello.… Mrs. Perine?… Is Effie there?… Yes, please.… Thanks.”
+s=spade;e:spade=neutral
+
+“Hello, angel! What’s the good word?… Fine, fine! Hold it. I’ll be out in twenty minutes.… Right.”
+e:spade=happy
+
+—
+s=
+
+Half an hour later Spade rang the doorbell of a two-story brick building in Ninth Avenue.
+s=none;e:spade=neutral
+
+Effie Perine opened the door. Her boyish face was tired and smiling.
+e:effie=weary
+
+“Hello, boss,” she said. “Enter.”
+s=effie
+
+She said in a low voice: “If Ma says anything to you, Sam, be nice to her. She’s all up in the air.”
+s=effie;e:effie=nervous
+
+Spade grinned reassuringly and patted her shoulder.
+s=none;e:spade=happy
+
+She put her hands on his arm.
+e:effie=wary
+
+“Miss O’Shaughnessy?”
+s=effie
+
+“No,” he growled. “I ran into a plant. Are you sure it was her voice?”
+s=spade;e:spade=angry
+
+“Yes.”
+s=effie;e:effie=serious
+
+He made an unpleasant face.
+s=none;e:spade=scowling
+
+“Well, it was hooey.”
+s=spade
+
+She took him into a bright living-room, sighed, and slumped down on one end of a Chesterfield, smiling cheerfully up at him through her weariness.
+s=none;e:effie=sadsmile
+
+He sat beside her and asked: “Everything went OK? Nothing said about the bundle?”
+s=spade;e:spade=curious
+
+“Nothing. I told them what you told me to tell them, and they seemed to take it for granted that the phone call had something to do with it, and that you were out running it down.”
+s=effie;e:effie=neutral
+
+“Dundy there?”
+s=spade
+
+“No. Hoff and O’Gar and some others I didn’t know. I talked to the Captain too.”
+s=effie
+
+“They took you down to the Hall?”
+s=spade
+
+“Oh, yes, and they asked me loads of questions, but it was all﻿—you know﻿—routine.”
+s=effie;e:effie=weary
+
+Spade rubbed his palms together.
+s=none;e:spade=smirking
+
+“Swell,” he said and then frowned, “though I guess they’ll think up plenty to put to me when we meet.”
+s=spade;e:spade=contemplative
+
+“That damned Dundy will, anyway, and Bryan.”
+e:spade=annoyed
+
+He moved his shoulders.
+s=none
+
+“Anybody you know, outside of the police, come around?”
+s=spade;e:spade=curious
+
+“Yes.”
+s=effie;e:effie=serious
+
+She sat up straight.
+s=none
+
+“That boy﻿—the one who brought the message from Gutman﻿—was there.”
+s=effie
+
+“He didn’t come in, but the police left the corridor door open while they were there and I saw him standing there.”
+
+
+“You didn’t say anything?”
+s=spade;e:spade=wary
+
+“Oh, no. You had said not to.”
+s=effie;e:effie=neutral
+
+“So I didn’t pay any attention to him and the next time I looked he was gone.”
+
+
+Spade grinned at her.
+s=none;e:spade=smirking
+
+“Damned lucky for you, sister, that the coppers got there first.”
+s=spade
+
+“Why?”
+s=effie;e:effie=curious
+
+“He’s a bad egg, that lad﻿—poison. Was the dead man Jacobi?”
+s=spade;e:spade=serious
+
+“Yes.”
+s=effie;e:effie=sadsmile
+
+He pressed her hands and stood up.
+s=none
+
+“I’m going to run along. You’d better hit the hay. You’re all in.”
+s=spade;e:spade=happy
+
+She rose.
+s=none
+
+“Sam, what is﻿—?”
+s=effie;e:effie=curious
+
+He stopped her words with his hand on her mouth.
+s=none;e:spade=serious
+
+“Save it till Monday,” he said. “I want to sneak out before your mother catches me and gives me hell for dragging her lamb through gutters.”
+s=spade;e:spade=smirking
+
+—
+s=
+
+Midnight was a few minutes away when Spade reached his home.
+s=none;e:spade=neutral
+
+He put his key into the street door’s lock. Heels clicked rapidly on the sidewalk behind him. He let go the key and wheeled.
+e:spade=wary
+
+Brigid O’Shaughnessy ran up the steps to him.
+e:brigid=fearful
+
+She put her arms around him and hung on him, panting: “Oh, I thought you’d never come!”
+s=brigid
+
+Her face was haggard, distraught, shaken by the tremors that shook her from head to foot.
+s=none;e:brigid=upset
+
+With the hand not supporting her he felt for the key again, opened the door, and half lifted her inside.
+
+
+“You’ve been waiting?” he asked.
+s=spade;e:spade=curious
+
+“Yes.”
+s=brigid
+
+Panting spaced her words.
+s=none
+
+“In a﻿—doorway﻿—up the﻿—street.”
+s=brigid
+
+“Can you make it all right?” he asked. “Or shall I carry you?”
+s=spade;e:spade=serious
+
+She shook her head against his shoulder.
+s=none
+
+“I’ll be﻿—all right﻿—when I﻿—get where﻿—I can﻿—sit down.”
+s=brigid
+
+They rode up to Spade’s floor in the elevator and went around to his apartment.
+s=none
+
+She left his arm and stood beside him﻿—panting, both hands to her breast﻿—while he unlocked his door.
+
+
+He switched on the passageway light. They went in.
+
+
+He shut the door and, with his arm around her again, took her back towards the living-room.
+
+
+When they were within a step of the living-room door the light in the living-room went on.
+e:spade=wary
+
+The girl cried out and clung to Spade.
+e:brigid=fearful
+
+Just inside the living-room door fat Gutman stood smiling benevolently at them.
+e:gutman=happy
+
+The boy Wilmer came out of the kitchen behind them. Black pistols were gigantic in his small hands.
+e:youth=serious
+
+Cairo came from the bathroom. He too had a pistol.
+e:cairo=serious
+
+Gutman said: “Well, sir, we’re all here, as you can see for yourself.”
+s=gutman
+
+“Now let’s come in and sit down and be comfortable and talk.”
+
 
