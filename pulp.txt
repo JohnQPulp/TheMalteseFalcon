@@ -2794,4 +2794,430 @@ e:cairo=smirking
 “You will please,” he said, “clasp your hands together at the back of your neck.”
 s=cairo;e:cairo=serious
 
+## V<br>The Levantine
+r=title
+
+Spade did not look at the pistol.
+e:spade=neutral;e:cairo=neutral
+
+He raised his arms and, leaning back in his chair, intertwined the fingers of his two hands behind his head.
+
+
+His eyes, holding no particular expression, remained focused on Cairo’s dark face.
+e:spade=contemplative
+
+Cairo coughed a little apologetic cough and smiled nervously with lips that had lost some of their redness.
+e:cairo=nervous
+
+His dark eyes were humid and bashful and very earnest.
+e:cairo=wary
+
+“I intend to search your offices, Mr. Spade.”
+s=cairo;e:cairo=serious
+
+“I warn you that if you attempt to prevent me I shall certainly shoot you.”
+
+
+“Go ahead.” Spade’s voice was as empty of expression as his face.
+s=spade;e:spade=neutral
+
+“You will please stand,” the man with the pistol instructed him at whose thick chest the pistol was aimed.
+s=cairo
+
+“I shall have to make sure that you are not armed.”
+
+
+Spade stood up pushing his chair back with his calves as he straightened his legs.
+s=none
+
+Cairo went around behind him.
+e:cairo=wary
+
+He transferred the pistol from his right hand to his left.
+
+
+He lifted Spade’s coattail and looked under it.
+
+
+Holding the pistol close to Spade’s back, he put his right hand around Spade’s side and patted his chest.
+
+
+The Levantine face was then no more than six inches below and behind Spade’s right elbow.
+
+
+Spade’s elbow dropped as Spade spun to the right.
+e:spade=serious
+
+Cairo’s face jerked back not far enough: Spade’s right heel on the patent-leathered toes anchored the smaller man in the elbow’s path.
+e:cairo=surprised
+
+The elbow struck him beneath the cheekbone, staggering him so that he must have fallen had he not been held by Spade’s foot on his foot.
+e:cairo=upset
+
+Spade’s elbow went on past the astonished dark face and straightened when Spade’s hand struck down at the pistol.
+
+
+Cairo let the pistol go the instant that Spade’s fingers touched it.
+
+
+The pistol was small in Spade’s hand.
+
+
+Spade took his foot off Cairo’s to complete his about-face.
+
+
+With his left hand Spade gathered together the smaller man’s coat-lapels﻿—the ruby-set green tie bunching out over his knuckles﻿—while his right hand stowed the captured weapon away in a coat-pocket.
+
+
+Spade’s yellow-grey eyes were somber. His face was wooden, with a trace of sullenness around the mouth.
+e:spade=angry
+
+Cairo’s face was twisted by pain and chagrin. There were tears in his dark eyes.
+e:cairo=fearful
+
+His skin was the complexion of polished lead except where the elbow had reddened his cheek.
+
+
+Spade by means of his grip on the Levantine’s lapels turned him slowly and pushed him back until he was standing close in front of the chair he had lately occupied.
+
+
+A puzzled look replaced the look of pain in the lead-colored face.
+e:cairo=confused
+
+Then Spade smiled.
+e:spade=smirking
+
+His smile was gentle, even dreamy.
+
+
+His right shoulder raised a few inches.
+
+
+His bent right arm was driven up by the shoulder’s lift.
+
+
+Fist, wrist, forearm, crooked elbow, and upper arm seemed all one rigid piece, with only the limber shoulder giving them motion.
+
+
+The fist struck Cairo’s face, covering for a moment one side of his chin, a corner of his mouth, and most of his cheek between cheekbone and jawbone.
+
+
+Cairo shut his eyes and was unconscious.
+e:cairo=weary
+
+Spade lowered the limp body into the chair, where it lay with sprawled arms and legs, the head lolling back against the chair’s back, the mouth open.
+e:spade=neutral
+
+Spade emptied the unconscious man’s pockets one by one, working methodically, moving the lax body when necessary, making a pile of the pockets’ contents on the desk.
+
+
+When the last pocket had been turned out he returned to his own chair, rolled and lighted a cigarette, and began to examine his spoils.
+
+
+He examined them with grave unhurried thoroughness.
+e:spade=thinking
+
+There was a large wallet of dark soft leather.
+
+
+The wallet contained three hundred and sixty-five dollars in United States bills of several sizes; three five-pound notes;
+
+
+a much-visaed Greek passport bearing Cairo’s name and portrait; five folded sheets of pinkish onionskin paper covered with what seemed to be Arabic writing;
+
+
+a raggedly clipped newspaper-account of the finding of Archer’s and Thursby’s bodies;
+
+
+a postcard-photograph of a dusky woman with bold cruel eyes and a tender drooping mouth;
+
+
+a large silk handkerchief, yellow with age and somewhat cracked along its folds;
+
+
+a thin sheaf of Mr. Joel Cairo’s engraved cards; and a ticket for an orchestra seat at the Geary Theatre that evening.
+
+
+Besides the wallet and its contents there were three gaily colored silk handkerchiefs fragrant of chypre;
+
+
+a platinum Longines watch on a platinum and red gold chain, attached at the other end to a small pear-shaped pendant of some white metal;
+
+
+a handful of United States, British, French, and Chinese coins; a ring holding half a dozen keys;
+
+
+a silver and onyx fountain pen; a metal comb in a leatherette case; a nail file in a leatherette case;
+
+
+a small street guide to San Francisco; a Southern Pacific baggage check; a half-filled package of violet pastilles;
+
+
+a Shanghai insurance broker’s business card; and four sheets of Hotel Belvedere writing paper, on one of which was written in small precise letters Samuel Spade’s name and the addresses of his office and his apartment.
+
+
+Having examined these articles carefully﻿—he even opened the back of the watch case to see that nothing was hidden inside﻿—Spade leaned over and took the unconscious man’s wrist between finger and thumb, feeling his pulse.
+
+
+Then he dropped the wrist, settled back in his chair, and rolled and lighted another cigarette.
+
+
+His face while he smoked was, except for occasional slight and aimless movements of his lower lip, so still and reflective that it seemed stupid;
+e:spade=contemplative
+
+but when Cairo presently moaned and fluttered his eyelids Spade’s face became bland, and he put the beginning of a friendly smile into his eyes and mouth.
+e:spade=smirking;e:cairo=weary
+
+Joel Cairo awakened slowly.
+
+
+His eyes opened first, but a full minute passed before they fixed their gaze on any definite part of the ceiling.
+
+
+Then he shut his mouth and swallowed, exhaling heavily through his nose afterward.
+
+
+He drew in one foot and turned a hand over on his thigh.
+
+
+Then he raised his head from the chair-back, looked around the office in confusion, saw Spade, and sat up.
+e:cairo=confused
+
+He opened his mouth to speak, started, clapped a hand to his face where Spade’s fist had struck and where there was now a florid bruise.
+e:cairo=upset
+
+Cairo said through his teeth, painfully: “I could have shot you, Mr. Spade.”
+s=cairo;e:cairo=annoyed
+
+“You could have tried,” Spade conceded.
+s=spade;e:spade=smirking
+
+“I did not try.”
+s=cairo
+
+“I know.”
+s=spade
+
+“Then why did you strike me after I was disarmed?”
+s=cairo;e:cairo=confused
+
+“Sorry,” Spade said, and grinned wolfishly, showing his jaw-teeth, “but imagine my embarrassment when I found that five-thousand-dollar offer was just hooey.”
+s=spade;e:spade=smirking
+
+“You are mistaken, Mr. Spade. That was, and is, a genuine offer.”
+s=cairo;e:cairo=serious
+
+“What the hell?” Spade’s surprise was genuine.
+s=spade;e:spade=surprised
+
+“I am prepared to pay five thousand dollars for the figure’s return.”
+s=cairo
+
+Cairo took his hand away from his bruised face and sat up prim and businesslike again.
+s=none;e:cairo=neutral
+
+“You have it?”
+s=cairo;e:cairo=curious
+
+“No.”
+s=spade;e:spade=neutral
+
+“If it is not here”﻿—Cairo was very politely skeptical﻿—“why should you have risked serious injury to prevent my searching for it?”
+s=cairo;e:cairo=suspicious
+
+“I should sit around and let people come in and stick me up?”
+s=spade;e:spade=annoyed
+
+Spade flicked a finger at Cairo’s possessions on the desk.
+s=none
+
+“You’ve got my apartment-address. Been up there yet?”
+s=spade;e:spade=curious
+
+“Yes, Mr. Spade.”
+s=cairo;e:cairo=neutral
+
+“I am ready to pay five thousand dollars for the figure’s return, but surely it is natural enough that I should try first to spare the owner that expense if possible.”
+
+
+“Who is he?”
+s=spade;e:spade=serious
+
+Cairo shook his head and smiled. “You will have to forgive my not answering that question.”
+s=cairo;e:cairo=smirking
+
+“Will I?” Spade leaned forward smiling with tight lips.
+s=spade;e:spade=smirking
+
+“I’ve got you by the neck, Cairo.”
+
+
+“You’ve walked in and tied yourself up, plenty strong enough to suit the police, with last night’s killings.”
+
+
+“Well, now you’ll have to play with me or else.”
+
+
+Cairo’s smile was demure and not in any way alarmed.
+s=none;e:cairo=smirking
+
+“I made somewhat extensive inquiries about you before taking any action,” he said, “and was assured that you were far too reasonable to allow other considerations to interfere with profitable business relations.”
+s=cairo
+
+Spade shrugged. “Where are they?” he asked.
+s=spade;e:spade=neutral
+
+“I have offered you five thousand dollars for﻿—”
+s=cairo
+
+Spade thumped Cairo’s wallet with the backs of his fingers and said: “There’s nothing like five thousand dollars here.”
+s=spade;e:spade=annoyed
+
+“You’re betting your eyes.”
+
+
+“You could come in and say you’d pay me a million for a purple elephant, but what in hell would that mean?”
+
+
+“I see, I see,” Cairo said thoughtfully, screwing up his eyes.
+s=cairo;e:cairo=thinking
+
+“You wish some assurance of my sincerity.”
+
+
+He brushed his red lower lip with a fingertip.
+s=none
+
+“A retainer, would that serve?”
+s=cairo
+
+“It might.”
+s=spade;e:spade=contemplative
+
+Cairo put his hand out towards his wallet, hesitated, withdrew the hand, and said: “You will take, say, a hundred dollars?”
+s=cairo;e:cairo=wary
+
+Spade picked up the wallet and took out a hundred dollars.
+s=none;e:spade=neutral
+
+Then he frowned, said, “Better make it two hundred,” and did.
+s=spade;e:spade=scowling
+
+Cairo said nothing.
+s=none;e:cairo=neutral
+
+“Your first guess was that I had the bird,” Spade said in a crisp voice when he had put the two hundred dollars into his pocket and had dropped the wallet on the desk again.
+s=spade;e:spade=serious
+
+“There’s nothing in that. What’s your second?”
+
+
+“That you know where it is, or, if not exactly that, that you know it is where you can get it.”
+s=cairo;e:cairo=serious
+
+Spade neither denied nor affirmed that: he seemed hardly to have heard it.
+s=none;e:spade=neutral
+
+He asked: “What sort of proof can you give me that your man is the owner?”
+s=spade;e:spade=curious
+
+“Very little, unfortunately.”
+s=cairo;e:cairo=unhappy
+
+“There is this, though: nobody else can give you any authentic evidence of ownership at all.”
+
+
+“And if you know as much about the affair as I suppose﻿—or I should not be here﻿—you know that the means by which it was taken from him shows that his right to it was more valid than anyone else’s﻿—certainly more valid than Thursby’s.”
+e:cairo=serious
+
+“What about his daughter?” Spade asked.
+s=spade;e:spade=curious
+
+Excitement opened Cairo’s eyes and mouth, turned his face red, made his voice shrill.
+s=none;e:cairo=excited
+
+“*He* is not the owner!”
+s=cairo
+
+Spade said, “Oh,” mildly and ambiguously.
+s=spade;e:spade=smirking
+
+“Is he here, in San Francisco, now?”
+s=cairo;e:cairo=nervous
+
+Cairo asked in a less shrill, but still excited, voice.
+s=none
+
+Spade blinked his eyes sleepily and suggested: “It might be better all around if we put our cards on the table.”
+s=spade;e:spade=contemplative
+
+Cairo recovered composure with a little jerk.
+s=none;e:cairo=neutral
+
+“I do not think it would be better.” His voice was suave now.
+s=cairo
+
+“If you know more than I, I shall profit by your knowledge, and so will you to the extent of five thousand dollars.”
+
+
+“If you do not then I have made a mistake in coming to you, and to do as you suggest would be simply to make that mistake worse.”
+
+
+Spade nodded indifferently and waved his hand at the articles on the desk, saying: “There’s your stuff”;
+s=spade;e:spade=neutral
+
+and then, when Cairo was returning them to his pockets: “It’s understood that you’re to pay my expenses while I’m getting this black bird for you, and five thousand dollars when it’s done?”
+e:spade=serious
+
+“Yes, Mr. Spade; that is, five thousand dollars less whatever moneys have been advanced to you﻿—five thousand in all.”
+s=cairo;e:cairo=neutral
+
+“Right. And it’s a legitimate proposition.” Spade’s face was solemn except for wrinkles at the corners of his eyes.
+s=spade;e:spade=serious
+
+“You’re not hiring me to do any murders or burglaries for you, but simply to get it back if possible in an honest and lawful way.”
+
+
+“If possible,” Cairo agreed. His face also was solemn except for the eyes.
+s=cairo;e:cairo=serious
+
+“And in any event with discretion.”
+
+
+He rose and picked up his hat.
+s=none
+
+“I am at the Hotel Belvedere when you wish to communicate with me﻿—room six-thirty-five.”
+s=cairo;e:cairo=neutral
+
+“I confidently expect the greatest mutual benefit from our association, Mr. Spade.”
+e:cairo=happy
+
+He hesitated.
+s=none;e:cairo=wary
+
+“May I have my pistol?”
+s=cairo
+
+“Sure. I’d forgotten it.”
+s=spade;e:spade=smirking
+
+Spade took the pistol out of his coat-pocket and handed it to Cairo.
+s=none;e:spade=neutral
+
+Cairo pointed the pistol at Spade’s chest.
+e:cairo=serious
+
+“You will please keep your hands on the top of the desk,” Cairo said earnestly.
+s=cairo
+
+“I intend to search your offices.”
+
+
+Spade said: “I’ll be damned.”
+s=spade;e:spade=surprised
+
+Then he laughed in his throat and said: “All right. Go ahead. I won’t stop you.”
+e:spade=happy
+
 
