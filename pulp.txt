@@ -3869,12 +3869,9 @@ e:brigid=happy
 r=title
 
 In his bedroom that was a living-room now the wall-bed was up, Spade took Brigid O’Shaughnessy’s hat and coat, made her comfortable in a padded rocking chair, and telephoned the Hotel Belvedere.
-e:spade=neutral;e:brigid=neutral
+e:spade=neutral;e:brigid=neutral;b=spade-bedroom-living
 
-Cairo had not returned from the theatre.
-
-
-Spade left his telephone-number with the request that Cairo call him as soon as he came in.
+Cairo had not returned from the theatre. Spade left his telephone-number with the request that Cairo call him as soon as he came in.
 
 
 Spade sat down in the armchair beside the table and without any preliminary, without an introductory remark of any sort, began to tell the girl about a thing that had happened some years before in the Northwest.
@@ -3890,18 +3887,12 @@ but presently, as the story went on, it caught her more and more fully and she b
 e:brigid=contemplative
 
 A man named Flitcraft had left his real-estate-office, in Tacoma, to go to luncheon one day and had never returned.
-
+g=tacoma-wide
 
 He did not keep an engagement to play golf after four that afternoon, though he had taken the initiative in making the engagement less than half an hour before he went out to luncheon.
 
 
-His wife and children never saw him again.
-
-
-His wife and he were supposed to be on the best of terms.
-
-
-He had two children, boys, one five and the other three.
+His wife and children never saw him again. His wife and he were supposed to be on the best of terms. He had two children, boys, one five and the other three.
 
 
 He owned his house in a Tacoma suburb, a new Packard, and the rest of the appurtenances of successful American living.
@@ -3923,13 +3914,13 @@ His habits for months past could be accounted for too thoroughly to justify any 
 
 
 “He went like that,” Spade said, “like a fist when you open your hand.”
-s=spade
+g=;s=spade
 
 When he had reached this point in his story the telephone bell rang.
 s=none;e:spade=neutral
 
 “Hello,” Spade said into the instrument.
-s=spade
+s=spade;x:spade=phone
 
 “Mr. Cairo?﻿… This is Spade. Can you come up to my place﻿—Post Street﻿—now?﻿… Yes, I think it is.”
 
@@ -3938,7 +3929,7 @@ He looked at the girl, pursed his lips, and then said rapidly:
 s=none
 
 “Miss O’Shaughnessy is here and wants to see you.”
-s=spade
+s=spade;e:spade=serious
 
 Brigid O’Shaughnessy frowned and stirred in her chair, but did not say anything.
 s=none;e:brigid=wary
@@ -3947,15 +3938,12 @@ Spade put the telephone down and told her:
 
 
 “He’ll be up in a few minutes.”
-s=spade
+s=spade;x:spade=;e:spade=
 
 “Well, that was in 1922. In 1927 I was with one of the big detective agencies in Seattle.”
+e:spade=thinking
 
-
-“Mrs. Flitcraft came in and told us somebody had seen a man in Spokane who looked a lot like her husband.”
-
-
-“I went over there. It was Flitcraft, all right.”
+“Mrs. Flitcraft came in and told us somebody had seen a man in Spokane who looked a lot like her husband. I went over there. It was Flitcraft, all right.”
 
 
 “He had been living in Spokane for a couple of years as Charles﻿—that was his first name﻿—Pierce.”
@@ -3964,137 +3952,95 @@ s=spade
 “He had an automobile-business that was netting him twenty or twenty-five thousand a year, a wife, a baby son, owned his home in a Spokane suburb, and usually got away to play golf after four in the afternoon during the season.”
 
 
-Spade had not been told very definitely what to do when he found Flitcraft.
-s=none
+Spade had not been told very definitely what to do when he found Flitcraft. They talked in Spade’s room at the Davenport.
+s=none;g=davenport-room
 
-They talked in Spade’s room at the Davenport.
-
-
-Flitcraft had no feeling of guilt.
-
-
-He had left his first family well provided for, and what he had done seemed to him perfectly reasonable.
+Flitcraft had no feeling of guilt. He had left his first family well provided for, and what he had done seemed to him perfectly reasonable.
 
 
 The only thing that bothered him was a doubt that he could make that reasonableness clear to Spade.
 
 
-He had never told anybody his story before, and thus had not had to attempt to make its reasonableness explicit.
+He had never told anybody his story before, and thus had not had to attempt to make its reasonableness explicit. He tried now.
 
 
-He tried now.
+“I got it all right,” Spade told Brigid O’Shaughnessy, “but Mrs. Flitcraft never did. She thought it was silly. Maybe it was.”
 
 
-“I got it all right,” Spade told Brigid O’Shaughnessy, “but Mrs. Flitcraft never did.”
-s=spade
+“Anyway, it came out all right.”
+b=tacoma-wide
 
-“She thought it was silly. Maybe it was. Anyway, it came out all right.”
-
-
-“She didn’t want any scandal, and, after the trick he had played on her﻿—the way she looked at it﻿—she didn’t want him.”
-
-
-“So they were divorced on the quiet and everything was swell all around.”
+“She didn’t want any scandal, and, after the trick he had played on her﻿—the way she looked at it﻿—she didn’t want him. So they were divorced on the quiet and everything was swell all around.”
 
 
 “Here’s what had happened to him.”
 
 
 “Going to lunch he passed an office-building that was being put up﻿—just the skeleton.”
-
+b=construction
 
 “A beam or something fell eight or ten stories down and smacked the sidewalk alongside him.”
-
+f:b:construction=blur(3px)
 
 “It brushed pretty close to him, but didn’t touch him, though a piece of the sidewalk was chipped off and flew up and hit his cheek.”
+f:b:construction=
+
+“It only took a piece of skin off, but he still had the scar when I saw him. He rubbed it with his finger﻿—well, affectionately﻿—when he told me about it.”
 
 
-“It only took a piece of skin off, but he still had the scar when I saw him.”
-
-
-“He rubbed it with his finger﻿—well, affectionately﻿—when he told me about it.”
-
-
-“He was scared stiff of course, he said, but he was more shocked than really frightened.”
-
-
-“He felt like somebody had taken the lid off life and let him look at the works.”
+“He was scared stiff of course, he said, but he was more shocked than really frightened. He felt like somebody had taken the lid off life and let him look at the works.”
 
 
 Flitcraft had been a good citizen and a good husband and father, not by any outer compulsion, but simply because he was a man who was most comfortable in step with his surroundings.
-s=none
-
-He had been raised that way.
 
 
-The people he knew were like that.
-
-
-The life he knew was a clean orderly sane responsible affair.
+He had been raised that way. The people he knew were like that. The life he knew was a clean orderly sane responsible affair.
 
 
 Now a falling beam had shown him that life was fundamentally none of these things.
 
 
-He, the good citizen-husband-father, could be wiped out between office and restaurant by the accident of a falling beam.
+He, the good citizen-husband-father, could be wiped out between office and restaurant by the accident of a falling beam. He knew then that men died at haphazard like that, and lived only while blind chance spared them.
 
 
-He knew then that men died at haphazard like that, and lived only while blind chance spared them.
-
-
-It was not, primarily, the injustice of it that disturbed him: he accepted that after the first shock.
-
-
-What disturbed him was the discovery that in sensibly ordering his affairs he had got out of step, and not into step, with life.
+It was not, primarily, the injustice of it that disturbed him: he accepted that after the first shock. What disturbed him was the discovery that in sensibly ordering his affairs he had got out of step, and not into step, with life.
 
 
 He said he knew before he had gone twenty feet from the fallen beam that he would never know peace again until he had adjusted himself to this new glimpse of life.
 
 
-By the time he had eaten his luncheon he had found his means of adjustment.
-
-
-Life could be ended for him at random by a falling beam: he would change his life at random by simply going away.
-
+By the time he had eaten his luncheon he had found his means of adjustment. Life could be ended for him at random by a falling beam: he would change his life at random by simply going away.
+f:b:construction=blur(3px)
 
 He loved his family, he said, as much as he supposed was usual, but he knew he was leaving them adequately provided for, and his love for them was not of the sort that would make absence painful.
-
+b=tacoma-wide
 
 “He went to Seattle that afternoon,” Spade said, “and from there by boat to San Francisco.”
-s=spade
+f:b:tacoma-wide=blur(3px)
 
 “For a couple of years he wandered around and then drifted back to the Northwest, and settled in Spokane and got married.”
 
 
-“His second wife didn’t look like the first, but they were more alike than they were different.”
-
-
-“You know, the kind of women that play fair games of golf and bridge and like new salad-recipes.”
+“His second wife didn’t look like the first, but they were more alike than they were different. You know, the kind of women that play fair games of golf and bridge and like new salad-recipes.”
 
 
 “He wasn’t sorry for what he had done. It seemed reasonable enough to him.”
 
 
-“I don’t think he even knew he had settled back naturally into the same groove he had jumped out of in Tacoma.”
-
-
-“But that’s the part of it I always liked.”
+“I don’t think he even knew he had settled back naturally into the same groove he had jumped out of in Tacoma. But that’s the part of it I always liked.”
 
 
 “He adjusted himself to beams falling, and then no more of them fell, and he adjusted himself to them not falling.”
 
 
 “How perfectly fascinating,” Brigid O’Shaughnessy said.
-s=brigid
+g=;s=brigid
 
-She left her chair and stood in front of him, close.
+She left her chair and stood in front of him, close. Her eyes were wide and deep.
 s=none;e:brigid=smirking
 
-Her eyes were wide and deep.
-
-
 “I don’t have to tell you how utterly at a disadvantage you’ll have me, with him here, if you choose.”
-s=brigid;e:brigid=nervous
+s=brigid
 
 Spade smiled slightly without separating his lips.
 s=none;e:spade=smirking
@@ -4108,8 +4054,14 @@ s=brigid;e:brigid=sadsmile
 Her thumb and forefinger twisted a black button on his blue coat.
 s=none
 
-Spade said, “That again!” with mock resignation.
-s=spade;e:spade=weary
+Spade said,
+
+
+“That again!”
+s=spade;e:spade=weary;m=allowbreak
+
+with mock resignation.
+m=;s=
 
 “But you know it’s so,” she insisted.
 s=brigid;e:brigid=serious
@@ -4130,13 +4082,10 @@ She studied his face. Her nostrils quivered.
 s=none;e:brigid=nervous
 
 Spade laughed. He patted her hand again and said:
-e:spade=happy
+e:spade=smirking
 
-“Don’t worry about that now. He’ll be here in a moment.”
+“Don’t worry about that now. He’ll be here in a moment. Get your business with him over, and then we’ll see how we’ll stand.”
 s=spade
-
-“Get your business with him over, and then we’ll see how we’ll stand.”
-
 
 “And you’ll let me go about it﻿—with him﻿—in my own way?”
 s=brigid;e:brigid=curious
@@ -4144,14 +4093,11 @@ s=brigid;e:brigid=curious
 “Sure.”
 s=spade;e:spade=neutral
 
-She turned her hand under his so that her fingers pressed his.
+She turned her hand under his so that her fingers pressed his. She said softly:
 s=none
 
-She said softly:
-
-
 “You’re a godsend.”
-s=brigid;e:brigid=happy
+s=brigid;e:brigid=sadsmile
 
 Spade said:
 s=none
@@ -4163,10 +4109,10 @@ She looked reproachfully at him, though smiling, and returned to the padded rock
 s=none;e:brigid=sadsmile
 
 Joel Cairo was excited. His dark eyes seemed all irises and his high-pitched thin-voiced words were tumbling out before Spade had the door half-open.
-e:cairo=excited
+e:cairo=excited;b=spade-passageway
 
 “That boy is out there watching the house, Mr. Spade, that boy you showed me, or to whom you showed me, in front of the theatre.”
-s=cairo
+s=cairo;x:cairo=beat,hat;e:cairo=wary
 
 “What am I to understand from that, Mr. Spade? I came here in good faith, with no thought of tricks or traps.”
 e:cairo=wary
@@ -4180,11 +4126,8 @@ s=none;e:spade=thinking
 “But I ought to’ve guessed he might show up. He saw you come in?”
 s=spade
 
-“Naturally.”
+“Naturally. I could have gone on, but that seemed useless, since you had already let him see us together.”
 s=cairo;e:cairo=annoyed
-
-“I could have gone on, but that seemed useless, since you had already let him see us together.”
-
 
 Brigid O’Shaughnessy came into the passageway behind Spade and asked anxiously:
 s=none;e:brigid=wary
@@ -4193,7 +4136,7 @@ s=none;e:brigid=wary
 s=brigid
 
 Cairo removed his black hat from his head, bowed stiffly, and said in a prim voice:
-s=none;e:cairo=neutral
+s=none;e:cairo=neutral;x:cairo=beat
 
 “If you do not know, ask Mr. Spade. I know nothing about it except through him.”
 s=cairo
@@ -4201,10 +4144,7 @@ s=cairo
 “A kid who’s been trying to tail me around town all evening,” Spade said carelessly over his shoulder, not turning to face the girl.
 s=spade;e:spade=neutral
 
-“Come on in, Cairo.”
-
-
-“There’s no use standing here talking for all the neighbors.”
+“Come on in, Cairo. There’s no use standing here talking for all the neighbors.”
 
 
 Brigid O’Shaughnessy grasped Spade’s arm above the elbow and demanded:
@@ -4220,7 +4160,7 @@ Cairo, holding his black hat to his belly with both hands, had come into the pas
 s=none;e:cairo=nervous
 
 Spade shut the corridor door behind him and they went into the living-room.
-
+b=spade-bedroom-living
 
 There Cairo bowed stiffly over his hat once more and said:
 e:cairo=neutral
@@ -4273,11 +4213,8 @@ s=brigid
 Cairo held up a wriggling hand.
 s=none;e:cairo=nervous
 
-“Excuse me,” he said.
+“Excuse me,” he said. “I expressed myself badly.”
 s=cairo
-
-“I expressed myself badly.”
-
 
 “I did not mean to say that I have the money in my pockets, but that I am prepared to get it on a very few minutes’ notice at any time during banking hours.”
 e:cairo=neutral
@@ -4292,19 +4229,16 @@ Spade blew cigarette-smoke down the front of his vest and said:
 
 
 “That’s probably right. He had only a few hundred in his pockets when I frisked him this afternoon.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;x:spade=cig
 
 When her eyes opened round and wide he grinned.
 s=none;e:brigid=surprised;e:spade=happy
 
-The Levantine bent forward in his chair.
+The Levantine bent forward in his chair. He failed to keep eagerness from showing in his eyes and voice.
 e:cairo=excited
 
-He failed to keep eagerness from showing in his eyes and voice.
-
-
 “I can be quite prepared to give you the money at, say, half-past ten in the morning. Eh?”
-s=cairo
+s=cairo;e:cairo=curious
 
 Brigid O’Shaughnessy smiled at him and said:
 s=none;e:brigid=smirking
@@ -4322,10 +4256,10 @@ The girl made a mock-placatory face at him.
 e:brigid=sadsmile
 
 “I’ll have it in a week at the most, though,” she said.
-s=brigid
+s=brigid;e:brigid=curious
 
 “Where is it?”
-s=cairo;e:cairo=angry
+s=cairo;e:cairo=annoyed
 
 Cairo used politeness of mien to express skepticism.
 s=none;e:cairo=suspicious
@@ -4378,26 +4312,20 @@ s=none;e:cairo=neutral
 “That was the logical development.”
 s=cairo
 
-He rubbed the back of one hand with the palm of the other.
+He rubbed the back of one hand with the palm of the other. His upper lids came down to shade his eyes.
 s=none
-
-His upper lids came down to shade his eyes.
-
 
 “Why, if I in turn may ask a question, are you willing to sell to me?”
 s=cairo;e:cairo=curious
 
-“I’m afraid,” she said simply, “after what happened to Floyd.”
+“I’m afraid,” she said simply, “after what happened to Floyd. That’s why I haven’t it now.”
 s=brigid;e:brigid=fearful
-
-“That’s why I haven’t it now.”
-
 
 “I’m afraid to touch it except to turn it over to somebody else right away.”
 
 
 Spade, propped on an elbow on the sofa, looked at and listened to them impartially.
-s=none;e:spade=neutral
+s=none;e:spade=neutral;x:spade=
 
 In the comfortable slackness of his body, in the easy stillness of his features, there was no indication of either curiosity or impatience.
 
@@ -4408,11 +4336,17 @@ s=cairo;e:cairo=serious
 The tip of Brigid O’Shaughnessy’s right forefinger traced a swift G in the air.
 s=none;e:brigid=serious
 
-Cairo said, “I see,” but there was something doubting in his smile.
-s=cairo;e:cairo=suspicious
+Cairo said,
+s=
+
+“I see,”
+s=cairo;e:cairo=doubtingsmile;m=allowbreak
+
+but there was something doubting in his smile.
+m=;s=
 
 “Is he here?”
-
+s=cairo;i=2
 
 “I don’t know.”
 s=brigid;e:brigid=annoyed
@@ -4421,13 +4355,16 @@ She spoke impatiently.
 s=none
 
 “What difference does it make?”
-s=brigid
+s=brigid;i=2
 
 The doubt in Cairo’s smile deepened.
 s=none;e:cairo=smirking
 
-“It might make a world of difference,” he said, and rearranged his hands in his lap so that, intentionally or not, a blunt forefinger pointed at Spade.
-s=cairo
+“It might make a world of difference,” he said,
+s=cairo;i=3;m=allowbreak
+
+and rearranged his hands in his lap so that, intentionally or not, a blunt forefinger pointed at Spade.
+m=;s=
 
 The girl glanced at the pointing finger and made an impatient motion with her head.
 s=none;e:brigid=annoyed
@@ -4439,46 +4376,40 @@ s=brigid
 s=cairo;e:cairo=smirking
 
 “Yes,” she agreed and laughed.
-s=brigid;e:brigid=happy
+s=brigid;e:brigid=smirking
 
 “Yes, unless he’s the one you had in Constantinople.”
 e:brigid=smirking
 
-Sudden blood mottled Cairo’s face.
+Sudden blood mottled Cairo’s face. In a shrill enraged voice he cried:
 s=none;e:cairo=angry
-
-In a shrill enraged voice he cried:
-
 
 “The one you couldn’t make?”
 s=cairo
 
-Brigid O’Shaughnessy jumped up from her chair.
+Brigid O’Shaughnessy jumped up from her chair. Her lower lip was between her teeth. Her eyes were dark and wide in a tense white face.
 s=none;e:brigid=angry
-
-Her lower lip was between her teeth. Her eyes were dark and wide in a tense white face.
-
 
 She took two quick steps towards Cairo. He started to rise.
 e:cairo=wary
 
 Her right hand went out and cracked sharply against his cheek, leaving the imprint of fingers there.
-
+f:b:spade-bedroom-living=blur(3px)
 
 Cairo grunted and slapped her cheek, staggering her sidewise, bringing from her mouth a brief muffled scream.
-e:cairo=angry;e:brigid=upset
+e:cairo=angry;e:brigid=upset;f:b:spade-bedroom-living=blur(6px)
 
 Spade, wooden of face, was up from the sofa and close to them by then.
-e:spade=angry
+e:spade=angry;f:b:spade-bedroom-living=
 
 He caught Cairo by the throat and shook him. Cairo gurgled and put a hand inside his coat.
-e:cairo=fearful
+e:cairo=fearful;f:b:spade-bedroom-living=blur(3px)
 
 Spade grasped the Levantine’s wrist, wrenched it away from the coat, forced it straight out to the side, and twisted it until the clumsy flaccid fingers opened to let the black pistol fall down on the rug.
 
 
 Brigid O’Shaughnessy quickly picked up the pistol.
-e:brigid=wary
+e:brigid=wary;f:b:spade-bedroom-living=
 
 Cairo, speaking with difficulty because of the fingers on his throat, said:
 s=none
@@ -4489,35 +4420,35 @@ s=cairo;e:cairo=angry
 His eyes, though the throttling pressure on his throat made them bulge, were cold and menacing.
 s=none
 
-“Yes,” Spade growled.
+“Yes,” Spade growled. “And when you’re slapped you’ll take it and like it.”
 s=spade;e:spade=angry
 
-“And when you’re slapped you’ll take it and like it.”
-
-
 He released Cairo’s wrist and with a thick open hand struck the side of his face three times, savagely.
-s=none
+s=none;f:b:spade-bedroom-living=blur(3px)
 
 Cairo tried to spit in Spade’s face, but the dryness of the Levantine’s mouth made it only an angry gesture.
-e:cairo=angry
+e:cairo=angry;f:b:spade-bedroom-living=
 
 Spade slapped the mouth, cutting the lower lip.
-
+f:b:spade-bedroom-living=blur(3px)
 
 The doorbell rang.
-e:spade=wary
+e:spade=wary;f:b:spade-bedroom-living=
 
 Cairo’s eyes jerked into focus on the passageway that led to the corridor door.
 e:cairo=surprised
 
-His eyes had become unangry and wary. The girl had gasped and turned to face the passageway.
+His eyes had become unangry and wary. The girl had gasped and turned to face the passageway. Her face was frightened.
 e:cairo=wary;e:brigid=fearful
 
-Her face was frightened. Spade stared gloomily for a moment at the blood trickling from Cairo’s lip, and then stepped back, taking his hand from the Levantine’s throat.
+Spade stared gloomily for a moment at the blood trickling from Cairo’s lip, and then stepped back, taking his hand from the Levantine’s throat.
 e:spade=weary
 
-“Who is it?” the girl whispered, coming close to Spade; and Cairo’s eyes jerked back to ask the same question.
-s=brigid
+“Who is it?” the girl whispered,
+s=brigid;m=allowbreak
+
+coming close to Spade; and Cairo’s eyes jerked back to ask the same question.
+m=;s=
 
 Spade gave his answer irritably:
 s=none;e:spade=annoyed
@@ -4528,29 +4459,29 @@ s=spade
 The bell rang again, more insistently.
 s=none
 
-“Well, keep quiet,” Spade said, and went out of the room, shutting the door behind him.
-s=spade
+“Well, keep quiet,” Spade said,
+s=spade;i=2;m=allowbreak
+
+and went out of the room, shutting the door behind him.
+m=;s=;
 
 —
 s=none
 
 Spade turned on the light in the passageway and opened the door to the corridor.
-e:spade=neutral
+e:spade=neutral;b=spade-passageway
 
 Lieutenant Dundy and Tom Polhaus were there.
 e:dundy=neutral;e:tom=neutral
 
-“Hello, Sam,” Tom said.
-s=tom
-
-“We thought maybe you wouldn’t’ve gone to bed yet.”
-
+“Hello, Sam,” Tom said. “We thought maybe you wouldn’t’ve gone to bed yet.”
+s=tom;x:tom=hat;x:dundy=hat
 
 Dundy nodded, but said nothing.
 s=none
 
 Spade said good-naturedly:
-e:spade=happy
+e:spade=smirking
 
 “Hello. You guys pick swell hours to do your visiting in. What is it this time?”
 s=spade
@@ -4561,11 +4492,14 @@ s=none;e:dundy=serious
 “We want to talk to you, Spade.”
 s=dundy
 
-“Well?” Spade stood in the doorway, blocking it.
-s=spade;e:spade=neutral
+“Well?”
+s=spade;e:spade=serious
+
+Spade stood in the doorway, blocking it.
+s=
 
 “Go ahead and talk.”
-
+s=spade;i=2
 
 Tom Polhaus advanced saying:
 s=none
@@ -4577,10 +4511,10 @@ Spade stood in the doorway and said:
 s=none
 
 “You can’t come in.”
-s=spade
+s=spade;e:spade=contemplative
 
 His tone was very slightly apologetic.
-s=none;e:spade=sadsmile
+s=none;
 
 Tom’s thick-featured face, even in height with Spade’s, took on an expression of friendly scorn, though there was a bright gleam in his small shrewd eyes.
 e:tom=smirking
@@ -4594,8 +4528,14 @@ s=none;e:spade=smirking
 “Going to strong-arm me, Tom?”
 s=spade
 
-Tom grumbled, “Aw, for God’s sake,” and took his hand away.
-s=tom;e:tom=annoyed
+Tom grumbled,
+s=
+
+“Aw, for God’s sake,”
+s=tom;e:tom=annoyed;m=allowbreak
+
+and took his hand away.
+m=;s=
 
 Dundy clicked his teeth together and said through them:
 s=none;e:dundy=angry
@@ -4603,11 +4543,8 @@ s=none;e:dundy=angry
 “Let us in.”
 s=dundy
 
-Spade’s lip twitched over his eyetooth.
+Spade’s lip twitched over his eyetooth. He said:
 s=none;e:spade=annoyed
-
-He said:
-
 
 “You’re not coming in. What do you want to do about it? Try to get in? Or do your talking here? Or go to hell?”
 s=spade;e:spade=angry
@@ -4616,13 +4553,10 @@ Tom groaned.
 s=none;e:tom=weary
 
 Dundy, still speaking through his teeth, said:
-e:dundy=angry
+e:dundy=annoyed
 
-“It’d pay you to play along with us a little, Spade.”
+“It’d pay you to play along with us a little, Spade. You’ve got away with this and you’ve got away with that, but you can’t keep it up forever.”
 s=dundy
-
-“You’ve got away with this and you’ve got away with that, but you can’t keep it up forever.”
-
 
 “Stop me when you can,” Spade replied arrogantly.
 s=spade;e:spade=smirking
@@ -4637,7 +4571,7 @@ s=none
 s=dundy
 
 Spade laughed.
-s=none;e:spade=happy
+s=none
 
 “That sounds like something you thought up yourself.”
 s=spade
@@ -4648,11 +4582,8 @@ s=dundy;e:dundy=suspicious
 “Not anything.”
 s=spade;e:spade=neutral
 
-“The talk is,” Dundy said, “that she tried to get a divorce out of him so’s she could put in with you, but he wouldn’t give it to her.”
-s=dundy
-
-“Anything to that?”
-
+“The talk is,” Dundy said, “that she tried to get a divorce out of him so’s she could put in with you, but he wouldn’t give it to her. Anything to that?”
+s=dundy;i=2
 
 “No.”
 s=spade
@@ -4663,11 +4594,8 @@ s=dundy
 Spade seemed mildly amused.
 s=none;e:spade=smirking
 
-“Don’t be a hog,” he said.
+“Don’t be a hog,” he said. “You oughtn’t try to pin more than one murder at a time on me.”
 s=spade
-
-“You oughtn’t try to pin more than one murder at a time on me.”
-
 
 “Your first idea that I knocked Thursby off because he’d killed Miles falls apart if you blame me for killing Miles too.”
 
@@ -4675,10 +4603,7 @@ s=spade
 “You haven’t heard me say you killed anybody,” Dundy replied.
 s=dundy;e:dundy=neutral
 
-“You’re the one that keeps bringing that up. But suppose I did.”
-
-
-“You could have blipped them both. There’s a way of figuring it.”
+“You’re the one that keeps bringing that up. But suppose I did. You could have blipped them both. There’s a way of figuring it.”
 
 
 “Uh-huh. I could’ve butchered Miles to get his wife, and then Thursby so I could hang Miles’s killing on him.”
@@ -4754,28 +4679,28 @@ s=tom
 s=spade;e:spade=annoyed
 
 “All right, Spade, we’re going.”
-s=dundy;e:dundy=neutral
+s=dundy;e:dundy=thinking
 
 Dundy buttoned his overcoat.
 s=none
 
-“We’ll be in to see you now and then.”
-s=dundy
+“We’ll be in to see you now and then. Maybe you’re right in bucking us. Think it over.”
+s=dundy;i=2
 
-“Maybe you’re right in bucking us. Think it over.”
-
-
-“Uh-huh,” Spade said, grinning. “Glad to see you any time, Lieutenant, and whenever I’m not busy I’ll let you in.”
+“Uh-huh,” Spade said, grinning.
 s=spade;e:spade=smirking
+
+“Glad to see you any time, Lieutenant, and whenever I’m not busy I’ll let you in.”
+
 
 A voice in Spade’s living-room screamed:
 s=none;e:spade=surprised;e:dundy=surprised;e:tom=surprised
 
 “Help! Help! Police! Help!”
-s=cairo;e:cairo=fearful
+m=dialogue
 
 The voice, high and thin and shrill, was Joel Cairo’s.
-s=none
+s=none;m=
 
 Lieutenant Dundy stopped turning away from the door, confronted Spade again, and said decisively:
 e:dundy=serious
@@ -4786,20 +4711,23 @@ s=dundy
 The sounds of a brief struggle, of a blow, of a subdued cry, came to them.
 s=none
 
-Spade’s face twisted into a smile that held little joy.
-e:spade=sadsmile
+Spade’s face twisted into a smile that held little joy. He said,
+e:spade=annoyedsmile
 
-He said, “I guess you are,” and stood out of the way.
-s=spade
+“I guess you are,”
+s=spade;m=allowbreak
+
+and stood out of the way.
+m=;s=
 
 When the police-detectives had entered he shut the corridor door and followed them back to the living-room.
 s=none;e:spade=weary
 
-## VIII<br>Horse Feathers
+## VIII<br>Horse Feathers<e>I don't know what Hammett will say — it makes no difference anyway. Whatever he writes — I'm against it.</e>
 r=title
 
 Brigid O’Shaughnessy was huddled in the armchair by the table.
-e:brigid=fearful
+e:brigid=fearful;x:tom=hat;x:dundy=hat;x:cairo=beat;b=spade-bedroom-living
 
 Her forearms were up over her cheeks, her knees drawn up until they hid the lower part of her face.
 
