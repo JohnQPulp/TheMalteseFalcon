@@ -9413,7 +9413,7 @@ s=spade
 r=title
 
 Spade and Detective-sergeant Polhaus ate pickled pigs’ feet at one of big John’s tables at the States Hof Brau.
-e:spade=neutral;e:tom=neutral
+e:spade=neutral;e:tom=neutral;b=hof-brau;x:spade=beat
 
 Polhaus, balancing pale bright jelly on a fork halfway between plate and mouth, said:
 s=none
@@ -9454,25 +9454,19 @@ s=none;e:tom=scowling
 “Ain’t you ever going to grow up?” he grumbled.
 s=tom
 
-“What’ve you got to beef about? He didn’t hurt you. You came out on top.”
+“What’ve you got to beef about? He didn’t hurt you. You came out on top. What’s the sense of making a grudge of it? You’re just making a lot of grief for yourself.”
 
 
-“What’s the sense of making a grudge of it? You’re just making a lot of grief for yourself.”
-
-
-Spade placed his knife and fork carefully together on his plate, and put his hands on the table beside his plate.
-s=none;e:spade=serious
-
-His smile was faint and devoid of warmth.
-e:spade=sadsmile
+Spade placed his knife and fork carefully together on his plate, and put his hands on the table beside his plate. His smile was faint and devoid of warmth.
+s=none;e:spade=smirking
 
 “With every bull in town working overtime trying to pile up grief for me a little more won’t hurt. I won’t even know it’s there.”
-s=spade
+s=spade;i=3
 
-Polhaus’s ruddiness deepened.
+Polhaus’s ruddiness deepened. He said:
 s=none;e:tom=upset
 
-He said: “That’s a swell thing to say to me.”
+“That’s a swell thing to say to me.”
 s=tom
 
 Spade picked up his knife and fork and began to eat. Polhaus ate.
@@ -9484,11 +9478,11 @@ e:spade=curious
 “See the boat on fire in the bay?”
 s=spade
 
-“I saw the smoke. Be reasonable, Sam.”
-s=tom;e:tom=weary
+“I saw the smoke.”
+s=tom;e:tom=thinking
 
-“Dundy was wrong and he knows it. Why don’t you let it go at that?”
-
+“Be reasonable, Sam. Dundy was wrong and he knows it. Why don’t you let it go at that?”
+e:tom=serious
 
 “Think I ought to go around and tell him I hope my chin didn’t hurt his fist?”
 s=spade;e:spade=smirking
@@ -9506,7 +9500,7 @@ s=spade
 s=tom;e:tom=annoyed
 
 “Yes?”
-s=spade
+s=spade;e:spade=annoyed
 
 Malice glittered in Spade’s eyes.
 s=none;e:spade=angry
@@ -9514,10 +9508,10 @@ s=none;e:spade=angry
 “What made him think I didn’t do it? What makes you think I didn’t? Or don’t you?”
 s=spade
 
-Polhaus’s ruddy face flushed again.
+Polhaus’s ruddy face flushed again. He said:
 s=none;e:tom=upset
 
-He said: “Thursby shot Miles.”
+“Thursby shot Miles.”
 s=tom
 
 “You think he did.”
@@ -9535,11 +9529,8 @@ s=tom
 “We got hold of a kid—a bellhop at Thursby’s hotel—that had seen it in his room just that morning. He noticed it particular because he’d never saw one just like it before.”
 
 
-“I never saw one. You say they don’t make them any more.”
-
-
-“It ain’t likely there’d be another around and—anyway—if that wasn’t Thursby’s what happened to his? And that’s the gun the slug in Miles come out of.”
-
+“I never saw one. You say they don’t make them any more. It ain’t likely there’d be another around and—anyway—if that wasn’t Thursby’s what happened to his? And that’s the gun the slug in Miles come out of.”
+i=3
 
 He started to put a piece of bread into his mouth, withdrew it, and asked:
 s=none;e:tom=thinking
@@ -9563,15 +9554,12 @@ s=none;e:spade=smirking
 s=spade
 
 Polhaus squirmed in his chair and his face was red and shiny.
-s=none;e:tom=upset
+s=none;e:tom=unhappy
 
 “Christ’s sake, ain’t you never going to forget that?” he complained earnestly.
 s=tom
 
-“That’s out. You know it as well as I do.”
-
-
-“You’d think you wasn’t a dick yourself the way you bellyache over things. I suppose you don’t never pull the same stuff on anybody that we pulled on you?”
+“That’s out. You know it as well as I do. You’d think you wasn’t a dick yourself the way you bellyache over things. I suppose you don’t never pull the same stuff on anybody that we pulled on you?”
 
 
 “You mean that you tried to pull on me, Tom—just tried.”
@@ -9595,11 +9583,8 @@ s=spade;e:spade=curious
 “Aw, Sam, he never really thought you’d—”
 s=tom;e:tom=wary
 
-Spade’s smile checked Polhaus.
+Spade’s smile checked Polhaus. He left the sentence incomplete and said:
 s=none;e:spade=smirking
-
-He left the sentence incomplete and said:
-
 
 “We dug up a record on Thursby.”
 s=tom;e:tom=serious
@@ -9620,7 +9605,7 @@ s=spade
 s=tom;e:tom=weary
 
 “Well, he was a St. Louis gunman the first we hear of him. He was picked up a lot of times back there for this and that, but he belonged to the Egan mob, so nothing much was ever done about any of it.”
-
+e:tom=contemplative
 
 “I don’t know how come he left that shelter, but they got him once in New York for knocking over a row of stuss games—his twist turned him up—and he was in a year before Fallon got him sprung.”
 
@@ -9628,16 +9613,10 @@ s=tom;e:tom=weary
 “A couple of years later he did a short hitch in Joliet for pistol-whipping another twist that had given him the needle, but after that he took up with Dixie Monahan and didn’t have any trouble getting out whenever he happened to get in.”
 
 
-“That was when Dixie was almost as big a shot as Nick the Greek in Chicago gambling.”
+“That was when Dixie was almost as big a shot as Nick the Greek in Chicago gambling. This Thursby was Dixie’s bodyguard and he took the run-out with him when Dixie got in wrong with the rest of the boys over some debts he couldn’t or wouldn’t pay off.”
 
 
-“This Thursby was Dixie’s bodyguard and he took the run-out with him when Dixie got in wrong with the rest of the boys over some debts he couldn’t or wouldn’t pay off.”
-
-
-“That was a couple of years back—about the time the Newport Beach Boating Club was shut up. I don’t know if Dixie had any part in that.”
-
-
-“Anyways, this is the first time him or Thursby’s been seen since.”
+“That was a couple of years back—about the time the Newport Beach Boating Club was shut up. I don’t know if Dixie had any part in that. Anyways, this is the first time him or Thursby’s been seen since.”
 
 
 “Dixie’s been seen?” Spade asked.
@@ -9658,8 +9637,11 @@ s=tom
 Spade lounged back in his chair and began to make a cigarette.
 s=none;e:spade=neutral
 
-“I haven’t,” he said mildly. “This is all new stuff to me.”
+“I haven’t,” he said mildly.
 s=spade
+
+“This is all new stuff to me.”
+
 
 “I guess it is,” Polhaus snorted.
 s=tom;e:tom=smirking
@@ -9674,7 +9656,7 @@ s=spade
 s=tom;e:tom=neutral
 
 “From Cairo, for instance?”
-s=spade;e:spade=curious
+s=spade;e:spade=suspicious
 
 Now Spade’s eyes held the prying gleam.
 s=none;e:spade=suspicious
@@ -9692,7 +9674,7 @@ s=none;e:spade=happy
 s=spade
 
 “What do you mean—all night?” Polhaus protested.
-s=tom;e:tom=upset
+s=tom;e:tom=confused
 
 “We worked on him for less than a couple of hours. We saw we wasn’t getting nowhere, and let him go.”
 
@@ -9722,10 +9704,10 @@ s=tom;e:tom=serious
 s=
 
 A lathy youth with salient ears ushered Spade into the District Attorney’s office.
-
+b=attorney-office
 
 Spade went in smiling easily, saying easily:
-e:spade=smirking
+e:spade=smirking;x:spade=beat,hat
 
 “Hello, Bryan!”
 s=spade
@@ -9736,38 +9718,59 @@ s=none;n:bryan=District Attorney Bryan
 He was a blond man of medium stature, perhaps forty-five years old, with aggressive blue eyes behind black-ribboned nose-glasses, the overlarge mouth of an orator, and a wide dimpled chin.
 
 
-When he said, “How do you do, Spade?” his voice was resonant with latent power.
-s=bryan;e:bryan=serious
+When he said,
+
+
+“How do you do, Spade?”
+s=bryan;e:bryan=happy;m=allowbreak
+
+his voice was resonant with latent power.
+s=;m=
 
 They shook hands and sat down.
 s=none;e:spade=neutral
 
-The District Attorney put his finger on one of the pearl buttons in a battery of four on his desk, said to the lathy youth who opened the door again, “Ask Mr. Thomas and Healy to come in,” and then, rocking back in his chair, addressed Spade pleasantly:
-s=bryan;e:bryan=happy
+The District Attorney put his finger on one of the pearl buttons in a battery of four on his desk, said to the lathy youth who opened the door again,
+
+
+“Ask Mr. Thomas and Healy to come in,”
+s=bryan;e:bryan=;m=allowbreak
+
+and then, rocking back in his chair, addressed Spade pleasantly:
+m=;s=
 
 “You and the police haven’t been hitting it off so well, have you?”
-
+s=bryan;e:bryan=smirking
 
 Spade made a negligent gesture with the fingers of his right hand.
 s=none;e:spade=neutral
 
-“Nothing serious,” he said lightly. “Dundy gets too enthusiastic.”
-s=spade
+“Nothing serious,” he said lightly.
+s=spade;x:spade=beat
 
-The door opened to admit two men.
-s=none;n:thomas=Thomas;n:healy=Healy
+“Dundy gets too enthusiastic.”
 
-The one to whom Spade said, “Hello, Thomas!” was a sunburned stocky man of thirty in clothing and hair of a kindred unruliness.
-s=spade
 
-He clapped Spade on the shoulder with a freckled hand, asked, “How’s tricks?” and sat down beside him.
-s=thomas;e:thomas=happy
+The door opened to admit two men. The one to whom Spade said,
+s=none;n:thomas=Mr. Thomas;n:healy=Mr. Healy
 
-The second man was younger and colorless.
+“Hello, Thomas!”
+s=spade;m=allowbreak;e:spade=happy
+
+was a sunburned stocky man of thirty in clothing and hair of a kindred unruliness.
+m=;s=
+
+He clapped Spade on the shoulder with a freckled hand, asked,
+
+
+“How’s tricks?”
+s=thomas;e:thomas=smirking;m=allowbreak
+
+and sat down beside him.
+m=;s=
+
+The second man was younger and colorless. He took a seat a little apart from the others and balanced a stenographer’s notebook on his knee, holding a green pencil over it.
 s=none;e:healy=neutral
-
-He took a seat a little apart from the others and balanced a stenographer’s notebook on his knee, holding a green pencil over it.
-
 
 Spade glanced his way, chuckled, and asked Bryan:
 e:spade=smirking
@@ -9800,7 +9803,7 @@ Bryan rubbed his black eyeglass-ribbon between thumb and fingers and said knowin
 s=none;e:bryan=smirking
 
 “Perhaps you don’t, but you certainly could make an excellent guess.”
-s=bryan
+s=bryan;e:bryan=rubbing
 
 “Maybe, but I wouldn’t.”
 s=spade;e:spade=neutral
@@ -9815,7 +9818,7 @@ He was serene.
 s=none
 
 “My guess might be excellent, or it might be crummy, but Mrs. Spade didn’t raise any children dippy enough to make guesses in front of a district attorney, an assistant district attorney, and a stenographer.”
-s=spade
+s=spade;i=2
 
 “Why shouldn’t you, if you’ve nothing to conceal?”
 s=bryan;e:bryan=suspicious
@@ -9829,17 +9832,11 @@ s=bryan;e:bryan=curious
 “My guesses, for one thing.”
 s=spade;e:spade=smirking
 
-The District Attorney looked down at his desk and then up at Spade. He settled his glasses more firmly on his nose.
+The District Attorney looked down at his desk and then up at Spade. He settled his glasses more firmly on his nose. He said:
 s=none;e:bryan=serious
 
-He said:
-
-
-“If you’d prefer not having the stenographer here we can dismiss him.”
+“If you’d prefer not having the stenographer here we can dismiss him. It was simply as a matter of convenience that I brought him in.”
 s=bryan
-
-“It was simply as a matter of convenience that I brought him in.”
-
 
 “I don’t mind him a damned bit,” Spade replied. “I’m willing to have anything I say put down and I’m willing to sign it.”
 s=spade;e:spade=neutral
@@ -9860,7 +9857,7 @@ Spade sighed and crossed his legs.
 s=none;e:spade=weary
 
 “I’m glad of that.”
-s=spade
+s=spade;e:spade=thinking
 
 He felt in his pockets for tobacco and papers.
 s=none;e:spade=neutral
@@ -9899,22 +9896,13 @@ Spade’s face retained its puzzled look.
 s=none;e:spade=confused
 
 “Putting it that way doesn’t help much,” he said. “I still don’t get it.”
-s=spade
+s=spade;i=2
 
-The District Attorney took his glasses off and shook them for emphasis.
+The District Attorney took his glasses off and shook them for emphasis. He said:
 s=none;e:bryan=serious
 
-He said:
-
-
-“We know Thursby was Monahan’s bodyguard and went with him when Monahan found it wise to vanish from Chicago.”
-s=bryan
-
-“We know Monahan welshed on something like two-hundred-thousand-dollars’ worth of bets when he vanished.”
-
-
-“We don’t know—not yet—who his creditors were.”
-
+“We know Thursby was Monahan’s bodyguard and went with him when Monahan found it wise to vanish from Chicago. We know Monahan welshed on something like two-hundred-thousand-dollars’ worth of bets when he vanished. We don’t know—not yet—who his creditors were.”
+s=bryan;e:bryan=glassesless
 
 He put the glasses on again and smiled grimly.
 s=none;e:bryan=smirking
@@ -9935,7 +9923,7 @@ s=spade
 s=bryan;e:bryan=surprised
 
 “You misunderstand me.”
-
+e:bryan=contemplative
 
 “I hope to Christ I do,” Spade said.
 s=spade;e:spade=angry
@@ -9952,32 +9940,29 @@ s=none;e:bryan=wary
 “I only mean that you might have been involved in it without knowing what it was. That could—”
 s=bryan
 
-“I see,” Spade sneered.
+“I see,” Spade sneered. “You don’t think I’m naughty. You just think I’m dumb.”
 s=spade;e:spade=scowling
 
-“You don’t think I’m naughty. You just think I’m dumb.”
-
-
-“Nonsense,” Bryan insisted:
+“Nonsense,” Bryan insisted: “Suppose someone came to you and engaged you to find Monahan, telling you they had reasons for thinking he was in the city.”
 s=bryan;e:bryan=serious
-
-“Suppose someone came to you and engaged you to find Monahan, telling you they had reasons for thinking he was in the city.”
-
 
 “The someone might give you a completely false story—any one of a dozen or more would do—or might say he was a debtor who had run away, without giving you any of the details.”
 
 
 “How could you tell what was behind it? How would you know it wasn’t an ordinary piece of detective work?”
+i=3
 
+“And under those circumstances you certainly couldn’t be held responsible for your part in it unless”—
+m=allowbreak;m=nospace
 
-“And under those circumstances you certainly couldn’t be held responsible for your part in it unless”—his voice sank to a more impressive key and his words came out spaced and distinct—“you made yourself an accomplice by concealing your knowledge of the murderer’s identity or information that would lead to his apprehension.”
+his voice sank to a more impressive key and his words came out spaced and distinct—
+s=
 
+“you made yourself an accomplice by concealing your knowledge of the murderer’s identity or information that would lead to his apprehension.”
+s=bryan;m=
 
-Anger was leaving Spade’s face.
-s=none;e:spade=neutral
-
-No anger remained in his voice when he asked:
-
+Anger was leaving Spade’s face. No anger remained in his voice when he asked:
+s=none;e:spade=suspicious
 
 “That’s what you meant?”
 s=spade
@@ -10024,29 +10009,20 @@ s=spade
 “You know that Thursby was no longer associated with Monahan? You know that positively?”
 s=bryan;e:bryan=curious
 
-Spade stretched out his hand and dropped the stub of his cigarette into an ashtray on the desk.
+Spade stretched out his hand and dropped the stub of his cigarette into an ashtray on the desk. He spoke carelessly:
 s=none;e:spade=neutral
 
-He spoke carelessly:
-
-
-“I don’t know anything positively except that my client wasn’t interested in Monahan, had never been interested in Monahan.”
+“I don’t know anything positively except that my client wasn’t interested in Monahan, had never been interested in Monahan. I heard that Thursby took Monahan out to the Orient and lost him.”
 s=spade
-
-“I heard that Thursby took Monahan out to the Orient and lost him.”
-
 
 Again the District Attorney and his assistant exchanged glances.
 s=none;e:bryan=surprised;e:thomas=surprised
 
 Thomas, in a tone whose matter-of-factness did not quite hide excitement, said:
-e:thomas=excited
+e:thomas=curious
 
-“That opens another angle.”
+“That opens another angle. Monahan’s friends could have knocked Thursby off for ditching Monahan.”
 s=thomas
-
-“Monahan’s friends could have knocked Thursby off for ditching Monahan.”
-
 
 “Dead gamblers don’t have any friends,” Spade said.
 s=spade;e:spade=smirking
@@ -10055,19 +10031,16 @@ s=spade;e:spade=smirking
 s=bryan;e:bryan=thinking
 
 He leaned back and stared at the ceiling for several seconds, then sat upright quickly. His orator’s face was alight.
-s=none;e:bryan=excited
+s=none;e:bryan=smirking
 
-“It narrows down to three things.”
+“It narrows down to three things. Number one: Thursby was killed by the gamblers Monahan had welshed on in Chicago.”
 s=bryan
-
-“Number one: Thursby was killed by the gamblers Monahan had welshed on in Chicago.”
-
 
 “Not knowing Thursby had sloughed Monahan—or not believing it—they killed him because he had been Monahan’s associate, or to get him out of the way so they could get to Monahan, or because he had refused to lead them to Monahan.”
 
 
 “Number two: he was killed by friends of Monahan. Or number three: he sold Monahan out to his enemies and then fell out with them and they killed him.”
-
+e:bryan=thinking
 
 “Or number four,” Spade suggested with a cheerful smile:
 s=spade;e:spade=happy
@@ -10090,17 +10063,14 @@ s=none;e:bryan=serious
 “In one of those three categories lies the solution.”
 s=bryan
 
-The power in his voice was no longer latent.
+The power in his voice was no longer latent. His right hand, a fist except for protruding forefinger, went up and then down to stop with a jerk when the finger was leveled at Spade’s chest.
 s=none;e:bryan=angry
-
-His right hand, a fist except for protruding forefinger, went up and then down to stop with a jerk when the finger was leveled at Spade’s chest.
-
 
 “And you can give us the information that will enable us to determine the category.”
 s=bryan
 
 Spade said, “Yes?” very lazily.
-s=spade;e:spade=weary
+s=spade;e:spade=bored
 
 His face was somber. He touched his lower lip with a finger, looked at the finger, and then scratched the back of his neck with it. Little irritable lines had appeared in his forehead.
 s=none;e:spade=annoyed
@@ -10108,17 +10078,11 @@ s=none;e:spade=annoyed
 He blew his breath out heavily through his nose and his voice was an ill-humored growl.
 e:spade=angry
 
-“You wouldn’t want the kind of information I could give you, Bryan.”
+“You wouldn’t want the kind of information I could give you, Bryan. You couldn’t use it. It’d poop this gambler’s-revenge-scenario for you.”
 s=spade
 
-“You couldn’t use it. It’d poop this gambler’s-revenge-scenario for you.”
-
-
-Bryan sat up straight and squared his shoulders.
+Bryan sat up straight and squared his shoulders. His voice was stern without blustering.
 s=none;e:bryan=serious
-
-His voice was stern without blustering.
-
 
 “You are not the judge of that. Right or wrong, I am nonetheless the District Attorney.”
 s=bryan
@@ -10133,16 +10097,13 @@ s=spade
 s=bryan;e:bryan=serious
 
 “You mean if it might incriminate me?” Spade asked.
-s=spade;e:spade=smirking
+s=spade;e:spade=annoyed
 
 His voice was placid, almost amused, but his face was not.
 s=none;e:spade=serious
 
-“Well, I’ve got better grounds than that, or grounds that suit me better.”
+“Well, I’ve got better grounds than that, or grounds that suit me better. My clients are entitled to a decent amount of secrecy.”
 s=spade
-
-“My clients are entitled to a decent amount of secrecy.”
-
 
 “Maybe I can be made to talk to a Grand Jury or even a Coroner’s Jury, but I haven’t been called before either yet, and it’s a cinch I’m not going to advertise my clients’ business until I have to.”
 
@@ -10160,10 +10121,10 @@ He rose and turned his head over his shoulder to address the stenographer:
 s=none;e:spade=neutral
 
 “Getting this all right, son? Or am I going too fast for you?”
-s=spade;e:spade=smirking
+s=spade;e:spade=scowling
 
 The stenographer looked at him with startled eyes and replied:
-s=none;e:healy=surprised
+s=none;e:healy=wary
 
 “No, sir, I’m getting it all right.”
 s=healy
@@ -10171,10 +10132,7 @@ s=healy
 “Good work,” Spade said and turned to Bryan again.
 s=spade;e:spade=smirking
 
-“Now if you want to go to the Board and tell them I’m obstructing justice and ask them to revoke my license, hop to it.”
-
-
-“You’ve tried it before and it didn’t get you anything but a good laugh all around.”
+“Now if you want to go to the Board and tell them I’m obstructing justice and ask them to revoke my license, hop to it. You’ve tried it before and it didn’t get you anything but a good laugh all around.”
 
 
 He picked up his hat.
@@ -10189,17 +10147,20 @@ s=bryan
 Spade said:
 s=none;e:spade=angry
 
-“And I don’t want any more of these informal talks.”
+“And I don’t want any more of these informal talks. I’ve got nothing to tell you or the police and I’m goddamned tired of being called things by every crackpot on the city payroll.”
 s=spade
-
-“I’ve got nothing to tell you or the police and I’m goddamned tired of being called things by every crackpot on the city payroll.”
-
 
 “If you want to see me, pinch me or subpoena me or something and I’ll come down with my lawyer.”
 
 
-He put his hat on his head, said, “See you at the inquest, maybe,” and stalked out.
-s=spade
+He put his hat on his head, said,
+x:spade=beat,hat;s=
+
+“See you at the inquest, maybe,”
+s=spade;m=allowbreak
+
+and stalked out.
+m=;s=;f:b:attorney-office=blur(3px)
 
 ## XVI<br>The Third Murder
 r=title
