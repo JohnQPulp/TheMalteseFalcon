@@ -8252,19 +8252,19 @@ s=none;e:spade=neutral
 r=title
 
 Gutman opened the door. A glad smile lighted his fat face.
-e:gutman=happy
+e:gutman=happy;b=12c
 
-He held out a hand and said: “Ah, come in, sir! Thank you for coming. Come in.”
+He held out a hand and said:
+
+
+“Ah, come in, sir! Thank you for coming. Come in.”
 s=gutman
 
 Spade shook the hand and entered.
 s=none;e:spade=neutral
 
-The boy went in behind him.
+The boy went in behind him. The fat man shut the door.
 e:youth=neutral
-
-The fat man shut the door.
-e:gutman=neutral
 
 Spade took the boy’s pistols from his pockets and held them out to Gutman.
 e:spade=serious
@@ -8281,14 +8281,14 @@ s=gutman;e:gutman=curious
 He looked from Spade to the boy.
 s=none
 
-Spade said: “A crippled newsie took them away from him, but I made him give them back.”
+Spade said:
+
+
+“A crippled newsie took them away from him, but I made him give them back.”
 s=spade;e:spade=smirking
 
-The white-faced boy took the pistols out of Gutman’s hands and pocketed them.
+The white-faced boy took the pistols out of Gutman’s hands and pocketed them. The boy did not speak.
 s=none;e:youth=scowling
-
-The boy did not speak.
-
 
 Gutman laughed again.
 e:gutman=happy
@@ -8297,7 +8297,7 @@ e:gutman=happy
 s=gutman;e:gutman=excited
 
 The boy left the room by the door to the right of the entrance.
-s=none
+s=none;x:spade=cigar
 
 The fat man installed Spade in a green plush chair by the table, pressed a cigar upon him, held a light to it, mixed whiskey and carbonated water, put one glass in Spade’s hand, and, holding the other, sat down facing Spade.
 e:gutman=happy
@@ -8305,11 +8305,8 @@ e:gutman=happy
 “Now, sir,” he said, “I hope you’ll let me apologize for﻿—”
 s=gutman;e:gutman=neutral
 
-“Never mind that,” Spade said.
+“Never mind that,” Spade said. “Let’s talk about the black bird.”
 s=spade;e:spade=serious
-
-“Let’s talk about the black bird.”
-
 
 The fat man cocked his head to the left and regarded Spade with fond eyes.
 s=none;e:gutman=smirking
@@ -8326,11 +8323,14 @@ s=gutman;e:gutman=excited
 Spade nodded politely.
 s=none;e:spade=neutral
 
-The fat man screwed up his eyes and asked: “What do you know, sir, about the Order of the Hospital of St. John of Jerusalem, later called the Knights of Rhodes and other things?”
+The fat man screwed up his eyes and asked:
+
+
+“What do you know, sir, about the Order of the Hospital of St. John of Jerusalem, later called the Knights of Rhodes and other things?”
 s=gutman;e:gutman=curious
 
 Spade waved his cigar.
-s=none
+s=none;x:spade=
 
 “Not much﻿—only what I remember from history in school﻿—Crusaders or something.”
 s=spade;e:spade=contemplative
@@ -8341,17 +8341,26 @@ s=gutman
 “No.”
 s=spade
 
-“Well, sir, he did, and they settled in Crete.”
-s=gutman;e:gutman=thinking
+“Well, sir, he did, and they settled in Crete. And they stayed there for seven years, until 1530 when they persuaded the Emperor Charles V to give them”—
+s=gutman;e:gutman=thinking;m=allowbreak;m=nospace
 
-“And they stayed there for seven years, until 1530 when they persuaded the Emperor Charles V to give them”﻿—Gutman held up three puffy fingers and counted them﻿—“Malta, Gozo, and Tripoli.”
+Gutman held up three puffy fingers and counted them﻿—
+s=;
 
+“Malta, Gozo, and Tripoli.”
+m=;s=gutman;i=2
 
 “Yes?”
 s=spade;e:spade=curious
 
-“Yes, sir, but with these conditions: they were to pay the Emperor each year the tribute of one”﻿—he held up a finger﻿—“falcon in acknowledgment that Malta was still under Spain, and if they ever left the island it was to revert to Spain.”
-s=gutman
+“Yes, sir, but with these conditions: they were to pay the Emperor each year the tribute of one”﻿—
+s=gutman;m=allowbreak;m=nospace
+
+he held up a finger﻿—
+s=
+
+“falcon in acknowledgment that Malta was still under Spain, and if they ever left the island it was to revert to Spain.”
+s=gutman;m=;e:gutman=conemplative
 
 “Understand? He was giving it to them, but not unless they used it, and they couldn’t give or sell it to anybody else.”
 
@@ -8359,7 +8368,10 @@ s=gutman
 “Yes.”
 s=spade
 
-The fat man looked over his shoulders at the three closed doors, hunched his chair a few inches nearer Spade’s, and reduced his voice to a husky whisper: “Have you any conception of the extreme, the immeasurable, wealth of the Order at that time?”
+The fat man looked over his shoulders at the three closed doors, hunched his chair a few inches nearer Spade’s, and reduced his voice to a husky whisper:
+s=
+
+“Have you any conception of the extreme, the immeasurable, wealth of the Order at that time?”
 s=gutman;e:gutman=serious
 
 “If I remember,” Spade said, “they were pretty well fixed.”
@@ -8390,18 +8402,18 @@ s=gutman
 e:gutman=smirking
 
 “Well, sir, that’s exactly what they did, and they hit on the happy thought of sending Charles for the first year’s tribute, not an insignificant live bird, but a glorious golden falcon encrusted from head to foot with the finest jewels in their coffers.”
-e:gutman=excited
+e:gutman=happy
 
 “And﻿—remember, sir﻿—they had fine ones, the finest out of Asia.”
 
 
-Gutman stopped whispering.
+Gutman stopped whispering. His sleek dark eyes examined Spade’s face, which was placid.
 s=none;e:gutman=neutral
 
-His sleek dark eyes examined Spade’s face, which was placid.
-e:spade=neutral
+The fat man asked:
 
-The fat man asked: “Well, sir, what do you think of that?”
+
+“Well, sir, what do you think of that?”
 s=gutman;e:gutman=curious
 
 “I don’t know.”
@@ -8416,11 +8428,14 @@ s=gutman
 He leaned forward.
 s=none
 
-“The archives of the Order from the twelfth century on are still at Malta.”
-s=gutman
+“The archives of the Order from the twelfth century on are still at Malta. They are not intact, but what is there holds no less than three”﻿—
+s=gutman;m=allowbreak;m=nospace
 
-“They are not intact, but what is there holds no less than three”﻿—he held up three fingers﻿—“references that can’t be to anything else but this jeweled falcon.”
+he held up three fingers﻿—
+s=
 
+“references that can’t be to anything else but this jeweled falcon.”
+s=gutman;e:gutman=serious;m=
 
 “In J. Delaville Le Roulx’s *Les Archives de l’Ordre de Saint-Jean* there is a reference to it﻿—oblique to be sure, but a reference still.”
 e:gutman=thinking
@@ -8443,49 +8458,28 @@ s=none;e:gutman=serious
 “It never reached Spain.”
 s=gutman
 
-He smiled with compressed lips and asked: “You know of Barbarossa, Redbeard, Khair-ed-Din? No?”
-e:gutman=smirking
+He smiled with compressed lips and asked:
+s=
 
-“A famous admiral of buccaneers sailing out of Algiers then.”
+“You know of Barbarossa, Redbeard, Khair-ed-Din? No? A famous admiral of buccaneers sailing out of Algiers then.”
+e:gutman=smirking;s=gutman
 
-
-“Well, sir, he took the Knights’ galley and he took the bird. The bird went to Algiers. That’s a fact.”
-
-
-“That’s a fact that the French historian Pierre Dan put in one of his letters from Algiers.”
+“Well, sir, he took the Knights’ galley and he took the bird. The bird went to Algiers. That’s a fact. That’s a fact that the French historian Pierre Dan put in one of his letters from Algiers.”
 
 
-“He wrote that the bird had been there for more than a hundred years, until it was carried away by Sir Francis Verney, the English adventurer who was with the Algerian buccaneers for a while.”
-
-
-“Maybe it wasn’t, but Pierre Dan believed it was, and that’s good enough for me.”
-e:gutman=happy
-
-“There’s nothing said about the bird in Lady Francis Verney’s *Memoirs of the Verney Family During the Seventeenth Century*, to be sure. I looked.”
+“He wrote that the bird had been there for more than a hundred years, until it was carried away by Sir Francis Verney, the English adventurer who was with the Algerian buccaneers for a while. Maybe it wasn’t, but Pierre Dan believed it was, and that’s good enough for me.”
 e:gutman=thinking
 
-“And it’s pretty certain that Sir Francis didn’t have the bird when he died in a Messina hospital in 1615. He was stony broke.”
-
-
-“But, sir, there’s no denying that the bird *did* go to Sicily.”
+“There’s nothing said about the bird in Lady Francis Verney’s *Memoirs of the Verney Family During the Seventeenth Century*, to be sure. I looked. And it’s pretty certain that Sir Francis didn’t have the bird when he died in a Messina hospital in 1615. He was stony broke. But, sir, there’s no denying that the bird *did* go to Sicily.”
 e:gutman=serious
 
-“It was there and it came into the possession there of Victor Amadeus II some time after he became king in 1713, and it was one of his gifts to his wife when he married in Chambéry after abdicating. That is a fact, sir.”
+“It was there and it came into the possession there of Victor Amadeus II some time after he became king in 1713, and it was one of his gifts to his wife when he married in Chambéry after abdicating. That is a fact, sir. Carutti, the author of *Storia del Regno di Vittorio Amadeo II*, himself vouched for it.”
 
 
-“Carutti, the author of *Storia del Regno di Vittorio Amadeo II*, himself vouched for it.”
-
-
-“Maybe they﻿—Amadeo and his wife﻿—took it along with them to Turin when he tried to revoke his abdication.”
+“Maybe they﻿—Amadeo and his wife﻿—took it along with them to Turin when he tried to revoke his abdication. Be that as it may, it turned up next in the possession of a Spaniard who had been with the army that took Naples in 1734﻿—the father of Don José Monino y Redondo, Count of Floridablanca, who was Charles III’s chief minister.”
 e:gutman=thinking
 
-“Be that as it may, it turned up next in the possession of a Spaniard who had been with the army that took Naples in 1734﻿—the father of Don José Monino y Redondo, Count of Floridablanca, who was Charles III’s chief minister.”
-e:gutman=neutral
-
-“There’s nothing to show that it didn’t stay in that family until at least the end of the Carlist War in ’40.”
-
-
-“Then it appeared in Paris at just about the time that Paris was full of Carlists who had had to get out of Spain.”
+“There’s nothing to show that it didn’t stay in that family until at least the end of the Carlist War in ’40. Then it appeared in Paris at just about the time that Paris was full of Carlists who had had to get out of Spain.”
 
 
 “One of them must have brought it with him, but, whoever he was, it’s likely he knew nothing about its real value.”
@@ -8497,16 +8491,13 @@ e:gutman=contemplative
 “And in that disguise, sir, it was, you might say, kicked around Paris for seventy years by private owners and dealers too stupid to see what it was under the skin.”
 e:gutman=scowling
 
-The fat man paused to smile and shake his head regretfully.
+The fat man paused to smile and shake his head regretfully. Then he went on:
 s=none;e:gutman=weary
 
-Then he went on: “For seventy years, sir, this marvelous item was, as you might say, a football in the gutters of Paris﻿—until 1911 when a Greek dealer named Charilaos Konstantinides found it in an obscure shop.”
+“For seventy years, sir, this marvelous item was, as you might say, a football in the gutters of Paris﻿—until 1911 when a Greek dealer named Charilaos Konstantinides found it in an obscure shop.”
 s=gutman;e:gutman=serious
 
-“It didn’t take Charilaos long to learn what it was and to acquire it.”
-
-
-“No thickness of enamel could conceal value from his eyes and nose.”
+“It didn’t take Charilaos long to learn what it was and to acquire it. No thickness of enamel could conceal value from his eyes and nose.”
 e:gutman=smirking
 
 “Well, sir, Charilaos was the man who traced most of its history and who identified it as what it actually was.”
@@ -8525,7 +8516,7 @@ The fat man raised his glass, smiled at its emptiness, and rose to fill it and S
 s=none;e:gutman=happy
 
 “You begin to believe me a little?” he asked as he worked the siphon.
-s=gutman;e:gutman=curious
+s=gutman;e:gutman=curious;x:spade=
 
 “I haven’t said I didn’t.”
 s=spade;e:spade=wary
@@ -8548,11 +8539,8 @@ e:gutman=serious
 He shook his head sadly.
 s=none;e:gutman=sadsmile
 
-“The bird was gone. By Gad, sir, I was wild.”
+“The bird was gone. By Gad, sir, I was wild. I didn’t believe anybody else knew what it was. I didn’t believe he had told anybody but me.”
 s=gutman;e:gutman=angry
-
-“I didn’t believe anybody else knew what it was. I didn’t believe he had told anybody but me.”
-e:gutman=wary
 
 “A great quantity of stuff had been stolen. That made me think that the thief had simply taken the bird along with the rest of his plunder, not knowing what it was.”
 e:gutman=thinking
@@ -8563,7 +8551,10 @@ e:gutman=smirking
 He shut his eyes and smiled complacently at an inner thought.
 s=none;e:gutman=happy
 
-He opened his eyes and said: “That was seventeen years ago.”
+He opened his eyes and said:
+
+
+“That was seventeen years ago.”
 s=gutman;e:gutman=neutral
 
 “Well, sir, it took me seventeen years to locate that bird, but I did it. I wanted it, and I’m not a man that’s easily discouraged when he wants something.”
@@ -8602,11 +8593,8 @@ s=gutman;e:gutman=smirking
 “Then the bird doesn’t belong to any of you?” Spade asked, “but to a General Kemidov?”
 s=spade;e:spade=curious
 
-“Belong?”
-s=gutman;e:gutman=surprised
-
-the fat man said jovially.
-s=none;e:gutman=happy
+“Belong?” the fat man said jovially.
+s=gutman;e:gutman=happy
 
 “Well, sir, you might say it belonged to the King of Spain, but I don’t see how you can honestly grant anybody else clear title to it﻿—except by right of possession.”
 s=gutman;e:gutman=smirking
@@ -8626,7 +8614,10 @@ s=gutman;e:gutman=neutral
 Spade said, “Oh,” ironically.
 s=spade
 
-Gutman, looking thoughtfully at the stopper of the whiskey-bottle in his hand, asked: “There’s no doubt that she’s got it now?”
+Gutman, looking thoughtfully at the stopper of the whiskey-bottle in his hand, asked:
+s=
+
+“There’s no doubt that she’s got it now?”
 s=gutman;e:gutman=thinking
 
 “Not much.”
@@ -8662,7 +8653,10 @@ s=spade;e:spade=neutral
 “Where?”
 s=gutman;e:gutman=curious
 
-Spade grinned and said: “Leave that to me. That’s my end.”
+Spade grinned and said:
+s=
+
+“Leave that to me. That’s my end.”
 s=spade;e:spade=smirking
 
 “When?”
@@ -8671,7 +8665,10 @@ s=gutman;e:gutman=serious
 “When I’m ready.”
 s=spade;e:spade=neutral
 
-The fat man pursed his lips and, smiling with only slight uneasiness, asked: “Mr. Spade, where is Miss O’Shaughnessy now?”
+The fat man pursed his lips and, smiling with only slight uneasiness, asked:
+s=
+
+“Mr. Spade, where is Miss O’Shaughnessy now?”
 s=gutman;e:gutman=wary
 
 “In my hands, safely tucked away.”
@@ -8701,35 +8698,38 @@ s=none;e:gutman=happy
 “Well, sir, here’s to a fair bargain and profits large enough for both of us.”
 s=gutman
 
-They drank.
+They drank. The fat man sat down.
 s=none
 
-The fat man sat down.
-e:gutman=neutral
+Spade asked:
 
-Spade asked: “What’s your idea of a fair bargain?”
+
+“What’s your idea of a fair bargain?”
 s=spade;e:spade=curious
 
-Gutman held his glass up to the light, looked affectionately at it, took another long drink, and said: “I have two proposals to make, sir, and either is fair.”
+Gutman held his glass up to the light, looked affectionately at it, took another long drink, and said:
+s=
+
+“I have two proposals to make, sir, and either is fair. Take your choice.”
 s=gutman;e:gutman=smirking
 
-“Take your choice. I will give you twenty-five thousand dollars when you deliver the falcon to me, and another twenty-five thousand as soon as I get to New York; or I will give you one quarter﻿—twenty-five percent﻿—of what I realize on the falcon.”
+“I will give you twenty-five thousand dollars when you deliver the falcon to me, and another twenty-five thousand as soon as I get to New York; or I will give you one quarter﻿—twenty-five percent﻿—of what I realize on the falcon.”
 
 
 “There you are, sir: an almost immediate fifty thousand dollars or a vastly greater sum within, say, a couple of months.”
 e:gutman=happy
 
-Spade drank and asked: “How much greater?”
+Spade drank and asked:
+s=
+
+“How much greater?”
 s=spade;e:spade=curious
 
 “Vastly,” the fat man repeated.
 s=gutman;e:gutman=smirking
 
-“Who knows how much greater? Shall I say a hundred thousand, or a quarter of a million?”
+“Who knows how much greater? Shall I say a hundred thousand, or a quarter of a million? Will you believe me if I name the sum that seems the probable minimum?”
 e:gutman=excited
-
-“Will you believe me if I name the sum that seems the probable minimum?”
-e:gutman=serious
 
 “Why not?”
 s=spade;e:spade=neutral
@@ -8744,7 +8744,7 @@ Spade narrowed his eyes.
 s=none;e:spade=wary
 
 “Then you think the dingus is worth two million?”
-s=spade;e:spade=surprised
+s=spade;e:spade=suspicious
 
 Gutman smiled serenely.
 s=none;e:gutman=happy
@@ -8755,16 +8755,16 @@ s=gutman;e:gutman=smirking
 Spade emptied his glass and set it on the table.
 s=none;e:spade=neutral
 
-He put his cigar in his mouth, took it out, looked at it, and put it back in.
-e:spade=thinking
+He put his cigar in his mouth, took it out, looked at it, and put it back in. His yellow-grey eyes were faintly muddy. He said:
+e:spade=thinking;x:spade=cigar
 
-His yellow-grey eyes were faintly muddy.
-e:spade=weary
-
-He said: “That’s a hell of a lot of dough.”
+“That’s a hell of a lot of dough.”
 s=spade
 
-The fat man agreed: “That’s a hell of a lot of dough.”
+The fat man agreed:
+s=
+
+“That’s a hell of a lot of dough.”
 s=gutman;e:gutman=happy
 
 He leaned forward and patted Spade’s knee.
@@ -8776,13 +8776,10 @@ s=gutman;e:gutman=serious
 Spade removed the cigar from his mouth again, frowned at it with distaste, and put it on the smoking-stand.
 s=none;e:spade=scowling
 
-He shut his eyes hard, opened them again.
-e:spade=weary
+He shut his eyes hard, opened them again. Their muddiness had thickened. He said:
+e:spade=weary;x:spade=
 
-Their muddiness had thickened.
-
-
-He said: “The﻿—the minimum, huh? And the maximum?”
+“The﻿—the minimum, huh? And the maximum?”
 s=spade;e:spade=confused
 
 An unmistakable *sh* followed the *x* in maximum as he said it.
@@ -8791,56 +8788,47 @@ s=none
 “The maximum?”
 s=gutman;e:gutman=surprised
 
-Gutman held his empty hand out, palm up. “I refuse to guess. You’d think me crazy. I don’t know.”
-e:gutman=serious
+Gutman held his empty hand out, palm up.
+s=
 
-“There’s no telling how high it could go, sir, and that’s the one and only truth about it.”
+“I refuse to guess. You’d think me crazy. I don’t know. There’s no telling how high it could go, sir, and that’s the one and only truth about it.”
+e:gutman=serious;s=gutman
 
-
-Spade pulled his sagging lower lip tight against the upper.
+Spade pulled his sagging lower lip tight against the upper. He shook his head impatiently.
 s=none;e:spade=annoyed
 
-He shook his head impatiently.
-
-
 A sharp frightened gleam awoke in his eyes﻿—and was smothered by the deepening muddiness.
-e:spade=fearful
+e:spade=fearful;f:b:12c=blur(3px)
 
-He stood up, helping himself up with his hands on the arms of his chair.
+He stood up, helping himself up with his hands on the arms of his chair. He shook his head again and took an uncertain step forward.
 e:spade=weary
 
-He shook his head again and took an uncertain step forward.
+He laughed thickly and muttered:
 
 
-He laughed thickly and muttered: “God damn you.”
-s=spade;e:spade=angry
+“God damn you.”
+s=spade;e:spade=sadsmile
 
-Gutman jumped up and pushed his chair back. His fat globes jiggled.
+Gutman jumped up and pushed his chair back. His fat globes jiggled. His eyes were dark holes in an oily pink face.
 s=none;e:gutman=surprised
 
-His eyes were dark holes in an oily pink face.
-e:gutman=wary
+Spade swung his head from side to side until his dull eyes were pointed at﻿—if not focused on﻿—the door. He took another uncertain step.
+e:spade=weary;f:b:12c=blur(5px)
 
-Spade swung his head from side to side until his dull eyes were pointed at﻿—if not focused on﻿—the door.
-e:spade=weary
-
-He took another uncertain step.
+The fat man called sharply:
 
 
-The fat man called sharply: “Wilmer!”
-s=gutman;e:gutman=angry
+“Wilmer!”
+s=gutman;e:gutman=angry;n:youth=Wilmer
 
 A door opened and the boy came in.
 s=none;e:youth=neutral
 
-Spade took a third step.
+Spade took a third step. His face was grey now, with jaw-muscles standing out like tumors under his ears.
 e:spade=weary
 
-His face was grey now, with jaw-muscles standing out like tumors under his ears.
-e:spade=upset
-
 His legs did not straighten again after his fourth step and his muddy eyes were almost covered by their lids.
-
+f:b:12c=blur(7px)
 
 He took his fifth step.
 
@@ -8854,11 +8842,8 @@ e:youth=nervous
 Spade essayed his sixth step.
 
 
-The boy’s leg darted out across Spade’s leg, in front.
-e:youth=angry
-
-Spade tripped over the interfering leg and crashed face-down on the floor.
-e:spade=surprised
+The boy’s leg darted out across Spade’s leg, in front. Spade tripped over the interfering leg and crashed face-down on the floor.
+e:youth=angry;f:b:12c=blur(10px)
 
 The boy, keeping his right hand under his coat, looked down at Spade.
 e:youth=scowling
@@ -8867,13 +8852,13 @@ Spade tried to get up.
 e:spade=weary
 
 The boy drew his right foot far back and kicked Spade’s temple.
-e:youth=angry
+e:youth=angry;f:b:12c=blur(12px)
 
 The kick rolled Spade over on his side.
 e:spade=upset
 
 Once more he tried to get up, could not, and went to sleep.
-e:spade=weary
+e:spade=weary;f:b:12c=blur(15px)
 
 ## XIV<br>La Paloma
 r=title
