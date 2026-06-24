@@ -10165,26 +10165,23 @@ m=;s=;f:b:attorney-office=blur(3px)
 ## XVI<br>The Third Murder
 r=title
 
-Spade went into the Hotel Sutler and telephoned the Alexandria.
-e:spade=neutral
+Spade went into the Hotel Sutler and telephoned the Alexandria. Gutman was not in. No member of Gutman’s party was in.
+e:spade=neutral;b=sf-wide
 
-Gutman was not in. No member of Gutman’s party was in. Spade telephoned the Belvedere.
-
-
-Cairo was not in, had not been in that day.
+Spade telephoned the Belvedere. Cairo was not in, had not been in that day.
 
 
 Spade went to his office.
+b=office-outer
+
+A swart greasy man in notable clothes was waiting in the outer room. Effie Perine, indicating the swart man, said:
 
 
-A swart greasy man in notable clothes was waiting in the outer room.
-
-
-Effie Perine, indicating the swart man, said: “This gentleman wishes to see you, Mr. Spade.”
+“This gentleman wishes to see you, Mr. Spade.”
 s=effie;e:effie=neutral
 
 Spade smiled and bowed and opened the inner door.
-s=none;e:spade=smirking
+s=none;e:spade=smirking;x:spade=beat,hat
 
 “Come in.”
 s=spade
@@ -10198,26 +10195,20 @@ s=spade
 “No, sir.”
 s=effie
 
-The swart man was the proprietor of a moving-picture-theater in Market Street.
-s=none
-
-He suspected one of his cashiers and a doorman of colluding to defraud him.
-
+The swart man was the proprietor of a moving-picture-theater in Market Street. He suspected one of his cashiers and a doorman of colluding to defraud him.
+s=none;b=office-inner
 
 Spade hurried him through the story, promised to “take care of it,” asked for and received fifty dollars, and got rid of him in less than half an hour.
 e:spade=weary
 
-When the corridor door had closed behind the showman Effie Perine came into the inner office.
+When the corridor door had closed behind the showman Effie Perine came into the inner office. Her sunburned face was worried and questioning.
 e:effie=nervous
-
-Her sunburned face was worried and questioning.
-
 
 “You haven’t found her yet?” she asked.
 s=effie
 
 He shook his head and went on stroking his bruised temple lightly in circles with his fingertips.
-s=none;e:spade=weary
+s=none;e:spade=weary;x:spade=beat
 
 “How is it?” she asked.
 s=effie
@@ -10225,13 +10216,13 @@ s=effie
 “All right, but I’ve got plenty of headache.”
 s=spade
 
-She went around behind him, put his hand down, and stroked his temple with her slender fingers.
+She went around behind him, put his hand down, and stroked his temple with her slender fingers.<e>"slender fingers" => pulp trash (as if that was in doubt!)</e>
 s=none;e:effie=sadsmile
 
-He leaned back until the back of his head over the chair top rested against her breast.
+He leaned back until the back of his head over the chair top rested against her breast. He said:
 
 
-He said: “You’re an angel.”
+“You’re an angel.”
 s=spade;e:spade=sadsmile
 
 She bent her head forward over his and looked down into his face.
@@ -10246,35 +10237,44 @@ s=none;e:spade=annoyed
 “I haven’t got to do anything, but if you’ll let me rest this damned head a minute or two I’ll go out and find her.”
 s=spade
 
-She murmured, “Poor head,” and stroked it in silence awhile.
-s=effie;e:effie=sadsmile
+She murmured,
+s=
 
-Then she asked: “You know where she is? Have you any idea?”
-e:effie=curious
+“Poor head,”
+s=effie;e:effie=sadsmile;m=allowbreak
 
-The telephone bell rang.
-s=none
+and stroked it in silence awhile.
+m=;s=
 
-Spade picked up the telephone and said:
-e:spade=neutral
+Then she asked:
 
-“Hello.… Yes, Sid, it came out all right, thanks.… No.… Sure. He got snotty, but so did I.… He’s nursing a gambler’s-war pipe-dream.… Well, we didn’t kiss when we parted. I declared my weight and walked out on him.… That’s something for you to worry about.… Right. Bye.”
+
+“You know where she is? Have you any idea?”
+e:effie=curious;s=effie
+
+The telephone bell rang. Spade picked up the telephone and said:
+s=none;x:spade=beat,phone
+
+“Hello.… Yes, Sid, it came out all right, thanks.… No.… Sure. He got snotty, but so did I.… He’s nursing a gambler’s-war pipe-dream.…”
 s=spade
 
-He put the telephone down and leaned back in his chair again.
-s=none;e:spade=weary
+“Well, we didn’t kiss when we parted. I declared my weight and walked out on him.… That’s something for you to worry about.… Right. Bye.”
 
-Effie Perine came from behind him and stood at his side.
+
+He put the telephone down and leaned back in his chair again.
+s=none;e:spade=weary;x:spade=beat
+
+Effie Perine came from behind him and stood at his side. She demanded:
 e:effie=neutral
 
-She demanded: “Do you think you know where she is, Sam?”
-s=effie;e:effie=curious
+“Do you think you know where she is, Sam?”
+s=effie;e:effie=serious
 
 “I know where she went,” he replied in a grudging tone.
 s=spade;e:spade=annoyed
 
 “Where?”
-s=effie;e:effie=excited
+s=effie;e:effie=nervous
 
 She was excited.
 s=none
@@ -10321,10 +10321,10 @@ s=effie
 “Because she did something without confiding in you you’d sit here and do nothing when you know she’s in danger, when you know she might be—”
 
 
-Spade’s face flushed.
+Spade’s face flushed. He said stubbornly:
 s=none;e:spade=angry
 
-He said stubbornly: “She’s pretty capable of taking care of herself and she knows where to come for help when she thinks she needs it, and when it suits her.”
+“She’s pretty capable of taking care of herself and she knows where to come for help when she thinks she needs it, and when it suits her.”
 s=spade
 
 “That’s spite,” the girl cried, “and that’s all it is! You’re sore because she did something on her own hook, without telling you. Why shouldn’t she?”
@@ -10333,16 +10333,19 @@ s=effie
 “You’re not so damned honest, and you haven’t been so much on the level with her, that she should trust you completely.”
 
 
-Spade said: “That’s enough of that.”
+Spade said:
+s=
+
+“That’s enough of that.”
 s=spade;e:spade=scowling
 
 His tone brought a brief uneasy glint into her hot eyes, but she tossed her head and the glint vanished.
 s=none;e:effie=wary
 
-Her mouth was drawn taut and small.
-e:effie=angry
+Her mouth was drawn taut and small. She said:
+e:effie=annoyed
 
-She said: “If you don’t go down there this very minute, Sam, I will and I’ll take the police down there.”
+“If you don’t go down there this very minute, Sam, I will and I’ll take the police down there.”
 s=effie
 
 Her voice trembled, broke, and was thin and wailing.
@@ -10351,10 +10354,10 @@ s=none;e:effie=upset
 “Oh, Sam, go!”
 s=effie
 
-He stood up cursing her.
+He stood up cursing her. Then he said:
 s=none;e:spade=angry
 
-Then he said: “Christ! It’ll be easier on my head than sitting here listening to you squawk.”
+“Christ! It’ll be easier on my head than sitting here listening to you squawk.”
 s=spade
 
 He looked at his watch.
@@ -10363,19 +10366,31 @@ s=none;e:spade=annoyed
 “You might as well lock up and go home.”
 s=spade
 
-She said: “I won’t. I’m going to wait right here till you come back.”
+She said:
+s=
+
+“I won’t. I’m going to wait right here till you come back.”
 s=effie;e:effie=angry
 
-He said, “Do as you damned please,” put his hat on, flinched, took it off, and went out carrying it in his hand.
-s=spade
+He said,
+s=
+
+“Do as you damned please,”
+s=spade;m=allowbreak
+
+put his hat on, flinched, took it off, and went out carrying it in his hand.
+m=;s=
 
 —
 s=none
 
-An hour and a half later, at twenty minutes past five, Spade returned. He was cheerful.
-e:spade=happy
+An hour and a half later, at twenty minutes past five, Spade returned.
+e:spade=happy;b=office-outer;x:spade=beat,hat
 
-He came in asking: “What makes you so hard to get along with, sweetheart?”
+He was cheerful. He came in asking:
+
+
+“What makes you so hard to get along with, sweetheart?”
 s=spade
 
 “Me?”
@@ -10384,13 +10399,13 @@ s=effie;e:effie=confused
 “Yes, you.”
 s=spade;e:spade=smirking
 
-He put a finger on the tip of Effie Perine’s nose and flattened it.
+He put a finger on the tip of Effie Perine’s nose and flattened it. He put his hands under her elbows, lifted her straight up, and kissed her chin.
 s=none
 
-He put his hands under her elbows, lifted her straight up, and kissed her chin.
+He set her down on the floor again and asked:
 
 
-He set her down on the floor again and asked: “Anything doing while I was gone?”
+“Anything doing while I was gone?”
 s=spade;e:spade=happy
 
 “Luke—what’s his name?—at the Belvedere called up to tell you Cairo has returned. That was about half an hour ago.”
@@ -10406,7 +10421,7 @@ s=effie;e:effie=curious
 s=spade
 
 A taxicab brought Spade to the Belvedere within ten minutes of his departure from his office.
-s=none;e:spade=neutral
+s=none;e:spade=neutral;b=belv-lobby
 
 He found Luke in the lobby. The hotel-detective came grinning and shaking his head to meet Spade.
 e:luke=smirking
@@ -10415,16 +10430,16 @@ e:luke=smirking
 s=luke
 
 Spade cursed his luck.
-s=none;e:spade=annoyed
+s=none;e:spade=annoyed;x:spade=beat,hat
 
 “Checked out—gone bag and baggage,” Luke said.
-s=luke
+s=luke;e:luke=
 
 He took a battered memorandum-book from a vest-pocket, licked his thumb, thumbed pages, and held the book out open to Spade.
 s=none;e:luke=neutral
 
 “There’s the number of the taxi that hauled him. I got that much for you.”
-s=luke
+s=luke;i=2
 
 “Thanks.”
 s=spade
@@ -10447,13 +10462,19 @@ s=none;e:luke=surprised
 “By God,” he said, “I forgot that! Come on.”
 s=luke
 
-They went up to Cairo’s room. The trunk was there. It was closed, but not locked. They raised the lid.
+They went up to Cairo’s room.
+b=belv-cairo;s=
+
+The trunk was there. It was closed, but not locked.
 s=none;e:spade=neutral
 
-The trunk was empty.
+They raised the lid. The trunk was empty.
 
 
-Luke said: “What do you know about that!”
+Luke said:
+
+
+“What do you know about that!”
 s=luke;e:luke=surprised
 
 Spade did not say anything.
@@ -10462,16 +10483,19 @@ s=none;e:spade=contemplative
 —
 
 
-Spade went back to his office. Effie Perine looked up at him, inquisitively.
-e:effie=curious
+Spade went back to his office.
+e:effie=curious;b=office-outer
+
+Effie Perine looked up at him, inquisitively.
+
 
 “Missed him,” Spade grumbled and passed into his private room.
 s=spade;e:spade=annoyed
 
-She followed him in. He sat in his chair and began to roll a cigarette.
-s=none;e:effie=neutral
+She followed him in.
+s=none;e:effie=neutral;b=office-inner;x:spade=beat
 
-She sat on the desk in front of him and put her toes on a corner of his chair-seat.
+He sat in his chair and began to roll a cigarette. She sat on the desk in front of him and put her toes on a corner of his chair-seat.
 
 
 “What about Miss O’Shaughnessy?” she demanded.
@@ -10489,8 +10513,11 @@ s=spade;e:spade=smirking
 “Stop it. Be nice, Sam. Tell me.”
 s=effie;e:effie=annoyed
 
-He set fire to his cigarette, pocketed his lighter, patted her shins, and said: “Yes, *La Paloma*. She got down there at a little after noon yesterday.”
-s=spade;e:spade=neutral
+He set fire to his cigarette, pocketed his lighter, patted her shins, and said:
+s=
+
+“Yes, *La Paloma*. She got down there at a little after noon yesterday.”
+s=spade;e:spade=neutral;x:spade=beat,cig
 
 He pulled his brows down.
 s=none;e:spade=thinking
@@ -10501,17 +10528,14 @@ s=spade
 “The Captain wasn’t aboard. His name’s Jacobi and she asked for him by name. He was uptown on business.”
 
 
-“That would mean he didn’t expect her, or not at that time anyway. She waited there till he came back at four o’clock.”
-
-
-“They spent the time from then till mealtime in his cabin and she ate with him.”
+“That would mean he didn’t expect her, or not at that time anyway. She waited there till he came back at four o’clock. They spent the time from then till mealtime in his cabin and she ate with him.”
 
 
 He inhaled and exhaled smoke, turned his head aside to spit a yellow tobacco-flake off his lip, and went on:
 s=none
 
 “After the meal Captain Jacobi had three more visitors. One of them was Gutman and one was Cairo and one was the kid who delivered Gutman’s message to you yesterday.”
-s=spade
+s=spade;e:spade=serious
 
 “Those three came together while Brigid was there and the five of them did a lot of talking in the Captain’s cabin.”
 
@@ -10541,25 +10565,22 @@ s=spade
 
 
 “And the fire?” she asked.
-s=effie;e:effie=curious
+s=effie;e:effie=confused
 
 Spade shrugged.
 s=none;e:spade=neutral
 
-“I don’t know. It was discovered in the hold, aft—in the rear basement—late this morning.”
+“I don’t know. It was discovered in the hold, aft—in the rear basement—late this morning. The chances are it got started some time yesterday.”
 s=spade
 
-“The chances are it got started some time yesterday. They got it out all right, though it did damage enough.”
+“They got it out all right, though it did damage enough. Nobody liked to talk about it much while the Captain’s away. It’s the—”
 
 
-“Nobody liked to talk about it much while the Captain’s away. It’s the—”
-
-
-The corridor door opened.
+The corridor door opened. Spade shut his mouth.
 s=none
 
-Spade shut his mouth. Effie Perine jumped down from the desk, but a man opened the connecting door before she could reach it.
-e:effie=surprised;e:spade=wary
+Effie Perine jumped down from the desk, but a man opened the connecting door before she could reach it.
+e:effie=surprised;e:spade=wary;x:spade=beat
 
 “Where’s Spade?” the man asked.
 n:jacobi=?;s=jacobi;e:jacobi=weary
@@ -10588,11 +10609,11 @@ His eyes were dark and bloodshot and mad above lower lids that hung down to show
 Held tight against the left side of his chest by a black-sleeved arm that ended in a yellowish claw was a brown-paper-wrapped parcel bound with thin rope—an ellipsoid somewhat larger than an American football.
 
 
-The tall man stood in the doorway and there was nothing to show that he saw Spade.
+The tall man stood in the doorway and there was nothing to show that he saw Spade. He said,
 
 
-He said, “You know—”
-s=jacobi
+“You know—”
+s=jacobi;e:jacobi=weary;i=2
 
 and then the liquid bubbling came up in his throat and submerged whatever else he said.
 s=none
@@ -10604,7 +10625,7 @@ Holding himself stiffly straight, not putting his hands out to break his fall, h
 
 
 Spade, wooden-faced and nimble, sprang from his chair and caught the falling man.
-e:spade=serious
+
 
 When Spade caught him the man’s mouth opened and a little blood spurted out, and the brown-wrapped parcel dropped from the man’s hands and rolled across the floor until a foot of the desk stopped it.
 
@@ -10612,16 +10633,16 @@ When Spade caught him the man’s mouth opened and a little blood spurted out, a
 Then the man’s knees bent and he bent at the waist and his thin body became limber inside the sheathlike overcoat, sagging in Spade’s arms so that Spade could not hold it up from the floor.
 
 
-Spade lowered the man carefully until he lay on the floor on his left side.
-
-
-The man’s eyes—dark and bloodshot, but not now mad—were wide open and still.
+Spade lowered the man carefully until he lay on the floor on his left side. The man’s eyes—dark and bloodshot, but not now mad—were wide open and still.
 
 
 His mouth was open as when blood had spurted from it, but no more blood came from it, and all his long body was as still as the floor it lay on.
 
 
-Spade said: “Lock the door.”
+Spade said:
+
+
+“Lock the door.”
 s=spade
 
 —
@@ -10630,25 +10651,16 @@ s=none
 While Effie Perine, her teeth chattering, fumbled with the corridor door’s lock Spade knelt beside the thin man, turned him over on his back, and ran a hand down inside his overcoat.
 e:effie=fearful
 
-When he withdrew the hand presently it came out smeared with blood.
-
-
-The sight of his bloody hand brought not the least nor briefest of changes to Spade’s face.
+When he withdrew the hand presently it came out smeared with blood. The sight of his bloody hand brought not the least nor briefest of changes to Spade’s face.
 e:spade=neutral
 
-Holding that hand up where it would touch nothing, he took his lighter out of his pocket with his other hand.
-
-
-He snapped on the flame and held the flame close to first one and then the other of the thin man’s eyes.
+Holding that hand up where it would touch nothing, he took his lighter out of his pocket with his other hand. He snapped on the flame and held the flame close to first one and then the other of the thin man’s eyes.
 
 
 The eyes—lids, balls, irises, and pupils—remained frozen, immobile.
 
 
-Spade extinguished the flame and returned the lighter to his pocket.
-
-
-He moved on his knees around to the dead man’s side and, using his one clean hand, unbuttoned and opened the tubular overcoat.
+Spade extinguished the flame and returned the lighter to his pocket. He moved on his knees around to the dead man’s side and, using his one clean hand, unbuttoned and opened the tubular overcoat.
 
 
 The inside of the overcoat was wet with blood and the double-breasted blue jacket beneath it was sodden.
@@ -10658,19 +10670,22 @@ The jacket’s lapels, where they crossed over the man’s chest, and both sides
 
 
 Spade rose and went to the washbowl in the outer office.
+b=office-outer
+
+Effie Perine, wan and trembling and holding herself upright by means of a hand on the corridor door’s knob and her back against its glass, whispered:
 
 
-Effie Perine, wan and trembling and holding herself upright by means of a hand on the corridor door’s knob and her back against its glass, whispered: “Is—is he—?”
+“Is—is he—?”
 s=effie
 
 “Yes. Shot through the chest, maybe half a dozen times.”
-s=spade
+s=spade;e:spade=serious
 
 Spade began to wash his hands.
 s=none
 
 “Oughtn’t we—?”
-s=effie
+s=effie;i=2
 
 she began, but he cut her short:
 s=none
@@ -10697,7 +10712,7 @@ s=none;e:spade=serious
 s=spade
 
 He went into the inner office again, stepped over the dead man’s legs, and picked up the brown-paper-wrapped parcel.
-s=none
+s=none;b=office-inner
 
 When he felt its weight his eyes glowed. He put it on his desk, turning it over so that the knotted part of the rope was uppermost.
 e:spade=excited
@@ -10714,8 +10729,11 @@ e:effie=excited
 “Do you think it is?” she whispered.
 s=effie
 
-“We’ll soon know,” Spade said, his big fingers busy with the inner husk of coarse grey paper, three sheets thick, that the brown paper’s removal had revealed.
-s=spade
+“We’ll soon know,” Spade said,
+s=spade;m=allowbreak
+
+his big fingers busy with the inner husk of coarse grey paper, three sheets thick, that the brown paper’s removal had revealed.
+m=;s=
 
 His face was hard and dull. His eyes were shining.
 s=none;e:spade=excited
@@ -10747,10 +10765,7 @@ e:spade=smirking
 Effie Perine made a horrified face and screamed, pointing at his feet.
 e:effie=fearful
 
-He looked down at his feet.
-e:spade=surprised
-
-His last backward step had brought his left heel into contact with the dead man’s hand, pinching a quarter-inch of flesh at a side of the palm between heel and floor.
+He looked down at his feet. His last backward step had brought his left heel into contact with the dead man’s hand, pinching a quarter-inch of flesh at a side of the palm between heel and floor.
 
 
 Spade jerked his foot away from the hand.
@@ -10760,10 +10775,13 @@ The telephone bell rang.
 
 
 He nodded at the girl.
-e:spade=serious
 
-She turned to the desk and put the receiver to her ear. She said: “Hello.… Yes.… Who?… Oh, yes!”
-s=effie;e:effie=nervous
+
+She turned to the desk and put the receiver to her ear. She said:
+
+
+“Hello.… Yes.… Who?… Oh, yes!”
+s=effie;e:effie=nervous;x:effie=phone
 
 Her eyes became large.
 s=none;e:effie=surprised
@@ -10771,22 +10789,19 @@ s=none;e:effie=surprised
 “Yes.… Yes.… Hold the line.…”
 s=effie
 
-Her mouth suddenly stretched wide and fearful.
+Her mouth suddenly stretched wide and fearful. She cried:
 s=none;e:effie=fearful
 
-She cried: “Hello! Hello! Hello!”
+“Hello! Hello! Hello!”
 s=effie
 
-She rattled the prong up and down and cried, “Hello!” twice.
-s=effie
+She rattled the prong up and down and cried, “Hello!” twice. Then she sobbed and spun around to face Spade, who was close beside her by now.
+s=;x:effie=
 
-Then she sobbed and spun around to face Spade, who was close beside her by now.
-s=none;e:effie=upset
+“It was Miss O’Shaughnessy,” she said wildly.
+s=effie;e:effie=upset
 
-“It was Miss O’Shaughnessy,” she said wildly. “She wants you. She’s at the Alexandria—in danger.”
-s=effie
-
-“Her voice was—oh, it was awful, Sam!—and something happened to her before she could finish. Go help her, Sam!”
+“She wants you. She’s at the Alexandria—in danger. Her voice was—oh, it was awful, Sam!—and something happened to her before she could finish. Go help her, Sam!”
 
 
 Spade put the falcon down on the desk and scowled gloomily.
@@ -10795,13 +10810,13 @@ s=none;e:spade=scowling
 “I’ve got to take care of this fellow first,” he said, pointing his thumb at the thin corpse on the floor.
 s=spade
 
-She beat his chest with her fists, crying: “No, no—you’ve got to go to her.”
-s=effie;e:effie=upset
+She beat his chest with her fists, crying:
+s=
 
-“Don’t you see, Sam? He had the thing that was hers and he came to you with it.”
+“No, no—you’ve got to go to her.”
+s=effie;e:effie=upset;i=3
 
-
-“Don’t you see? He was helping her and they killed him and now she’s—Oh, you’ve got to go!”
+“Don’t you see, Sam? He had the thing that was hers and he came to you with it. Don’t you see? He was helping her and they killed him and now she’s—Oh, you’ve got to go!”
 
 
 “All right.”
@@ -10810,26 +10825,20 @@ s=spade;e:spade=serious
 Spade pushed her away and bent over his desk, putting the black bird back into its nest of excelsior, bending the paper around it, working rapidly, making a larger and clumsy package.
 s=none
 
-“As soon as I’ve gone phone the police. Tell them how it happened, but don’t drag any names in.”
+“As soon as I’ve gone phone the police. Tell them how it happened, but don’t drag any names in. You don’t know. I got the phone call and I told you I had to go out, but I didn’t say where.”
 s=spade
-
-“You don’t know. I got the phone call and I told you I had to go out, but I didn’t say where.”
-
 
 He cursed the rope for being tangled, yanked it into straightness, and began to bind the package.
 s=none;e:spade=annoyed
 
 “Forget this thing. Tell it as it happened, but forget he had a bundle.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;i=2
 
 He chewed his lower lip.
 s=none;e:spade=thinking
 
-“Unless they pin you down. If they seem to know about it you’ll have to admit it. But that’s not likely.”
+“Unless they pin you down. If they seem to know about it you’ll have to admit it. But that’s not likely. If they do then I took the bundle away with me, unopened.”
 s=spade
-
-“If they do then I took the bundle away with me, unopened.”
-
 
 He finished tying the knot and straightened up with the parcel under his left arm.
 s=none;e:spade=serious
@@ -10837,10 +10846,7 @@ s=none;e:spade=serious
 “Get it straight, now. Everything happened the way it did happen, but without this dingus unless they already know about it.”
 s=spade
 
-“Don’t deny it—just don’t mention it. And I got the phone call—not you.”
-
-
-“And you don’t know anything about anybody else having any connection with this fellow.”
+“Don’t deny it—just don’t mention it. And I got the phone call—not you. And you don’t know anything about anybody else having any connection with this fellow.”
 
 
 “You don’t know anything about him and you can’t talk about my business until you see me. Got it?”
@@ -10856,7 +10862,7 @@ s=none;e:spade=smirking
 s=spade
 
 He picked up his hat and put it on. He looked thoughtfully at the dead man and then around the room.
-s=none;e:spade=thinking
+s=none;e:spade=thinking;x:spade=beat,hat
 
 “Hurry, Sam,” the girl begged.
 s=effie;e:effie=fearful
@@ -10864,17 +10870,20 @@ s=effie;e:effie=fearful
 “Sure,” he said absentmindedly, “I’ll hurry.”
 s=spade;e:spade=thinking
 
-“Might not hurt to get those few scraps of excelsior off the floor before the police come. And maybe you ought to try to get hold of Sid. No.”
+“Might not hurt to get those few scraps of excelsior off the floor before the police come. And maybe you ought to try to get hold of Sid.”
+
+
+“No.”
 
 
 He rubbed his chin.
 s=none
 
 “We’ll leave him out of it awhile. It’ll look better. I’d keep the door locked till they come.”
-s=spade;e:spade=serious
+s=spade;e:spade=chinrub
 
 He took his hand from his chin and rubbed her cheek.
-s=none;e:spade=sadsmile
+s=none;e:spade=smirking
 
 “You’re a damned good man, sister,” he said and went out.
 s=spade
