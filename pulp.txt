@@ -3542,7 +3542,7 @@ Her face did not change. She asked quietly:
 s=none
 
 “What did he say?”
-s=brigid;x:brigid=cig
+s=brigid;x:brigid=cig,unlighted
 
 “About what?”
 s=spade
@@ -3560,7 +3560,7 @@ Spade turned to hold his lighter under the end of her cigarette. His eyes were s
 s=none
 
 “Well, what did he say?” she asked with half-playful petulance.
-s=brigid;e:brigid=annoyed
+s=brigid;e:brigid=annoyed;x:brigid=cig
 
 “He offered me five thousand dollars for the black bird.”
 s=spade;e:spade=neutral
@@ -6191,7 +6191,7 @@ Spade licked his cigarette and smiled amiably at the boy.
 s=none;e:spade=happy
 
 “New York, aren’t you?”
-s=spade;e:spade=curious;x:spade=cig
+s=spade;e:spade=curious
 
 The boy stared at Spade’s tie and did not speak.
 s=none;e:youth=wary
@@ -6209,7 +6209,7 @@ s=none;e:youth=neutral
 s=youth;e:youth=annoyed
 
 Spade lighted his cigarette, leaned back comfortably on the divan, and spoke with good-natured carelessness:
-s=
+s=;x:spade=cig
 
 “You’ll have to talk to me before you’re through, sonny﻿—some of you will﻿—and you can tell G. I said so.”
 s=spade;e:spade=smirking
@@ -6779,16 +6779,19 @@ e:spade=serious
 r=title
 
 The telephone bell was ringing when Spade returned to his office after sending Brigid O’Shaughnessy off to Effie Perine’s house.
-
+b=office-inner
 
 He went to the telephone.
 
 
-“Hello.﻿﻿… Yes, this is Spade.﻿﻿… Yes, I got it. I’ve been waiting to hear from you.﻿﻿… Who?﻿﻿… Mr. Gutman? Oh, yes, sure!﻿﻿… Now﻿—the sooner the better.﻿﻿… 12-C.﻿﻿… Right. Say fifteen minutes.﻿﻿… Right.”
-s=spade;e:spade=neutral
+“Hello.﻿﻿… Yes, this is Spade.﻿﻿… Yes, I got it. I’ve been waiting to hear from you.﻿﻿…”
+s=spade;e:spade=contemplative;x:spade=phone
+
+“Who?﻿﻿… Mr. Gutman? Oh, yes, sure!﻿﻿… Now﻿—the sooner the better.﻿﻿… 12-C.﻿﻿… Right. Say fifteen minutes.﻿﻿… Right.”
+
 
 Spade sat on the corner of his desk beside the telephone and rolled a cigarette.
-s=none
+s=none;x:spade=
 
 His mouth was a hard complacent v. His eyes, watching his fingers make the cigarette, smoldered over lower lids drawn up straight.
 e:spade=serious
@@ -6796,23 +6799,29 @@ e:spade=serious
 The door opened and Iva Archer came in.
 e:iva=neutral
 
-Spade said, “Hello, honey,” in a voice as lightly amiable as his face had suddenly become.
-s=spade;e:spade=happy
+Spade said,
+
+
+“Hello, honey,”
+s=spade;e:spade=happy;m=allowbreak
+
+in a voice as lightly amiable as his face had suddenly become.
+m=;s=
 
 “Oh, Sam, forgive me! forgive me!” she cried in a choked voice.
-s=iva;e:iva=upset
+s=iva;e:iva=upset;x:iva=mourning,hat
 
 She stood just inside the door, wadding a black-bordered handkerchief in her small gloved hands, peering into his face with frightened red and swollen eyes.
 s=none;e:iva=fearful
 
-He did not get up from his seat on the desk-corner.
+He did not get up from his seat on the desk-corner. He said:
 
 
-He said: “Sure. That’s all right. Forget it.”
+“Sure. That’s all right. Forget it.”
 s=spade;e:spade=neutral
 
 “But, Sam,” she wailed, “I sent those policemen there. I was mad, crazy with jealousy, and I phoned them that if they’d go there they’d learn something about Miles’s murder.”
-s=iva;e:iva=upset
+s=iva;e:iva=upset;i=2
 
 “What made you think that?”
 s=spade;e:spade=curious
@@ -6847,17 +6856,29 @@ s=iva;e:iva=fearful
 “He told me he believed that, and yesterday he went and told the police.”
 
 
-“That’s nice,” Spade said softly. “And you came to warn me, and because I was busy you got up on your ear and helped this damned Phil Archer stir things up.”
+“That’s nice,” Spade said softly.
 s=spade;e:spade=annoyed
 
-“I’m sorry,” she whimpered, “I know you won’t forgive me. I﻿—I’m sorry, sorry, sorry.”
-s=iva;e:iva=upset
+“And you came to warn me, and because I was busy you got up on your ear and helped this damned Phil Archer stir things up.”
 
-“You ought to be,” he agreed, “on your own account as well as mine. Has Dundy been to see you since Phil did his talking? Or anybody from the bureau?”
+
+“I’m sorry,” she whimpered, “I know you won’t forgive me.”
+s=iva;e:iva=unhappy
+
+“I﻿—I’m sorry, sorry, sorry.”
+
+
+“You ought to be,” he agreed, “on your own account as well as mine.”
 s=spade;e:spade=serious
 
-“No.” Alarm opened her eyes and mouth.
+“Has Dundy been to see you since Phil did his talking? Or anybody from the bureau?”
+
+
+“No.”
 s=iva;e:iva=fearful
+
+Alarm opened her eyes and mouth.
+s=
 
 “They will,” he said, “and it’d be just as well to not let them find you here. Did you tell them who you were when you phoned?”
 s=spade;e:spade=serious
@@ -6871,7 +6892,10 @@ s=spade;e:spade=curious
 “The drugstore up above your place. Oh, Sam, dearest, I﻿—”
 s=iva;e:iva=upset
 
-He patted her shoulder and said pleasantly: “It was a dumb trick, all right, but it’s done now.”
+He patted her shoulder and said pleasantly:
+s=
+
+“It was a dumb trick, all right, but it’s done now.”
 s=spade;e:spade=sadsmile
 
 “You’d better run along home and think up things to tell the police. You’ll be hearing from them.”
@@ -6923,7 +6947,7 @@ s=iva
 s=spade;e:spade=neutral
 
 “But I was, I was.”
-s=iva;e:iva=angry
+s=iva;e:iva=serious
 
 Her lips twisted and anger darkened her eyes.
 s=none
@@ -6946,11 +6970,8 @@ s=none
 “You’ll have to trot along, precious. I’m late for an appointment now.”
 s=spade;e:spade=neutral
 
-“You do what you want, but if I were you I’d tell Sid the truth or nothing.”
+“You do what you want, but if I were you I’d tell Sid the truth or nothing. I mean leave out the parts you don’t want to tell him, but don’t make up anything to take its place.”
 e:spade=serious
-
-“I mean leave out the parts you don’t want to tell him, but don’t make up anything to take its place.”
-
 
 “I’m not lying to you, Sam,” she protested.
 s=iva;e:iva=upset
@@ -7001,10 +7022,16 @@ s=spade
 s=none
 
 The mahogany door of suite 12-C at the Alexandria Hotel was opened by the boy Spade had talked to in the Belvedere lobby.
-e:youth=neutral
+e:youth=neutral;b=12c
 
-Spade said, “Hello,” good-naturedly.
-s=spade;e:spade=happy
+Spade said,
+
+
+“Hello,”
+s=spade;e:spade=happy;m=allowbreak;x:spade=hat
+
+good-naturedly.
+m=;s=
 
 The boy did not say anything. He stood aside holding the door open.
 s=none;e:youth=scowling
@@ -7030,19 +7057,19 @@ His voice was a throaty purr.
 “Ah, Mr. Spade,” he said with enthusiasm and held out a hand like a fat pink star.
 s=gutman;e:gutman=excited
 
-Spade took the hand and smiled and said: “How do you do, Mr. Gutman?”
+Spade took the hand and smiled and said:
+s=
+
+“How do you do, Mr. Gutman?”
 s=spade;e:spade=happy
 
 Holding Spade’s hand, the fat man turned beside him, put his other hand to Spade’s elbow, and guided him across a green rug to a green plush chair beside a table that held a siphon, some glasses, and a bottle of Johnnie Walker whiskey on a tray, a box of cigars﻿—Coronas del Ritz﻿—two newspapers, and a small and plain yellow soapstone box.
 s=none;n:gutman=Mr. Gutman;e:gutman=happy
 
-Spade sat in the green chair. The fat man began to fill two glasses from bottle and siphon.
+Spade sat in the green chair. The fat man began to fill two glasses from bottle and siphon. The boy had disappeared.
 
 
-The boy had disappeared. Doors set in three of the room’s walls were shut.
-
-
-The fourth wall, behind Spade, was pierced by two windows looking out over Geary Street.
+Doors set in three of the room’s walls were shut. The fourth wall, behind Spade, was pierced by two windows looking out over Geary Street.
 
 
 “We begin well, sir,” the fat man purred, turning with a proffered glass in his hand.
@@ -7054,23 +7081,26 @@ e:gutman=smirking
 Spade took the glass and, smiling, made the beginning of a bow over it.
 s=none;e:spade=smirking
 
-The fat man raised his glass and held it against a window’s light.
+The fat man raised his glass and held it against a window’s light. He nodded approvingly at the bubbles running up in it.
 e:gutman=neutral
 
-He nodded approvingly at the bubbles running up in it.
-e:gutman=happy
+He said:
 
-He said: “Well, sir, here’s to plain speaking and clear understanding.”
+
+“Well, sir, here’s to plain speaking and clear understanding.”
 s=gutman;e:gutman=serious
 
 They drank and lowered their glasses.
 s=none
 
-The fat man looked shrewdly at Spade and asked: “You’re a closemouthed man?”
+The fat man looked shrewdly at Spade and asked:
+
+
+“You’re a closemouthed man?”
 s=gutman;e:gutman=curious
 
 Spade shook his head.
-s=none;e:spade=neutral
+s=none;e:spade=neutral;x:spade=
 
 “I like to talk.”
 s=spade;e:spade=smirking
@@ -7081,8 +7111,11 @@ s=gutman;e:gutman=excited
 “I distrust a closemouthed man. He generally picks the wrong time to talk and says the wrong things. Talking’s something you can’t do judiciously unless you keep in practice.”
 e:gutman=smirking
 
-He beamed over his glass. “We’ll get along, sir, that we will.”
-e:gutman=happy
+He beamed over his glass.
+s=
+
+“We’ll get along, sir, that we will.”
+e:gutman=happy;s=gutman
 
 He set his glass on the table and held the box of Coronas del Ritz out to Spade.
 s=none
@@ -7096,23 +7129,26 @@ s=none
 Meanwhile the fat man pulled another green plush chair around to face Spade’s within convenient distance and placed a smoking-stand within reach of both chairs.
 
 
-Then he took his glass from the table, took a cigar from the box, and lowered himself into his chair.
+Then he took his glass from the table, took a cigar from the box, and lowered himself into his chair. His bulbs stopped jouncing and settled into flabby rest.
 
 
-His bulbs stopped jouncing and settled into flabby rest.
+He sighed comfortably and said:
 
 
-He sighed comfortably and said: “Now, sir, we’ll talk if you like. And I’ll tell you right out that I’m a man who likes talking to a man that likes to talk.”
+“Now, sir, we’ll talk if you like. And I’ll tell you right out that I’m a man who likes talking to a man that likes to talk.”
 s=gutman;e:gutman=happy
 
 “Swell. Will we talk about the black bird?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;x:spade=cigar
 
 The fat man laughed and his bulbs rode up and down on his laughter.
 s=none;e:gutman=excited
 
-“Will we?” he asked and, “We will,” he replied.
+“Will we?” he asked and,
 s=gutman;e:gutman=happy
+
+“We will,” he replied.
+
 
 His pink face was shiny with delight.
 s=none
@@ -7129,17 +7165,20 @@ e:gutman=serious
 “You’re here as Miss O’Shaughnessy’s representative?”
 e:gutman=curious
 
-Spade blew smoke above the fat man’s head in a long slanting plume.
+Spade blew smoke above the fat man’s head in a long slanting plume. He frowned thoughtfully at the ash-tipped end of his cigar.
 s=none;e:spade=thinking
 
-He frowned thoughtfully at the ash-tipped end of his cigar.
+He replied deliberately:
 
 
-He replied deliberately: “I can’t say yes or no. There’s nothing certain about it either way, yet.”
+“I can’t say yes or no. There’s nothing certain about it either way, yet.”
 s=spade;e:spade=neutral
 
-He looked up at the fat man and stopped frowning. “It depends.”
-e:spade=serious
+He looked up at the fat man and stopped frowning.
+s=
+
+“It depends.”
+e:spade=serious;s=spade
 
 “It depends on﻿—?”
 s=gutman;e:gutman=curious
@@ -7150,17 +7189,17 @@ s=none;e:spade=neutral
 “If I knew what it depends on I could say yes or no.”
 s=spade
 
-The fat man took a mouthful from his glass, swallowed it, and suggested: “Maybe it depends on Joel Cairo?”
+The fat man took a mouthful from his glass, swallowed it, and suggested:
+s=
+
+“Maybe it depends on Joel Cairo?”
 s=gutman;e:gutman=smirking
 
 Spade’s prompt “Maybe” was noncommittal. He drank.
 s=spade;e:spade=neutral
 
-The fat man leaned forward until his belly stopped him.
+The fat man leaned forward until his belly stopped him. His smile was ingratiating and so was his purring voice.
 s=none
-
-His smile was ingratiating and so was his purring voice.
-e:gutman=smirking
 
 “You could say, then, that the question is which one of them you’ll represent?”
 s=gutman;e:gutman=curious
@@ -7174,38 +7213,35 @@ s=gutman;e:gutman=curious
 “I didn’t say that.”
 s=spade;e:spade=smirking
 
-The fat man’s eyes glistened.
+The fat man’s eyes glistened. His voice sank to a throaty whisper asking:
 s=none;e:gutman=contemplative
 
-His voice sank to a throaty whisper asking: “Who else is there?”
+“Who else is there?”
 s=gutman;e:gutman=curious
 
 Spade pointed his cigar at his own chest.
-s=none
+s=none;x:spade=
 
 “There’s me,” he said.
 s=spade;e:spade=smirking
 
-The fat man sank back in his chair and let his body go flaccid.
+The fat man sank back in his chair and let his body go flaccid. He blew his breath out in a long contented gust.
 s=none
 
-He blew his breath out in a long contented gust. “That’s wonderful, sir,” he purred.
+“That’s wonderful, sir,” he purred.
 s=gutman;e:gutman=happy
 
-“That’s wonderful. I do like a man that tells you right out he’s looking out for himself. Don’t we all?”
-
-
-“I don’t trust a man that says he’s not.”
+“That’s wonderful. I do like a man that tells you right out he’s looking out for himself. Don’t we all? I don’t trust a man that says he’s not.”
 e:gutman=serious
 
 “And the man that’s telling the truth when he says he’s not I distrust most of all, because he’s an ass and an ass that’s going contrary to the laws of nature.”
 e:gutman=smirking
 
-Spade exhaled smoke. His face was politely attentive.
+Spade exhaled smoke. His face was politely attentive. He said:
 s=none;e:spade=neutral
 
-He said: “Uh-huh. Now let’s talk about the black bird.”
-s=spade;e:spade=serious
+“Uh-huh. Now let’s talk about the black bird.”
+s=spade;e:spade=serious;x:spade=cigar
 
 The fat man smiled benevolently.
 s=none;e:gutman=happy
@@ -7237,26 +7273,38 @@ s=spade
 The fat man laughed.
 s=none;e:gutman=smirking
 
-“You couldn’t do it, sir.”
-s=gutman
+“You couldn’t do it, sir. Nobody could do it that hadn’t had a world of experience with things of that sort, and”﻿—
+e:gutman=serious;m=allowbreak;m=nospace
 
-“Nobody could do it that hadn’t had a world of experience with things of that sort, and”﻿—he paused impressively﻿—“there aren’t any other things of that sort.”
-e:gutman=serious
+he paused impressively﻿—
+s=
 
-His bulbs jostled one another as he laughed again. He stopped laughing, abruptly.
+“there aren’t any other things of that sort.”
+s=gutman;i=2;m=;e:gutman=smirking
+
+His bulbs jostled one another as he laughed again.
 s=none
 
-His fleshy lips hung open as laughter had left them. He stared at Spade with an intentness that suggested myopia.
+He stopped laughing, abruptly.
 e:gutman=surprised
 
-He asked: “You mean you don’t know what it is?” Amazement took the throatiness out of his voice.
+His fleshy lips hung open as laughter had left them.
+
+
+He stared at Spade with an intentness that suggested myopia. He asked:
+
+
+“You mean you don’t know what it is?”
 s=gutman;e:gutman=curious
+
+Amazement took the throatiness out of his voice.
+s=
 
 Spade made a careless gesture with his cigar.
 s=none;e:spade=smirking
 
 “Oh, hell,” he said lightly, “I know what it’s supposed to look like.”
-s=spade
+s=spade;x:spade=
 
 “I know the value in life you people put on it. I don’t know what it is.”
 e:spade=neutral
@@ -7276,23 +7324,35 @@ s=spade;e:spade=neutral
 The fat man’s eyes were dark gleams in ambush behind pink puffs of flesh.
 s=none;e:gutman=serious
 
-He said indistinctly, “She must know,” and then, “And Cairo didn’t either?”
-s=gutman;e:gutman=thinking
+He said indistinctly,
+
+
+“She must know,”
+s=gutman;e:gutman=thinking;m=allowbreak
+
+and then,
+s=;m=
+
+“And Cairo didn’t either?”
+s=gutman;i=2
 
 “Cairo is cagey. He’s willing to buy it, but he won’t risk telling me anything I don’t know already.”
 s=spade;e:spade=smirking
 
-The fat man moistened his lips with his tongue. “How much is he willing to buy it for?” he asked.
+The fat man moistened his lips with his tongue.
+s=
+
+“How much is he willing to buy it for?” he asked.
 s=gutman;e:gutman=curious
 
 “Ten thousand dollars.”
 s=spade;e:spade=neutral
 
-The fat man laughed scornfully. “Ten thousand, and dollars, mind you, not even pounds.”
+The fat man laughed scornfully.
+s=
+
+“Ten thousand, and dollars, mind you, not even pounds. That’s the Greek for you. Humph! And what did you say to that?”
 s=gutman;e:gutman=smirking
-
-“That’s the Greek for you. Humph! And what did you say to that?”
-
 
 “I said if I turned it over to him I’d expect the ten thousand.”
 s=spade
@@ -7303,35 +7363,41 @@ s=gutman;e:gutman=happy
 The fat man’s forehead squirmed in a flesh-blurred frown.
 s=none;e:gutman=thinking
 
-“They must know,” he said only partly aloud, then: “Do they? Do they know what the bird is, sir? What was your impression?”
-s=gutman
+“They must know,” he said only partly aloud, then:
+s=gutman;e:gutman=contemplative
 
-“I can’t help you there,” Spade confessed. “There’s not much to go by.”
+“Do they? Do they know what the bird is, sir? What was your impression?”
+e:gutman=serious
+
+“I can’t help you there,” Spade confessed.
 s=spade;e:spade=neutral
 
-“Cairo didn’t say he did and he didn’t say he didn’t.”
+“There’s not much to go by. Cairo didn’t say he did and he didn’t say he didn’t.”
 
 
 “She said she didn’t, but I took it for granted that she was lying.”
 e:spade=smirking
 
 “That was not an injudicious thing to do,” the fat man said, but his mind was obviously not on his words.
-s=gutman;e:gutman=contemplative
+s=gutman;e:gutman=contemplative;i=2
 
-He scratched his head. He frowned until his forehead was marked by raw red creases.
+He scratched his head. He frowned until his forehead was marked by raw red creases. He fidgeted in his chair as much as his size and the size of the chair permitted fidgeting.
 s=none;e:gutman=thinking
 
-He fidgeted in his chair as much as his size and the size of the chair permitted fidgeting.
+He shut his eyes, opened them suddenly﻿—wide﻿—and said to Spade:
 
 
-He shut his eyes, opened them suddenly﻿—wide﻿—and said to Spade: “Maybe they don’t.”
+“Maybe they don’t.”
 s=gutman;e:gutman=surprised
 
 His bulbous pink face slowly lost its worried frown and then, more quickly, took on an expression of ineffable happiness.
 s=none;e:gutman=excited
 
-“If they don’t,” he cried, and again: “If they don’t I’m the only one in the whole wide sweet world who does!”
+“If they don’t,” he cried, and again:
 s=gutman
+
+“If they don’t I’m the only one in the whole wide sweet world who does!”
+
 
 Spade drew his lips back in a tight smile.
 s=none;e:spade=smirking
@@ -7342,11 +7408,8 @@ s=spade
 The fat man smiled too, but somewhat vaguely. Happiness had gone out of his face, though he continued to smile, and caution had come into his eyes.
 s=none;e:gutman=wary
 
-His face was a watchful-eyed smiling mask held up between his thoughts and Spade.
+His face was a watchful-eyed smiling mask held up between his thoughts and Spade. His eyes, avoiding Spade’s, shifted to the glass at Spade’s elbow. His face brightened.
 
-
-His eyes, avoiding Spade’s, shifted to the glass at Spade’s elbow. His face brightened.
-e:gutman=happy
 
 “By Gad, sir,” he said, “your glass is empty.”
 s=gutman;e:gutman=surprised
@@ -7354,25 +7417,31 @@ s=gutman;e:gutman=surprised
 He got up and went to the table and clattered glasses and siphon and bottle mixing two drinks.
 s=none
 
-Spade was immobile in his chair until the fat man, with a flourish and a bow and a jocular “Ah, sir, this kind of medicine will never hurt you!”
+Spade was immobile in his chair until the fat man, with a flourish and a bow and a jocular
+m=allowbreak
+
+“Ah, sir, this kind of medicine will never hurt you!”
 s=gutman;e:gutman=excited
 
 had handed him his refilled glass.
-s=none;e:gutman=happy
+s=none;e:gutman=happy;m=
 
 Then Spade rose and stood close to the fat man, looking down at him, and Spade’s eyes were hard and bright.
 e:spade=serious
 
-He raised his glass. His voice was deliberate, challenging: “Here’s to plain speaking and clear understanding.”
+He raised his glass. His voice was deliberate, challenging:
+
+
+“Here’s to plain speaking and clear understanding.”
 s=spade
 
 The fat man chuckled and they drank. The fat man sat down.
 s=none;e:gutman=smirking
 
-He held his glass against his belly with both hands and smiled up at Spade.
+He held his glass against his belly with both hands and smiled up at Spade. He said:
 e:gutman=happy
 
-He said: “Well, sir, it’s surprising, but it well may be a fact that neither of them does know exactly what that bird is, and that nobody in all this whole wide sweet world knows what it is, saving and excepting only your humble servant, Casper Gutman, Esquire.”
+“Well, sir, it’s surprising, but it well may be a fact that neither of them does know exactly what that bird is, and that nobody in all this whole wide sweet world knows what it is, saving and excepting only your humble servant, Casper Gutman, Esquire.”
 s=gutman;;e:gutman=excited
 
 “Swell.”
@@ -7387,8 +7456,11 @@ s=spade
 “Mathematically correct, sir”﻿—the fat man’s eyes twinkled﻿—“but”﻿—his smile spread﻿—“I don’t know for certain that I’m going to tell you.”
 s=gutman;e:gutman=smirking
 
-“Don’t be a damned fool,” Spade said patiently. “You know what it is. I know where it is. That’s why we’re here.”
+“Don’t be a damned fool,” Spade said patiently.
 s=spade;e:spade=serious
+
+“You know what it is. I know where it is. That’s why we’re here.”
+
 
 “Well, sir, where is it?”
 s=gutman;e:gutman=curious
@@ -7405,83 +7477,71 @@ s=gutman;e:gutman=neutral
 “No, no, I do not think we can do business along those lines.”
 e:gutman=serious
 
-Spade’s face became pale and hard.
+Spade’s face became pale and hard. He spoke rapidly in a low furious voice:
 s=none;e:spade=angry
 
-He spoke rapidly in a low furious voice: “Think again and think fast. I told that punk of yours that you’d have to talk to me before you got through.”
+“Think again and think fast. I told that punk of yours that you’d have to talk to me before you got through. I’ll tell you now that you’ll do your talking today or you are through.”
 s=spade
 
-“I’ll tell you now that you’ll do your talking today or you are through.”
+“What are you wasting my time for? You and your lousy secret! Christ! I know exactly what that stuff is that they keep in the subtreasury vaults, but what good does that do me?”
 
 
-“What are you wasting my time for? You and your lousy secret! Christ!”
-
-
-“I know exactly what that stuff is that they keep in the subtreasury vaults, but what good does that do me?”
-
-
-“I can get along without you. God damn you! Maybe you could have got along without me if you’d kept clear of me.”
-
-
-“You can’t now. Not in San Francisco.”
+“I can get along without you. God damn you! Maybe you could have got along without me if you’d kept clear of me. You can’t now. Not in San Francisco.”
 
 
 “You’ll come in or you’ll get out﻿—and you’ll do it today.”
 
 
-He turned and with angry heedlessness tossed his glass at the table.
-s=none
-
-The glass struck the wood, burst apart, and splashed its contents and glittering fragments over table and floor.
-
+He turned and with angry heedlessness tossed his glass at the table. The glass struck the wood, burst apart, and splashed its contents and glittering fragments over table and floor.
+s=none;f:b:12c=blur(3px)
 
 Spade, deaf and blind to the crash, wheeled to confront the fat man again.
-
+f:b:12c=
 
 The fat man paid no more attention to the glass’s fate than Spade did: lips pursed, eyebrows raised, head cocked a little to the left, he had maintained his pink-faced blandness throughout Spade’s angry speech, and he maintained it now.
 e:gutman=neutral
 
-Spade, still furious, said: “And another thing, I don’t want﻿—”
+Spade, still furious, said:
+
+
+“And another thing, I don’t want﻿—”
 s=spade;e:spade=angry
 
 The door to Spade’s left opened.
 s=none
 
-The boy who had admitted Spade came in. He shut the door, stood in front of it with his hands flat against his flanks, and looked at Spade.
+The boy who had admitted Spade came in. He shut the door, stood in front of it with his hands flat against his flanks, and looked at Spade. The boy’s eyes were wide open and dark with wide pupils.
 e:youth=serious
-
-The boy’s eyes were wide open and dark with wide pupils.
-
 
 Their gaze ran over Spade’s body from shoulders to knees, and up again to settle on the handkerchief whose maroon border peeped from the breast-pocket of Spade’s brown coat.
 
 
-“Another thing,” Spade repeated, glaring at the boy: “Keep that gunsel away from me while you’re making up your mind.”
+“Another thing,” Spade repeated, glaring at the boy:
 s=spade
 
-“I’ll kill him. I don’t like him. He makes me nervous.”
+“Keep that gunsel away from me while you’re making up your mind.”<e>"gunsel"</e>
 
 
-“I’ll kill him the first time he gets in my way. I won’t give him an even break. I won’t give him a chance. I’ll kill him.”
+“I’ll kill him. I don’t like him. He makes me nervous. I’ll kill him the first time he gets in my way. I won’t give him an even break. I won’t give him a chance. I’ll kill him.”
 
 
 The boy’s lips twitched in a shadowy smile. He neither raised his eyes nor spoke.
 s=none;e:youth=smirking
 
-The fat man said tolerantly: “Well, sir, I must say you have a most violent temper.”
+The fat man said tolerantly:
+
+
+“Well, sir, I must say you have a most violent temper.”
 s=gutman;e:gutman=smirking
 
 “Temper?” Spade laughed crazily.
 s=spade;e:spade=angry
 
 He crossed to the chair on which he had dropped his hat, picked up the hat, and set it on his head.
-s=none
+s=none;x:spade=hat
 
-He held out a long arm that ended in a thick forefinger pointing at the fat man’s belly.
+He held out a long arm that ended in a thick forefinger pointing at the fat man’s belly. His angry voice filled the room.
 
-
-His angry voice filled the room.
-e:spade=angry
 
 “Think it over and think like hell. You’ve got till five-thirty to do it in. Then you’re either in or out, for keeps.”
 s=spade
@@ -7489,17 +7549,17 @@ s=spade
 He let his arm drop, scowled at the bland fat man for a moment, scowled at the boy, and went to the door through which he had entered.
 s=none
 
-When he opened the door he turned and said harshly: “Five-thirty﻿—then the curtain.”
+When he opened the door he turned and said harshly:
+
+
+“Five-thirty﻿—then the curtain.”
 s=spade
 
-The boy, staring at Spade’s chest, repeated the two words he had twice spoken in the Belvedere lobby.
+The boy, staring at Spade’s chest, repeated the two words he had twice spoken in the Belvedere lobby. His voice was not loud. It was bitter.
 s=none;e:youth=scowling
 
-His voice was not loud. It was bitter.
-
-
 Spade went out and slammed the door.
-
+f:b:12c=blur(3px)
 
 ## XII<br>Merry-Go-Round
 r=title
