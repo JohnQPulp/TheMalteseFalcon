@@ -14116,10 +14116,10 @@ r=title
 For all of five minutes after the outer door had closed behind Casper Gutman and Joel Cairo, Spade, motionless, stood staring at the knob of the open living-room door.
 b=spade-bedroom-living
 
-His eyes were gloomy under a forehead drawn down. The clefts at the root of his nose were deep and red.
+His eyes were gloomy under a forehead drawn down. The clefts at the root of his nose were deep and red. His lips protruded loosely, pouting.
 e:spade=serious
 
-His lips protruded loosely, pouting. He drew them in to make a hard v and went to the telephone.
+He drew them in to make a hard v and went to the telephone.
 
 
 He had not looked at Brigid O’Shaughnessy, who stood by the table looking with uneasy eyes at him.
@@ -14135,13 +14135,13 @@ He called a number and said:
 
 
 “Hello, is Sergeant Polhaus there?﻿… Will you call him, please? This is Samuel Spade.﻿…”
-s=spade
+s=spade;x:spade=phone
 
 He stared into space, waiting.
 s=none
 
 “Hello, Tom, I’ve got something for you.﻿… Yes, plenty. Here it is: Thursby and Jacobi were shot by a kid named Wilmer Cook.”
-s=spade
+s=spade;i=2
 
 He described the boy minutely.
 s=none
@@ -14153,7 +14153,7 @@ He described Gutman.
 s=none
 
 “That fellow Cairo you met here is in with them too.﻿… Yes, that’s it.﻿… Gutman’s staying at the Alexandria, suite 12-C, or was.”
-s=spade
+s=spade;e:spade=
 
 “They’ve just left here and they’re blowing town, so you’ll have to move fast, but I don’t think they’re expecting a pinch.﻿… There’s a girl in it too﻿—Gutman’s daughter.”
 
@@ -14161,13 +14161,16 @@ s=spade
 He described Rhea Gutman.
 s=none
 
-“Watch yourself when you go up against the kid. He’s supposed to be pretty good with the gun.﻿… That’s right, Tom, and I’ve got some stuff here for you. I think I’ve got the guns he used.﻿… That’s right. Step on it﻿—and luck to you!”
-s=spade
+“Watch yourself when you go up against the kid. He’s supposed to be pretty good with the gun.﻿…”
+s=spade;e:spade=smirking
 
-Spade slowly replaced receiver on prong, telephone on shelf. He wet his lips and looked down at his hands.
-s=none;e:spade=thinking
+“That’s right, Tom, and I’ve got some stuff here for you. I think I’ve got the guns he used.﻿… That’s right. Step on it﻿—and luck to you!”
 
-Their palms were wet. He filled his deep chest with air. His eyes were glittering between straightened lids.
+
+Spade slowly replaced receiver on prong, telephone on shelf.
+s=none;e:spade=thinking;x:spade=
+
+He wet his lips and looked down at his hands. Their palms were wet. He filled his deep chest with air. His eyes were glittering between straightened lids.
 e:spade=serious
 
 He turned and took three long swift steps into the living-room.
@@ -14180,7 +14183,7 @@ Spade, face to face with her, very close to her, tall, big-boned and thick-muscl
 e:spade=smirking
 
 “They’ll talk when they’re nailed﻿—about us. We’re sitting on dynamite, and we’ve only got minutes to get set for the police.”
-s=spade
+s=spade;e:spade=serious
 
 “Give me all of it﻿—fast. Gutman sent you and Cairo to Constantinople?”
 e:spade=serious
@@ -14191,8 +14194,11 @@ s=none;e:brigid=nervous
 He put a hand on her shoulder.
 
 
-“God damn you, talk!” he said. “I’m in this with you and you’re not going to gum it. Talk. He sent you to Constantinople?”
+“God damn you, talk!” he said.
 s=spade;e:spade=angry
+
+“I’m in this with you and you’re not going to gum it. Talk. He sent you to Constantinople?”
+
 
 “Y-yes, he sent me. I met Joe there and﻿—and asked him to help me. Then we﻿—”
 s=brigid;e:brigid=nervous
@@ -14213,7 +14219,7 @@ s=none;e:brigid=fearful
 s=brigid
 
 “All right. Then?”
-s=spade
+s=spade;e:spade=annoyed
 
 “Oh, then I began to be afraid that Joe wouldn’t play fair with me, so﻿—so I asked Floyd Thursby to help me.”
 s=brigid
@@ -14222,13 +14228,13 @@ s=brigid
 s=spade
 
 “Well, we got it and went to Hong Kong.”
-s=brigid
+s=brigid;e:brigid=thinking
 
 “With Cairo? Or had you ditched him before that?”
 s=spade
 
 “Yes. We left him in Constantinople, in jail﻿—something about a check.”
-s=brigid
+s=brigid;i=2
 
 “Something you fixed up to hold him there?”
 s=spade
@@ -14260,19 +14266,19 @@ s=brigid;e:brigid=fearful
 “And I was afraid he’d have learned that we had left Hong Kong for San Francisco. He was in New York and I knew if he heard that by cable he would have plenty of time to get here by the time we did, or before.”
 
 
-“He did. I didn’t know that then, but I was afraid of it, and I had to wait here until Captain Jacobi’s boat arrived.”
+“He did. I didn’t know that then, but I was afraid of it, and I had to wait here until Captain Jacobi’s boat arrived. And I was afraid Gutman would find me﻿—or find Floyd and buy him over.”
+e:brigid=contemplative
 
-
-“And I was afraid Gutman would find me﻿—or find Floyd and buy him over. That’s why I came to you and asked you to watch him for﻿—”
-
+“That’s why I came to you and asked you to watch him for﻿—”
+e:brigid=contemplative
 
 “That’s a lie,” Spade said.
 s=spade;e:spade=angry
 
-“You had Thursby hooked and you knew it. He was a sucker for women. His record shows that﻿—the only falls he took were over women.”
+“You had Thursby hooked and you knew it. He was a sucker for women. His record shows that﻿—the only falls he took were over women. And once a chump, always a chump.”
 
 
-“And once a chump, always a chump. Maybe you didn’t know his record, but you’d know you had him safe.”
+“Maybe you didn’t know his record, but you’d know you had him safe.”
 
 
 She blushed and looked timidly at him.
@@ -14287,10 +14293,7 @@ s=spade
 “I﻿—I knew he’d left the States with a gambler after some trouble.”
 s=brigid
 
-“I didn’t know what it was, but I thought that if it was anything serious and he saw a detective watching him he’d think it was on account of the old trouble, and would be frightened into going away.”
-
-
-“I didn’t think﻿—”
+“I didn’t know what it was, but I thought that if it was anything serious and he saw a detective watching him he’d think it was on account of the old trouble, and would be frightened into going away. I didn’t think﻿—”
 
 
 “You told him he was being shadowed,” Spade said confidently.
@@ -14300,22 +14303,19 @@ s=spade;e:spade=smirking
 
 
 “I told him, yes. When we went out for a walk that night I pretended to discover Mr. Archer following us and pointed him out to Floyd.”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=unhappy
 
 She sobbed.
 s=none
 
 “But please believe, Sam, that I wouldn’t have done it if I had thought Floyd would kill him. I thought he’d be frightened into leaving the city.”
-s=brigid
+s=brigid;e:brigid=upset
 
 “I didn’t for a minute think he’d shoot him like that.”
 
 
-Spade smiled wolfishly with his lips, but not at all with his eyes.
+Spade smiled wolfishly with his lips, but not at all with his eyes. He said:
 s=none;e:spade=smirking
-
-He said:
-
 
 “If you thought he wouldn’t you were right, angel.”
 s=spade
@@ -14336,46 +14336,31 @@ Spade said:
 
 
 “Miles hadn’t many brains, but, Christ! he had too many years’ experience as a detective to be caught like that by the man he was shadowing.”
-s=spade
+s=spade;e:spade=annoyed
 
-“Up a blind alley with his gun tucked away on his hip and his overcoat buttoned? Not a chance.”
-
-
-“He was as dumb as any man ought to be, but he wasn’t quite that dumb.”
+“Up a blind alley with his gun tucked away on his hip and his overcoat buttoned? Not a chance. He was as dumb as any man ought to be, but he wasn’t quite that dumb.”
 
 
 “The only two ways out of the alley could be watched from the edge of Bush Street over the tunnel.”
+e:spade=serious
+
+“You’d told us Thursby was a bad actor. He couldn’t have tricked Miles into the alley like that, and he couldn’t have driven him in. He was dumb, but not dumb enough for that.”
 
 
-“You’d told us Thursby was a bad actor. He couldn’t have tricked Miles into the alley like that, and he couldn’t have driven him in.”
-
-
-“He was dumb, but not dumb enough for that.”
-
-
-He ran his tongue over the inside of his lips and smiled affectionately at the girl.
+He ran his tongue over the inside of his lips and smiled affectionately at the girl. He said:
 s=none;e:spade=smirking
-
-He said:
-
 
 “But he’d’ve gone up there with you, angel, if he was sure nobody else was up there.”
 s=spade
 
-“You were his client, so he would have had no reason for not dropping the shadow on your say-so, and if you caught up with him and asked him to go up there he’d’ve gone.”
-
-
-“He was just dumb enough for that.”
+“You were his client, so he would have had no reason for not dropping the shadow on your say-so, and if you caught up with him and asked him to go up there he’d’ve gone. He was just dumb enough for that.”
 
 
 “He’d’ve looked you up and down and licked his lips and gone grinning from ear to ear﻿—and then you could’ve stood as close to him as you liked in the dark and put a hole through him with the gun you had got from Thursby that evening.”
 
 
-Brigid O’Shaughnessy shrank back from him until the edge of the table stopped her.
+Brigid O’Shaughnessy shrank back from him until the edge of the table stopped her. She looked at him with terrified eyes and cried:
 s=none;e:brigid=fearful
-
-She looked at him with terrified eyes and cried:
-
 
 “Don’t﻿—don’t talk to me like that, Sam! You know I didn’t! You know﻿—”
 s=brigid
@@ -14413,7 +14398,10 @@ s=brigid;e:brigid=confused
 Spade laughed harshly.
 s=none;e:spade=smirking
 
-“I knew Miles. But never mind that. Why did you shoot him?”
+“I knew Miles.”
+s=spade
+
+“But never mind that. Why did you shoot him?”
 s=spade;e:spade=serious
 
 She twisted her wrists out of Spade’s fingers and put her hands up around the back of his neck, pulling his head down until his mouth all but touched hers.
@@ -14422,34 +14410,22 @@ s=none;e:brigid=nervous
 Her body was flat against his from knees to chest.
 
 
-He put his arms around her, holding her tight to him. Her dark-lashed lids were half down over velvet eyes.
+He put his arms around her, holding her tight to him.
 e:spade=neutral
 
-Her voice was hushed, throbbing:
+Her dark-lashed lids were half down over velvet eyes. Her voice was hushed, throbbing:
 
 
-“I didn’t mean to, at first. I didn’t, really.”
+“I didn’t mean to, at first. I didn’t, really. I meant what I told you, but when I saw Floyd couldn’t be frightened I﻿—”
 s=brigid;e:brigid=upset
 
-“I meant what I told you, but when I saw Floyd couldn’t be frightened I﻿—”
-
-
-Spade slapped her shoulder.
+Spade slapped her shoulder. He said:
 s=none;e:spade=angry
-
-He said:
-
 
 “That’s a lie. You asked Miles and me to handle it ourselves. You wanted to be sure the shadower was somebody you knew and who knew you, so they’d go with you.”
 s=spade
 
-“You got the gun from Thursby that day﻿—that night.”
-
-
-“You had already rented the apartment at the Coronet.”
-
-
-“You had trunks there and none at the hotel and when I looked the apartment over I found a rent-receipt dated five or six days before the time you told me you rented it.”
+“You got the gun from Thursby that day﻿—that night. You had already rented the apartment at the Coronet. You had trunks there and none at the hotel and when I looked the apartment over I found a rent-receipt dated five or six days before the time you told me you rented it.”
 
 
 She swallowed with difficulty and her voice was humble.
@@ -14480,24 +14456,21 @@ s=spade
 s=brigid;e:brigid=nervous
 
 “And when you found that Thursby didn’t mean to tackle him you borrowed the gun and did it yourself. Right?”
-s=spade
+s=spade;e:spade=scowling
 
 “Yes﻿—though not exactly.”
-s=brigid
+s=brigid;i=2
 
 “But exact enough. And you had that plan up your sleeve from the first. You thought Floyd would be nailed for the killing.”
-s=spade
+s=spade;i=2
 
 “I﻿—I thought they’d hold him at least until after Captain Jacobi had arrived with the falcon and﻿—”
 s=brigid;e:brigid=wary
 
-“And you didn’t know then that Gutman was here hunting for you.”
+“And you didn’t know then that Gutman was here hunting for you. You didn’t suspect that or you wouldn’t have shaken your gunman.”
 s=spade;e:spade=serious
 
-“You didn’t suspect that or you wouldn’t have shaken your gunman. You knew Gutman was here as soon as you heard Thursby had been shot.”
-
-
-“Then you knew you needed another protector, so you came back to me. Right?”
+“You knew Gutman was here as soon as you heard Thursby had been shot. Then you knew you needed another protector, so you came back to me. Right?”
 
 
 “Yes, but﻿—oh, sweetheart!﻿—it wasn’t only that. I would have come back to you sooner or later. From the first instant I saw you I knew﻿—”
@@ -14516,7 +14489,7 @@ He was pale. He said tenderly:
 e:spade=serious
 
 “I hope to Christ they don’t hang you, precious, by that sweet neck.”
-s=spade
+s=spade;e:spade=contemplative
 
 He slid his hands up to caress her throat.
 s=none
@@ -14524,14 +14497,11 @@ s=none
 In an instant she was out of his arms, back against the table, crouching, both hands spread over her throat.
 e:brigid=fearful
 
-Her face was wild-eyed, haggard. Her dry mouth opened and closed.
-
-
-She said in a small parched voice:
+Her face was wild-eyed, haggard. Her dry mouth opened and closed. She said in a small parched voice:
 
 
 “You’re not﻿—”
-s=brigid
+s=brigid;e:brigid=throat
 
 She could get no other words out.
 s=none
@@ -14542,11 +14512,8 @@ e:spade=smirking
 His voice was soft, gentle. He said:
 
 
-“I’m going to send you over. The chances are you’ll get off with life.”
+“I’m going to send you over. The chances are you’ll get off with life. That means you’ll be out again in twenty years. You’re an angel. I’ll wait for you.”
 s=spade
-
-“That means you’ll be out again in twenty years. You’re an angel. I’ll wait for you.”
-
 
 He cleared his throat.
 s=none;e:spade=serious
@@ -14557,14 +14524,11 @@ s=spade
 She dropped her hands and stood erect.
 s=none;e:brigid=neutral
 
-Her face became smooth and untroubled except for the faintest of dubious glints in her eyes.
+Her face became smooth and untroubled except for the faintest of dubious glints in her eyes. She smiled back at him, gently.
 e:brigid=wary
 
-She smiled back at him, gently.
-e:brigid=sadsmile
-
 “Don’t, Sam, don’t say that even in fun. Oh, you frightened me for a moment! I really thought you﻿—You know you do such wild and unpredictable things that﻿—”
-s=brigid
+s=brigid;i=2
 
 She broke off.
 s=none
@@ -14584,17 +14548,11 @@ s=none
 Spade laughed.
 e:spade=smirking
 
-His yellow-white face was damp with sweat and though he held his smile he could not hold softness in his voice.
+His yellow-white face was damp with sweat and though he held his smile he could not hold softness in his voice. He croaked:
 
 
-He croaked:
-
-
-“Don’t be silly. You’re taking the fall. One of us has got to take it, after the talking those birds will do.”
+“Don’t be silly. You’re taking the fall. One of us has got to take it, after the talking those birds will do. They’d hang me sure. You’re likely to get a better break. Well?”
 s=spade;e:spade=weary
-
-“They’d hang me sure. You’re likely to get a better break. Well?”
-
 
 “But﻿—but, Sam, you can’t! Not after what we’ve been to each other. You can’t﻿—”
 s=brigid;e:brigid=upset
@@ -14609,13 +14567,13 @@ s=none
 s=brigid
 
 “I think I do,” Spade said. “What of it?”
-s=spade;e:spade=serious
+s=spade;e:spade=angrysmile
 
 The muscles holding his smile in place stood out like wales.
 s=none
 
 “I’m not Thursby. I’m not Jacobi. I won’t play the sap for you.”
-s=spade;e:spade=angry
+s=spade;e:spade=angrysmile;i=2
 
 “That is not just,” she cried.
 s=brigid;e:brigid=angry
@@ -14626,16 +14584,10 @@ s=none;e:brigid=upset
 “It’s unfair. It’s contemptible of you. You know it was not that. You can’t say that.”
 s=brigid
 
-“Like hell I can’t,” Spade said.
+“Like hell I can’t,” Spade said. “You came into my bed to stop me asking questions. You led me out yesterday for Gutman with that phoney call for help.”
 s=spade;e:spade=angry
 
-“You came into my bed to stop me asking questions. You led me out yesterday for Gutman with that phoney call for help.”
-
-
-“Last night you came here with them and waited outside for me and came in with me.”
-
-
-“You were in my arms when the trap was sprung﻿—I couldn’t have gone for a gun if I’d had one on me and couldn’t have made a fight of it if I had wanted to.”
+“Last night you came here with them and waited outside for me and came in with me. You were in my arms when the trap was sprung﻿—I couldn’t have gone for a gun if I’d had one on me and couldn’t have made a fight of it if I had wanted to.”
 
 
 “And if they didn’t take you away with them it was only because Gutman’s got too much sense to trust you except for short stretches when he has to and because he thought I’d play the sap for you and﻿—not wanting to hurt you﻿—wouldn’t be able to hurt him.”
@@ -14656,10 +14608,10 @@ s=spade
 “You who arranged that nice little trick for﻿—for my predecessor, Thursby? You who knocked off Miles, a man you had nothing against, in cold blood, just like swatting a fly, for the sake of double-crossing Thursby?”
 
 
-“You who double-crossed Gutman, Cairo, Thursby﻿—one, two, three?”
+“You who double-crossed Gutman, Cairo, Thursby﻿—one, two, three? You who’ve never played square with me for half an hour at a stretch since I’ve known you?”
 
 
-“You who’ve never played square with me for half an hour at a stretch since I’ve known you? I should trust you? No, no, darling. I wouldn’t do it even if I could. Why should I?”
+“I should trust you? No, no, darling. I wouldn’t do it even if I could. Why should I?”
 
 
 Her eyes were steady under his and her hushed voice was steady when she replied:
@@ -14675,7 +14627,7 @@ He cleared his throat huskily and said:
 
 
 “Making speeches is no damned good now.”
-s=spade;e:spade=weary
+s=spade;e:spade=serious
 
 He put a hand on her shoulder. The hand shook and jerked.
 s=none
@@ -14683,10 +14635,7 @@ s=none
 “I don’t care who loves who. I’m not going to play the sap for you. I won’t walk in Thursby’s and Christ knows who else’s footsteps.”
 s=spade;e:spade=angry
 
-“You killed Miles and you’re going over for it.”
-
-
-“I could have helped you by letting the others go and standing off the police the best way I could. It’s too late for that now. I can’t help you now. And I wouldn’t if I could.”
+“You killed Miles and you’re going over for it. I could have helped you by letting the others go and standing off the police the best way I could. It’s too late for that now. I can’t help you now. And I wouldn’t if I could.”
 
 
 She put a hand on his hand on her shoulder.
@@ -14695,20 +14644,17 @@ s=none;e:brigid=sadsmile
 “Don’t help me then,” she whispered, “but don’t hurt me. Let me go away now.”
 s=brigid;e:brigid=upset
 
-“No,” he said.
+“No,” he said. “I’m sunk if I haven’t got you to hand over to the police when they come. That’s the only thing that can keep me from going down with the others.”
 s=spade;e:spade=serious
 
-“I’m sunk if I haven’t got you to hand over to the police when they come. That’s the only thing that can keep me from going down with the others.”
-
-
 “You won’t do that for me?”
-s=brigid
+s=brigid;i=2
 
 “I won’t play the sap for you.”
 s=spade
 
 “Don’t say that, please.”
-s=brigid
+s=brigid;i=3
 
 She took his hand from her shoulder and held it to her face.
 s=none
@@ -14716,8 +14662,11 @@ s=none
 “Why must you do this to me, Sam? Surely Mr. Archer wasn’t as much to you as﻿—”
 s=brigid
 
-“Miles,” Spade said hoarsely, “was a son of a bitch. I found that out the first week we were in business together and I meant to kick him out as soon as the year was up. You didn’t do me a damned bit of harm by killing him.”
+“Miles,” Spade said hoarsely, “was a son of a bitch.”
 s=spade;e:spade=angry
+
+“I found that out the first week we were in business together and I meant to kick him out as soon as the year was up. You didn’t do me a damned bit of harm by killing him.”
+
 
 “Then what?”
 s=brigid;e:brigid=confused
@@ -14725,10 +14674,7 @@ s=brigid;e:brigid=confused
 Spade pulled his hand out of hers. He no longer either smiled or grimaced.
 s=none;e:spade=serious
 
-His wet yellow face was set hard and deeply lined. His eyes burned madly.
-
-
-He said:
+His wet yellow face was set hard and deeply lined. His eyes burned madly. He said:
 
 
 “Listen. This isn’t a damned bit of good. You’ll never understand me, but I’ll try once more and then we’ll give it up. Listen.”
@@ -14737,10 +14683,7 @@ s=spade
 “When a man’s partner is killed he’s supposed to do something about it. It doesn’t make any difference what you thought of him. He was your partner and you’re supposed to do something about it.”
 
 
-“Then it happens we were in the detective business. Well, when one of your organization gets killed it’s bad business to let the killer get away with it.”
-
-
-“It’s bad all around﻿—bad for that one organization, bad for every detective everywhere.”
+“Then it happens we were in the detective business. Well, when one of your organization gets killed it’s bad business to let the killer get away with it. It’s bad all around﻿—bad for that one organization, bad for every detective everywhere.”
 
 
 “Third, I’m a detective and expecting me to run criminals down and then let them go free is like asking a dog to catch a rabbit and let it go.”
@@ -14749,11 +14692,8 @@ s=spade
 “It can be done, all right, and sometimes it is done, but it’s not the natural thing. The only way I could have let you go was by letting Gutman and Cairo and the kid go. That’s﻿—”
 
 
-“You’re not serious,” she said.
+“You’re not serious,” she said. “You don’t expect me to think that these things you’re saying are sufficient reason for sending me to the﻿—”
 s=brigid;e:brigid=surprised
-
-“You don’t expect me to think that these things you’re saying are sufficient reason for sending me to the﻿—”
-
 
 “Wait till I’m through and then you can talk.”
 s=spade;e:spade=angry
@@ -14771,7 +14711,7 @@ s=spade;e:spade=angry
 
 
 “And eighth﻿—but that’s enough. All those on one side. Maybe some of them are unimportant. I won’t argue about that.”
-
+e:spade=scowling
 
 “But look at the number of them. Now on the other side we’ve got what? All we’ve got is the fact that maybe you love me and maybe I love you.”
 
@@ -14780,7 +14720,7 @@ s=spade;e:spade=angry
 s=brigid;e:brigid=serious
 
 “I don’t. It’s easy enough to be nuts about you.”
-s=spade;e:spade=weary
+s=spade;e:spade=serious
 
 He looked hungrily from her hair to her feet and up to her eyes again.
 s=none
@@ -14788,10 +14728,7 @@ s=none
 “But I don’t know what that amounts to. Does anybody ever? But suppose I do? What of it?”
 s=spade
 
-“Maybe next month I won’t. I’ve been through it before﻿—when it lasted that long. Then what? Then I’ll think I played the sap.”
-
-
-“And if I did it and got sent over then I’d be sure I was the sap.”
+“Maybe next month I won’t. I’ve been through it before﻿—when it lasted that long. Then what? Then I’ll think I played the sap. And if I did it and got sent over then I’d be sure I was the sap.”
 
 
 “Well, if I send you over I’ll be sorry as hell﻿—I’ll have some rotten nights﻿—but that’ll pass. Listen.”
@@ -14800,8 +14737,11 @@ s=spade
 He took her by the shoulders and bent her back, leaning over her.
 s=none;e:spade=serious
 
-“If that doesn’t mean anything to you forget it and we’ll make it this: I won’t because all of me wants to﻿—wants to say to hell with the consequences and do it﻿—and because﻿—God damn you﻿—you’ve counted on that with me the same as you counted on that with the others.”
+“If that doesn’t mean anything to you forget it and we’ll make it this:”
 s=spade;e:spade=angry
+
+“I won’t because all of me wants to﻿—wants to say to hell with the consequences and do it﻿—and because﻿—God damn you﻿—you’ve counted on that with me the same as you counted on that with the others.”
+
 
 He took his hands from her shoulders and let them fall to his sides.
 s=none;e:spade=weary
@@ -14827,11 +14767,8 @@ He moved his shoulders a little and said:
 “Well, a lot of money would have been at least one more item on the other side of the scales.”
 s=spade;e:spade=smirking
 
-She put her face up to his face. Her mouth was slightly open with lips a little thrust out.
+She put her face up to his face. Her mouth was slightly open with lips a little thrust out. She whispered:
 s=none;e:brigid=sadsmile
-
-She whispered:
-
 
 “If you loved me you’d need nothing more on that side.”
 s=brigid
@@ -14852,7 +14789,7 @@ e:spade=wary;e:brigid=surprised
 
 
 Spade, left arm around Brigid O’Shaughnessy, opened the corridor door.
-e:spade=neutral
+e:spade=neutral;b=spade-passageway
 
 Lieutenant Dundy, Detective-sergeant Tom Polhaus, and two other detectives were there.
 e:tom=serious;e:dundy=serious
@@ -14869,20 +14806,26 @@ s=none
 “Got them.”
 s=tom
 
-“Swell. Come in. Here’s another one for you.” Spade pressed the girl forward.
+“Swell. Come in. Here’s another one for you.”
 s=spade;e:spade=smirking
 
-“She killed Miles. And I’ve got some exhibits﻿—the boy’s guns, one of Cairo’s, a black statuette that all the hell was about, and a thousand-dollar bill that I was supposed to be bribed with.”
+Spade pressed the girl forward.
+s=
 
+“She killed Miles. And I’ve got some exhibits﻿—the boy’s guns, one of Cairo’s, a black statuette that all the hell was about, and a thousand-dollar bill that I was supposed to be bribed with.”
+s=spade;e:spade=serious
 
 He looked at Dundy, drew his brows together, leaned forward to peer into the Lieutenant’s face, and burst out laughing.
 s=none;e:spade=happy
 
-“What in hell’s the matter with your little playmate, Tom? He looks heartbroken.” He laughed again.
+“What in hell’s the matter with your little playmate, Tom? He looks heartbroken.”
 s=spade
 
-“I bet, by God! when he heard Gutman’s story he thought he had me at last.”
+He laughed again.
+s=
 
+“I bet, by God! when he heard Gutman’s story he thought he had me at last.”
+s=spade;e:spade=smirking;i=3
 
 “Cut it out, Sam,” Tom grumbled. “We didn’t think﻿—”
 s=tom;e:tom=annoyed
@@ -14909,7 +14852,7 @@ s=spade
 s=none
 
 Effie Perine put down her newspaper and jumped out of Spade’s chair when he came into the office at a little after nine o’clock Monday morning.
-e:effie=surprised
+e:effie=surprised;b=office-inner;x:spade=hat
 
 He said:
 
@@ -14921,19 +14864,16 @@ s=spade;e:spade=neutral
 s=effie;e:effie=nervous
 
 “Yes, ma’am.”
-s=spade
+s=spade;i=2
 
 He dropped his hat on the desk and sat down.
-s=none
+s=none;x:spade=
 
 His face was pasty in color, but its lines were strong and cheerful and his eyes, though still somewhat red-veined, were clear.
 e:spade=happy
 
-The girl’s brown eyes were peculiarly enlarged and there was a queer twist to her mouth.
-e:effie=upset
-
-She stood beside him, staring down at him.
-
+The girl’s brown eyes were peculiarly enlarged and there was a queer twist to her mouth. She stood beside him, staring down at him.
+e:effie=unhappy
 
 He raised his head, grinned, and said mockingly:
 e:spade=smirking
@@ -14950,11 +14890,17 @@ s=effie
 He nodded.
 s=none;e:spade=serious
 
-“Your Sam’s a detective.” He looked sharply at her. He put his arm around her waist, his hand on her hip.
+“Your Sam’s a detective.”
 s=spade
 
-“She did kill Miles, angel,” he said gently, “offhand, like that.” He snapped the fingers of his other hand.
+He looked sharply at her. He put his arm around her waist, his hand on her hip.
+s=
 
+“She did kill Miles, angel,” he said gently, “offhand, like that.”
+s=spade;e:spade=contemplative
+
+He snapped the fingers of his other hand.
+s=
 
 She escaped from his arm as if it had hurt her.
 s=none;e:effie=fearful
@@ -14968,8 +14914,11 @@ s=effie;e:effie=upset
 Spade’s face became pale as his collar.
 s=none;e:spade=surprised
 
-The corridor door’s knob rattled. Effie Perine turned quickly and went into the outer office, shutting the door behind her.
+The corridor door’s knob rattled.
 e:effie=nervous
+
+Effie Perine turned quickly and went into the outer office, shutting the door behind her.
+
 
 When she came in again she shut it behind her.
 e:effie=neutral
@@ -14978,13 +14927,16 @@ She said in a small flat voice:
 
 
 “Iva is here.”
-s=effie
+s=effie;e:effie=contemplative
 
 Spade, looking down at his desk, nodded almost imperceptibly.
-s=none;e:spade=weary
+s=none;e:spade=thinking
 
-“Yes,” he said, and shivered. “Well, send her in.”
+“Yes,” he said, and shivered.
 s=spade
+
+“Well, send her in.”
+
 
 <e>The End. TODO</e>
 r=title
