@@ -56,7 +56,7 @@ She was tall and pliantly slender, without angularity anywhere. Her body was ere
 
 
 The hair curling from under her blue hat was darkly red, her full lips more brightly red. White teeth glistened in the crescent her timid smile made.
-e:brigid=sadsmile;x:brigid=hat
+e:brigid=sadsmile;x:brigid=hat,coat
 
 Spade rose bowing and indicating with a thick-fingered hand the oaken armchair beside his desk.
 e:spade=neutral
@@ -1922,7 +1922,7 @@ m=;s=;f:b:office-outer=blur(3px)
 r=title
 
 Miss Wonderly, in a belted green crêpe silk dress, opened the door of apartment 1001 at the Coronet.
-e:brigid=nervous;b=brigid-apt-hall;x:brigid=silk
+e:brigid=nervous;b=brigid-apt-hall
 
 Her face was flushed. Her dark red hair, parted on the left side, swept back in loose waves over her right temple, was somewhat tousled.
 e:brigid=upset
@@ -2963,7 +2963,7 @@ He opened his mouth to speak, started, clapped a hand to his face where Spade’
 e:cairo=upset
 
 Cairo said through his teeth, painfully:
-x:cairo=beat,face
+x:cairo=face
 
 “I could have shot you, Mr. Spade.”
 s=cairo;e:cairo=weary
@@ -2996,7 +2996,7 @@ s=spade;e:spade=surprised
 s=cairo
 
 Cairo took his hand away from his bruised face and sat up prim and businesslike again.
-s=none;e:cairo=neutral;x:cairo=beat
+s=none;e:cairo=neutral;x:cairo=
 
 “You have it?”
 s=cairo;e:cairo=curious
@@ -3221,7 +3221,7 @@ Spade took the pistol out of his coat-pocket and handed it to Cairo.
 s=none;e:spade=neutral
 
 Cairo pointed the pistol at Spade’s chest.
-e:cairo=serious;x:cairo=beat,gun
+e:cairo=serious;x:cairo=gun
 
 “You will please keep your hands on the top of the desk,” Cairo said earnestly.
 s=cairo
@@ -3293,7 +3293,7 @@ Apparently he did not see Spade until the private detective touched his shoulder
 
 
 He seemed moderately surprised for a moment, and then said:
-x:cairo=beat,hat,overcoat
+x:cairo=hat,overcoat
 
 “Oh, yes, of course you saw the ticket.”
 s=cairo;e:cairo=contemplative
@@ -4121,7 +4121,7 @@ Joel Cairo was excited. His dark eyes seemed all irises and his high-pitched thi
 e:cairo=excited;b=spade-passageway
 
 “That boy is out there watching the house, Mr. Spade, that boy you showed me, or to whom you showed me, in front of the theatre.”
-s=cairo;x:cairo=beat,hat;e:cairo=wary
+s=cairo;x:cairo=hat;e:cairo=wary
 
 “What am I to understand from that, Mr. Spade? I came here in good faith, with no thought of tricks or traps.”
 e:cairo=wary
@@ -4145,7 +4145,7 @@ s=none;e:brigid=wary
 s=brigid
 
 Cairo removed his black hat from his head, bowed stiffly, and said in a prim voice:
-s=none;e:cairo=neutral;x:cairo=beat
+s=none;e:cairo=neutral;x:cairo=
 
 “If you do not know, ask Mr. Spade. I know nothing about it except through him.”
 s=cairo
@@ -4736,7 +4736,7 @@ s=none;e:spade=weary
 r=title
 
 Brigid O’Shaughnessy was huddled in the armchair by the table.
-e:brigid=fearful;x:tom=hat;x:dundy=hat;x:cairo=beat;b=spade-bedroom-living-night
+e:brigid=fearful;x:tom=hat;x:dundy=hat;x:cairo=;b=spade-bedroom-living-night
 
 Her forearms were up over her cheeks, her knees drawn up until they hid the lower part of her face. Her eyes were white-circled and terrified.
 
