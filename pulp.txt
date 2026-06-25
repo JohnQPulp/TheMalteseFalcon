@@ -1,11 +1,14 @@
-The Maltese Falcon<br>Dashiell Hammett<e>TODO</e>
+The Maltese Falcon<br>Dashiell Hammett<e>Usually books only contains spoilers on Wikipedia and Goodreads and Standard Ebooks and Project Gutenberg and all those sites. But this is the rare book you can get spoiled for on Google Maps. (Careful what plaques you zoom in on.)</e>
 b=title;t=author
 
 ## I<br>Spade & Archer
 r=office-inner
 
-Samuel Spade’s jaw was long and bony, his chin a jutting v under the more flexible v of his mouth. His nostrils curved back to make another, smaller, v. His yellow-grey eyes were horizontal.
+Samuel Spade’s jaw was long and bony, his chin a jutting v under the more flexible v of his mouth.<e>"Oh my word, he has the V." —<book>Ugly Love|Colleen Hoover</book></e>
 n:spade=Sam Spade;e:spade=neutral
+
+His nostrils curved back to make another, smaller, v. His yellow-grey eyes were horizontal.
+
 
 The v motif was picked up again by thickish brows rising outward from twin creases above a hooked nose, and his pale brown hair grew down﻿—from high flat temples﻿—in a point on his forehead.
 
@@ -3316,7 +3319,7 @@ m=;s=
 He looked up Geary Street.
 s=none
 
-He looked at a theatre-sign in front of him on which George Arliss was shown costumed as Shylock, and then his dark eyes crawled sidewise in their sockets until they were looking at the kid in the cap, at his cool pale face with curling lashes hiding lowered eyes.<e><a href="https://arlissarchives.com/tag/merchant-of-venice/">George Arliss as Shylock.</a></e>
+He looked at a theatre-sign in front of him on which George Arliss was shown costumed as Shylock, and then his dark eyes crawled sidewise in their sockets until they were looking at the kid in the cap, at his cool pale face with curling lashes hiding lowered eyes.<e><a href="https://arlissarchives.com/tag/merchant-of-venice/">George Arliss as Shylock.</a> (Real.)</e>
 
 
 “Who is he?” Spade asked.
@@ -5344,7 +5347,7 @@ e:brigid=wary
 Red rage came suddenly into his face and he began to talk in a harsh guttural voice.
 e:spade=angry
 
-Holding his maddened face in his hands, glaring at the floor, he cursed Dundy for five minutes without break, cursed him obscenely, blasphemously, repetitiously, in a harsh guttural voice.
+Holding his maddened face in his hands, glaring at the floor, he cursed Dundy for five minutes without break, cursed him obscenely, blasphemously, repetitiously, in a harsh guttural voice.<e>"repetitiously"? In this book? Surely not.</e>
 
 
 Then he took his face out of his hands, looked at the girl, grinned sheepishly, and said:
@@ -5770,7 +5773,7 @@ s=brigid;e:brigid=serious
 “Then Floyd said afterward, after we’d left Joe, that he’d give me seven hundred and fifty.”
 
 
-“So it must be worth more than seventy-five hundred dollars?”
+“So it must be worth more than seventy-five hundred dollars?”<e>7500 dollars to 1500 pounds (double the 750 for the split) is a five-to-one exchange ratio — exactly the same as used in <book>The Sun Also Rises</book>. Consistency!</e>
 s=spade;e:spade=thinking
 
 “Oh, much more than that,” she said. “They didn’t pretend that they were sharing equally with me. They were simply hiring me to help them.”
@@ -5935,7 +5938,7 @@ s=none;e:brigid=serious
 Spade’s arms went around her, holding her to him, muscles bulging his blue sleeves, a hand cradling her head, its fingers half lost among red hair, a hand moving groping fingers over her slim back.
 e:spade=serious
 
-His eyes burned yellowly.
+His eyes burned yellowly.<e>Double-digit number of "yellow eyes" descriptions in this book, but this is sadly the only use of the great adverb "yellowly".</e>
 
 
 ## X<br>The Belvedere Divan
@@ -6241,7 +6244,7 @@ s=none
 “Well, where is he?”
 s=spade;e:spade=curious
 
-The boy spoke two words, the first a short guttural verb, the second “you.”
+The boy spoke two words, the first a short guttural verb, the second “you.”<e>Stallone?</e>
 s=none;e:youth=angry
 
 “People lose teeth talking like that.”
@@ -8038,7 +8041,7 @@ s=chauffeur3
 “It’s all right,” Spade assured him, giving him one of his cards.
 s=spade;e:spade=neutral
 
-“If you want to play safe, though, we can ride up to your office and get your superintendent’s OK.”
+“If you want to play safe, though, we can ride up to your office and get your superintendent’s OK.”<e>"OK" => modernism and its consequences.</e>
 
 
 “I guess it’s all right. I took her to the Ferry Building.”
@@ -8422,7 +8425,7 @@ s=spade
 The fat man smiled complacently.
 s=none;e:gutman=smirking
 
-“These are facts, historical facts, not schoolbook history, not Mr. Wells’s history, but history nevertheless.”
+“These are facts, historical facts, not schoolbook history, not Mr. Wells’s history, but history nevertheless.”<e>Referencing <book>The Outline of History</book>. (Largely forgotten to history.)</e>
 s=gutman
 
 He leaned forward.
@@ -10054,7 +10057,7 @@ s=none;e:bryan=surprised;e:thomas=surprised
 Spade turned his smile from one to the other of them and shook his head in mock pity.
 e:spade=smirking
 
-“You’ve got Arnold Rothstein on the brain,” he said.
+“You’ve got Arnold Rothstein on the brain,” he said.<e>Arnold Rothstein, fixer of the 1919 World Series, perhaps better known as <book>The Great Gatsby</book>'s Meyer Wolfshiem.</e>
 s=spade
 
 Bryan smacked the back of his left hand down into the palm of his right.
@@ -10147,7 +10150,7 @@ s=bryan
 Spade said:
 s=none;e:spade=angry
 
-“And I don’t want any more of these informal talks. I’ve got nothing to tell you or the police and I’m goddamned tired of being called things by every crackpot on the city payroll.”
+“And I don’t want any more of these informal talks. I’ve got nothing to tell you or the police and I’m goddamned tired of being called things by every crackpot on the city payroll.”<e>"crackpot" — that's why the chapter was titled that. (Don't you hate it when chapter titles spoil things?)</e>
 s=spade
 
 “If you want to see me, pinch me or subpoena me or something and I’ll come down with my lawyer.”
@@ -10216,7 +10219,7 @@ s=effie
 “All right, but I’ve got plenty of headache.”
 s=spade
 
-She went around behind him, put his hand down, and stroked his temple with her slender fingers.<e>"slender fingers" => pulp trash (as if that was in doubt!)</e>
+She went around behind him, put his hand down, and stroked his temple with her slender fingers.<e>"slender fingers" => pulp trash (as if there was any doubt!)</e>
 s=none;e:effie=sadsmile
 
 He leaned back until the back of his head over the chair top rested against her breast. He said:
@@ -10945,7 +10948,7 @@ e:spade=wary
 He talked to her monotonously:
 
 
-“That’s the stuff. Left, right, left, right. That’s the stuff. One, two, three, four, one, two, three, now we turn.”
+“That’s the stuff. Left, right, left, right. That’s the stuff. One, two, three, four, one, two, three, now we turn.”<e><a href="https://www.youtube.com/watch?v=BaUnwmJoy4s">One, two, three, Sabre Dance.</a> (Good song to play while reading.)</e>
 s=spade;e:spade=serious
 
 He shook her as they turned from the wall.
@@ -11000,10 +11003,10 @@ She moaned in protest, but her lids went farther up, though her eyes were withou
 
 
 He raised his hand and slapped her cheek half a dozen times in quick succession.
-s=none
+s=none;f:b:12c=blur(3px)
 
 She moaned again and tried to break away from him. His arm held her and swept her along beside him from wall to wall.
-
+f:b:12c=
 
 “Keep walking,” he ordered in a harsh voice, and then:
 s=spade;e:spade=annoyed
@@ -11032,7 +11035,7 @@ He pulled his hand away quickly and looked at it. Across its back was a thin red
 “What the hell?” he growled and examined her hands.
 s=spade;e:spade=angry
 
-Her left hand was empty. In her right hand, when he forced it open, lay a three-inch jade-headed steel bouquet-pin.
+Her left hand was empty. In her right hand, when he forced it open, lay a three-inch jade-headed steel bouquet-pin.<e>Getting some real <book>Cup of Gold|Ysobel</book> vibes from this sequence.</e>
 s=none
 
 “What the hell?” he growled again and held the pin up in front of her eyes.
@@ -11875,7 +11878,7 @@ The envelope, though not bulky, was heavy enough to fly true. It struck the lowe
 He picked it up deliberately and opened it deliberately, using both hands, having taken his left arm from around the girl.
 e:spade=serious
 
-The contents of the envelope were thousand-dollar bills, smooth and stiff and new.
+The contents of the envelope were thousand-dollar bills, smooth and stiff and new.<e>Smooth and stiff Grover Clevelands.</e>
 
 
 Spade took them out and counted them. There were ten of them.
@@ -13408,7 +13411,7 @@ s=brigid;e:brigid=upset
 He did not raise his voice.
 s=none;e:spade=serious
 
-“I don’t know anything about that. I’ve got to know what happened to the bill. Take them off.”
+“I don’t know anything about that. I’ve got to know what happened to the bill. Take them off.”<e>Getting some real <book>Three Musketeers|Anne of Austria</book> vibes from this sequence.</e>
 s=spade
 
 She looked at his unblinking yellow-grey eyes and her face became pink and then white again.
@@ -13993,7 +13996,7 @@ s=gutman;m=allowbreak;m=nospace
 his lips moved silently as he calculated—
 s=
 
-“five and fifteen-seventeenths percent.”
+“five and fifteen-seventeenths percent.”<e>Smart converter of fractions to mixed-percentage-fractions. (Dumbass otherwise.)</e>
 e:gutman=thinking;m=;s=gutman
 
 The Levantine giggled and cried:
@@ -14605,7 +14608,7 @@ s=none;e:spade=smirking
 “Maybe I do,” he said. “What of it? I should trust you?”
 s=spade
 
-“You who arranged that nice little trick for﻿—for my predecessor, Thursby? You who knocked off Miles, a man you had nothing against, in cold blood, just like swatting a fly, for the sake of double-crossing Thursby?”
+“You who arranged that nice little trick for﻿—for my predecessor, Thursby? You who knocked off Miles, a man you had nothing against, in cold blood, just like swatting a fly, for the sake of double-crossing Thursby?”<e><book>In Cold Blood|Capote</book> to <a href="https://www.imdb.com/title/tt0074937">Capote</a> full circle.</e>
 
 
 “You who double-crossed Gutman, Cairo, Thursby﻿—one, two, three? You who’ve never played square with me for half an hour at a stretch since I’ve known you?”
@@ -14938,5 +14941,5 @@ s=spade
 “Well, send her in.”
 
 
-<e>The End. TODO</e>
+<e>The End. And what an anticlimactic one at that. Where was all the communism we were promised?</e>
 r=title
