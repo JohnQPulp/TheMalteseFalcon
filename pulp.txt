@@ -209,13 +209,13 @@ The man who had opened the door came in a step, said,
 
 
 “Oh, excuse me!”
-n:archer=Miles Archer;s=archer;e:archer=surprised;m=allowbreak
+n:archer=Miles Archer;s=archer;e:archer=surprised;m=allowbreak;x:archer=hat
 
 hastily took his brown hat from his head, and backed out.
 m=;s=
 
 “It’s all right, Miles,” Spade told him.
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;x:archer=
 
 “Come in. Miss Wonderly, this is Mr. Archer, my partner.”
 
