@@ -11396,7 +11396,7 @@ A moment later he came back carrying a brass key attached to a black and red tag
 s=none;e:papa1=neutral
 
 Spade beckoned to the chauffeur as they passed the car and the chauffeur joined them.
-
+x:papa1=hat
 
 “Anybody been looking at the house lately?” Spade asked.
 s=spade;e:spade=curious
