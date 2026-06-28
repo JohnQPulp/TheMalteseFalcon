@@ -3293,7 +3293,7 @@ Apparently he did not see Spade until the private detective touched his shoulder
 
 
 He seemed moderately surprised for a moment, and then said:
-x:cairo=hat,overcoat
+x:cairo=hat
 
 “Oh, yes, of course you saw the ticket.”
 s=cairo;e:cairo=contemplative
