@@ -848,7 +848,7 @@ s=spade;e:spade=contemplative
 i=3
 
 They nodded together, neither saying anything, and came in. Spade shut the door and ushered them into his bedroom.
-s=none;e:tom=serious
+s=none;e:tom=serious;x:tom=
 
 Tom sat on an end of the sofa by the windows. The Lieutenant sat on a chair beside the table.
 n:dundy=Lieutenant;e:dundy=serious
@@ -1592,7 +1592,7 @@ Her thin fingers finished shaping the cigarette. She licked it, smoothed it, twi
 s=none;e:effie=neutral
 
 “Thanks, honey,”
-s=spade;e:spade=;x:spade=cig,unlighted;m=allowbreak
+s=spade;e:spade=;x:spade=cig;m=allowbreak
 
 put an arm around her slim waist, and rested his cheek wearily against her hip, shutting his eyes.
 m=;s=
@@ -3545,7 +3545,7 @@ Her face did not change. She asked quietly:
 s=none
 
 “What did he say?”
-s=brigid;x:brigid=cig,unlighted
+s=brigid;x:brigid=cig
 
 “About what?”
 s=spade
@@ -6011,7 +6011,7 @@ Spade went quietly into his apartment, but before he had shut the corridor door 
 e:brigid=surprised;b=spade-passageway
 
 “Who is that?”
-s=brigid;e:brigid=fearful;x:brigid=night
+s=brigid;e:brigid=fearful;x:brigid=
 
 “Young Spade bearing breakfast.”
 s=spade;e:spade=smirking;x:spade=hat,overcoat
