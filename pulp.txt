@@ -7568,7 +7568,7 @@ f:b:12c=blur(3px)
 r=title
 
 Spade rode down from Gutman’s floor in an elevator.
-s=none;e:spade=neutral;b=think
+s=none;e:spade=neutral;b=dark
 
 His lips were dry and rough in a face otherwise pale and damp.
 e:spade=weary
