@@ -797,7 +797,7 @@ In an all-night drugstore on the corner of Bush and Taylor Streets, Spade used a
 b=sf-wide-night
 
 “Precious,” he said into it a little while after he had given a number,
-s=spade;x:spade=hat,overcoat,phone;e:spade=serious
+s=spade;x:spade=hat,overcoat;e:spade=serious;f:b:sf-wide-night=blur(3px)
 
 “Miles has been shot.﻿﻿… Yes, he’s dead.﻿﻿… Now don’t get excited.… Yes.﻿﻿… You’ll have to break it to Iva.﻿﻿… No, I’m damned if I will. You’ve got to do it.…”
 e:spade=
@@ -806,7 +806,7 @@ e:spade=
 e:spade=thinking
 
 —
-s=none
+s=none;f:b:sf-wide-night=
 
 Spade’s tinny alarm-clock said three-forty when he turned on the light in the suspended bowl again.
 b=spade-bedroom-night;x:spade=
@@ -3929,7 +3929,7 @@ When he had reached this point in his story the telephone bell rang.
 s=none;e:spade=neutral
 
 “Hello,” Spade said into the instrument.
-s=spade;x:spade=phone
+s=spade;x:spade=;f:b:spade-bedroom-living-night=blur(3px)
 
 “Mr. Cairo?﻿… This is Spade. Can you come up to my place﻿—Post Street﻿—now?﻿… Yes, I think it is.”
 
@@ -3944,7 +3944,7 @@ Brigid O’Shaughnessy frowned and stirred in her chair, but did not say anythin
 s=none;e:brigid=wary
 
 Spade put the telephone down and told her:
-
+f:b:spade-bedroom-living-night=
 
 “He’ll be up in a few minutes.”
 s=spade;x:spade=;e:spade=
@@ -6788,13 +6788,13 @@ He went to the telephone.
 
 
 “Hello.﻿﻿… Yes, this is Spade.﻿﻿… Yes, I got it. I’ve been waiting to hear from you.﻿﻿…”
-s=spade;e:spade=contemplative;x:spade=phone
+s=spade;e:spade=contemplative;x:spade=;f:b:office-inner=blur(3px)
 
 “Who?﻿﻿… Mr. Gutman? Oh, yes, sure!﻿﻿… Now﻿—the sooner the better.﻿﻿… 12-C.﻿﻿… Right. Say fifteen minutes.﻿﻿… Right.”
 
 
 Spade sat on the corner of his desk beside the telephone and rolled a cigarette.
-s=none;x:spade=
+s=none;x:spade=;f:b:office-inner=
 
 His mouth was a hard complacent v. His eyes, watching his fingers make the cigarette, smoldered over lower lids drawn up straight.
 e:spade=serious
@@ -9308,7 +9308,7 @@ He sat down at his desk, looked up a number in the telephone-book, and used the 
 
 
 “Kearny one four oh one, please.﻿﻿… Where is the *Paloma*, in from Hong Kong yesterday morning, docked?”
-s=spade;e:spade=serious;x:spade=phone
+s=spade;e:spade=serious;x:spade=;f:b:office-inner=blur(3px)
 
 He repeated the question.
 s=none
@@ -9350,7 +9350,7 @@ s=spade;e:spade=
 e:spade=smirking
 
 He pushed the telephone away, yawned, stretched, felt his bruised temple, looked at his watch, and rolled and lighted a cigarette.
-s=none;e:spade=weary
+s=none;e:spade=weary;f:b:office-inner=
 
 He smoked sleepily until Effie Perine came in.
 
@@ -10255,8 +10255,11 @@ Then she asked:
 “You know where she is? Have you any idea?”
 e:effie=curious;s=effie
 
-The telephone bell rang. Spade picked up the telephone and said:
-s=none;x:spade=phone
+The telephone bell rang.
+s=
+
+Spade picked up the telephone and said:
+s=none;x:spade=;f:b:office-outer=blur(3px)
 
 “Hello.… Yes, Sid, it came out all right, thanks.… No.… Sure. He got snotty, but so did I.… He’s nursing a gambler’s-war pipe-dream.…”
 s=spade
@@ -10265,7 +10268,7 @@ s=spade
 
 
 He put the telephone down and leaned back in his chair again.
-s=none;e:spade=weary;x:spade=
+s=none;e:spade=weary;x:spade=;f:b:office-outer=
 
 Effie Perine came from behind him and stood at his side. She demanded:
 e:effie=neutral
@@ -10781,10 +10784,10 @@ He nodded at the girl.
 
 
 She turned to the desk and put the receiver to her ear. She said:
-
+f:b:office-inner=blur(3px)
 
 “Hello.… Yes.… Who?… Oh, yes!”
-s=effie;e:effie=nervous;x:effie=phone
+s=effie;e:effie=nervous;x:effie=
 
 Her eyes became large.
 s=none;e:effie=surprised
@@ -10798,8 +10801,11 @@ s=none;e:effie=fearful
 “Hello! Hello! Hello!”
 s=effie
 
-She rattled the prong up and down and cried, “Hello!” twice. Then she sobbed and spun around to face Spade, who was close beside her by now.
-s=;x:effie=
+She rattled the prong up and down and cried, “Hello!” twice.
+s=;x:effie=;
+
+Then she sobbed and spun around to face Spade, who was close beside her by now.
+f:b:office-inner=
 
 “It was Miss O’Shaughnessy,” she said wildly.
 s=effie;e:effie=upset
@@ -11171,7 +11177,7 @@ Spade went to the Pacific Telephone and Telegraph Company’s station in Powell 
 e:spade=neutral;b=sf-wide-night
 
 “Emergency Hospital, please.…”
-s=spade;x:spade=hat,phone;e:spade=
+s=spade;x:spade=hat;e:spade=;f:b:sf-wide-night=blur(3px)
 
 “Hello, there’s a girl in suite 12-C at the Alexandria Hotel who has been drugged.… Yes, you’d better send somebody to take a look at her.… This is Mr. Hooper of the Alexandria.”
 e:spade=serious
@@ -11189,7 +11195,7 @@ He called another number﻿—his office’s﻿—held the receiver to his ear f
 s=none;e:spade=wary
 
 He went to John’s Grill, asked the waiter to hurry his order of chops, baked potato, and sliced tomatoes, ate hurriedly, and was smoking a cigarette with his coffee when a thickset youngish man with a plaid cap set askew above pale eyes and a tough cheery face came into the Grill and to his table.
-n:frank=Driver;b=grill-street-night
+n:frank=Driver;b=grill-street-night;f:b:sf-wide-night=
 
 “All set, Mr. Spade. She’s full of gas and rearing to go.”
 s=frank;e:frank=happy
@@ -11489,16 +11495,16 @@ s=
 s=spade;e:spade=smirking
 
 He went to a telephone-booth, called a number, and said:
-s=
+s=;f:b:12c-lobby-window-wide-night=blur(3px)
 
 “Hello.… Mrs. Perine?… Is Effie there?… Yes, please.… Thanks.”
-s=spade;e:spade=neutral;x:spade=hat,phone
+s=spade;e:spade=neutral;x:spade=hat
 
 “Hello, angel! What’s the good word?… Fine, fine! Hold it. I’ll be out in twenty minutes.… Right.”
 e:spade=happy
 
 —
-s=;x:spade=hat
+s=;x:spade=hat;f:b:12c-lobby-window-wide-night=
 
 Half an hour later Spade rang the doorbell of a two-story brick building in Ninth Avenue.
 s=none;e:spade=neutral;b=effie-wide-night
@@ -13778,7 +13784,7 @@ At seven o’clock Spade went to the telephone and called Effie Perine’s numbe
 b=spade-bedroom-living
 
 “Hello, Mrs. Perine?… This is Mr. Spade. Will you let me talk to Effie, please?… Yes, it is.… Thanks.”
-s=spade;x:spade=phone
+s=spade;x:spade=;f:b:spade-bedroom-living=blur(3px)
 
 He whistled two lines of “En Cuba,” softly.
 s=none;e:spade=happy
@@ -13790,7 +13796,7 @@ s=spade;i=2
 s=spade;e:spade=serious
 
 The street doorbell rang at ten minutes of eight. Spade went to the telephone-box and pressed the button that released the lock.
-s=none;x:spade=
+s=none;x:spade=;f:b:spade-bedroom-living=
 
 Gutman put down his book and rose smiling.
 s=none;e:gutman=happy
@@ -14135,10 +14141,10 @@ He turned the pages rapidly until he found the one he wanted, ran his finger dow
 
 
 He called a number and said:
-
+f:b:spade-bedroom-living=blur(3px)
 
 “Hello, is Sergeant Polhaus there?﻿… Will you call him, please? This is Samuel Spade.﻿…”
-s=spade;x:spade=phone
+s=spade;x:spade=
 
 He stared into space, waiting.
 s=none
@@ -14171,7 +14177,7 @@ s=spade;e:spade=smirking
 
 
 Spade slowly replaced receiver on prong, telephone on shelf.
-s=none;e:spade=thinking;x:spade=
+s=none;e:spade=thinking;x:spade=;f:b:spade-bedroom-living=
 
 He wet his lips and looked down at his hands. Their palms were wet. He filled his deep chest with air. His eyes were glittering between straightened lids.
 e:spade=serious
