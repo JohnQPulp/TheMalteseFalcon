@@ -5999,7 +5999,7 @@ The only thing he found that interested him enough to delay his search while he 
 e:spade=curious
 
 When he had finished he made and drank a cup of coffee.
-e:spade=neutral;b=brigid-apt-hall
+e:spade=neutral
 
 Then he unlocked the kitchen-window, scarred the edge of its lock a little with his pocketknife, opened the window﻿—over a fire-escape﻿—got his hat and overcoat from the settee in the living-room, and left the apartment as he had come.
 
@@ -7025,7 +7025,7 @@ s=spade
 s=none
 
 The mahogany door of suite 12-C at the Alexandria Hotel was opened by the boy Spade had talked to in the Belvedere lobby.
-e:youth=neutral;b=12c
+e:youth=neutral;b=12c-hall
 
 Spade said,
 
@@ -7039,7 +7039,10 @@ m=;s=
 The boy did not say anything. He stood aside holding the door open.
 s=none;e:youth=scowling
 
-Spade went in. A fat man came to meet him.
+Spade went in.
+b=12c
+
+A fat man came to meet him.
 n:gutman=?;e:gutman=happy
 
 The fat man was flabbily fat with bulbous pink cheeks and lips and chins and neck, with a great soft egg of a belly that was all his torso, and pendant cones for arms and legs.
@@ -8138,7 +8141,7 @@ Then he walked up to Stockton Street, hailed a taxicab, and had himself driven t
 e:spade=neutral;f:b:street=blur(3px)
 
 He let himself into the building and into Brigid O’Shaughnessy’s apartment with the key she had given him.
-b=brigid-apt-hall
+b=brigid-apt-living
 
 The blue gown she had worn the previous night was hanging across the foot of her bed. Her blue stockings and slippers were on the bedroom floor.
 
@@ -8147,7 +8150,7 @@ The polychrome box that had held jewelry in her dressing table drawer now stood 
 e:spade=serious
 
 Spade frowned at it, ran his tongue across his lips, strolled through the rooms, looking around but not touching anything, then left the Coronet and went downtown again.
-e:spade=scowling;f:b:brigid-apt-hall=blur(3px)
+e:spade=scowling;f:b:brigid-apt-living=blur(3px)
 
 In the doorway of Spade’s office-building he came face to face with the boy he had left at Gutman’s.
 e:spade=surprised;e:youth=neutral;b=office-wide
