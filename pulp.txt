@@ -11432,7 +11432,7 @@ Spade unlocked the door and pushed it open.
 s=none;e:spade=wary
 
 There was silence and darkness.
-b=house-night
+b=dark
 
 Holding the flashlight﻿—dark﻿—in his left hand, Spade entered.
 
