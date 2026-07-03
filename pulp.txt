@@ -581,13 +581,13 @@ s=policeman1;e:policeman1=serious
 s=spade;e:spade=serious;m=allowbreak
 
 and went up the alley.
-s=;m=
+s=;m=;f:b:bush-night=blur(3px)
 
 Halfway up it, not far from the entrance, a dark ambulance stood. Behind the ambulance, to the left, the alley was bounded by a waist-high fence, horizontal strips of rough boarding.
 s=none
 
 From the fence dark ground fell away steeply to the billboard on Stockton Street below.
-
+b=alley-night
 
 A ten-foot length of the fence’s top rail had been torn from a post at one end and hung dangling from the other.
 
