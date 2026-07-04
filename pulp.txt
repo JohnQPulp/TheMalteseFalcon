@@ -1,5 +1,5 @@
-The Maltese Falcon<br>Dashiell Hammett<e>Usually books only contains spoilers on Wikipedia and Goodreads and Standard Ebooks and Project Gutenberg and all those sites. But this is the rare book you can get spoiled for on Google Maps. (Careful what plaques you zoom in on.)</e>
-b=title;t=author
+The Maltese Falcon<br>Dashiell Hammett<e>There are spoilers for this book on Google Maps, of all sites. (Careful what plaques you zoom in on.)</e>
+b=title;t=author;z:author=84,46,10
 
 ## I<br>Spade & Archer
 r=office-inner
@@ -20,7 +20,7 @@ He said to Effie Perine:
 
 
 “Yes, sweetheart?”
-n:effie=Effie Perine;s=spade
+n:effie=Effie Perine;s=spade;z:spade=83,,10;e:spade=curious;i=
 
 She was a lanky sunburned girl whose tan dress of thin woolen stuff clung to her with an effect of dampness. Her eyes were brown and playful in a shiny boyish face.
 s=none;e:effie=happy
@@ -29,25 +29,25 @@ She finished shutting the door behind her, leaned against it, and said:
 
 
 “There’s a girl wants to see you. Her name’s Wonderly.”
-s=effie
+s=effie;z:effie=86,,10;e:effie=looking;i=
 
 “A customer?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=;i=2
 
 “I guess so. You’ll want to see her anyway: she’s a knockout.”
-s=effie;e:effie=smirking
+s=effie;e:effie=smirking;e:effie=curious;i=
 
 “Shoo her in, darling,” said Spade. “Shoo her in.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=contemplative;i=3
 
 Effie Perine opened the door again, following it back into the outer office, standing with a hand on the knob while saying:
 s=
 
 “Will you come in, Miss Wonderly?”
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=;i=2
 
 A voice said, “Thank you,” so softly that only the purest articulation made the words intelligible, and a young woman came through the doorway.
-n:brigid=Miss Wonderly;e:brigid=nervous;m=dialogue
+n:brigid=Miss Wonderly;e:brigid=nervous;m=dialogue;s=
 
 She advanced slowly, with tentative steps, looking at Spade with cobalt-blue eyes that were both shy and probing.
 s=none;e:brigid=wary;m=
@@ -92,7 +92,7 @@ She caught her breath and looked at him. She swallowed and said hurriedly:
 s=none;e:brigid=nervous
 
 “Could you﻿—? I thought﻿—I﻿—that is﻿—”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;z:brigid=90,,11
 
 Then she tortured her lower lip with glistening teeth and said nothing. Only her dark eyes spoke now, pleading.
 s=none;e:brigid=nervous
@@ -101,34 +101,34 @@ Spade smiled and nodded as if he understood her, but pleasantly, as if nothing s
 e:spade=smirking
 
 “Suppose you tell me about it, from the beginning, and then we’ll know what needs doing. Better begin as far back as you can.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=2
 
 “That was in New York.”
-s=brigid
+s=brigid;e:brigid=weary;i=
 
 “Yes.”
-s=spade
+s=spade;e:spade=;i=
 
 “I don’t know where she met him. I mean I don’t know where in New York. She’s five years younger than I﻿—only seventeen﻿—and we didn’t have the same friends.”
-s=brigid
+s=brigid;e:brigid=upset;i=2
 
 “I don’t suppose we’ve ever been as close as sisters should be. Mama and Papa are in Europe. It would kill them. I’ve got to get her back before they come home.”
-
+;e:brigid=fearful;i=
 
 “Yes,” he said.
-s=spade
+s=spade;e:spade=;i=2
 
 “They’re coming home the first of the month.”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 Spade’s eyes brightened.
 s=none;e:spade=curious
 
 “Then we’ve two weeks,” he said.
-s=spade
+s=spade;e:spade=curious;i=2
 
 “I didn’t know what she had done until her letter came. I was frantic.”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=unhappy;i=
 
 Her lips trembled. Her hands mashed the dark handbag in her lap.
 s=none;e:brigid=nervous
@@ -137,22 +137,22 @@ s=none;e:brigid=nervous
 s=brigid
 
 “There wasn’t anyone I could go to for advice. I didn’t know what to do. What could I do?”
-
+;e:brigid=upset;i=
 
 “Nothing, of course,” Spade said, “but then her letter came?”
 s=spade;e:spade=neutral
 
 “Yes, and I sent her a telegram asking her to come home. I sent it to General Delivery here. That was the only address she gave me.”
-s=brigid
+s=brigid;e:brigid=weary;i=
 
 “I waited a whole week, but no answer came, not another word from her. And Mama and Papa’s return was drawing nearer and nearer.”
-
+;e:brigid=upset;i=2
 
 “So I came to San Francisco to get her. I wrote her I was coming. I shouldn’t have done that, should I?”
-e:brigid=wary
+e:brigid=wary;e:brigid=fearful;i=
 
 “Maybe not. It’s not always easy to know what to do. You haven’t found her?”
-s=spade
+s=spade;e:spade=;i=2
 
 “No, I haven’t. I wrote her that I would go to the St. Mark, and I begged her to come and let me talk to her even if she didn’t intend to go home with me.”
 s=brigid;e:brigid=unhappy
@@ -164,19 +164,19 @@ Spade nodded his blond satan’s head, frowned sympathetically, and tightened hi
 s=none;e:spade=serious
 
 “It was horrible,” Miss Wonderly said, trying to smile.
-s=brigid;e:brigid=sadsmile
+s=brigid;e:brigid=sadsmile;i=2
 
 “I couldn’t sit there like that﻿—waiting﻿—not knowing what had happened to her, what might be happening to her.”
-
+i=
 
 She stopped trying to smile. She shuddered.
 s=none;e:brigid=fearful
 
 “The only address I had was General Delivery. I wrote her another letter, and yesterday afternoon I went to the Post Office.”
-s=brigid
+s=brigid;e:brigid=upset;i=2
 
 “I stayed there until after dark, but I didn’t see her. I went there again this morning, and still didn’t see Corinne, but I saw Floyd Thursby.”
-
+;e:brigid=nervous;i=2
 
 Spade nodded again. His frown went away. In its place came a look of sharp attentiveness.
 s=none;e:spade=curious
@@ -185,10 +185,10 @@ s=none;e:spade=curious
 s=brigid;e:brigid=weary
 
 “He wouldn’t tell me anything, except that she was well and happy. But how can I believe that? That is what he would tell me anyhow, isn’t it?”
-e:brigid=wary
+e:brigid=wary;e:brigid=upset;i=;e:brigid=upset;i=2
 
 “Sure,” Spade agreed. “But it might be true.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=excited;i=
 
 “I hope it is. I do hope it is,” she exclaimed.
 s=brigid;e:brigid=upset
@@ -197,7 +197,7 @@ s=brigid;e:brigid=upset
 
 
 “He promised to tell her he had seen me, and to bring her to see me﻿—if she would come﻿—this evening at the hotel. He said he knew she wouldn’t. He promised to come himself if she wouldn’t. He﻿—”
-
+;e:brigid=fearful;i=
 
 She broke off with a startled hand to her mouth as the door opened.
 s=none;e:brigid=surprised
@@ -209,16 +209,16 @@ The man who had opened the door came in a step, said,
 
 
 “Oh, excuse me!”
-n:archer=Miles Archer;s=archer;e:archer=surprised;m=allowbreak;x:archer=hat
+n:archer=?;s=archer;e:archer=surprised;m=allowbreak;x:archer=hat;z:archer=88,54,11
 
 hastily took his brown hat from his head, and backed out.
 m=;s=
 
 “It’s all right, Miles,” Spade told him.
-s=spade;e:spade=neutral;x:archer=
+s=spade;e:spade=neutral;x:archer=;e:spade=excited;i=
 
 “Come in. Miss Wonderly, this is Mr. Archer, my partner.”
-
+n:archer=Miles Archer;e:spade=smirking;i=2
 
 Miles Archer came into the office again, shutting the door behind him, ducking his head and smiling at Miss Wonderly, making a vaguely polite gesture with the hat in his hand.
 s=none;e:archer=happy
@@ -239,10 +239,10 @@ He looked at Miss Wonderly.
 s=none
 
 “Right?”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “Yes,” she said indistinctly.
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=unhappy;i=
 
 The embarrassment that had gradually been driven away by Spade’s ingratiating smiles and nods and assurances was pinkening her face again.
 s=none
@@ -263,10 +263,10 @@ Spade lifted two fingers from the arm of his chair in a brief warning gesture an
 e:spade=serious
 
 “We shouldn’t have any trouble with it. It’s simply a matter of having a man at the hotel this evening to shadow him away when he leaves, and shadow him until he leads us to your sister.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 “If she comes with him, and you persuade her to return with you, so much the better. Otherwise﻿—if she doesn’t want to leave him after we’ve found her﻿—well, we’ll find a way of managing that.”
-
+;e:spade=excited;i=
 
 Archer said:
 s=
@@ -287,34 +287,34 @@ Her voice shook a little, and her lips shaped the words with nervous jerkiness.
 s=none
 
 “I’m deathly afraid of him, of what he might do. She’s so young and his bringing her here from New York is such a serious﻿—Mightn’t he﻿—mightn’t he do﻿—something to her?”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 Spade smiled and patted the arms of his chair.
 s=none;e:spade=smirking
 
 “Just leave that to us,” he said. “We’ll know how to handle him.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 “But mightn’t he?” she insisted.
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=upset;i=2
 
 “There’s always a chance.” Spade nodded judicially. “But you can trust us to take care of that.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=2
 
 “I do trust you,” she said earnestly, “but I want you to know that he’s a dangerous man. I honestly don’t think he’d stop at anything.”
-s=brigid;e:brigid=wary
+s=brigid;e:brigid=wary;e:brigid=upset;i=
 
 “I don’t believe he’d hesitate to﻿—to kill Corinne if he thought it would save him. Mightn’t he do that?”
-e:brigid=fearful
+e:brigid=fearful;e:brigid=horrifiedhandmouth;i=
 
 “You didn’t threaten him, did you?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=annoyed;i=
 
 “I told him that all I wanted was to get her home before Mama and Papa came so they’d never know what she had done.”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=weary;i=
 
 “I promised him I’d never say a word to them about it if he helped me, but if he didn’t Papa would certainly see that he was punished. I﻿—I don’t suppose he believed me, altogether.”
-e:brigid=upset
+e:brigid=upset;e:brigid=upset;i=2;e:brigid=unhappy;i=2;e:brigid=fearful;i=
 
 “Can he cover up by marrying her?” Archer asked.
 s=archer;e:archer=curious
@@ -326,7 +326,7 @@ s=
 s=brigid;e:brigid=confused
 
 “They usually do,” Spade said, “though not always in England.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirkingchin;i=
 
 He leaned forward to reach for pencil and pad of paper.
 s=none;e:spade=neutral
@@ -344,52 +344,52 @@ Spade, scribbling on the pad, asked without looking up:
 s=
 
 “What color eyes?”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=thinking;i=2
 
 “They’re blue-grey and watery, though not in a weak way. And﻿—oh, yes﻿—he has a marked cleft in his chin.”
-s=brigid;e:brigid=thinking
+s=brigid;e:brigid=thinking;e:brigid=unhappy;i=
 
 “Thin, medium, or heavy build?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=scowling;i=2
 
 “Quite athletic. He’s broad-shouldered and carries himself erect, has what could be called a decidedly military carriage.”
-s=brigid;e:brigid=neutral
+s=brigid;e:brigid=neutral;e:brigid=upset;i=2
 
 “He was wearing a light grey suit and a grey hat when I saw him this morning.”
-
+;e:brigid=confused;i=
 
 “What does he do for a living?” Spade asked as he laid down his pencil.
-s=spade
+s=spade;e:spade=;i=2
 
 “I don’t know,” she said. “I haven’t the slightest idea.”
-s=brigid;e:brigid=confused
+s=brigid;e:brigid=confused;e:brigid=weary;i=
 
 “What time is he coming to see you?”
 s=spade;e:spade=curious
 
 “After eight o’clock.”
-s=brigid;e:brigid=neutral
+s=brigid;e:brigid=neutral;e:brigid=nervous;i=2
 
 “All right, Miss Wonderly, we’ll have a man there. It’ll help if﻿—”
-s=spade
+s=spade;e:spade=;i=2
 
 “Mr. Spade, could either you or Mr. Archer?”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=upset;i=
 
 She made an appealing gesture with both hands.
 s=none
 
 “Could either of you look after it personally? I don’t mean that the man you’d send wouldn’t be capable, but﻿—oh!﻿—I’m so afraid of what might happen to Corinne.”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=weary;i=
 
 “I’m afraid of him. Could you? I’d be﻿—I’d expect to be charged more, of course.”
-
+;e:brigid=unhappy;i=2
 
 She opened her handbag with nervous fingers and put two hundred-dollar bills on Spade’s desk.
 s=none
 
 “Would that be enough?”
-s=brigid
+s=brigid;e:brigid=sadsmile;i=2;e:brigid=upset;i=2
 
 “Yeh,” Archer said, “and I’ll look after it myself.”
 s=archer;e:archer=smirking
@@ -398,7 +398,7 @@ Miss Wonderly stood up, impulsively holding a hand out to him.
 s=none;e:brigid=happy
 
 “Thank you! Thank you!” she exclaimed,
-s=brigid;e:brigid=excited;m=allowbreak
+s=brigid;e:brigid=excited;m=allowbreak;e:brigid=sadsmile;i=2
 
 and then gave Spade her hand, repeating:
 s=;m=
@@ -406,11 +406,17 @@ s=;m=
 “Thank you!”
 s=brigid
 
-“Not at all,” Spade said over it. “Glad to. It’ll help some if you either meet Thursby downstairs or let yourself be seen in the lobby with him at some time.”
-s=spade;e:spade=neutral
+“Not at all,” Spade said over it.
+s=spade;e:spade=neutral;e:spade=excited;i=
 
-“I will,” she promised, and thanked the partners again.
-s=brigid;e:brigid=happy
+“Glad to. It’ll help some if you either meet Thursby downstairs or let yourself be seen in the lobby with him at some time.”
+;e:spade=;i=
+
+“I will,” she promised,
+s=brigid;e:brigid=happy;e:brigid=unhappy;i=;m=allowbreak
+
+and thanked the partners again.
+m=;s=
 
 “And don’t look for me,” Archer cautioned her.
 s=archer;e:archer=serious
@@ -422,25 +428,25 @@ e:archer=smirking
 s=none
 
 Spade went to the corridor door with Miss Wonderly.
-e:spade=neutral
+e:spade=neutral;b=office-outer
 
 When he returned to his desk Archer nodded at the hundred-dollar bills there, growled complacently,
-
+b=office-inner
 
 “They’re right enough,”
-s=archer;e:archer=smirking;m=allowbreak
+s=archer;e:archer=smirking;m=allowbreak;e:archer=serious;i=;e:archer=;i=
 
 picked one up, folded it, and tucked it into a vest-pocket.
 m=;s=
 
 “And they had brothers in her bag.”
-e:archer=happy;s=archer
+e:archer=smirking;s=archer
 
 Spade pocketed the other bill before he sat down. Then he said:
 s=none
 
 “Well, don’t dynamite her too much. What do you think of her?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=
 
 “Sweet! And you telling me not to dynamite her.”
 s=archer;e:archer=happy
@@ -449,22 +455,22 @@ Archer guffawed suddenly without merriment.
 s=none
 
 “Maybe you saw her first, Sam, but I spoke first.”
-s=archer;e:archer=smirking
+s=archer;e:archer=smirking;e:archer=serious;i=
 
 He put his hands in his trousers-pockets and teetered on his heels.
 s=none
 
 “You’ll play hell with her, you will.”
-s=spade
+s=spade;e:spade=smirking;i=
 
 Spade grinned wolfishly, showing the edges of teeth far back in his jaw.
 s=none;e:spade=smirking
 
 “You’ve got brains, yes you have.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 He began to make a cigarette.
-s=none;e:spade=neutral
+s=none;e:spade=neutral;f:b:office-inner=blur(3px)
 
 ## II<br>Death in the Fog
 r=title
