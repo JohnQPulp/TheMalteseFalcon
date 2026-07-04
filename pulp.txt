@@ -563,7 +563,7 @@ A uniformed policeman chewing gum under an enameled sign that said “Burritt St
 n:policeman1=Policeman;e:policeman1=serious;x:policeman1=hat
 
 “What do you want here?”
-s=policeman1
+s=policeman1;z:policeman1=89,,8
 
 “I’m Sam Spade. Tom Polhaus phoned me.”
 s=spade;e:spade=neutral
@@ -584,7 +584,7 @@ s=none
 s=policeman1;e:policeman1=serious
 
 “Bad enough,” Spade agreed,
-s=spade;e:spade=serious;m=allowbreak
+s=spade;e:spade=serious;m=allowbreak;e:spade=thinking;i=2
 
 and went up the alley.
 s=;m=;f:b:bush-night=blur(3px)
@@ -611,7 +611,7 @@ One of them hailed Spade,
 n:tom=?;e:tom=neutral;m=allowbreak;x:tom=hat
 
 “Hello, Sam,”
-s=tom
+s=tom;z:tom=88,57,11
 
 and clambered up to the alley, his shadow running up the slope before him.
 s=;m=
@@ -620,10 +620,10 @@ He was a barrel-bellied tall man with shrewd small eyes, a thick mouth, and care
 s=none
 
 “I figured you’d want to see it before we took him away,” he said as he stepped over the broken fence.
-s=tom
+s=tom;e:tom=nervous;i=
 
 “Thanks, Tom,” Spade said. “What happened?”
-s=spade;e:spade=curious;n:tom=Tom Polhaus
+s=spade;e:spade=curious;n:tom=Tom Polhaus;e:spade=annoyed;i=
 
 He put an elbow on a fence-post and looked down at the men below, nodding to those who nodded to him.
 s=none
@@ -632,37 +632,34 @@ Tom Polhaus poked his own left breast with a dirty finger.
 e:tom=serious
 
 “Got him right through the pump﻿—with this.”
-s=tom
+s=tom;e:tom=serious;i=
 
 He took a fat revolver from his coat-pocket and held it out to Spade. Mud inlaid the depressions in the revolver’s surface.
 s=none
 
 “A Webley. English, ain’t it?”
-s=tom
+s=tom;e:tom=thinking;i=
 
 Spade took his elbow from the fence-post and leaned down to look at the weapon, but he did not touch it.
 s=none;e:spade=serious
 
-“Yes,” he said, “Webley-Fosbery automatic revolver. That’s it.”
-s=spade;e:spade=thinking
-
-“Thirty-eight, eight shot. They don’t make them any more. How many gone out of it?”
-
+“Yes,” he said, “Webley-Fosbery automatic revolver. That’s it. Thirty-eight, eight shot. They don’t make them any more. How many gone out of it?”
+s=spade;e:spade=thinking;e:spade=;i=
 
 “One pill.”
-s=tom
+s=tom;e:tom=serious;i=2
 
 Tom poked his breast again.
 s=none
 
 “He must’ve been dead when he cracked the fence.”
-s=tom;i=3
+s=tom;i=3;e:tom=nervous;i=
 
 He raised the muddy revolver.
 s=none
 
 “Ever seen this before?”
-s=tom
+s=tom;e:tom=weary;i=
 
 Spade nodded.
 s=none
@@ -680,37 +677,37 @@ He went around in front of Tom and raised a hand breast-high with leveled forefi
 s=none
 
 “Lets him have it and Miles goes back, taking the top off the fence and going on through and down till the rock catches him. That it?”
-s=spade
+s=spade;e:spade=;i=2
 
 “That’s it,” Tom replied slowly, working his brows together.
 s=tom;e:tom=thinking
 
 “The blast burnt his coat.”
-
+;e:tom=nervous;i=
 
 “Who found him?”
 s=spade
 
 “The man on the beat, Shilling. He was coming down Bush, and just as he got here a machine turning threw headlights up here, and he saw the top off the fence.”
-s=tom
+s=tom;e:tom=serious;i=3
 
 “So he came up to look at it, and found him.”
-
+;e:tom=serious;i=2
 
 “What about the machine that was turning around?”
-s=spade
+s=spade;e:spade=curious;i=
 
 “Not a damned thing about it, Sam. Shilling didn’t pay any attention to it, not knowing anything was wrong then.”
-s=tom;e:tom=annoyed
+s=tom;e:tom=annoyed;e:tom=serious;i=
 
 “He says nobody didn’t come out of here while he was coming down from Powell or he’d’ve seen them.”
-
+;e:tom=nervous;i=
 
 “The only other way out would be under the billboard on Stockton. Nobody went that way. The fog’s got the ground soggy, and the only marks are where Miles slid down and where this here gun rolled.”
-
+;e:tom=thinking;i=2
 
 “Didn’t anybody hear the shot?”
-s=spade
+s=spade;e:spade=annoyed;i=
 
 “For the love of God, Sam, we only just got here. Somebody must’ve heard it, when we find them.”
 s=tom;e:tom=weary
@@ -719,7 +716,7 @@ He turned and put a leg over the fence.
 s=none
 
 “Coming down for a look at him before he’s moved?”
-s=tom
+s=tom;e:tom=curious;i=
 
 Spade said:
 s=
@@ -734,16 +731,13 @@ Spade said:
 
 
 “You’ve seen him. You’d see everything I could.”
-s=spade
+s=spade;e:spade=thinking;i=2;e:spade=weary;i=
 
 Tom, still looking at Spade, nodded doubtfully and withdrew his leg over the fence.
 s=none;e:tom=wary
 
-“His gun was tucked away on his hip,” he said.
+“His gun was tucked away on his hip,” he said. “It hadn’t been fired. His overcoat was buttoned. There’s a hundred and sixty-some bucks in his clothes. Was he working, Sam?”
 s=tom
-
-“It hadn’t been fired. His overcoat was buttoned. There’s a hundred and sixty-some bucks in his clothes. Was he working, Sam?”
-e:tom=curious
 
 Spade, after a moment’s hesitation, nodded.
 s=none;e:spade=thinking
@@ -755,10 +749,10 @@ Tom asked:
 s=tom;e:tom=serious
 
 “He was supposed to be tailing a fellow named Floyd Thursby,” Spade said, and described Thursby as Miss Wonderly had described him.
-s=spade
+s=spade;e:spade=;i=
 
 “What for?”
-s=tom
+s=tom;e:tom=nervous;i=
 
 Spade put his hands into his overcoat-pockets and blinked sleepy eyes at Tom.
 s=none;e:spade=weary
@@ -770,7 +764,7 @@ Tom repeated impatiently:
 s=tom;e:tom=annoyed
 
 “He was an Englishman, maybe. I don’t know what his game was, exactly. We were trying to find out where he lived.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=
 
 Spade grinned faintly and took a hand from his pocket to pat Tom’s shoulder.
 s=none;e:spade=smirking
@@ -791,19 +785,22 @@ Tom, scowling, opened his mouth, closed it without having said anything, cleared
 e:tom=sadsmile
 
 “It’s tough, him getting it like that. Miles had his faults same as the rest of us, but I guess he must’ve had some good points too.”
-s=tom
+s=tom;e:tom=weary;i=
 
-“I guess so,” Spade agreed in a tone that was utterly meaningless, and went out of the alley.
-s=spade;e:spade=neutral
+“I guess so,” Spade agreed in a tone that was utterly meaningless,
+s=spade;e:spade=neutral;e:spade=thinking;i=2;m=allowbreak
+
+and went out of the alley.
+m=;s=;f:b:alley-night=blur(3px)
 
 —
-s=none
+s=none;b=sf-wide-night
 
 In an all-night drugstore on the corner of Bush and Taylor Streets, Spade used a telephone.
-b=sf-wide-night
+
 
 “Precious,” he said into it a little while after he had given a number,
-s=spade;x:spade=hat,overcoat;e:spade=serious;f:b:sf-wide-night=blur(3px)
+s=spade;x:spade=hat,overcoat;e:spade=serious;f:b:bush-night=blur(3px);e:spade=thinking;i=;m=nospeaker
 
 “Miles has been shot.﻿﻿… Yes, he’s dead.﻿﻿… Now don’t get excited.… Yes.﻿﻿… You’ll have to break it to Iva.﻿﻿… No, I’m damned if I will. You’ve got to do it.…”
 e:spade=
@@ -812,7 +809,7 @@ e:spade=
 e:spade=thinking
 
 —
-s=none;f:b:sf-wide-night=
+s=none;f:b:bush-night=;m=
 
 Spade’s tinny alarm-clock said three-forty when he turned on the light in the suspended bowl again.
 b=spade-bedroom-night;x:spade=
@@ -824,13 +821,19 @@ He put bottle and glass on the table, sat on the side of the bed facing them, an
 
 
 He had drunk his third glass of Bacardi and was lighting his fifth cigarette when the street doorbell rang. The hands of the alarm-clock registered four-thirty.
-f:b:spade-bedroom-night=blur(3px)
 
-Spade sighed, rose from the bed, and went to the telephone-box beside his bathroom door. He pressed the button that released the street door-lock. He muttered,
-e:spade=weary
+
+Spade sighed, rose from the bed,
+e:spade=weary;m=allowbreak
+
+and went to the telephone-box beside his bathroom door.
+m=;b=spade-passageway
+
+He pressed the button that released the street door-lock. He muttered,
+
 
 “Damn her,”
-s=spade;e:spade=annoyed;m=allowbreak
+s=spade;e:spade=annoyed;m=allowbreak;e:spade=pinch;i=
 
 and stood scowling at the black telephone-box, breathing irregularly while a dull flush grew in his cheeks.
 m=;s=
@@ -845,19 +848,19 @@ Spade’s face brightened. His eyes were no longer harassed. He opened the door 
 e:spade=happy;f:b:spade-bedroom-night=
 
 “Hello, Tom,” he said to the barrel-bellied tall detective with whom he had talked in Burritt Street, and,
-s=spade;e:spade=contemplative
+s=spade;e:spade=contemplative;e:spade=curious;i=2
 
 “Hello, Lieutenant,” to the man beside Tom.
-
+;e:spade=;i=2
 
 “Come in.”
-i=3
+i=3;e:spade=contemplative;i=2
 
 They nodded together, neither saying anything, and came in. Spade shut the door and ushered them into his bedroom.
 s=none;e:tom=serious;x:tom=
 
 Tom sat on an end of the sofa by the windows. The Lieutenant sat on a chair beside the table.
-n:dundy=Lieutenant;e:dundy=serious
+n:dundy=Lieutenant;e:dundy=serious;b=spade-bedroom-night
 
 The Lieutenant was a compactly built man with a round head under short-cut grizzled hair and a square face behind a short-cut grizzled mustache.
 
@@ -872,7 +875,7 @@ His face was placid and uncurious. He raised his glass, and said,
 ;e:spade=smirking
 
 “Success to crime,”
-s=spade;m=allowbreak
+s=spade;m=allowbreak;e:spade=contemplative;i=3
 
 and drank it down.
 s=;m=
@@ -887,7 +890,7 @@ Tom moved uncomfortably on the sofa and, not looking up, asked:
 
 
 “Did you break the news to Miles’s wife, Sam?”
-s=tom;e:tom=nervous
+s=tom;e:tom=nervous;e:tom=contemplative;i=2
 
 Spade said:
 s=
@@ -896,55 +899,55 @@ s=
 s=spade;e:spade=neutral
 
 “How’d she take it?”
-s=tom
+s=tom;e:tom=nervous;i=
 
 Spade shook his head.
 s=none
 
 “I don’t know anything about women.”
-s=spade;i=2
+s=spade;i=2;e:spade=scowling;i=2
 
 Tom said softly:
 s=
 
 “The hell you don’t.”
-s=tom;e:tom=smirking
+s=tom;e:tom=smirking;e:tom=contemplative;i=
 
 The Lieutenant put his hands on his knees and leaned forward. His greenish eyes were fixed on Spade in a peculiarly rigid stare, as if their focus were a matter of mechanics, to be changed only by pulling a lever or pressing a button.
 s=none;e:dundy=serious
 
 “What kind of gun do you carry?” he asked.
-s=dundy
+s=dundy;z:dundy=89,53,11;e:dundy=suspicious;i=2;e:dundy=serious;i=2
 
 “None. I don’t like them much. Of course there are some in the office.”
-s=spade
+s=spade;e:spade=;i=
 
 “I’d like to see one of them,” the Lieutenant said.
-s=dundy;e:dundy=suspicious
+s=dundy;e:dundy=suspicious;e:dundy=;i=
 
 “You don’t happen to have one here?”
-
+;e:dundy=suspicious;i=
 
 “No.”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 “You sure of that?”
-s=dundy
+s=dundy;e:dundy=suspicious;i=2
 
 “Look around.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=annoyedsmile;i=
 
 Spade smiled and waved his empty glass a little.
 s=none
 
 “Turn the dump upside-down if you want. I won’t squawk﻿—if you’ve got a search-warrant.”
-s=spade;i=2
+s=spade;i=2;e:spade=curious;i=2
 
 Tom protested:
 s=
 
 “Oh, hell, Sam!”
-s=tom;e:tom=unhappy
+s=tom;e:tom=unhappy;e:tom=nervous;i=
 
 Spade set his glass on the table and stood up facing the Lieutenant.
 s=none;e:spade=angry
@@ -959,25 +962,25 @@ Tom shifted his weight on the sofa again, blew a deep breath out through his nos
 
 
 “We’re not wanting to make any trouble, Sam.”
-s=tom;e:tom=nervous
+s=tom;e:tom=nervous;e:tom=contemplative;i=2
 
 Spade, ignoring Tom, said to Dundy:
 s=
 
 “Well, what do you want? Talk turkey. Who in hell do you think you are, coming in here trying to rope me?”
-s=spade
+s=spade;e:spade=angry;i=3
 
 “All right,” Dundy said in his chest, “sit down and listen.”
-s=dundy;e:dundy=angry
+s=dundy;e:dundy=angry;e:dundy=serious;i=2
 
 “I’ll sit or stand as I damned please,” said Spade, not moving.
-s=spade;i=2
+s=spade;i=2;e:spade=scowling;i=
 
 “For Christ’s sake be reasonable,” Tom begged.
-s=tom;e:tom=unhappy;i=3
+s=tom;e:tom=unhappy;i=3;e:tom=weary;i=
 
 “What’s the use of us having a row? If you want to know why we didn’t talk turkey it’s because when I asked you who this Thursby was you as good as told me it was none of my business.”
-
+;e:tom=unhappy;i=2
 
 “You can’t treat us that way, Sam. It ain’t right and it won’t get you anywheres. We got our work to do.”
 e:tom=serious
@@ -986,22 +989,22 @@ Lieutenant Dundy jumped up, stood close to Spade, and thrust his square face up 
 s=none;e:dundy=serious
 
 “I’ve warned you your foot was going to slip one of these days,” he said.
-s=dundy
+s=dundy;e:dundy=annoyed;i=
 
 Spade made a depreciative mouth, raising his eyebrows.
 s=none
 
 “Everybody’s foot slips sometime,” he replied with derisive mildness.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=curious;i=
 
 “And this is yours.”
-s=dundy;i=2
+s=dundy;i=2;e:dundy=suspicious;i=2
 
 Spade smiled and shook his head.
 s=none
 
 “No, I’ll do nicely, thank you.”
-s=spade
+s=spade;e:spade=excited;i=
 
 He stopped smiling.
 s=none;e:spade=annoyed
@@ -1010,28 +1013,28 @@ His upper lip, on the left side, twitched over his eyetooth. His eyes became nar
 s=none
 
 “I don’t like this. What are you sucking around for? Tell me, or get out and let me go to bed.”
-s=spade
+s=spade;e:spade=annoyed;i=
 
 “Who’s Thursby?” Dundy demanded.
-s=dundy
+s=dundy;e:dundy=serious;i=2
 
 “I told Tom what I knew about him.”
-s=spade;i=2
+s=spade;i=2;e:spade=angry;i=3
 
 “You told Tom damned little.”
-s=dundy;i=2
+s=dundy;i=2;e:dundy=angry;i=2
 
 “I knew damned little.”
-s=spade;i=3
+s=spade;i=3;e:spade=angry;i=
 
 “Why were you tailing him?”
-s=dundy;i=3
+s=dundy;i=3;e:dundy=suspicious;i=
 
 “I wasn’t. Miles was﻿—for the swell reason that we had a client who was paying good United States money to have him tailed.”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 “Who’s the client?”
-s=dundy
+s=dundy;e:dundy=serious;i=2
 
 Placidity came back to Spade’s face and voice. He said reprovingly:
 s=none;e:spade=neutral
@@ -1043,10 +1046,13 @@ s=spade
 s=dundy;e:dundy=angry
 
 “This is murder and don’t you forget it.”
+;e:dundy=suspicious;i=2
 
+“Maybe. And here’s something for you to not forget, sweetheart. I’ll tell it or not as I damned please.”
+s=spade;e:spade=smirking;e:spade=contemplative;i=2
 
-“Maybe. And here’s something for you to not forget, sweetheart. I’ll tell it or not as I damned please. It’s a long while since I burst out crying because policemen didn’t like me.”
-s=spade;e:spade=smirking
+“It’s a long while since I burst out crying because policemen didn’t like me.”
+;e:spade=excited;i=
 
 Tom left the sofa and sat on the foot of the bed. His carelessly shaven mud-smeared face was tired and lined.
 s=none
@@ -1055,22 +1061,22 @@ s=none
 s=tom;e:tom=weary
 
 “You needn’t get a headache over that,” Spade told him.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=contemplative;i=2
 
 “I’ll bury my dead.”
-
+e:spade=serious;i=2
 
 Lieutenant Dundy sat down and put his hands on his knees again. His eyes were warm green discs.
 s=none
 
 “I thought you would,” he said.
-s=dundy;e:dundy=smirking
+s=dundy;e:dundy=smirking;e:dundy=suspicious;i=
 
 He smiled with grim content.
 s=none
 
 “That’s just exactly why we came to see you. Isn’t it, Tom?”
-s=dundy;i=2
+s=dundy;i=2;e:dundy=smirking;i=2
 
 Tom groaned, but said nothing articulate.
 s=none;e:tom=upset
@@ -1079,31 +1085,34 @@ Spade watched Dundy warily.
 
 
 “That’s just exactly what I said to Tom,” the Lieutenant went on.
-s=dundy
+s=dundy;;e:dundy=angry;i=2
 
 “I said: ‘Tom, I’ve got a hunch that Sam Spade’s a man to keep the family-troubles in the family.’ That’s just what I said to him.”
-
+;e:dundy=suspicious;i=2
 
 The wariness went out of Spade’s eyes. He made his eyes dull with boredom. He turned his face around to Tom and asked with great carelessness:
 s=none;e:spade=weary
 
 “What’s itching your boyfriend now?”
-s=spade
+s=spade;e:spade=suspicious;i=
 
 Dundy jumped up and tapped Spade’s chest with the ends of two bent fingers.
 s=none;e:dundy=angry
 
-“Just this,” he said, taking pains to make each word distinct, emphasizing them with his tapping finger-ends:
-s=dundy
+“Just this,” he said,
+s=dundy;e:dundy=annoyed;i=;m=allowbreak
+
+taking pains to make each word distinct, emphasizing them with his tapping finger-ends:
+m=;s=
 
 “Thursby was shot down in front of his hotel just thirty-five minutes after you left Burritt Street.”
-
+s=dundy;e:dundy=;i=
 
 Spade spoke, taking equal pains with his words:
 s=
 
 “Keep your goddamned paws off me.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=angry;i=3
 
 Dundy withdrew the tapping fingers, but there was no change in his voice:
 s=
@@ -1115,13 +1124,13 @@ Tom growled apologetically:
 s=
 
 “Well, damn it, Sam, you did run off like that.”
-s=tom;e:tom=nervous
+s=tom;e:tom=nervous;e:tom=unhappy;i=2
 
 “And you didn’t go to Archer’s house to tell his wife,” the Lieutenant said.
-s=dundy;e:dundy=serious
+s=dundy;e:dundy=serious;e:dundy=annoyed;i=
 
 “We called up and that girl in your office was there, and she said you sent her.”
-
+;e:dundy=serious;i=3
 
 Spade nodded. His face was stupid in its calmness.
 s=none;e:spade=neutral
@@ -1133,16 +1142,16 @@ Lieutenant Dundy raised his two bent fingers towards Spade’s chest, quickly lo
 s=dundy;e:dundy=angry
 
 “And that gives you ten or fifteen minutes of waiting before he showed up.”
-
+;e:dundy=;i=;e:dundy=angry;i=2
 
 “I knew where he lived?” Spade asked. “And I knew he hadn’t gone straight home from killing Miles?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “You knew what you knew,” Dundy replied stubbornly.
 s=dundy;e:dundy=serious
 
 “What time did you get home?”
-
+;e:dundy=suspicious;i=
 
 “Twenty minutes to four. I walked around thinking things over.”
 s=spade;e:spade=neutral
@@ -1151,25 +1160,25 @@ The Lieutenant wagged his round head up and down.
 s=none
 
 “We knew you weren’t home at three-thirty. We tried to get you on the phone. Where’d you do your walking?”
-s=dundy;e:dundy=suspicious
+s=dundy;e:dundy=suspicious;e:dundy=smirking;i=2
 
 “Out Bush Street a way and back.”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 “Did you see anybody that﻿—?”
-s=dundy
+s=dundy;e:dundy=serious;i=2
 
 “No, no witnesses,” Spade said and laughed pleasantly.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “Sit down, Dundy. You haven’t finished your drink. Get your glass, Tom.”
-
+;e:spade=annoyedsmile;i=2
 
 Tom said:
 s=
 
 “No, thanks, Sam.”
-s=tom;e:tom=weary
+s=tom;e:tom=weary;e:tom=unhappy;i=
 
 Dundy sat down, but paid no attention to his glass of rum.
 s=none;e:dundy=angry
@@ -1178,19 +1187,19 @@ Spade filled his own glass, drank, set the empty glass on the table, and returne
 
 
 “I know where I stand now,” he said, looking with friendly eyes from one of the police-detectives to the other.
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=happy;i=2
 
 “I’m sorry I got up on my hind legs, but you birds coming in and trying to put the work on me made me nervous.”
 e:spade=smirking
 
 “Having Miles knocked off bothered me, and then you birds cracking foxy. That’s all right now, though, now that I know what you’re up to.”
-
+;e:spade=lewd;i=
 
 Tom said:
 s=
 
 “Forget it.”
-s=tom;e:tom=neutral
+s=tom;e:tom=neutral;e:tom=serious;i=2
 
 The Lieutenant said nothing.
 s=none;e:dundy=serious
@@ -1220,19 +1229,19 @@ s=none
 s=spade;e:spade=rolling
 
 “I meant what I said,” Dundy replied bluntly.
-s=dundy
+s=dundy;e:dundy=serious;i=
 
 Spade looked up at him and smiled, holding the finished cigarette in one hand, his lighter in the other.
 s=none;e:spade=smirking
 
 “You’re not ready to pinch me yet, are you, Dundy?” he asked.
-s=spade
+s=spade;e:spade=excited;i=
 
 Dundy looked with hard green eyes at Spade and did not answer him.
 s=none;e:dundy=angry
 
 “Then,” said Spade, “there’s no particular reason why I should give a damn what you think, is there, Dundy?”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 Tom said:
 s=
@@ -1244,7 +1253,7 @@ Spade put the cigarette in his mouth, set fire to it, and laughed smoke out.
 s=none;e:spade=happy;x:spade=cig
 
 “I’ll be reasonable, Tom,” he promised. “How did I kill this Thursby? I’ve forgotten.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 Tom grunted disgust. Lieutenant Dundy said:
 s=none;e:tom=annoyed
@@ -1259,37 +1268,37 @@ s=dundy;e:dundy=serious
 s=tom;e:tom=thinking
 
 “It hadn’t been fired.”
-
+;e:tom=serious;i=
 
 “What do the hotel-people know about him?” Spade asked.
 s=spade;e:spade=curious
 
 “Nothing except that he’d been there a week.”
-s=dundy
+s=dundy;e:dundy=angry;i=2
 
 “Alone?”
-s=spade;e:spade=thinking
+s=spade;e:spade=thinking;e:spade=annoyed;i=
 
 “Alone.”
 s=dundy
 
 “What did you find on him? or in his room?”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=thinking;i=2
 
 Dundy drew his lips in and asked:
 s=
 
 “What’d you think we’d find?”
-s=dundy;e:dundy=suspicious
+s=dundy;e:dundy=suspicious;e:dundy=annoyed;i=
 
 Spade made a careless circle with his limp cigarette.
 s=none;x:spade=
 
 “Something to tell you who he was, what his story was. Did you?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=contemplative;i=3
 
 “We thought you could tell us that.”
-s=dundy
+s=dundy;e:dundy=suspicious;i=
 
 Spade looked at the Lieutenant with yellow-grey eyes that held an almost exaggerated amount of candor.
 s=none;e:spade=neutral
@@ -1301,34 +1310,37 @@ Lieutenant Dundy stood up looking dissatisfied. Tom rose yawning and stretching.
 s=none;e:dundy=annoyed;e:tom=weary
 
 “We’ve asked what we came to ask,” Dundy said, frowning over eyes hard as green pebbles.
-s=dundy
+s=dundy;e:dundy=serious;i=3
 
 He held his mustached upper lip tight to his teeth, letting his lower lip push the words out.
 s=none
 
 “We’ve told you more than you’ve told us. That’s fair enough. You know me, Spade. If you did or you didn’t you’ll get a square deal out of me, and most of the breaks.”
-s=dundy
+s=dundy;e:dundy=suspicious;i=2
 
 “I don’t know that I’d blame you a hell of a lot﻿—but that wouldn’t keep me from nailing you.”
-e:dundy=thinking
+e:dundy=thinking;e:dundy=angry;i=2
 
 “Fair enough,” Spade replied evenly.
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 “But I’d feel better about it if you’d drink your drink.”
-
+e:spade=excited
 
 Lieutenant Dundy turned to the table, picked up his glass, and slowly emptied it. Then he said,
 s=none;e:dundy=neutral
 
 “Good night,”
-s=dundy;m=allowbreak
+s=dundy;m=allowbreak;e:dundy=serious;i=2
 
 and held out his hand.
 m=;s=
 
-They shook hands ceremoniously. Tom and Spade shook hands ceremoniously. Spade let them out.
+They shook hands ceremoniously. Tom and Spade shook hands ceremoniously.
 s=none
+
+Spade let them out.
+f:b:spade-bedroom-night=blur(3px)
 
 Then he undressed, turned off the lights, and went to bed.
 b=dark
