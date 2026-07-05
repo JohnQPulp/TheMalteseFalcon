@@ -2879,7 +2879,7 @@ e:cairo=nervous
 s=cairo;e:cairo=nervous
 
 “I warn you that if you attempt to prevent me I shall certainly shoot you.”
-e:cairo=serious;i=2
+e:cairo=serious;i=2;e:cairo=serious;i=
 
 “Go ahead.”
 s=spade;e:spade=handsbehind
@@ -2887,11 +2887,11 @@ s=spade;e:spade=handsbehind
 Spade’s voice was as empty of expression as his face.
 s=
 
-“You will please stand,” the man with the pistol instructed him at whose thick chest the pistol was aimed.<e>Banger sentence construction, Hammett.</e>
-s=cairo
+“You will please stand,” the man with the pistol instructed him at whose thick chest the pistol was aimed.<e>Banger sentence construction.</e>
+s=cairo;e:cairo=serious;i=2
 
 “I shall have to make sure that you are not armed.”
-
+e:cairo=nervous
 
 Spade stood up pushing his chair back with his calves as he straightened his legs.
 s=none
@@ -2905,8 +2905,11 @@ Holding the pistol close to Spade’s back, he put his right hand around Spade�
 The Levantine face was then no more than six inches below and behind Spade’s right elbow.
 
 
-Spade’s elbow dropped as Spade spun to the right. Cairo’s face jerked back not far enough: Spade’s right heel on the patent-leathered toes anchored the smaller man in the elbow’s path. The elbow struck him beneath the cheekbone, staggering him so that he must have fallen had he not been held by Spade’s foot on his foot.
+Spade’s elbow dropped as Spade spun to the right. Cairo’s face jerked back not far enough: Spade’s right heel on the patent-leathered toes anchored the smaller man in the elbow’s path.
 e:spade=serious;f:b:office-inner=blur(5px);x:cairo=
+
+The elbow struck him beneath the cheekbone, staggering him so that he must have fallen had he not been held by Spade’s foot on his foot.
+
 
 Spade’s elbow went on past the astonished dark face and straightened when Spade’s hand struck down at the pistol. Cairo let the pistol go the instant that Spade’s fingers touched it. The pistol was small in Spade’s hand.
 
@@ -2953,19 +2956,22 @@ When the last pocket had been turned out he returned to his own chair, rolled an
 There was a large wallet of dark soft leather.
 
 
-The wallet contained three hundred and sixty-five dollars in United States bills of several sizes; three five-pound notes; a much-visaed Greek passport bearing Cairo’s name and portrait; five folded sheets of pinkish onionskin paper covered with what seemed to be Arabic writing;
+The wallet contained three hundred and sixty-five dollars in United States bills of several sizes; three five-pound notes; a much-visaed Greek passport bearing Cairo’s name and portrait;
 
 
-a raggedly clipped newspaper-account of the finding of Archer’s and Thursby’s bodies; a postcard-photograph of a dusky woman with bold cruel eyes and a tender drooping mouth; a large silk handkerchief, yellow with age and somewhat cracked along its folds; a thin sheaf of Mr. Joel Cairo’s engraved cards; and a ticket for an orchestra seat at the Geary Theatre that evening.
+five folded sheets of pinkish onionskin paper covered with what seemed to be Arabic writing; a raggedly clipped newspaper-account of the finding of Archer’s and Thursby’s bodies; a postcard-photograph of a dusky woman with bold cruel eyes and a tender drooping mouth;
 
 
-Besides the wallet and its contents there were three gaily colored silk handkerchiefs fragrant of chypre; a platinum Longines watch on a platinum and red gold chain, attached at the other end to a small pear-shaped pendant of some white metal; a handful of United States, British, French, and Chinese coins; a ring holding half a dozen keys;
+a large silk handkerchief, yellow with age and somewhat cracked along its folds; a thin sheaf of Mr. Joel Cairo’s engraved cards; and a ticket for an orchestra seat at the Geary Theatre that evening.
 
 
-a silver and onyx fountain pen; a metal comb in a leatherette case; a nail file in a leatherette case; a small street guide to San Francisco; a Southern Pacific baggage check; a half-filled package of violet pastilles;
+Besides the wallet and its contents there were three gaily colored silk handkerchiefs fragrant of chypre; a platinum Longines watch on a platinum and red gold chain, attached at the other end to a small pear-shaped pendant of some white metal;
 
 
-a Shanghai insurance broker’s business card; and four sheets of Hotel Belvedere writing paper, on one of which was written in small precise letters Samuel Spade’s name and the addresses of his office and his apartment.
+a handful of United States, British, French, and Chinese coins; a ring holding half a dozen keys; a silver and onyx fountain pen; a metal comb in a leatherette case; a nail file in a leatherette case; a small street guide to San Francisco; a Southern Pacific baggage check;
+
+
+a half-filled package of violet pastilles; a Shanghai insurance broker’s business card; and four sheets of Hotel Belvedere writing paper, on one of which was written in small precise letters Samuel Spade’s name and the addresses of his office and his apartment.
 
 
 Having examined these articles carefully﻿—he even opened the back of the watch case to see that nothing was hidden inside﻿—Spade leaned over and took the unconscious man’s wrist between finger and thumb, feeling his pulse.
@@ -2993,64 +2999,64 @@ Cairo said through his teeth, painfully:
 x:cairo=face
 
 “I could have shot you, Mr. Spade.”
-s=cairo;e:cairo=weary
+s=cairo;e:cairo=weary;e:cairo=serious;i=
 
 “You could have tried,” Spade conceded.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=annoyed;i=
 
 “I did not try.”
-s=cairo;e:cairo=serious
+s=cairo;e:cairo=serious;e:cairo=confused;i=
 
 “I know.”
-s=spade;e:spade=
+s=spade;e:spade=;e:spade=excited;i=
 
 “Then why did you strike me after I was disarmed?”
-s=cairo;e:cairo=confused
+s=cairo;e:cairo=confused;e:cairo=weary;i=
 
 “Sorry,” Spade said, and grinned wolfishly, showing his jaw-teeth,
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=annoyedsmile;i=
 
 “but imagine my embarrassment when I found that five-thousand-dollar offer was just hooey.”
-
+e:spade=lewd
 
 “You are mistaken, Mr. Spade. That was, and is, a genuine offer.”
 s=cairo;e:cairo=serious
 
 “What the hell?” Spade’s surprise was genuine.
-s=spade;e:spade=surprised
+s=spade;e:spade=surprised;e:spade=annoyed;i=2
 
 “I am prepared to pay five thousand dollars for the figure’s return.”
-s=cairo
+s=cairo;e:cairo=confused;i=
 
 Cairo took his hand away from his bruised face and sat up prim and businesslike again.
 s=none;e:cairo=neutral;x:cairo=
 
 “You have it?”
-s=cairo;e:cairo=curious
+s=cairo;e:cairo=curious;e:cairo=wary;i=2
 
 “No.”
 s=spade;e:spade=neutral
 
 “If it is not here”﻿—
-s=cairo;e:cairo=suspicious;m=allowbreak;m=nospace
+s=cairo;e:cairo=suspicious;m=allowbreak;m=nospace;e:cairo=angry;i=;e:cairo=;i=
 
 Cairo was very politely skeptical﻿—
 s=
 
 “why should you have risked serious injury to prevent my searching for it?”
-s=cairo;i=2;m=
+s=cairo;i=2;m=;e:cairo=serious;i=2
 
 “I should sit around and let people come in and stick me up?”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=scowling;i=2
 
 Spade flicked a finger at Cairo’s possessions on the desk.
 s=none
 
 “You’ve got my apartment-address. Been up there yet?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=;i=
 
 “Yes, Mr. Spade. I am ready to pay five thousand dollars for the figure’s return, but surely it is natural enough that I should try first to spare the owner that expense if possible.”
-s=cairo;e:cairo=neutral
+s=cairo;e:cairo=neutral;e:cairo=;i=
 
 “Who is he?”
 s=spade;e:spade=serious
@@ -3061,20 +3067,20 @@ s=
 “You will have to forgive my not answering that question.”
 s=cairo;e:cairo=smirking
 
-“Will I?” Spade leaned forward smiling with tight lips.
-s=spade;e:spade=smirking
+“Will I?”
+s=spade;e:spade=smirking;e:spade=;i=2
 
-“I’ve got you by the neck, Cairo. You’ve walked in and tied yourself up, plenty strong enough to suit the police, with last night’s killings.”
+Spade leaned forward smiling with tight lips.
+s=
 
-
-“Well, now you’ll have to play with me or else.”
-
+“I’ve got you by the neck, Cairo. You’ve walked in and tied yourself up, plenty strong enough to suit the police, with last night’s killings. Well, now you’ll have to play with me or else.”
+s=spade;e:spade=lewd;i=
 
 Cairo’s smile was demure and not in any way alarmed.
 s=none;e:cairo=smirking
 
 “I made somewhat extensive inquiries about you before taking any action,” he said, “and was assured that you were far too reasonable to allow other considerations to interfere with profitable business relations.”
-s=cairo
+s=cairo;e:cairo=smirking;i=3
 
 Spade shrugged.
 s=
@@ -3083,7 +3089,7 @@ s=
 s=spade;e:spade=neutral
 
 “I have offered you five thousand dollars for﻿—”
-s=cairo
+s=cairo;e:cairo=curious;i=
 
 Spade thumped Cairo’s wallet with the backs of his fingers and said:
 s=
@@ -3092,13 +3098,13 @@ s=
 s=spade;e:spade=annoyed
 
 “You could come in and say you’d pay me a million for a purple elephant, but what in hell would that mean?”
-
+;e:spade=angry;i=3
 
 “I see, I see,” Cairo said thoughtfully, screwing up his eyes.
-s=cairo;e:cairo=thinking
+s=cairo;e:cairo=thinking;e:cairo=suspicious;i=2
 
 “You wish some assurance of my sincerity.”
-
+;e:cairo=;i=
 
 He brushed his red lower lip with a fingertip.
 s=none
@@ -3107,13 +3113,13 @@ s=none
 s=cairo;e:cairo=finger
 
 “It might.”
-s=spade;e:spade=contemplative
+s=spade;e:spade=contemplative;e:spade=curious;i=
 
 Cairo put his hand out towards his wallet, hesitated, withdrew the hand, and said:
 s=
 
 “You will take, say, a hundred dollars?”
-s=cairo;e:cairo=wary
+s=cairo;e:cairo=wary;e:cairo=serious;i=2
 
 Spade picked up the wallet and took out a hundred dollars.
 s=none;e:spade=neutral
@@ -3122,7 +3128,7 @@ Then he frowned, said,
 s=
 
 “Better make it two hundred,”
-s=spade;e:spade=scowling;m=allowbreak
+s=spade;e:spade=scowling;m=allowbreak;e:spade=angry;i=3
 
 and did.
 m=;s=
@@ -3131,13 +3137,13 @@ Cairo said nothing.
 s=none;e:cairo=neutral
 
 “Your first guess was that I had the bird,”
-s=spade;e:spade=serious;m=allowbreak
+s=spade;e:spade=serious;m=allowbreak;e:spade=;i=2
 
 Spade said in a crisp voice when he had put the two hundred dollars into his pocket and had dropped the wallet on the desk again.
 m=;s=
 
 “There’s nothing in that. What’s your second?”
-s=spade;i=2
+s=spade;i=2;e:spade=annoyed;i=
 
 “That you know where it is, or, if not exactly that, that you know it is where you can get it.”
 s=cairo;e:cairo=serious
@@ -3149,13 +3155,13 @@ s=none;e:spade=neutral
 s=spade;e:spade=curious
 
 “Very little, unfortunately. There is this, though: nobody else can give you any authentic evidence of ownership at all.”
-s=cairo;e:cairo=unhappy
+s=cairo;e:cairo=unhappy;e:cairo=unhappy;i=2
 
 “And if you know as much about the affair as I suppose﻿—or I should not be here﻿—you know that the means by which it was taken from him shows that his right to it was more valid than anyone else’s﻿—certainly more valid than Thursby’s.”
-e:cairo=serious
+e:cairo=serious;e:cairo=serious;i=2
 
 “What about his daughter?” Spade asked.
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=excited;i=
 
 Excitement opened Cairo’s eyes and mouth, turned his face red, made his voice shrill.
 s=none;e:cairo=angry
@@ -3167,19 +3173,19 @@ Spade said,
 s=
 
 “Oh,”
-s=spade;e:spade=contemplative;m=allowbreak
+s=spade;e:spade=contemplative;m=allowbreak;e:spade=contemplative;i=2
 
 mildly and ambiguously.
 m=;s=
 
 “Is he here, in San Francisco, now?” Cairo asked in a less shrill, but still excited, voice.
-s=cairo;e:cairo=nervous
+s=cairo;e:cairo=nervous;e:cairo=wary;i=
 
 Spade blinked his eyes sleepily and suggested:
 s=
 
 “It might be better all around if we put our cards on the table.”
-s=spade;e:spade=contemplative
+s=spade;e:spade=contemplative;e:spade=;i=2
 
 Cairo recovered composure with a little jerk.
 s=none;e:cairo=neutral
@@ -3194,7 +3200,7 @@ s=
 s=cairo;e:cairo=thinking
 
 “If you do not then I have made a mistake in coming to you, and to do as you suggest would be simply to make that mistake worse.”
-
+;e:cairo=finger;i=
 
 Spade nodded indifferently and waved his hand at the articles on the desk, saying:
 s=
@@ -3206,43 +3212,43 @@ and then, when Cairo was returning them to his pockets:
 s=
 
 “It’s understood that you’re to pay my expenses while I’m getting this black bird for you, and five thousand dollars when it’s done?”
-e:spade=serious
+e:spade=serious;s=spade
 
 “Yes, Mr. Spade; that is, five thousand dollars less whatever moneys have been advanced to you﻿—five thousand in all.”
 s=cairo;e:cairo=neutral
 
 “Right. And it’s a legitimate proposition.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=
 
 Spade’s face was solemn except for wrinkles at the corners of his eyes.
 s=
 
 “You’re not hiring me to do any murders or burglaries for you, but simply to get it back if possible in an honest and lawful way.”
-s=spade;i=2
+s=spade;i=2;e:spade=scowling;i=2
 
 “If possible,” Cairo agreed.
-s=cairo;e:cairo=serious
+s=cairo;e:cairo=serious;e:cairo=serious;i=2
 
 His face also was solemn except for the eyes.
 s=
 
 “And in any event with discretion.”
-s=cairo;i=2
+s=cairo;i=2;e:cairo=;i=
 
 He rose and picked up his hat.
 s=none
 
 “I am at the Hotel Belvedere when you wish to communicate with me﻿—room six-thirty-five. I confidently expect the greatest mutual benefit from our association, Mr. Spade.”
-s=cairo;e:cairo=neutral
+s=cairo;e:cairo=neutral;e:cairo=suspicious;i=2
 
 He hesitated.
 s=none;e:cairo=wary
 
 “May I have my pistol?”
-s=cairo
+s=cairo;e:cairo=wary;i=2
 
 “Sure. I’d forgotten it.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 Spade took the pistol out of his coat-pocket and handed it to Cairo.
 s=none;e:spade=neutral
@@ -3251,22 +3257,22 @@ Cairo pointed the pistol at Spade’s chest.
 e:cairo=serious;x:cairo=gun
 
 “You will please keep your hands on the top of the desk,” Cairo said earnestly.
-s=cairo
+s=cairo;e:cairo=serious;i=2
 
 “I intend to search your offices.”
-
+;e:cairo=serious;i=
 
 Spade said:
 s=
 
 “I’ll be damned.”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=excited;i=
 
 Then he laughed in his throat and said:
 s=
 
 “All right. Go ahead. I won’t stop you.”
-e:spade=smirking;s=spade
+e:spade=smirking;s=spade;e:spade=annoyedsmile;i=
 
 ## VI<br>The Undersized Shadow
 r=title
