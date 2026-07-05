@@ -4784,7 +4784,7 @@ Dundy, the first of the three into the living-room, moved swiftly to Cairo’s s
 e:dundy=serious
 
 “What are you up to here?”
-s=dundy
+s=dundy;e:dundy=angry;i=2
 
 Cairo took the red-smeared hand from his head and flourished it close to the Lieutenant’s face. Uncovered by the hand, his forehead showed a three-inch ragged tear.
 s=none;e:cairo=angry
@@ -4799,7 +4799,7 @@ Spade’s face was placid. When his gaze met hers his yellow-grey eyes glinted f
 e:spade=smirking
 
 “Did you do that?” Dundy asked the girl, nodding at Cairo’s cut head.
-s=dundy;e:dundy=serious
+s=dundy;e:dundy=serious;e:dundy=suspicious;i=2
 
 She looked at Spade again.
 s=none;e:brigid=nervous
@@ -4811,34 +4811,37 @@ The girl turned her eyes up to Dundy’s. Her eyes were wide and dark and earnes
 e:brigid=upset
 
 “I had to,” she said in a low throbbing voice.
-s=brigid
+s=brigid;e:brigid=serious;i=2;e:brigid=upsetthroat;i=
 
 “I was all alone in here with him when he attacked me. I couldn’t—I tried to keep him off. I—I couldn’t make myself shoot him.”
-
+e:brigid=upset
 
 “Oh, you liar!” Cairo cried,
-s=cairo;e:cairo=angry;m=allowbreak
+s=cairo;e:cairo=angry;m=allowbreak;e:cairo=angry;i=2
 
 trying unsuccessfully to pull the arm that held his pistol out of Dundy’s grip.
 m=;s=
 
 “Oh, you dirty filthy liar!”
-s=cairo;i=2
+s=cairo;i=2;e:cairo=upset;i=
 
 He twisted himself around to face Dundy.
 s=none
 
 “She’s lying awfully.”
-s=cairo
+s=cairo;e:cairo=upset;i=;e:cairo=annoyed;i=
 
 “I came here in good faith and was attacked by both of them, and when you came he went out to talk to you, leaving her here with this pistol, and then she said they were going to kill me after you left, and I called for help, so you wouldn’t leave me here to be murdered, and then she struck me with the pistol.”
+;e:cairo=wary;i=
 
+“Here, give me this thing,” Dundy said,
+s=dundy;e:dundy=annoyed;m=allowbreak
 
-“Here, give me this thing,” Dundy said, and took the pistol from Cairo’s hand.
-s=dundy;e:dundy=annoyed
+and took the pistol from Cairo’s hand.
+m=;s=
 
 “Now let’s get this straight. What’d you come here for?”
-
+s=dundy;e:dundy=angry;i=2
 
 “He sent for me.”
 s=cairo;e:cairo=annoyed
@@ -4847,7 +4850,7 @@ Cairo twisted his head around to stare defiantly at Spade.
 s=none;e:cairo=angry
 
 “He called me up on the phone and asked me to come here.”
-s=cairo;i=2
+s=cairo;i=2;e:cairo=angry;i=2
 
 Spade blinked sleepily at the Levantine and said nothing.
 s=none;e:spade=neutral
@@ -4856,7 +4859,7 @@ Dundy asked:
 s=
 
 “What’d he want you for?”
-s=dundy
+s=dundy;e:dundy=scowling;i=
 
 Cairo withheld his reply until he had mopped his bloody forehead and chin with a lavender-barred silk handkerchief.
 s=none;e:cairo=wary
@@ -4865,7 +4868,7 @@ By then some of the indignation in his manner had been replaced by caution.
 
 
 “He said he wanted—they wanted—to see me. I didn’t know what about.”
-s=cairo
+s=cairo;e:cairo=wary;i=2
 
 Tom Polhaus lowered his head, sniffed the odor of chypre that the mopping handkerchief had released in the air, and turned his head to scowl interrogatively at Spade.
 s=none;e:tom=curious
@@ -4877,13 +4880,13 @@ Dundy asked:
 
 
 “Well, what happened then?”
-s=dundy;i=3
+s=dundy;i=3;e:dundy=annoyed;i=;e:dundy=angry;i=2
 
 “Then they attacked me. She struck me first, and then he choked me and took the pistol out of my pocket.”
 s=cairo;e:cairo=upset
 
 “I don’t know what they would have done next if you hadn’t arrived at that moment. I dare say they would have murdered me then and there.”
-
+;e:cairo=nervous;i=
 
 “When he went out to answer the bell he left her here with the pistol to watch over me.”
 
@@ -4892,7 +4895,7 @@ Brigid O’Shaughnessy jumped out of the armchair crying,
 s=
 
 “Why don’t you make him tell the truth?”
-s=brigid;e:brigid=angry;m=allowbreak
+s=brigid;e:brigid=angry;m=allowbreak;e:brigid=scowling;i=
 
 and slapped Cairo on the cheek.
 m=;s=;f:b:spade-bedroom-living-night=blur(3px)
@@ -4913,7 +4916,7 @@ s=
 s=spade;e:spade=smirking;x:spade=cig
 
 “Yeah,” Tom agreed.
-s=tom;e:tom=weary
+s=tom;e:tom=weary;e:tom=wary;i=
 
 Dundy scowled down at the girl and asked:
 s=
@@ -4928,13 +4931,13 @@ She turned to Spade.
 s=none
 
 “Is it?”
-s=brigid;e:brigid=unhappy
+s=brigid;e:brigid=unhappy;e:brigid=confused;i=
 
 “How do I know?” Spade responded.
 s=spade;e:spade=neutral
 
 “I was out in the kitchen mixing an omelette when it all happened, wasn’t I?”
-
+;e:spade=curious;i=
 
 She wrinkled her forehead, studying him with eyes that perplexity clouded.
 s=none;e:brigid=confused
@@ -4946,10 +4949,10 @@ Dundy, still scowling at the girl, ignored Spade’s speech and asked her:
 
 
 “If he’s not telling the truth, how come he did the squawking for help, and not you?”
-s=dundy;e:dundy=scowling
+s=dundy;e:dundy=scowling;e:dundy=annoyed;i=3
 
 “Oh, he was frightened to death when I struck him,” she replied, looking contemptuously at the Levantine.
-s=brigid;e:brigid=scowling
+s=brigid;e:brigid=scowling;e:brigid=unhappy;i=
 
 Cairo’s face flushed where it was not blood-smeared. He exclaimed:
 s=none;e:cairo=angry
@@ -4967,7 +4970,7 @@ s=;f:b:spade-bedroom-living-night=
 s=tom;e:tom=serious
 
 “Then make him tell the truth,” she said defiantly.
-s=brigid;e:brigid=angry
+s=brigid;e:brigid=angry;e:brigid=annoyed;i=2
 
 “We’ll do that all right,” he promised. “Just don’t get rough.”
 s=tom;i=2
@@ -4985,7 +4988,7 @@ Spade left the door and advanced to the center of the room, dropping his cigaret
 x:spade=
 
 “Don’t be in a hurry,” he said. “Everything can be explained.”
-s=spade;x:spade=
+s=spade;x:spade=;e:spade=excited;i=
 
 “I bet you,” Dundy agreed, sneering.
 s=dundy;e:dundy=scowling
@@ -4994,37 +4997,37 @@ Spade bowed to the girl.
 s=none
 
 “Miss O’Shaughnessy,” he said, “may I present Lieutenant Dundy and Detective-sergeant Polhaus.”
-s=spade
+s=spade;e:spade=contemplative;i=3
 
 He bowed to Dundy.
 s=none
 
 “Miss O’Shaughnessy is an operative in my employ.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 Joel Cairo said indignantly:
 s=
 
 “That isn’t so. She—”
-s=cairo;e:cairo=angry
+s=cairo;e:cairo=angry;e:cairo=angry;i=2
 
 Spade interrupted him in a quite loud, but still genial, voice:
 s=
 
 “I hired her just recently, yesterday.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 “This is Mr. Joel Cairo, a friend—an acquaintance, at any rate—of Thursby’s. He came to me this afternoon and tried to hire me to find something Thursby was supposed to have on him when he was bumped off.”
-
+;e:spade=annoyedsmile;i=2
 
 “It looked funny, the way he put it to me, so I wouldn’t touch it. Then he pulled a gun—well, never mind that unless it comes to a point of laying charges against each other.”
-
+;e:spade=excited;i=
 
 “Anyway, after talking it over with Miss O’Shaughnessy, I thought maybe I could get something out of him about Miles’s and Thursby’s killings, so I asked him to come up here.”
 e:spade=
 
 “Maybe we put the questions to him a little rough, but he wasn’t hurt any, not enough to have to cry for help. I’d already had to take his gun away from him again.”
-
+;e:spade=curious;i=
 
 As Spade talked anxiety came into Cairo’s reddened face. His eyes moved jerkily up and down, shifting their focus uneasily between the floor and Spade’s bland face.
 s=none;e:cairo=nervous
@@ -5033,7 +5036,7 @@ Dundy confronted Cairo and brusquely demanded:
 
 
 “Well, what’ve you got to say to that?”
-s=dundy;e:dundy=serious
+s=dundy;e:dundy=serious;e:dundy=suspicious;i=2
 
 Cairo had nothing to say for nearly a minute while he stared at the Lieutenant’s chest.
 s=none;e:cairo=thinking
@@ -5042,31 +5045,31 @@ When he lifted his eyes they were shy and wary.
 e:cairo=wary
 
 “I don’t know what I should say,” he murmured.
-s=cairo
+s=cairo;e:cairo=nervous;i=2
 
 His embarrassment seemed genuine.
 s=none
 
 “Try telling the facts,” Dundy suggested.
-s=dundy
+s=dundy;e:dundy=annoyed;i=
 
 “The facts?”
-s=cairo;i=2
+s=cairo;i=2;e:cairo=nervous;i=
 
 Cairo’s eyes fidgeted, though their gaze did not actually leave the Lieutenant’s.
 s=none;e:cairo=nervous
 
 “What assurance have I that the facts will be believed?”
-s=cairo
+s=cairo;e:cairo=annoyed;i=
 
 “Quit stalling. All you’ve got to do is swear to a complaint that they took a poke at you and the warrant-clerk will believe you enough to issue a warrant that’ll let us throw them in the can.”
-s=dundy;e:dundy=angry
+s=dundy;e:dundy=angry;e:dundy=angry;i=2
 
 Spade spoke in an amused tone:
 s=
 
 “Go ahead, Cairo. Make him happy. Tell him you’ll do it, and then we’ll swear to one against you, and he’ll have the lot of us.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 Cairo cleared his throat and looked nervously around the room, not into the eyes of anyone there.
 s=none;e:cairo=nervous
@@ -5075,7 +5078,7 @@ Dundy blew breath through his nose in a puff that was not quite a snort and said
 
 
 “Get your hats.”
-s=dundy;e:dundy=scowling
+s=dundy;e:dundy=scowling;e:dundy=annoyed;i=
 
 Cairo’s eyes, holding worry and a question, met Spade’s mocking gaze. Spade winked at him and sat on the arm of the padded rocker.
 s=none;e:cairo=wary
@@ -5087,7 +5090,7 @@ grinning at the Levantine and at the girl with nothing but delight in his voice 
 s=;m=
 
 “we put it over nicely.”
-s=spade;i=2
+s=spade;i=2;e:spade=smirking;i=3
 
 Dundy’s hard square face darkened the least of shades. He repeated peremptorily:
 s=none;e:dundy=angry
@@ -5099,7 +5102,7 @@ Spade turned his grin on the Lieutenant, squirmed into a more comfortable positi
 s=
 
 “Don’t you know when you’re being kidded?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 Tom Polhaus’s face became red and shiny.
 s=none;e:tom=angry
@@ -5117,10 +5120,10 @@ His grin was a taunt and self-certainty spoke in every line of his posture.
 e:spade=smirking
 
 “I dare you to take us in, Dundy,” he said. “We’ll laugh at you in every newspaper in San Francisco. You don’t think any of us is going to swear to any complaints against the others, do you? Wake up. You’ve been kidded.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 “When the bell rang I said to Miss O’Shaughnessy and Cairo: ‘It’s those damned bulls again. They’re getting to be nuisances. Let’s play a joke on them. When you hear them going one of you scream, and then we’ll see how far we can string them along before they tumble.’ And—”
-
+;e:spade=excited;i=
 
 Brigid O’Shaughnessy bent forward in her chair and began to laugh hysterically.
 s=none;e:brigid=happy
@@ -5132,31 +5135,28 @@ Tom, glowering, grumbled:
 
 
 “Cut it out, Sam.”
-s=tom;e:tom=angry
+s=tom;e:tom=angry;e:tom=;i=
 
 Spade chuckled and said:
 s=
 
 “But that’s the way it was. We—”
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=lewd;i=;e:spade=smirking;i=2
 
 “And the cut on his head and mouth?” Dundy asked scornfully.
-s=dundy;e:dundy=scowling
+s=dundy;e:dundy=scowling;e:dundy=angry;i=2
 
 “Where’d they come from?”
-
+;e:dundy=scowling;i=2;e:dundy=suspicious;i=2
 
 “Ask him,” Spade suggested. “Maybe he cut himself shaving.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=contemplative;i=2
 
 Cairo spoke quickly, before he could be questioned, and the muscles of his face quivered under the strain of holding his smile in place while he spoke.
 s=none;e:cairo=nervous
 
-“I fell. We intended to be struggling for the pistol when you came in, but I fell.”
-s=cairo
-
-“I tripped on the end of the rug and fell while we were pretending to struggle.”
-
+“I fell. We intended to be struggling for the pistol when you came in, but I fell. I tripped on the end of the rug and fell while we were pretending to struggle.”
+s=cairo;e:cairo=upset;i=2
 
 Dundy said:
 s=
@@ -5168,13 +5168,13 @@ Spade said:
 s=
 
 “That’s all right, Dundy, believe it or not. The point is that that’s our story and we’ll stick to it.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 “The newspapers will print it whether they believe it or not, and it’ll be just as funny one way as the other, or more so.”
-
+e:spade=smirking;e:spade=smirking;i=3
 
 “What are you going to do about it? It’s no crime to kid a copper, is it? You haven’t got anything on anybody here. Everything we told you was part of the joke. What are you going to do about it?”
-
+;e:spade=excited;i=
 
 Dundy put his back to Spade and gripped Cairo by the shoulders.
 s=none;e:dundy=angry
@@ -5183,13 +5183,13 @@ s=none;e:dundy=angry
 s=dundy
 
 “You belched for help and you’ve got to take it.”
-
+;e:dundy=scowling;i=
 
 “No, sir,” Cairo sputtered.
-s=cairo;e:cairo=fearful
+s=cairo;e:cairo=fearful;e:cairo=upset;i=
 
 “It was a joke. He said you were friends of his and would understand.”
-
+;e:cairo=fearful;i=2
 
 Spade laughed.
 s=none;e:spade=happy
@@ -5198,10 +5198,10 @@ Dundy pulled Cairo roughly around, holding him now by one wrist and the nape of 
 e:dundy=angry
 
 “I’ll take you along for packing the gun, anyway,” he said.
-s=dundy
+s=dundy;e:dundy=annoyed;i=2
 
 “And I’ll take the rest of you along to see who laughs at the joke.”
-
+e:dundy=angry;i=2
 
 Cairo’s alarmed eyes jerked sidewise to focus on Spade’s face.
 s=none;e:cairo=fearful
@@ -5210,13 +5210,13 @@ Spade said:
 
 
 “Don’t be a sap, Dundy. The gun was part of the plant. It’s one of mine.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 He laughed.
 s=none;e:spade=happy
 
 “Too bad it’s only a thirty-two, or maybe you could find it was the one Thursby and Miles were shot with.”
-s=spade;e:spade=smirking;i=2
+s=spade;e:spade=smirking;i=2;e:spade=lewd;i=
 
 Dundy released Cairo, spun on his heel, and his right fist clicked on Spade’s chin.
 s=none;e:dundy=angry;f:b:spade-bedroom-living-night=blur(3px)
@@ -5231,13 +5231,13 @@ Before his fist could come up Tom Polhaus had pushed himself between the two men
 e:tom=nervous
 
 “No, no, for Christ’s sake!” Tom begged.
-s=tom
+s=tom;e:tom=weary;i=
 
 After a long moment of motionlessness Spade’s muscles relaxed.
 s=none;e:spade=neutral
 
 “Then get him out of here quick,” he said.
-s=spade;e:spade=serious;
+s=spade;e:spade=serious;;e:spade=pinch;i=
 
 His smile had gone away again, leaving his face sullen and somewhat pale.
 s=none;e:spade=scowling
@@ -5249,7 +5249,7 @@ Dundy’s fists were clenched in front of his body and his feet were planted fir
 e:dundy=angry
 
 “Get their names and addresses,” he ordered.
-s=dundy;e:dundy=scowling
+s=dundy;e:dundy=scowling;e:dundy=suspicious;i=2
 
 Tom looked at Cairo, who said quickly:
 s=
@@ -5261,7 +5261,7 @@ Spade spoke before Tom could question the girl.
 s=
 
 “You can always get in touch with Miss O’Shaughnessy through me.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=;e:spade=scowling;i=2
 
 Tom looked at Dundy.
 s=none;e:tom=wary
@@ -5282,13 +5282,13 @@ Dundy took a step forward, halting in front of the girl.
 s=none;e:dundy=scowling
 
 “Where do you live?” he asked.
-s=dundy
+s=dundy;e:dundy=angry;i=2
 
 Spade addressed Tom:
 s=
 
 “Get him out of here. I’ve had enough of this.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=
 
 Tom looked at Spade’s eyes—hard and glittering—and mumbled:
 s=
@@ -5312,37 +5312,37 @@ Cairo moved suddenly towards the door, saying:
 s=
 
 “I’m going too, if Mr. Spade will be kind enough to give me my hat and coat.”
-s=cairo;e:cairo=nervous
+s=cairo;e:cairo=nervous;e:cairo=nervous;i=
 
 Spade asked:
 s=
 
 “What’s the hurry?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=
 
 Dundy said angrily:
 s=
 
 “It was all in fun, but just the same you’re afraid to be left here with them.”
-s=dundy;e:dundy=angry
+s=dundy;e:dundy=angry;e:dundy=scowling;i=
 
 “Not at all,” the Levantine replied, fidgeting, looking at neither of them,
-s=cairo;e:cairo=wary
+s=cairo;e:cairo=wary;e:cairo=upset;i=2;e:cairo=upset;i=
 
 “but it’s quite late and—and I’m going. I’ll go out with you if you don’t mind.”
-
+;e:cairo=wary;i=2
 
 Dundy put his lips together firmly and said nothing. A light was glinting in his green eyes.
 s=none;e:dundy=thinking
 
 Spade went to the closet in the passageway and fetched Cairo’s hat and coat. Spade’s face was blank.
-e:spade=neutral
+e:spade=neutral;b=spade-passageway
 
 His voice held the same blankness when he stepped back from helping the Levantine into his coat and said to Tom:
-
+b=spade-bedroom-living-night
 
 “Tell him to leave the gun.”
-s=spade
+s=spade;e:spade=serious;i=2
 
 Dundy took Cairo’s pistol from his overcoat-pocket and put it on the table.
 s=none;e:dundy=scowling
