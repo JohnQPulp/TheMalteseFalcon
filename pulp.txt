@@ -3284,15 +3284,18 @@ Then he said aloud in the tone of one dismissing a problem,
 
 
 “Well, they’re paying for it,”
-s=spade;e:spade=weary;m=allowbreak
+s=spade;e:spade=weary;m=allowbreak;e:spade=suspicious;i=
 
 and took a bottle of Manhattan cocktail and a paper drinking cup from a desk drawer.
 s=;m=
 
-He filled the cup two-thirds full, drank, returned the bottle to the drawer, tossed the cup into the wastebasket, put on his hat and overcoat,
+He filled the cup two-thirds full, drank, returned the bottle to the drawer, tossed the cup into the wastebasket,
 s=none;e:spade=neutral;m=allowbreak;x:spade=hat,overcoat
 
-turned off the lights, and went down to the night-lit street.
+put on his hat and overcoat, turned off the lights,
+;;b=office-outer;f:b:office-outer=brightness(85%)
+
+and went down to the night-lit street.
 m=;b=sf-wide-night
 
 An undersized youth of twenty or twenty-one in neat grey cap and overcoat was standing idly on the corner below Spade’s building.
@@ -3316,20 +3319,20 @@ He was told that Cairo was not in.
 The youth sat in a chair in a far corner of the lobby.
 
 
-Spade went to the Geary Theatre, failed to see Cairo in the lobby, and posted himself on the curb in front, facing the theatre. The youth loitered with other loiterers before Marquard’s restaurant below.
-b=sf-wide-night
+Spade went to the Geary Theatre, failed to see Cairo in the lobby, and posted himself on the curb in front, facing the theatre.
+b=street-night
 
-At ten minutes past eight Joel Cairo appeared, walking up Geary Street with his little mincing bobbing steps.
+The youth loitered with other loiterers before Marquard’s restaurant below.
+
+
+At ten minutes past eight Joel Cairo appeared, walking up Geary Street with his little mincing bobbing steps. Apparently he did not see Spade until the private detective touched his shoulder.
 e:cairo=neutral;b=street-night
-
-Apparently he did not see Spade until the private detective touched his shoulder.
-
 
 He seemed moderately surprised for a moment, and then said:
 x:cairo=hat
 
 “Oh, yes, of course you saw the ticket.”
-s=cairo;e:cairo=contemplative
+s=cairo;e:cairo=contemplative;e:cairo=serious;i=2
 
 “Uh-huh. I’ve got something I want to show you.”
 s=spade;e:spade=serious
@@ -3338,25 +3341,22 @@ Spade drew Cairo back towards the curb a little away from the other waiting thea
 s=none
 
 “The kid in the cap down by Marquard’s.”
-s=spade;i=2
+s=spade;i=2;e:spade=;i=2
 
 Cairo murmured,
 s=
 
 “I’ll see,”
-s=cairo;e:cairo=thinking;m=allowbreak
+s=cairo;e:cairo=thinking;m=allowbreak;e:cairo=serious;i=;e:cairo=;i=
 
-and looked at his watch.
+and looked at his watch. He looked up Geary Street.
 m=;s=
-
-He looked up Geary Street.
-s=none
 
 He looked at a theatre-sign in front of him on which George Arliss was shown costumed as Shylock, and then his dark eyes crawled sidewise in their sockets until they were looking at the kid in the cap, at his cool pale face with curling lashes hiding lowered eyes.<e><a href="https://arlissarchives.com/tag/merchant-of-venice/">George Arliss as Shylock.</a> (Real.)</e>
 
 
 “Who is he?” Spade asked.
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=annoyed;i=
 
 Cairo smiled up at Spade.
 s=none;e:cairo=smirking
@@ -3365,19 +3365,19 @@ s=none;e:cairo=smirking
 s=cairo
 
 “He’s been tailing me around town.”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=serious;i=
 
 Cairo wet his lower lip with his tongue and asked:
 s=
 
 “Do you think it was wise, then, to let him see us together?”
-s=cairo;e:cairo=wary
+s=cairo;e:cairo=wary;e:cairo=thinking;i=
 
 “How do I know?” Spade replied.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=scowling;i=2
 
 “Anyway, it’s done.”
-
+;e:spade=annoyed;i=
 
 Cairo removed his hat and smoothed his hair with a gloved hand.
 s=none
@@ -3385,41 +3385,38 @@ s=none
 He replaced his hat carefully on his head and said with every appearance of candor:
 
 
-“I give you my word I do not know him, Mr. Spade.”
-s=cairo;e:cairo=serious
-
-“I give you my word I have nothing to do with him. I have asked nobody’s assistance except yours, on my word of honor.”
-
+“I give you my word I do not know him, Mr. Spade. I give you my word I have nothing to do with him. I have asked nobody’s assistance except yours, on my word of honor.”
+s=cairo;e:cairo=serious;e:cairo=contemplative;i=
 
 “Then he’s one of the others?”
-s=spade;e:spade=thinking
+s=spade;e:spade=thinking;e:spade=serious;i=2
 
 “That may be.”
-s=cairo
+s=cairo;e:cairo=thinking;i=
 
 “I just wanted to know, because if he gets to be a nuisance I may have to hurt him.”
-s=spade;e:spade=scowling
+s=spade;e:spade=scowling;e:spade=smirking;i=
 
 “Do as you think best. He is not a friend of mine.”
 s=cairo;e:cairo=neutral
 
 “That’s good. There goes the curtain. Good night,” Spade said,
-s=spade;e:spade=neutral;m=allowbreak
+s=spade;e:spade=neutral;m=allowbreak;e:spade=curious;i=
 
 and crossed the street to board a westbound streetcar.
-m=;s=
+m=;s=;f:b:street-night=blur(3px)
 
 The youth in the cap boarded the same car.
 s=none
 
 Spade left the car at Hyde Street and went up to his apartment.
-b=sf-wide-night
+b=spade-wide-night
 
 His rooms were not greatly upset, but showed unmistakable signs of having been searched.
-e:spade=wary
+e:spade=wary;b=spade-passageway
 
 When Spade had washed and had put on a fresh shirt and collar he went out again, walked up to Sutter Street, and boarded a westbound car. The youth boarded it also.
-e:spade=neutral
+e:spade=neutral;b=sf-wide-night
 
 Within half a dozen blocks of the Coronet Spade left the car and went into the vestibule of a tall brown apartment-building. He pressed three bell-buttons together. The street door-lock buzzed.
 
@@ -3449,7 +3446,7 @@ Three small rough-barked logs burned in the fireplace. Spade watched them burn w
 x:spade=
 
 “Do you bring me good news?” she asked when she came into the room again.
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=sadsmile;i=2
 
 Anxiety looked through her smile, and she held her breath.
 s=none
@@ -3458,22 +3455,22 @@ s=none
 s=spade
 
 “The police won’t have to know about me?”
-s=brigid
+s=brigid;e:brigid=serious;i=2
 
 “No.”
-s=spade;i=2
+s=spade;i=2;e:spade=contemplative;i=3
 
 She sighed happily and sat on the walnut settee. Her face relaxed and her body relaxed. She smiled up at him with admiring eyes.
 s=none;e:brigid=happy
 
 “However did you manage it?” she asked more in wonder than in curiosity.
-s=brigid
+s=brigid;e:brigid=happy;i=2
 
 “Most things in San Francisco can be bought, or taken.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “And you won’t get into trouble? Do sit down.”
-s=brigid
+s=brigid;e:brigid=;i=2
 
 She made room for him on the settee.
 s=none
@@ -3490,14 +3487,11 @@ e:brigid=wary
 He stood there until it seemed plain that he meant to ignore her invitation to sit beside her, and then crossed to the settee.
 
 
-“You aren’t,” he asked as he sat down,
-s=spade;e:spade=curious
-
-“exactly the sort of person you pretend to be, are you?”
-
+“You aren’t,” he asked as he sat down, “exactly the sort of person you pretend to be, are you?”
+s=spade;e:spade=curious;e:spade=excited;i=
 
 “I’m not sure I know what you mean,” she said in her hushed voice, looking at him with puzzled eyes.
-s=brigid;e:brigid=confused
+s=brigid;e:brigid=confused;e:brigid=upset;i=
 
 “Schoolgirl manner,” he explained, “stammering and blushing and all that.”
 s=spade;e:spade=contemplative
@@ -3506,31 +3500,31 @@ She blushed and replied hurriedly, not looking at him:
 s=
 
 “I told you this afternoon that I’ve been bad﻿—worse than you could know.”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=unhappy;i=3
 
 “That’s what I mean,” he said. “You told me that this afternoon in the same words, same tone. It’s a speech you’ve practiced.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 After a moment in which she seemed confused almost to the point of tears she laughed and said:
 s=
 
 “Very well, then, Mr. Spade, I’m not at all the sort of person I pretend to be.”
-s=brigid;e:brigid=smirking
+s=brigid;e:brigid=smirking;e:brigid=sadsmile;
 
 “I’m eighty years old, incredibly wicked, and an iron-molder by trade. But if it’s a pose it’s one I’ve grown into, so you won’t expect me to drop it entirely, will you?”
 
 
 “Oh, it’s all right,” he assured her.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 “Only it wouldn’t be all right if you were actually that innocent. We’d never get anywhere.”
-
+;e:spade=excited;i=
 
 “I won’t be innocent,” she promised with a hand on her heart.
-s=brigid;e:brigid=smirking
+s=brigid;e:brigid=smirking;e:brigid=happy;i=2
 
 “I saw Joel Cairo tonight,” he said in the manner of one making polite conversation.
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 Gaiety went out of her face. Her eyes, focused on his profile, became frightened, then cautious.
 s=none;e:brigid=fearful
@@ -3545,19 +3539,19 @@ e:brigid=wary
 s=brigid
 
 “I saw him tonight.”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 Spade did not look up and he maintained his light conversational tone.
 s=none
 
 “He was going to see George Arliss.”
-s=spade
+s=spade;e:spade=;i=2
 
 “You mean you talked to him?”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=fearful;i=
 
 “Only for a minute or two, till the curtain bell rang.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=2
 
 She got up from the settee and went to the fireplace to poke the fire.
 s=none
@@ -3572,67 +3566,67 @@ Spade grinned sidewise at her and said:
 
 
 “You’re good. You’re very good.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=3
 
 Her face did not change. She asked quietly:
 s=none
 
 “What did he say?”
-s=brigid;x:brigid=cig
+s=brigid;e:brigid=contemplative;i=2
 
 “About what?”
-s=spade
+s=spade;e:spade=;i=
 
 She hesitated.
 s=none;e:brigid=wary
 
 “About me.”
-s=brigid
+s=brigid;e:brigid=wary;i=2
 
 “Nothing.”
-s=spade
+s=spade;e:spade=curious;i=
 
 Spade turned to hold his lighter under the end of her cigarette. His eyes were shiny in a wooden satan’s face.
-s=none
+s=none;x:brigid=cig
 
 “Well, what did he say?” she asked with half-playful petulance.
 s=brigid;e:brigid=annoyed;x:brigid=cig
 
 “He offered me five thousand dollars for the black bird.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=excited;i=
 
 She started, her teeth tore the end of her cigarette, and her eyes, after a swift alarmed glance at Spade, turned away from him.
 s=none;e:brigid=surprised;x:brigid=
 
 “You’re not going to go around poking at the fire and straightening up the room again, are you?” he asked lazily.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=3
 
 She laughed a clear merry laugh, dropped the mangled cigarette into a tray, and looked at him with clear merry eyes.
 s=none;e:brigid=happy
 
 “I won’t,” she promised. “And what did you say?”
-s=brigid
+s=brigid;e:brigid=happy;i=2
 
 “Five thousand dollars is a lot of money.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=2
 
 She smiled, but when, instead of smiling, he looked gravely at her, her smile became faint, confused, and presently vanished. In its place came a hurt, bewildered look.
 s=none;e:brigid=confused
 
 “Surely you’re not really considering it,” she said.
-s=brigid
+s=brigid;e:brigid=nervous;i=2
 
 “Why not? Five thousand dollars is a lot of money.”
-s=spade
+s=spade;e:spade=;i=;e:spade=contemplative;i=3
 
 “But, Mr. Spade, you promised to help me.”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=confused
 
 Her hands were on his arm.
 s=none
 
 “I trusted you. You can’t﻿—”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=weary;i=2
 
 She broke off, took her hands from his sleeve and worked them together.
 s=none
@@ -3641,43 +3635,40 @@ Spade smiled gently into her troubled eyes.
 
 
 “Don’t let’s try to figure out how much you’ve trusted me,” he said.
-s=spade
+s=spade;e:spade=excited;i=
 
 “I promised to help you﻿—sure﻿—but you didn’t say anything about any black birds.”
-
+;e:spade=smirking;i=2
 
 “But you must’ve known or﻿—or you wouldn’t have mentioned it to me. You do know now. You won’t﻿—you can’t﻿—treat me like that.”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=nervous;i=
 
 Her eyes were cobalt-blue prayers.
 s=none
 
-“Five thousand dollars is,” he said for the third time,
-s=spade;e:spade=serious
-
-“a lot of money.”
-
+“Five thousand dollars is,” he said for the third time, “a lot of money.”
+s=spade;e:spade=serious;e:spade=;i=2
 
 She lifted her shoulders and hands and let them fall in a gesture that accepted defeat.
 s=none;e:brigid=weary
 
 “It is,” she agreed in a small dull voice.
-s=brigid
+s=brigid;e:brigid=wary;i=2
 
 “It is far more than I could ever offer you, if I must bid for your loyalty.”
-
+;e:brigid=fearful;i=2;e:brigid=unhappylookdown;i=
 
 Spade laughed. His laughter was brief and somewhat bitter.
 s=none;e:spade=angry
 
 “That is good,” he said, “coming from you.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=annoyedsmile;i=
 
 “What have you given me besides money? Have you given me any of your confidence? any of the truth? any help in helping you?”
 e:spade=annoyed
 
 “Haven’t you tried to buy my loyalty with money and nothing else? Well, if I’m peddling it, why shouldn’t I let it go to the highest bidder?”
-
+;e:spade=scowling;i=2
 
 “I’ve given you all the money I have.”
 s=brigid;e:brigid=upset
@@ -3686,22 +3677,25 @@ Tears glistened in her white-ringed eyes. Her voice was hoarse, vibrant.
 s=none
 
 “I’ve thrown myself on your mercy, told you that without your help I’m utterly lost. What else is there?”
-s=brigid
+s=brigid;e:brigid=upsetthroat;i=
 
 She suddenly moved close to him on the settee and cried angrily:
 s=none;e:brigid=angry
 
 “Can I buy you with my body?”
-s=brigid
+s=brigid;e:brigid=unhappy;i=;e:brigid=scowling;i=
 
-Their faces were a few inches apart. Spade took her face between his hands and he kissed her mouth roughly and contemptuously.
+Their faces were a few inches apart.
 s=none;e:spade=serious
+
+Spade took her face between his hands and he kissed her mouth roughly and contemptuously.
+
 
 Then he sat back and said:
 s=
 
 “I’ll think it over.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=2;e:spade=angry;i=3
 
 His face was hard and furious.
 s=none
@@ -3713,7 +3707,7 @@ He stood up and said:
 s=
 
 “Christ! there’s no sense to this.”
-s=spade;i=2
+s=spade;i=2;e:spade=serious;i=2
 
 He took two steps towards the fireplace and stopped, glowering at the burning logs, grinding his teeth together.
 s=none;e:spade=scowling
@@ -3728,10 +3722,10 @@ He turned to face her. The two vertical lines above his nose were deep clefts be
 s=spade;e:spade=angry
 
 “I don’t care what kind of tricks you’re up to, what your secrets are, but I’ve got to have something to show that you know what you’re doing.”
-
+;e:spade=serious;i=3
 
 “I do know. Please believe that I do, and that it’s all for the best, and﻿—”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=upset;i=2
 
 “Show me,” he ordered. “I’m willing to help you. I’ve done what I could so far.”
 s=spade;e:spade=scowling
@@ -3740,25 +3734,25 @@ s=spade;e:spade=scowling
 
 
 “You’ve got to convince me that you know what it’s all about, that you’re not simply fiddling around by guess and by God, hoping it’ll come out all right somehow in the end.”
-
+;e:spade=angry;i=
 
 “Can’t you trust me just a little longer?”
 s=brigid
 
 “How much is a little? And what are you waiting for?”
-s=spade
+s=spade;e:spade=angry;i=3
 
 She bit her lip and looked down.
 s=none;e:brigid=nervous
 
 “I must talk to Joel Cairo,” she said almost inaudibly.
-s=brigid
+s=brigid;e:brigid=unhappylookdown;i=;e:brigid=unhappylookdown;i=2
 
 “You can see him tonight,” Spade said, looking at his watch.
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=rolling;i=
 
 “His show will be out soon. We can get him on the phone at his hotel.”
-
+;e:spade=pinch;i=3
 
 She raised her eyes, alarmed.
 s=none;e:brigid=fearful
@@ -3767,22 +3761,22 @@ s=none;e:brigid=fearful
 s=brigid
 
 “My place,” Spade suggested.
-s=spade
+s=spade;e:spade=annoyed;i=
 
 She hesitated, working her lips together, then asked:
 s=none;e:brigid=contemplative
 
 “Do you think he’d go there?”
-s=brigid
+s=brigid;e:brigid=nervous;i=;e:brigid=wary;i=;e:brigid=wary;i=2
 
 Spade nodded.
 s=none
 
 “All right,” she exclaimed, jumping up, her eyes large and bright.
-s=brigid;e:brigid=happy
+s=brigid;e:brigid=happy;e:brigid=curious;i=;e:brigid=serious;i=2
 
 “Shall we go now?”
-
+;e:brigid=wary;i=
 
 She went into the next room.
 s=none
@@ -3794,7 +3788,7 @@ He had shut the drawer and was lighting a cigarette when she returned wearing a 
 
 
 —
-x:spade=hat,overcoat;x:brigid=hat2,coat;b=spade-wide-night
+x:spade=hat,overcoat;x:brigid=hat2,coat;f:b:brigid-apt-living-night-flowers=blur(3px)
 
 Their taxicab drew up behind a dark sedan that stood directly in front of Spade’s street door.
 b=spade-wide-night
@@ -3806,7 +3800,7 @@ In the lobby he halted beside one of the benches and asked:
 s=none
 
 “Do you mind waiting here a moment? I won’t be long.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=contemplative;i=
 
 “That’s perfectly all right,” Brigid O’Shaughnessy said, sitting down.
 s=brigid;e:brigid=neutral
@@ -3818,28 +3812,28 @@ Spade went out to the sedan. When he had opened the sedan’s door Iva spoke qui
 s=none
 
 “I’ve got to talk to you, Sam. Can’t I come in?”
-s=iva;x:iva=mourning,hat
+s=iva;x:iva=mourning,hat;e:iva=unhappy;i=
 
 Her face was pale and nervous.
 s=none
 
 “Not now.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=scowling;i=2
 
 Iva clicked her teeth together and asked sharply:
 s=none;e:iva=angry
 
 “Who is she?”
-s=iva;e:iva=annoyed
+s=iva;e:iva=annoyed;e:iva=annoyed;i=2
 
 “I’ve only a minute, Iva,” Spade said patiently.
-s=spade;e:spade=
+s=spade;e:spade=;e:spade=annoyed;i=
 
 “What is it?”
-
+;e:spade=scowling;i=2
 
 “Who is she?” she repeated, nodding at the street door.
-s=iva;i=2
+s=iva;i=2;e:iva=unhappy;i=2
 
 He looked away from her, down the street.
 s=none
@@ -3851,40 +3845,40 @@ Spade frowned and returned his gaze to Iva’s insistent face.
 e:spade=scowling
 
 “What is the matter?” he asked.
-s=spade
+s=spade;e:spade=;i=
 
 “Has anything happened? You oughtn’t to be here at this time of night.”
-
+;e:spade=;i=2
 
 “I’m beginning to believe that,” she complained.
-s=iva;e:iva=unhappy
+s=iva;e:iva=unhappy;e:iva=angry;i=
 
 “You told me I oughtn’t to come to the office, and now I oughtn’t to come here. Do you mean I oughtn’t to chase after you?”
-
+;e:iva=upset;i=3
 
 “If that’s what you mean why don’t you say it right out?”
-e:iva=upset
+e:iva=upset;e:iva=annoyed;i=2
 
 “Now, Iva, you’ve got no right to take that attitude.”
 s=spade;e:spade=annoyed
 
 “I know I haven’t. I haven’t any rights at all, it seems, where you’re concerned. I thought I did. I thought your pretending to love me gave me﻿—”
-s=iva;i=2
+s=iva;i=2;e:iva=annoyed;i=
 
 Spade said wearily:
 s=none;e:spade=weary
 
 “This is no time to be arguing about that, precious. What was it you wanted to see me about?”
-s=spade
+s=spade;e:spade=contemplative;i=
 
 “I can’t talk to you here, Sam. Can’t I come in?”
 s=iva;e:iva=upset
 
 “Not now.”
-s=spade
+s=spade;e:spade=thinking;i=2
 
 “Why can’t I?”
-s=iva;i=3
+s=iva;i=3;e:iva=serious;i=
 
 Spade said nothing.
 s=none
