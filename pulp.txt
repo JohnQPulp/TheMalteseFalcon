@@ -271,7 +271,7 @@ s=spade;e:spade=neutral;e:spade=;i=2
 Archer said:
 s=
 
-“Yeh.”<e>Stallone?</e>
+“Yeh.”<e>Stallone.</e>
 s=archer;e:archer=neutral
 
 His voice was heavy, coarse.
@@ -5981,13 +5981,13 @@ f:b:spade-kitchen-night=blur(3px)
 r=title
 
 Beginning day had reduced night to a thin smokiness when Spade sat up.
-e:spade=neutral;b=spade-bedroom
+e:spade=neutral;b=spade-bedroom;f:b:spade-bedroom=blur(3px)
 
 At his side Brigid O’Shaughnessy’s soft breathing had the regularity of utter sleep.
 e:brigid=neutral
 
 Spade was quiet leaving bed and bedroom and shutting the bedroom door. He dressed in the bathroom.
-e:spade=serious;f:b:spade-bedroom=blur(3px)
+e:spade=serious;b=spade-passageway;f:b:spade-passageway=blur(3px)
 
 Then he examined the sleeping girl’s clothes, took a flat brass key from the pocket of her coat, and went out.
 
@@ -6007,7 +6007,7 @@ His eyes and thick fingers moved without apparent haste, and without ever linger
 Every drawer, cupboard, cubbyhole, box, bag, trunk﻿—locked or unlocked﻿—was opened and its contents subjected to examination by eyes and fingers.
 
 
-Every piece of clothing was tested by hands that felt for telltale bulges and ears that listened for the crinkle of paper between pressing fingers.<e>"The Tell-Tale Bulge" — erotic Poe fanfiction.</e>
+Every piece of clothing was tested by hands that felt for telltale bulges and ears that listened for the crinkle of paper between pressing fingers.<e>Dashiell Hammett Poe's "The Tell-Tale Bulge".</e>
 
 
 He stripped the bed of bedclothes. He looked under rugs and at the under side of each piece of furniture. He pulled down blinds to see that nothing had been rolled up in them for concealment.
@@ -6044,52 +6044,52 @@ On his way home he stopped at a store that was being opened by a puffy-eyed shiv
 b=sf-wide
 
 Spade went quietly into his apartment, but before he had shut the corridor door behind him Brigid O’Shaughnessy cried:
-e:brigid=surprised;b=spade-passageway
+e:brigid=surprised;b=spade-passageway;f:b:spade-passageway=
 
 “Who is that?”
-s=brigid;e:brigid=fearful;x:brigid=
+s=brigid;e:brigid=fearful;x:brigid=;m=nospeaker
 
 “Young Spade bearing breakfast.”
-s=spade;e:spade=smirking;x:spade=hat,overcoat
+s=spade;e:spade=smirking;x:spade=hat,overcoat;m=;e:spade=curious;i=
 
 “Oh, you frightened me!”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;m=nospeaker
 
 The bedroom door he had shut was open.
-s=none
+s=none;m=
 
 The girl sat on the side of the bed, trembling, with her right hand out of sight under a pillow.
-e:brigid=wary;b=spade-bedroom
+e:brigid=wary;b=spade-bedroom;f:b:spade-bedroom=
 
 Spade put his packages on the kitchen table and went into the bedroom. He sat on the bed beside the girl, kissed her smooth shoulder, and said:
 
 
 “I wanted to see if that kid was still on the job, and to get stuff for breakfast.”
-s=spade;e:spade=;i=2
+s=spade;e:spade=;i=2;e:spade=thinking;i=
 
 “Is he?”
-s=brigid;e:brigid=nervous;i=2
+s=brigid;e:brigid=nervous;i=2;e:brigid=serious;i=2
 
 “No.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=;e:spade=curious;i=
 
 She sighed and leaned against him.
 s=none;e:brigid=neutral
 
 “I awakened and you weren’t here and then I heard someone coming in. I was terrified.”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=fearful;i=2
 
 Spade combed her red hair back from her face with his fingers and said:
 s=
 
 “I’m sorry, angel. I thought you’d sleep through it.”
-s=spade;e:spade=
+s=spade;e:spade=;e:spade=contemplative;i=
 
 “Did you have that gun under your pillow all night?”
-e:spade=curious
+e:spade=curious;e:spade=smirking;i=
 
 “No. You know I didn’t. I jumped up and got it when I was frightened.”
-s=brigid;e:brigid=contemplative
+s=brigid;e:brigid=contemplative;e:brigid=unhappy;i=3
 
 He cooked breakfast﻿—and slipped the flat brass key into her coat-pocket again﻿—while she bathed and dressed.
 s=none;e:spade=neutral;b=spade-kitchen;x:spade=
@@ -6098,10 +6098,10 @@ She came out of the bathroom whistling “En Cuba.”
 e:brigid=happy
 
 “Shall I make the bed?” she asked.
-s=brigid;x:brigid=
+s=brigid;x:brigid=;e:brigid=;i=2
 
 “That’d be swell. The eggs need a couple of minutes more.”
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=annoyed;i=2;e:spade=;i=2
 
 Their breakfast was on the table when she returned to the kitchen.
 s=none
@@ -6110,28 +6110,28 @@ They sat where they had sat the night before and ate heartily.
 e:spade=neutral;e:brigid=neutral
 
 “Now about the bird?” Spade suggested presently as they ate.
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=excited;i=
 
 She put her fork down and looked at him. She drew her eyebrows together and made her mouth small and tight.
 e:brigid=wary;s=
 
 “You can’t ask me to talk about that this morning of all mornings,” she protested.
-s=brigid;e:brigid=annoyed
+s=brigid;e:brigid=annoyed;e:brigid=serious;i=
 
 “I don’t want to and I won’t.”
 
 
 “It’s a stubborn damned hussy,” he said sadly and put a piece of roll into his mouth.
-s=spade;e:spade=sadsmile
+s=spade;e:spade=sadsmile;e:spade=weary;i=
 
 —
-s=none
+s=none;f:b:spade-kitchen=blur(3px)
 
 The youth who had shadowed Spade was not in sight when Spade and Brigid O’Shaughnessy crossed the sidewalk to the waiting taxicab.
 e:spade=neutral;e:brigid=neutral;b=spade-wide
 
 The taxicab was not followed.
-
+f:b:spade-wide=blur(3px)
 
 Neither the youth nor another loiterer was visible in the vicinity of the Coronet when the taxicab arrived there.
 b=brigid-wide
@@ -6140,13 +6140,13 @@ Brigid O’Shaughnessy would not let Spade go in with her.
 e:brigid=nervous
 
 “It’s bad enough to be coming home in evening dress at this hour without bringing company. I hope I don’t meet anybody.”
-s=brigid
+s=brigid;e:brigid=wary;i=
 
 “Dinner tonight?”
-s=spade;e:spade=neutral;x:spade=hat
+s=spade;e:spade=neutral;x:spade=hat;e:spade=contemplative;i=2
 
 “Yes.”
-s=brigid;e:brigid=sadsmile
+s=brigid;e:brigid=sadsmile;e:brigid=happy;i=2
 
 They kissed. She went into the Coronet.
 s=none
@@ -6155,7 +6155,7 @@ He told the chauffeur:
 
 
 “Hotel Belvedere.”
-s=spade
+s=spade;e:spade=curious;i=
 
 When he reached the Belvedere he saw the youth who had shadowed him sitting in the lobby on a divan from which the elevators could be seen.
 s=none;e:spade=wary;e:youth=neutral;b=belv-lobby
@@ -6188,7 +6188,7 @@ Spade asked casually,
 
 
 “Where is he?”
-s=spade;e:spade=smirking;m=allowbreak
+s=spade;e:spade=smirking;m=allowbreak;e:spade=serious;i=3
 
 while shaking tobacco down into a brown paper curved to catch it.
 m=;s=
@@ -6200,28 +6200,28 @@ He looked with small hazel eyes under somewhat long curling lashes at Spade’s 
 
 
 “What?”
-s=youth;e:youth=serious
+s=youth;e:youth=serious;z:youth=92,53,11;e:youth=contemplative;i=
 
 “Where is he?”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=2
 
 Spade was busy with his cigarette.
 s=none
 
 “Who?”
-s=youth;e:youth=contemplative
+s=youth;e:youth=contemplative;e:youth=serious;i=
 
 “The fairy.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=curious;i=
 
 The hazel eyes’ gaze went up Spade’s chest to the knot of his maroon tie and rested there.
 s=none;e:youth=neutral
 
 “What do you think you’re doing, Jack?” the boy demanded.
-s=youth;e:youth=annoyed
+s=youth;e:youth=annoyed;e:youth=serious;i=;e:youth=angry;i=
 
 “Kidding me?”
-
+e:youth=angry;i=2
 
 “I’ll tell you when I am.”
 s=spade;e:spade=neutral
@@ -6230,7 +6230,7 @@ Spade licked his cigarette and smiled amiably at the boy.
 s=none;e:spade=happy
 
 “New York, aren’t you?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=happy;i=
 
 The boy stared at Spade’s tie and did not speak.
 s=none;e:youth=wary
@@ -6245,13 +6245,13 @@ The boy stared at Spade’s tie for a moment longer, then raised his newspaper a
 s=none;e:youth=neutral
 
 “Shove off,” he said from the side of his mouth.
-s=youth;e:youth=annoyed
+s=youth;e:youth=annoyed;e:youth=scowling;i=2
 
 Spade lighted his cigarette, leaned back comfortably on the divan, and spoke with good-natured carelessness:
 s=;x:spade=cig
 
 “You’ll have to talk to me before you’re through, sonny﻿—some of you will﻿—and you can tell G. I said so.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 The boy put his paper down quickly and faced Spade, staring at his necktie with bleak hazel eyes.
 s=none;e:youth=angry
@@ -6260,13 +6260,13 @@ The boy’s small hands were spread flat over his belly.
 
 
 “Keep asking for it and you’re going to get it,” he said, “plenty.”
-s=youth;e:youth=scowling
+s=youth;e:youth=scowling;e:youth=serious;i=
 
 His voice was low and flat and menacing.
 s=none
 
 “I told you to shove off. Shove off.”
-s=youth;e:youth=angry
+s=youth;e:youth=angry;e:youth=angry;i=3
 
 Spade waited until a bespectacled pudgy man and a thin-legged blonde girl had passed out of hearing. Then he chuckled and said:
 s=none;e:spade=wary
@@ -6280,17 +6280,17 @@ s=none
 “Well, where is he?”
 s=spade;e:spade=curious
 
-The boy spoke two words, the first a short guttural verb, the second “you.”<e>Stallone?</e>
+The boy spoke two words, the first a short guttural verb, the second “you.”<e>Stallone.</e>
 s=none;e:youth=angry
 
 “People lose teeth talking like that.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=2
 
 Spade’s voice was still amiable though his face had become wooden.
 s=none
 
 “If you want to hang around you’ll be polite.”
-s=spade
+s=spade;e:spade=curious;i=
 
 The boy repeated his two words.
 s=none;e:youth=angry
@@ -6302,10 +6302,10 @@ The man nodded and came towards them. He was a middle-aged man of medium height,
 n:luke=?
 
 “Hello, Sam,” he said as he came up.
-s=luke;e:luke=neutral
+s=luke;e:luke=neutral;z:luke=86,52,9;e:luke=;i=2
 
 “Hello, Luke.”
-s=spade;n:luke=Luke
+s=spade;n:luke=Luke;e:spade=annoyedsmile;i=2
 
 They shook hands and Luke said:
 s=
@@ -6320,10 +6320,10 @@ Spade jerked his head to indicate the boy on the divan beside him.
 s=none
 
 “What do you let these cheap gunmen hang out in your lobby for, with their tools bulging their clothes?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=serious;i=2
 
 “Yes?”
-s=luke;e:luke=wary
+s=luke;e:luke=wary;e:luke=suspicious;i=
 
 Luke examined the boy with crafty brown eyes set in a suddenly hard face.
 s=none;e:luke=scowling
@@ -6341,13 +6341,13 @@ Luke said:
 
 
 “Well, if you don’t want anything, beat it, and don’t come back.”
-s=luke;e:luke=angry
+s=luke;e:luke=angry;e:luke=scowling;i=;e:luke=angry;i=
 
 The boy said,
 s=
 
 “I won’t forget you guys,”
-s=youth;e:youth=scowling;m=allowbreak
+s=youth;e:youth=scowling;m=allowbreak;e:youth=angry;i=2
 
 and went out.
 m=;s=
@@ -6362,55 +6362,52 @@ The hotel-detective asked:
 x:spade=
 
 “What is it?”
-s=luke;e:luke=curious
+s=luke;e:luke=curious;e:luke=;i=
 
-“Damned if I know,” Spade replied.
-s=spade;e:spade=thinking
-
-“I just happened to spot him. Know anything about Joel Cairo﻿—six-thirty-five?”
-
+“Damned if I know,” Spade replied. “I just happened to spot him. Know anything about Joel Cairo﻿—six-thirty-five?”
+s=spade;e:spade=thinking;e:spade=scowling;i=2
 
 “Oh, that one!”
-s=luke;e:luke=smirking
+s=luke;e:luke=smirking;e:luke=wary;i=
 
 The hotel-detective leered.
 s=none
 
 “How long’s he been here?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=;i=2
 
 “Four days. This is the fifth.”
-s=luke;e:luke=neutral
+s=luke;e:luke=neutral;e:luke=curious;i=
 
 “What about him?”
-s=spade
+s=spade;e:spade=curious;i=
 
 “Search me, Sam. I got nothing against him but his looks.”
-s=luke;e:luke=smirking
+s=luke;e:luke=smirking;e:luke=contemplative;i=
 
 “Find out if he came in last night?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=excited;i=
 
 “Try to,” the hotel-detective promised and went away.
-s=luke;e:luke=neutral;i=2
+s=luke;e:luke=neutral;i=2;e:luke=serious;i=
 
 Spade sat on the divan until he returned.
 s=none;e:spade=neutral
 
 “No,” Luke reported, “he didn’t sleep in his room. What is it?”
-s=luke;e:luke=contemplative
+s=luke;e:luke=contemplative;e:luke=scowling;i=
 
 “Nothing.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=serious;i=2
 
 “Come clean. You know I’ll keep my clam shut, but if there’s anything wrong we ought to know about it so’s we can collect our bill.”
-s=luke;e:luke=wary
+s=luke;e:luke=wary;e:luke=unhappy;i=
 
 “Nothing like that,” Spade assured him.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 “As a matter of fact, I’m doing a little work for him. I’d tell you if he was wrong.”
-
+e:spade=excited
 
 “You’d better. Want me to kind of keep an eye on him?”
 s=luke;e:luke=serious
@@ -6419,10 +6416,10 @@ s=luke;e:luke=serious
 s=spade;e:spade=neutral
 
 —
-s=none
+s=none;f:b:belv-lobby=blur(3px)
 
 It was twenty-one minutes past eleven by the clock over the elevator doors when Joel Cairo came in from the street.
-e:cairo=weary
+e:cairo=weary;f:b:belv-lobby=
 
 His forehead was bandaged. His clothes had the limp unfreshness of too many hours’ consecutive wear. His face was pasty, with sagging mouth and eyelids.
 x:cairo=bandaged,hat
@@ -6431,13 +6428,13 @@ Spade met him in front of the desk.
 e:spade=neutral
 
 “Good morning,” Spade said easily.
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=;i=2
 
 Cairo drew his tired body up straight and the drooping lines of his face tightened.
 s=none;e:cairo=wary
 
 “Good morning,” he responded without enthusiasm.
-s=cairo;e:cairo=weary
+s=cairo;e:cairo=weary;e:cairo=serious;i=
 
 There was a pause.
 s=none
@@ -6446,31 +6443,28 @@ Spade said:
 
 
 “Let’s go some place where we can talk.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=serious;i=2
 
 Cairo raised his chin.
 s=none;e:cairo=serious
 
-“Please excuse me,” he said. “Our conversations in private have not been such that I am anxious to continue them.”
-s=cairo
-
-“Pardon my speaking bluntly, but it is the truth.”
-
+“Please excuse me,” he said. “Our conversations in private have not been such that I am anxious to continue them. Pardon my speaking bluntly, but it is the truth.”
+s=cairo;e:cairo=angry;i=
 
 “You mean last night?”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=contemplative;i=2
 
 Spade made an impatient gesture with head and hands.
 s=none
 
 “What in hell else could I do? I thought you’d see that.”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 “If you pick a fight with her, or let her pick one with you, I’ve got to throw in with her. I don’t know where that damned bird is. You don’t. She does.”
-
+;e:spade=angry;i=3
 
 “How in hell are we going to get it if I don’t play along with her?”
-
+;e:spade=annoyed;i=
 
 Cairo hesitated, said dubiously:
 s=
@@ -6491,16 +6485,16 @@ When they were seated he asked:
 
 
 “Dundy take you down to the Hall?”
-s=spade
+s=spade;e:spade=;i=
 
 “Yes.”
-s=cairo;e:cairo=weary
+s=cairo;e:cairo=weary;e:cairo=serious;i=2
 
 “How long did they work on you?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=annoyed;i=2
 
 “Until a very little while ago, and very much against my will.”
-s=cairo;e:cairo=upset
+s=cairo;e:cairo=upset;e:cairo=annoyed;i=
 
 Pain and indignation were mixed in Cairo’s face and voice.
 s=none
@@ -6509,7 +6503,7 @@ s=none
 s=cairo;e:cairo=angry
 
 “Go ahead, and see what it gets you. What did you let the police shake out of you?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 There was prim satisfaction in Cairo’s smile.
 s=none;e:cairo=smirking
@@ -6527,7 +6521,7 @@ Spade grinned mockingly.
 s=none;e:spade=smirking
 
 “Sure,” he said, “but its goofiness is what makes it good. You sure you didn’t give them anything?”
-s=spade
+s=spade;e:spade=excited;i=
 
 “You may rely upon it, Mr. Spade, I did not.”
 s=cairo;e:cairo=serious
@@ -6536,10 +6530,10 @@ Spade drummed with his fingers on the leather seat between them.
 s=none;e:spade=thinking
 
 “You’ll be hearing from Dundy again. Stay dummied-up on him and you’ll be all right.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “Don’t worry about the story’s goofiness. A sensible one would’ve had us all in the cooler.”
-
+;e:spade=smirking;i=2
 
 He rose to his feet.
 s=none;e:spade=neutral
@@ -6548,28 +6542,22 @@ s=none;e:spade=neutral
 s=spade
 
 —
-s=none
+s=none;f:b:belv-lobby=blur(3px)
 
-Effie Perine was saying,
-b=office-outer
-
-“No, not yet,”
-s=effie;e:effie=serious;e:spade=neutral;m=allowbreak;x:spade=hat
-
-into the telephone when Spade entered his outer office.
-m=;s=
+Effie Perine was saying, “No, not yet,” into the telephone when Spade entered his outer office.
+b=office-outer;m=dialogue;x:spade=hat
 
 She looked around at him and her lips shaped a silent word: “Iva.”
-s=none;e:effie=serious
+s=none;e:effie=serious;m=
 
 He shook his head.
 e:spade=annoyed
 
 “Yes, I’ll have him call you as soon as he comes in,” she said aloud and replaced the receiver on its prong.
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=unhappy;i=
 
 “That’s the third time she’s called up this morning,” she told Spade.
-e:effie=weary
+e:effie=weary;m=;e:effie=annoyed;i=
 
 He made an impatient growling noise.
 s=none;e:spade=annoyed
@@ -6578,49 +6566,49 @@ The girl moved her brown eyes to indicate the inner office.
 
 
 “Your Miss O’Shaughnessy’s in there. She’s been waiting since a few minutes after nine.”
-s=effie
+s=effie;e:effie=wary;i=
 
 Spade nodded as if he had expected that and asked:
 s=
 
 “What else?”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=curious;i=
 
 “Sergeant Polhaus called up. He didn’t leave any message.”
-s=effie
+s=effie;e:effie=weary;i=2
 
 “Get him for me.”
-s=spade
+s=spade;e:spade=;i=
 
 “And G. called up.”
-s=effie
+s=effie;e:effie=contemplative;i=;e:effie=;i=2
 
 Spade’s eyes brightened. He asked:
 s=none;e:spade=curious
 
 “Who?”
-s=spade
+s=spade;e:spade=serious;i=
 
 “G. That’s what he said.”
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=contemplative
 
 Her air of personal indifference to the subject was flawless.
 s=none
 
 “When I told him you weren’t in he said: ‘When he comes in, will you please tell him that G., who got his message, phoned and will phone again?’”
-s=effie
+s=effie;e:effie=thinking;i=
 
 Spade worked his lips together as if tasting something he liked.
 s=none;e:spade=smirking
 
 “Thanks, darling,” he said. “See if you can get Tom Polhaus.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 He opened the inner door and went into his private office, pulling the door to behind him.
 s=none;e:spade=neutral;b=office-inner
 
 Brigid O’Shaughnessy, dressed as on her first visit to the office, rose from a chair beside his desk and came quickly towards him.
-e:brigid=nervous
+e:brigid=nervous;x:brigid=hat,coat
 
 “Somebody has been in my apartment,” she explained. “It is all upside-down, every which way.”
 s=brigid;e:brigid=fearful
@@ -6629,19 +6617,16 @@ He seemed moderately surprised.
 s=none;e:spade=surprised
 
 “Anything taken?”
-s=spade;e:spade=contemplative
+s=spade;e:spade=serious
 
-“I don’t think so. I don’t know. I was afraid to stay.”
-s=brigid;e:brigid=fearful;i=2
-
-“I changed as fast as I could and came down here. Oh, you must’ve let that boy follow you there!”
-e:brigid=upset
+“I don’t think so. I don’t know. I was afraid to stay. I changed as fast as I could and came down here. Oh, you must’ve let that boy follow you there!”
+s=brigid;e:brigid=fearful;i=2;e:brigid=upset;i=
 
 Spade shook his head.
 s=none;e:spade=neutral
 
 “No, angel.”
-s=spade
+s=spade;e:spade=serious;i=3
 
 He took an early copy of an afternoon paper from his pocket, opened it, and showed her a quarter-column headed **Scream Routs Burglar**.
 s=none
@@ -6653,13 +6638,13 @@ Two other women who lived alone in the same building had discovered, later in th
 
 
 “That’s where I shook him,” Spade explained.
-s=spade
+s=spade;e:spade=smirking;i=
 
 “I went into that building and ducked out the back door. That’s why all three were women who lived alone.”
-
+;e:spade=;i=2
 
 “He tried the apartments that had women’s names in the vestibule-register, hunting for you under an alias.”
-
+;e:spade=curious;i=
 
 “But he was watching your place when we were there,” she objected.
 s=brigid;e:brigid=confused
@@ -6671,37 +6656,37 @@ s=none;e:spade=neutral
 s=spade;e:spade=thinking
 
 “There are a lot of maybes, but I didn’t lead him to the Coronet.”
-e:spade=neutral
+e:spade=neutral;e:spade=suspicious;i=2
 
 She was not satisfied.
 s=none;e:brigid=suspicious
 
 “But he found it, or somebody did.”
-s=brigid;e:brigid=wary
+s=brigid;e:brigid=wary;e:brigid=weary;i=
 
 “Sure.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=2
 
 He frowned at her feet.
 s=none;e:spade=thinking
 
 “I wonder if it could have been Cairo. He wasn’t at his hotel all night, didn’t get in till a few minutes ago.”
-s=spade
+s=spade;e:spade=;i=
 
 “He told me he had been standing up under a police-grilling all night. I wonder.”
-
+;e:spade=serious;i=3
 
 He turned, opened the door, and asked Effie Perine:
 s=
 
 “Got Tom yet?”
-e:spade=curious
+e:spade=curious;s=spade
 
 “He’s not in. I’ll try again in a few minutes.”
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=contemplative;i=;m=nospeaker
 
 “Thanks.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;m=;e:spade=;i=2
 
 Spade shut the door and faced Brigid O’Shaughnessy.
 s=none
@@ -6713,13 +6698,13 @@ e:brigid=confused
 s=brigid
 
 “Yes.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 She hesitated.
 s=none
 
 “Why?”
-s=brigid;e:brigid=curious
+s=brigid;e:brigid=curious;e:brigid=confused;i=
 
 “Why?”
 s=spade;e:spade=happy
@@ -6728,7 +6713,7 @@ He smiled down at her.
 s=none
 
 “Because, my own true love, I’ve got to keep in some sort of touch with all the loose ends of this dizzy affair if I’m ever going to make heads or tails of it.”
-s=spade
+s=spade;e:spade=smirking;i=
 
 He put an arm around her shoulders and led her over to his swivel-chair. He kissed the tip of her nose lightly and set her down in the chair.
 s=none;e:spade=neutral
@@ -6737,64 +6722,64 @@ He sat on the desk in front of her. He said:
 e:spade=smirking
 
 “Now we’ve got to find a new home for you, haven’t we?”
-s=spade
+s=spade;e:spade=curious;i=
 
 She nodded with emphasis.
 s=none;e:brigid=serious
 
 “I won’t go back there.”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=upset;i=2
 
 He patted the desk beside his thighs and made a thoughtful face.
 s=none;e:spade=thinking
 
 “I think I’ve got it,” he said presently.
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=;i=2
 
 “Wait a minute.”
-
+;e:spade=curious;i=
 
 He went into the outer office, shutting the door.
-s=none;e:spade=neutral
+s=none;e:spade=neutral;b=office-outer
 
 Effie Perine reached for the telephone, saying:
 
 
 “I’ll try again.”
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=looking;i=
 
 “Afterwards. Does your woman’s intuition still tell you that she’s a madonna or something?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=smirking;i=
 
 She looked sharply up at him.
 s=none;e:effie=surprised
 
 “I still believe that no matter what kind of trouble she’s gotten into she’s all right, if that’s what you mean.”
-s=effie;e:effie=serious
+s=effie;e:effie=serious;e:effie=angry;i=2
 
 “That’s what I mean,” he said. “Are you strong enough for her to give her a lift?”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 “How?”
-s=effie;e:effie=confused
+s=effie;e:effie=confused;e:effie=suspicious;i=
 
 “Could you put her up for a few days?”
-s=spade
+s=spade;e:spade=serious;i=3
 
 “You mean at home?”
-s=effie;e:effie=surprised
+s=effie;e:effie=surprised;e:effie=wary;i=
 
 “Yes. Her joint’s been broken into. That’s the second burglary she’s had this week.”
 s=spade;e:spade=serious
 
 “It’d be better for her if she wasn’t alone. It would help a lot if you could take her in.”
-
+;e:spade=contemplative;i=2;e:spade=serious;i=3
 
 Effie Perine leaned forward, asking earnestly:
 s=
 
 “Is she really in danger, Sam?”
-s=effie;e:effie=nervous
+s=effie;e:effie=nervous;e:effie=fearful;i=
 
 “I think she is.”
 s=spade
@@ -6803,16 +6788,16 @@ She scratched her lip with a fingernail.
 s=none;e:effie=thinking
 
 “That would scare Ma into a green hemorrhage. I’ll have to tell her she’s a surprise-witness or something that you’re keeping under cover till the last minute.”
-s=effie;e:effie=smirking
+s=effie;e:effie=smirking;e:effie=confused;i=
 
 “You’re a darling,” Spade said. “Better take her out there now.”
-s=spade;e:spade=happy
+s=spade;e:spade=happy;e:spade=smirking;i=
 
 “I’ll get her key from her and bring whatever she needs over from her apartment. Let’s see. You oughtn’t to be seen leaving here together. You go home now.”
 e:spade=serious
 
 “Take a taxi, but make sure you aren’t followed. You probably won’t be, but make sure. I’ll send her out in another in a little while, making sure she isn’t followed.”
-
+;e:spade=suspicious;i=2
 
 ## XI<br>The Fat Man
 r=title
