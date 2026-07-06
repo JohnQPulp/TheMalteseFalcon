@@ -1394,7 +1394,7 @@ s=
 n:iva=Iva Archer;e:iva=unhappy;e:spade=contemplative;x:iva=mourning,hat;s=spade;e:spade=curious;i=;e:spade=wary;i=
 
 “Oh, Sam!” she said.
-s=iva;e:iva=upset;z:iva=90,53,12
+s=iva;e:iva=upset;z:iva=88,53,11
 
 She was a blonde woman of a few more years than thirty.
 s=none
@@ -6809,13 +6809,13 @@ He went to the telephone.
 
 
 “Hello.﻿﻿… Yes, this is Spade.﻿﻿… Yes, I got it. I’ve been waiting to hear from you.﻿﻿…”
-s=spade;e:spade=contemplative;x:spade=;f:b:office-inner=blur(3px)
+s=spade;e:spade=contemplative;x:spade=;m=nospeaker
 
 “Who?﻿﻿… Mr. Gutman? Oh, yes, sure!﻿﻿… Now﻿—the sooner the better.﻿﻿… 12-C.﻿﻿… Right. Say fifteen minutes.﻿﻿… Right.”
 
 
 Spade sat on the corner of his desk beside the telephone and rolled a cigarette.
-s=none;x:spade=;f:b:office-inner=
+s=none;x:spade=;f:b:office-inner=;m=
 
 His mouth was a hard complacent v. His eyes, watching his fingers make the cigarette, smoldered over lower lids drawn up straight.
 e:spade=serious
@@ -6827,13 +6827,13 @@ Spade said,
 
 
 “Hello, honey,”
-s=spade;e:spade=happy;m=allowbreak
+s=spade;e:spade=happy;m=allowbreak;e:spade=;i=2
 
 in a voice as lightly amiable as his face had suddenly become.
 m=;s=
 
 “Oh, Sam, forgive me! forgive me!” she cried in a choked voice.
-s=iva;e:iva=upset;x:iva=mourning,hat
+s=iva;e:iva=upset;x:iva=mourning,hat;e:iva=unhappy;i=
 
 She stood just inside the door, wadding a black-bordered handkerchief in her small gloved hands, peering into his face with frightened red and swollen eyes.
 s=none;e:iva=fearful
@@ -6845,13 +6845,13 @@ He did not get up from his seat on the desk-corner. He said:
 s=spade;e:spade=neutral
 
 “But, Sam,” she wailed, “I sent those policemen there. I was mad, crazy with jealousy, and I phoned them that if they’d go there they’d learn something about Miles’s murder.”
-s=iva;e:iva=upset;i=2
+s=iva;e:iva=upset;i=2;e:iva=unhappy;i=
 
 “What made you think that?”
 s=spade;e:spade=curious
 
 “Oh, I didn’t! But I was mad, Sam, and I wanted to hurt you.”
-s=iva;e:iva=upset
+s=iva;e:iva=upset;e:iva=upset;i=3
 
 “It made things damned awkward.”
 s=spade;e:spade=annoyed
@@ -6860,37 +6860,34 @@ He put his arm around her and drew her nearer.
 s=none;e:spade=neutral
 
 “But it’s all right now, only don’t get any more crazy notions like that.”
-s=spade
+s=spade;e:spade=contemplative;i=
 
 “I won’t,” she promised, “ever. But you weren’t nice to me last night.”
-s=iva;e:iva=nervous
+s=iva;e:iva=nervous;e:iva=unhappy;i=2
 
 “You were cold and distant and wanted to get rid of me, when I had come down there and waited so long to warn you, and you﻿—”
-e:iva=unhappy
+e:iva=unhappy;e:iva=upset;i=3
 
 “Warn me about what?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=scowling;i=2
 
 “About Phil.”
 s=iva;e:iva=fearful
 
 “He’s found out about﻿—about you being in love with me, and Miles had told him about my wanting a divorce, though of course *he* never knew what for, and now Phil thinks we﻿—you killed his brother because he wouldn’t give me the divorce so we could get married.”
-
+;e:iva=unhappy;i=
 
 “He told me he believed that, and yesterday he went and told the police.”
-
+;e:iva=upset;i=
 
 “That’s nice,” Spade said softly.
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=contemplative;i=
 
 “And you came to warn me, and because I was busy you got up on your ear and helped this damned Phil Archer stir things up.”
 
 
-“I’m sorry,” she whimpered, “I know you won’t forgive me.”
-s=iva;e:iva=unhappy
-
-“I﻿—I’m sorry, sorry, sorry.”
-
+“I’m sorry,” she whimpered, “I know you won’t forgive me. I﻿—I’m sorry, sorry, sorry.”
+s=iva;e:iva=unhappy;e:iva=upset;i=3
 
 “You ought to be,” he agreed, “on your own account as well as mine.”
 s=spade;e:spade=serious
@@ -6908,31 +6905,31 @@ s=
 s=spade;e:spade=serious
 
 “Oh, no! I simply told them that if they’d go to your apartment right away they’d learn something about the murder and hung up.”
-s=iva;e:iva=nervous
+s=iva;e:iva=nervous;e:iva=upset;i=2
 
 “Where’d you phone from?”
 s=spade;e:spade=curious
 
 “The drugstore up above your place. Oh, Sam, dearest, I﻿—”
-s=iva;e:iva=upset
+s=iva;e:iva=upset;e:iva=wary;i=
 
 He patted her shoulder and said pleasantly:
 s=
 
 “It was a dumb trick, all right, but it’s done now.”
-s=spade;e:spade=sadsmile
+s=spade;e:spade=sadsmile;e:spade=annoyedsmile;i=2
 
 “You’d better run along home and think up things to tell the police. You’ll be hearing from them.”
-
+;e:spade=excited;i=
 
 “Maybe it’d be best to say ‘no’ right across the board.”
-e:spade=thinking
+e:spade=thinking;e:spade=;i=2
 
 He frowned at something distant.
 s=none;e:spade=serious
 
 “Or maybe you’d better see Sid Wise first.”
-s=spade
+s=spade;e:spade=contemplative;i=
 
 He removed his arm from around her, took a card out of his pocket, scribbled three lines on its back, and gave it to her.
 s=none
@@ -6947,76 +6944,76 @@ s=none;e:spade=serious
 s=spade
 
 “Home,” she replied without hesitating.
-s=iva;e:iva=neutral
+s=iva;e:iva=neutral;e:iva=serious;i=
 
 He shook his head, grinning at her.
 s=none;e:spade=smirking
 
 “I was,” she insisted.
-s=iva;e:iva=upset
+s=iva;e:iva=upset;e:iva=unhappy;i=
 
 “No,” he said, “but if that’s your story it’s all right with me.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 “Go see Sid. It’s up on the next corner, the pinkish building, room eight-twenty-seven.”
-
+;e:spade=contemplative;i=2
 
 Her blue eyes tried to probe his yellow-grey ones.
 s=none;e:iva=suspicious
 
 “What makes you think I wasn’t home?” she asked slowly.
-s=iva
+s=iva;e:iva=suspicious;i=
 
 “Nothing except that I know you weren’t.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=2
 
 “But I was, I was.”
-s=iva;e:iva=serious
+s=iva;e:iva=serious;e:iva=upset;i=2;e:iva=unhappy;i=
 
 Her lips twisted and anger darkened her eyes.
 s=none
 
 “Effie Perine told you that,” she said indignantly.
-s=iva;e:iva=angry
+s=iva;e:iva=angry;e:iva=annoyed;i=
 
 “I saw her looking at my clothes and snooping around. You know she doesn’t like me, Sam.”
-
+e:iva=angry
 
 “Why do you believe things she tells you when you know she’d do anything to make trouble for me?”
 
 
 “Jesus, you women,” Spade said mildly.
-s=spade;e:spade=weary
+s=spade;e:spade=weary;e:spade=;i=
 
 He looked at the watch on his wrist.
 s=none
 
 “You’ll have to trot along, precious. I’m late for an appointment now.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=2
 
 “You do what you want, but if I were you I’d tell Sid the truth or nothing. I mean leave out the parts you don’t want to tell him, but don’t make up anything to take its place.”
-e:spade=serious
+e:spade=serious;e:spade=;i=
 
 “I’m not lying to you, Sam,” she protested.
-s=iva;e:iva=upset
+s=iva;e:iva=upset;e:iva=upset;i=3
 
 “Like hell you’re not,” he said and stood up.
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=serious;i=2
 
 She strained on tiptoe to hold her face nearer his.
 s=none;e:iva=nervous
 
 “You don’t believe me?” she whispered.
-s=iva
+s=iva;e:iva=unhappy;i=
 
 “I don’t believe you.”
 s=spade;e:spade=neutral
 
 “And you won’t forgive me for﻿—for what I did?”
-s=iva;e:iva=upset
+s=iva;e:iva=upset;e:iva=upset;i=2
 
 “Sure I do.”
-s=spade;e:spade=sadsmile
+s=spade;e:spade=sadsmile;e:spade=contemplative;i=
 
 He bent his head and kissed her mouth.
 s=none
@@ -7028,10 +7025,10 @@ She put her arms around him.
 s=none
 
 “Won’t you go with me to see Mr. Wise?”
-s=iva;e:iva=nervous
+s=iva;e:iva=nervous;e:iva=upset;i=3
 
 “I can’t, and I’d only be in the way.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=2
 
 He patted her arms, took them from around his body, and kissed her left wrist between glove and sleeve.
 s=none
@@ -7040,10 +7037,10 @@ He put his hands on her shoulders, turned her to face the door, and released her
 
 
 “Beat it,” he ordered.
-s=spade
+s=spade;e:spade=weary;i=
 
 —
-s=none
+s=none;f:b:office-inner=blur(3px)
 
 The mahogany door of suite 12-C at the Alexandria Hotel was opened by the boy Spade had talked to in the Belvedere lobby.
 e:youth=neutral;b=12c-hall
