@@ -8939,7 +8939,7 @@ e:effie=happyrubbing
 s=effie
 
 “Six o’clock. What are you doing here?”
-s=spade;e:spade=confused
+s=spade;e:spade=confused;e:spade=contemplative;i=2
 
 She shivered, drew Spade’s overcoat closer around her, and yawned.
 s=none;e:effie=yawning
@@ -8948,7 +8948,7 @@ s=none;e:effie=yawning
 s=effie
 
 “Oh, you’re the sister of the boy who stood on the burning deck?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=happy;i=
 
 “I wasn’t going to﻿—”
 s=effie;e:effie=annoyed
@@ -8960,115 +8960,115 @@ She looked with dark excited eyes at his temple under the brim of his hat and ex
 e:effie=surprised
 
 “Oh, your head! What happened?”
-s=effie
+s=effie;e:effie=serious;i=
 
 His right temple was dark and swollen.
 s=none
 
 “I don’t know whether I fell or was slugged. I don’t think it amounts to much, but it hurts like hell.”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=thinking;i=
 
 He barely touched it with his fingers, flinched, turned his grimace into a grim smile, and explained:
 s=none;e:spade=smirking
 
 “I went visiting, was fed knockout-drops, and came to twelve hours later all spread out on a man’s floor.”
-s=spade
+s=spade;e:spade=curious;i=
 
 She reached up and removed his hat from his head.
 s=none;e:effie=upset;x:spade=
 
 “It’s terrible,” she said. “You’ll have to get a doctor. You can’t walk around with a head like that.”
-s=effie
+s=effie;e:effie=serious;i=
 
 “It’s not as bad as it looks, except for the headache, and that might be mostly from the drops.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=2
 
 He went to the cabinet in the corner of the office and ran cold water on a handkerchief.
 s=none
 
 “Anything turn up after I left?”
-s=spade;i=2
+s=spade;i=2;e:spade=thinking;i=2
 
 “Did you find Miss O’Shaughnessy, Sam?”
-s=effie;e:effie=serious
+s=effie;e:effie=serious;e:effie=serious;i=2
 
 “Not yet. Anything turn up after I left?”
 s=spade;e:spade=serious
 
 “The District Attorney’s office phoned. He wants to see you.”
-s=effie;e:effie=serious;i=2
+s=effie;e:effie=serious;i=2;e:effie=serious;i=
 
 “Himself?”
 s=spade;e:spade=curious
 
 “Yes, that’s the way I understood it. And a boy came in with a message﻿—that Mr. Gutman would be delighted to talk to you before five-thirty.”
-s=effie
+s=effie;e:effie=contemplative;i=
 
 Spade turned off the water, squeezed the handkerchief, and came away from the cabinet holding the handkerchief to his temple.
 s=none;x:spade=handkerchief
 
 “I got that,” he said. “I met the boy downstairs, and talking to Mr. Gutman got me this.”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=serious;i=2
 
 “Is that the G. who phoned, Sam?”
-s=effie;e:effie=contemplative
+s=effie;e:effie=contemplative;e:effie=serious;i=
 
 “Yes.”
-s=spade;i=2
+s=spade;i=2;e:spade=;i=
 
 “And what﻿—?”
-s=effie;i=2
+s=effie;i=2;e:effie=serious;i=2
 
 Spade stared through the girl and spoke as if using speech to arrange his thoughts:
 s=none;e:spade=thinking
 
 “He wants something he thinks I can get. I persuaded him I could keep him from getting it if he didn’t make the deal with me before five-thirty.”
-s=spade
+s=spade;e:spade=annoyed;i=2
 
 “Then﻿—uh-huh﻿—sure﻿—it was after I’d told him he’d have to wait a couple of days that he fed me the junk. It’s not likely he thought I’d die. He’d know I’d be up and around in ten or twelve hours.”
-
+;e:spade=thinking;i=2
 
 “So maybe the answer’s that he figured he could get it without my help in that time if I was fixed so I couldn’t butt in.”
-e:spade=serious
+e:spade=serious;e:spade=;i=
 
 He scowled.
 s=none;e:spade=scowling
 
 “I hope to Christ he was wrong.”
-s=spade
+s=spade;e:spade=serious;i=
 
 His stare became less distant.
 s=none;e:spade=neutral
 
 “You didn’t get any word from the O’Shaughnessy?”
-s=spade
+s=spade;e:spade=annoyed;i=2
 
 The girl shook her head no and asked:
 s=none;e:effie=curious
 
 “Has this got anything to do with her?”
-s=effie
+s=effie;e:effie=serious;i=
 
 “Something.”
-s=spade
+s=spade;e:spade=thinking;i=2
 
 “This thing he wants belongs to her?”
-s=effie
+s=effie;e:effie=serious;i=2
 
 “Or to the King of Spain. Sweetheart, you’ve got an uncle who teaches history or something over at the University?”
-s=spade
+s=spade;e:spade=;i=
 
 “A cousin. Why?”
-s=effie
+s=effie;e:effie=contemplative;i=2
 
 “If we brightened his life with an alleged historical secret four centuries old could we trust him to keep it dark awhile?”
 s=spade;e:spade=smirking
 
 “Oh, yes, he’s good people.”
-s=effie;e:effie=happy
+s=effie;e:effie=happy;e:effie=contemplative;i=
 
 “Fine. Get your pencil and book.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=thinking;i=2
 
 She got them and sat in her chair.
 s=none
@@ -9086,28 +9086,28 @@ e:effie=happy
 s=effie
 
 “Yes, or ridiculous.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=
 
 “Now will you take it over and read it to your cousin and ask him what he thinks of it? Has he ever run across anything that might have some connection with it? Is it probable? Is it possible﻿—even barely possible? Or is it the bunk?”
-e:spade=serious
+e:spade=smirking
 
 “If he wants more time to look it up, OK, but get some sort of opinion out of him now. And for God’s sake make him keep it under his hat.”
-
+;e:spade=annoyed;i=2
 
 “I’ll go right now,” she said, “and you go see a doctor about that head.”
-s=effie;e:effie=serious
+s=effie;e:effie=serious;e:effie=contemplative;i=2
 
 “We’ll have breakfast first.”
 s=spade;e:spade=
 
 “No, I’ll eat over in Berkeley. I can’t wait to hear what Ted thinks of this.”
-s=effie;e:effie=happy;i=2
+s=effie;e:effie=happy;i=2;e:effie=curious;i=
 
 “Well,” Spade said, “don’t start boo-hooing if he laughs at you.”
 s=spade;e:spade=smirking
 
 —
-s=
+s=;f:b:office-outer=blur(3px)
 
 After a leisurely breakfast at the Palace, during which he read both morning papers, Spade went home, shaved, bathed, rubbed ice on his bruised temple, and put on fresh clothes.
 s=none;e:spade=neutral;x:spade=;b=sf-wide
@@ -9128,7 +9128,7 @@ Spade went to the Belvedere and found the hotel-detective eating in the hotel-ca
 e:luke=neutral;b=belv-cafe
 
 “Morning, Sam. Set down and bite an egg.”
-s=luke;e:luke=happy
+s=luke;e:luke=happy;e:luke=smirking;i=
 
 The hotel-detective stared at Spade’s temple.
 s=none;e:luke=surprised
@@ -9137,13 +9137,13 @@ s=none;e:luke=surprised
 s=luke
 
 “Thanks, I’ve had mine,” Spade said as he sat down,
-s=spade;e:spade=;m=allowbreak
+s=spade;e:spade=;m=allowbreak;e:spade=;i=2
 
 and then, referring to his temple:
 s=;m=
 
 “It looks worse than it is. How’s my Cairo’s conduct?”
-e:spade=smirking;s=spade
+e:spade=smirking;s=spade;e:spade=weary;i=
 
 “He went out not more than half an hour behind you yesterday and I ain’t seen him since. He didn’t sleep here again last night.”
 s=luke;e:luke=serious
@@ -9161,7 +9161,7 @@ Spade looked attentively at the small silver dome covering Luke’s toast.
 s=none
 
 “How’s chances of giving his room a casing while he’s out?”
-s=spade
+s=spade;e:spade=contemplative;i=
 
 “Can do. You know I’m willing to go all the way with you all the time.”
 s=luke;e:luke=happy
@@ -9176,19 +9176,19 @@ Spade lifted his eyes from the silver dome. They were clear and candid.
 s=none;e:spade=neutral
 
 “Sure, you are,” he said. “I’m not holding out. I gave you it straight.”
-s=spade
+s=spade;e:spade=excited;i=
 
 “I’m doing a job for him, but he’s got some friends that look wrong to me and I’m a little leery of him.”
-e:spade=serious
+e:spade=serious;e:spade=annoyed;i=2
 
 “The kid we chased out yesterday was one of his friends.”
-s=luke
+s=luke;e:luke=;i=
 
 “Yes, Luke, he was.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “And it was one of them that shoved Miles across.”
-s=luke
+s=luke;e:luke=contemplative;i=2
 
 Spade shook his head.
 s=none
@@ -9197,19 +9197,19 @@ s=none
 s=spade
 
 “And who killed him?”
-s=luke
+s=luke;e:luke=serious;i=
 
 Spade smiled.
 s=none;e:spade=smirking
 
 “That’s supposed to be a secret, but, confidentially, I did,” he said, “according to the police.”
-s=spade
+s=spade;e:spade=smirking;i=3
 
 Luke grunted and stood up saying:
 s=
 
 “You’re a tough one to figure out, Sam. Come on, we’ll have that look-see.”
-s=luke;e:luke=weary
+s=luke;e:luke=weary;e:luke=;i=2
 
 They stopped at the desk long enough for Luke to “fix it so we’ll get a ring if he comes in,”
 s=none;e:luke=neutral;b=belv-lobby;m=allowbreak
@@ -9233,31 +9233,31 @@ The valise and smaller bag were unlocked. Luke had the trunk unlocked by the tim
 
 
 “Blank so far,” Spade said as they dug down into the trunk.
-s=spade;e:spade=serious;x:spade=hat
+s=spade;e:spade=serious;x:spade=hat;e:spade=suspicious;i=2
 
 They found nothing there to interest them.
 s=none
 
 “Any particular thing we’re supposed to be looking for?” Luke asked as he locked the trunk again.
-s=luke;e:luke=curious
+s=luke;e:luke=curious;e:luke=serious;i=
 
 “No. He’s supposed to have come here from Constantinople. I’d like to know if he did. I haven’t seen anything that says he didn’t.”
-s=spade;e:spade=thinking
+s=spade;e:spade=thinking;e:spade=curious;i=
 
 “What’s his racket?”
-s=luke
+s=luke;e:luke=suspicious;i=
 
 Spade shook his head.
 s=none
 
 “That’s something else I’d like to know.”
-s=spade
+s=spade;e:spade=serious;i=3
 
 He crossed the room and bent down over the wastebasket.
 s=none
 
 “Well, this is our last shot.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 He took a newspaper from the basket. His eyes brightened when he saw it was the previous day’s *Call*.
 s=none;e:spade=surprised
@@ -9299,28 +9299,28 @@ Luke, leaning over his shoulder, asked:
 
 
 “What’s this all about?”
-s=luke;e:luke=curious
+s=luke;e:luke=curious;e:luke=curious;i=
 
 “Looks like the gent’s interested in a boat.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=suspicious;i=
 
 “Well, there’s no law against that, or is there?” Luke said while Spade was folding the torn page and the crumpled fragment together and putting them into his coat-pocket.
-s=luke;e:luke=contemplative
+s=luke;e:luke=contemplative;e:luke=serious;i=
 
 “You all through here now?”
-s=luke
+s=luke;e:luke=wary;i=
 
 “Yes. Thanks a lot, Luke. Will you give me a ring as soon as he comes in?”
 s=spade;e:spade=serious
 
 “Sure.”
-s=luke
+s=luke;e:luke=;i=
 
 —
-s=none
+s=none;f:b:belv-cairo=blur(3px)
 
 Spade went to the Business Office of the *Call*, bought a copy of the previous day’s issue, opened it to the shipping news page, and compared it with the page taken from Cairo’s wastebasket.
-e:spade=serious;b=sf-wide
+e:spade=serious;b=sf-wide;f:b:sf-wide=
 
 The missing portion had read:
 
@@ -9338,7 +9338,7 @@ He sat down at his desk, looked up a number in the telephone-book, and used the 
 
 
 “Kearny one four oh one, please.﻿﻿… Where is the *Paloma*, in from Hong Kong yesterday morning, docked?”
-s=spade;e:spade=serious;x:spade=;f:b:office-inner=blur(3px)
+s=spade;e:spade=serious;x:spade=;m=nospeaker;f:b:office-inner=blur(3px)
 
 He repeated the question.
 s=none
@@ -9380,7 +9380,7 @@ s=spade;e:spade=
 e:spade=smirking
 
 He pushed the telephone away, yawned, stretched, felt his bruised temple, looked at his watch, and rolled and lighted a cigarette.
-s=none;e:spade=weary;f:b:office-inner=
+s=none;e:spade=weary;f:b:office-inner=;m=
 
 He smoked sleepily until Effie Perine came in.
 
@@ -9392,55 +9392,55 @@ Effie Perine came in smiling, bright-eyed and rosy-faced.
 e:effie=happy
 
 “Ted says it could be,” she reported, “and he hopes it is.”
-s=effie;e:effie=excited;x:effie=;x:spade=
+s=effie;e:effie=excited;x:effie=;x:spade=;e:effie=happy;i=
 
 “He says he’s not a specialist in that field, but the names and dates are all right, and at least none of your authorities or their works are out-and-out fakes. He’s all excited over it.”
-
+;e:effie=curious;i=
 
 “That’s swell, as long as he doesn’t get too enthusiastic to see through it if it’s phoney.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=2
 
-“Oh, he wouldn’t﻿—not Ted! He’s too good at his stuff for that.”
-s=effie
+“Oh, he wouldn’t﻿—not Ted! He’s too good at his stuff for that.”<e>Probably the best character in all literature, that Ted.</e>
+s=effie;e:effie=excited;i=2
 
 “Uh-huh, the whole damned Perine family’s wonderful,” Spade said, “including you and the smudge of soot on your nose.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “He’s not a Perine, he’s a Christy.”
-s=effie;e:effie=contemplative
+s=effie;e:effie=contemplative;e:effie=;i=2
 
 She bent her head to look at her nose in her vanity case mirror.
 s=none
 
 “I must’ve got that from the fire.”
-s=effie;e:effie=looking
+s=effie;e:effie=looking;e:effie=;i=
 
 She scrubbed the smudge with the corner of a handkerchief.
 s=none
 
 “The Perine-Christy enthusiasm ignite Berkeley?” he asked.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=
 
 She made a face at him while patting her nose with a powdered pink disc.
 s=none;e:effie=annoyed
 
 “There was a boat on fire when I came back. They were towing it out from the pier and the smoke blew all over our ferryboat.”
-s=effie;e:effie=neutral
+s=effie;e:effie=neutral;e:effie=contemplative;i=
 
 Spade put his hands on the arms of his chair.
 s=none;e:spade=serious
 
 “Were you near enough to see the name of the boat?” he asked.
-s=spade
+s=spade;e:spade=annoyed;i=
 
 “Yes. *La Paloma*. Why?”
-s=effie;e:effie=curious
+s=effie;e:effie=curious;e:effie=looking;i=
 
 Spade smiled ruefully.
 s=none;e:spade=smirking
 
 “I’m damned if I know why, sister,” he said.
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 ## XV<br>Every Crackpot
 r=title
