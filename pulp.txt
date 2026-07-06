@@ -7594,17 +7594,14 @@ f:b:12c=blur(3px)
 ## XII<br>Merry-Go-Round
 r=title
 
-Spade rode down from Gutman’s floor in an elevator.
+Spade rode down from Gutman’s floor in an elevator. His lips were dry and rough in a face otherwise pale and damp.
 s=none;e:spade=neutral;b=dark
-
-His lips were dry and rough in a face otherwise pale and damp.
-e:spade=weary
 
 When he took out his handkerchief to wipe his face he saw his hand trembling.
 e:spade=nervous
 
 He grinned at it and said, “Whew!” so loudly that the elevator-operator turned his head over his shoulder and asked: “Sir?”
-m=dialogue
+
 
 Spade walked down Geary Street to the Palace Hotel, where he ate luncheon.
 e:spade=neutral;b=sf-wide
@@ -7616,28 +7613,28 @@ He ate hungrily without haste, and then went to Sid Wise’s office.
 
 
 When Spade entered, Wise was biting a fingernail and staring at the window.
-e:sid=thinking;b=wise-office;x:spade=hat
+e:sid=thinking;b=wise-office;x:spade=
 
 He took his hand from his mouth, screwed his chair around to face Spade, and said:
 
 
 “’Lo. Push a chair up.”
-s=sid;e:sid=neutral
+s=sid;e:sid=neutral;e:sid=confused;i=
 
 Spade moved a chair to the side of the big paper-laden desk and sat down.
 s=none;e:spade=neutral
 
 “Mrs. Archer come in?” he asked.
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=;i=2;e:spade=annoyed;i=;e:spade=contemplative;i=2
 
 “Yes.”
-s=sid;e:sid=smirking
+s=sid;e:sid=smirking;e:sid=curious;i=;e:sid=thinking;i=
 
 The faintest of lights flickered in Wise’s eyes.
 s=none
 
 “Going to marry the lady, Sammy?”
-s=sid;i=2
+s=sid;e:sid=smirking
 
 Spade sighed irritably through his nose.
 s=none;e:spade=annoyed
@@ -7649,43 +7646,43 @@ A brief tired smile lifted the corners of the lawyer’s mouth.
 s=none;e:sid=sadsmile
 
 “If you don’t,” he said, “you’re going to have a job on your hands.”
-s=sid;e:sid=serious
+s=sid;e:sid=serious;e:sid=smirking;i=2
 
 Spade looked up from the cigarette he was making and spoke sourly:
 s=
 
 “You mean you are? Well, that’s what you’re for. What did she tell you?”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=scowling;i=;e:spade=angry;i=3
 
 “About you?”
-s=sid;e:sid=curious
+s=sid;e:sid=curious;e:sid=smirking;i=
 
 “About anything I ought to know.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=serious;i=3;e:spade=scowling;i=2
 
 Wise ran fingers through his hair, sprinkling dandruff down on his shoulders.
 s=none;e:sid=weary
 
 “She told me she had tried to get a divorce from Miles so she could﻿—”
-s=sid
+s=sid;e:sid=thinking;i=
 
 “I know all that,” Spade interrupted him.
 s=spade;e:spade=annoyed
 
 “You can skip it. Get to the part I don’t know.”
-
+;e:spade=;i=
 
 “How do I know how much she﻿—?”
-s=sid;e:sid=confused
+s=sid;e:sid=confused;e:sid=weary;i=
 
 “Quit stalling, Sid.”
-s=spade;e:spade=scowling
+s=spade;e:spade=scowling;e:spade=;i=;e:spade=scowling;i=2
 
 Spade held the flame of his lighter to the end of his cigarette.
 s=none;e:spade=neutral
 
 “What did she tell you that she wanted kept from me?”
-s=spade;e:spade=serious;x:spade=cig
+s=spade;e:spade=serious;x:spade=cig;e:spade=;i=
 
 Wise looked reprovingly at Spade.
 s=none;e:sid=annoyed
@@ -7703,7 +7700,7 @@ He lowered at Wise.
 s=none;e:spade=angry
 
 “What in hell do you think I sent her to you for?”
-s=spade
+s=spade;e:spade=annoyed;i=
 
 Wise made a weary grimace.
 s=none;e:sid=weary
@@ -7715,22 +7712,22 @@ s=sid
 s=spade;e:spade=smirking
 
 “Did she tell you where she was the night he was killed?”
-e:spade=serious
+e:spade=serious;e:spade=suspicious;i=
 
 “Yes.”
-s=sid;e:sid=neutral
+s=sid;e:sid=neutral;e:sid=serious;i=
 
 “Where?”
 s=spade;e:spade=curious
 
 “Following him.”
-s=sid
+s=sid;e:sid=smirking;i=
 
 Spade sat up straight and blinked. He exclaimed incredulously:
 s=none;e:spade=surprised
 
 “Jesus, these women!”
-s=spade
+s=spade;e:spade=unhappy;i=
 
 Then he laughed, relaxed, and asked:
 s=
@@ -7742,64 +7739,64 @@ Wise shook his head.
 s=none;e:sid=neutral
 
 “Nothing much. When he came home for dinner that evening he told her he had a date with a girl at the St. Mark, ragging her, telling her that was her chance to get the divorce she wanted.”
-s=sid
+s=sid;e:sid=serious;i=
 
 “She thought at first he was just trying to get under her skin. He knew﻿—”
-
+e:sid=;i=2;e:sid=weary;i=
 
 “I know the family history,” Spade said. “Skip it. Tell me what she did.”
 s=spade;e:spade=annoyed
 
 “I will if you’ll give me a chance.”
-s=sid;e:sid=annoyed
+s=sid;e:sid=annoyed;e:sid=smirking;i=
 
 “After he had gone out she began to think that maybe he might have had that date. You know Miles. It would have been like him to﻿—”
-e:sid=neutral
+e:sid=neutral;e:sid=curious;i=
 
 “You can skip Miles’s character too.”
-s=spade
+s=spade;e:spade=weary;i=
 
 “I oughtn’t to tell you a damned thing,” the lawyer said.
-s=sid;e:sid=scowling
+s=sid;e:sid=scowling;e:sid=annoyed;i=
 
 “So she got their car from the garage and drove down to the St. Mark, sitting in the car across the street.”
-e:sid=neutral
+e:sid=neutral;e:sid=serious;i=
 
 “She saw him come out of the hotel and she saw that he was shadowing a man and a girl﻿—she says she saw the same girl with you last night﻿—who had come out just ahead of him.”
-
+;e:sid=confused;i=
 
 “She knew then that he was working, had been kidding her. I suppose she was disappointed, and mad﻿—she sounded that way when she told me about it.”
 e:sid=thinking
 
 “She followed Miles long enough to make sure he was shadowing the pair, and then she went up to your apartment. You weren’t home.”
-e:sid=neutral
+e:sid=neutral;e:sid=annoyed;i=
 
 “What time was that?” Spade asked.
 s=spade;e:spade=curious
 
 “When she got to your place? Between half-past nine and ten the first time.”
-s=sid;e:sid=neutral
+s=sid;e:sid=neutral;e:sid=curious;i=
 
 “The first time?”
-s=spade;e:spade=surprised
+s=spade;e:spade=surprised;e:spade=curious;i=
 
 “Yes. She drove around for half an hour or so and then tried again. That would make it, say, ten-thirty.”
 s=sid;e:sid=neutral
 
 “You were still out, so she drove back downtown and went to a movie to kill time until after midnight, when she thought she’d be more likely to find you in.”
-
+;e:sid=confused;i=
 
 Spade frowned.
 s=none;e:spade=scowling
 
 “She went to a movie at ten-thirty?”
-s=spade;e:spade=confused
+s=spade;e:spade=confused;e:spade=serious;i=
 
 “So she says﻿—the one on Powell Street that stays open till one in the morning.”
-s=sid;e:sid=neutral
+s=sid;e:sid=neutral;e:sid=smirking;i=
 
 “She didn’t want to go home, she said, because she didn’t want to be there when Miles came. That always made him mad, it seems, especially if it was around midnight. She stayed in the movie till it closed.”
-
+;e:sid=serious;i=
 
 Wise’s words came out slower now and there was a sardonic glint in his eye.
 s=none;e:sid=smirking
@@ -7817,13 +7814,13 @@ Spade’s face was expressionless. He asked:
 e:spade=neutral
 
 “You believe her?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=;i=2
 
 “Don’t you?” Wise replied.
-s=sid;e:sid=curious
+s=sid;e:sid=curious;e:sid=serious;i=
 
 “How do I know? How do I know it isn’t something you fixed up between you to tell me?”
-s=spade;e:spade=suspicious
+s=spade;e:spade=suspicious;e:spade=annoyed;i=
 
 Wise smiled.
 s=none;e:sid=smirking
@@ -7837,20 +7834,17 @@ s=spade;e:spade=smirking
 “Well, what then? Miles wasn’t home. It was at least two o’clock by then﻿—must’ve been﻿—and he was dead.”
 e:spade=serious
 
-“Miles wasn’t home,” Wise said.
-s=sid;e:sid=neutral
-
-“That seems to have made her mad again﻿—his not being home first to be made mad by her not being home.”
-
+“Miles wasn’t home,” Wise said. “That seems to have made her mad again﻿—his not being home first to be made mad by her not being home.”
+s=sid;e:sid=neutral;e:sid=annoyed;i=
 
 “So she took the car out of the garage again and went back to your place.”
-
+;e:sid=thinking;i=
 
 “And I wasn’t home. I was down looking at Miles’s corpse. Jesus, what a swell lot of merry-go-round riding. Then what?”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=scowling;i=2
 
 “She went home, and her husband still wasn’t there, and while she was undressing your messenger came with the news of his death.”
-s=sid;e:sid=neutral
+s=sid;e:sid=neutral;e:sid=weary;i=
 
 Spade didn’t speak until he had with great care rolled and lighted another cigarette. Then he said:
 s=none;e:spade=thinking
@@ -7862,7 +7856,7 @@ Wise’s fingers, running through his hair again, combed more dandruff down on h
 s=none;e:sid=weary
 
 “But you don’t believe it?”
-s=sid;e:sid=curious
+s=sid;e:sid=curious;e:sid=smirking;i=;e:sid=annoyed;i=
 
 Spade plucked his cigarette from between his lips.
 s=none;e:spade=neutral
@@ -7874,28 +7868,25 @@ A wry smile twisted the lawyer’s mouth. He moved his shoulders wearily and sai
 s=none;e:sid=sadsmile
 
 “That’s right﻿—I’m selling you out. Why don’t you get an honest lawyer﻿—one you can trust?”
-s=sid;e:sid=weary
+s=sid;e:sid=weary;e:sid=sadsmile;i=;e:sid=smirking;i=
 
 “That fellow’s dead.”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=excited;i=;e:spade=scowling;i=2
 
 Spade stood up. He sneered at Wise.
 s=none;e:spade=annoyed
 
-“Getting touchy, huh? I haven’t got enough to think about: now I’ve got to remember to be polite to you.”
-s=spade;e:spade=scowling
-
-“What did I do? Forget to genuflect when I came in?”
-
+“Getting touchy, huh? I haven’t got enough to think about: now I’ve got to remember to be polite to you. What did I do? Forget to genuflect when I came in?”
+s=spade;e:spade=scowling;e:spade=serious;i=2
 
 Sid Wise smiled sheepishly.
 s=none;e:sid=sadsmile
 
 “You’re a son of a gun, Sammy,” he said.
-s=sid
+s=sid;e:sid=sadsmile;i=
 
 —
-s=
+s=;f:b:wise-office=blur(3px)
 
 Effie Perine was standing in the center of Spade’s outer office when he entered.
 s=none;e:effie=nervous;x:spade=hat;b=office-outer
@@ -7904,7 +7895,7 @@ She looked at him with worried brown eyes and asked:
 e:effie=upset
 
 “What happened?”
-s=effie
+s=effie;e:effie=upset;i=2
 
 Spade’s face grew stiff.
 s=none;e:spade=serious
@@ -7913,7 +7904,7 @@ s=none;e:spade=serious
 s=spade
 
 “Why didn’t she come?”
-s=effie;e:effie=upset
+s=effie;e:effie=upset;e:effie=fearful;i=
 
 Spade took two long steps and caught Effie Perine by the shoulders.
 s=none;e:spade=serious
@@ -7925,13 +7916,13 @@ She shook her head violently from side to side.
 s=none
 
 “I waited and waited and she didn’t come, and I couldn’t get you on the phone, so I came down.”
-s=effie
+s=effie;e:effie=upset;i=
 
 Spade jerked his hands away from her shoulders, thrust them far down in his trousers-pockets, said,
 s=
 
 “Another merry-go-round,” in a loud enraged voice,
-s=spade;e:spade=angry;m=allowbreak
+s=spade;e:spade=angry;m=allowbreak;e:spade=serious;i=2
 
 and strode into his private office.
 b=office-inner;m=;s=
@@ -7946,16 +7937,16 @@ He walked up and down the office while the girl used the telephone.
 s=none;e:spade=thinking
 
 “No,” she said when she had finished.
-s=effie;e:effie=upset
+s=effie;e:effie=upset;e:effie=nervous;i=
 
 “Did﻿—did you send her out in a taxi?”
-
+;e:effie=annoyed;i=
 
 His grunt probably meant yes.
 s=none;e:spade=scowling
 
 “Are you sure she﻿—Somebody must have followed her!”
-s=effie;e:effie=fearful
+s=effie;e:effie=fearful;e:effie=wary;i=;e:effie=upset;i=2
 
 Spade stopped pacing the floor. He put his hands on his hips and glared at the girl.
 s=none;e:spade=serious
@@ -7964,16 +7955,16 @@ He addressed her in a loud savage voice:
 
 
 “Nobody followed her. Do you think I’m a goddamned schoolboy?”
-s=spade
+s=spade;e:spade=angry;i=
 
 “I made sure of it before I put her in the cab, I rode a dozen blocks with her to be more sure, and I checked her another half-dozen blocks after I got out.”
-
+;e:spade=scowling;i=2
 
 “Well, but﻿—”
-s=effie;e:effie=nervous
+s=effie;e:effie=nervous;e:effie=unhappy;i=
 
 “But she didn’t get there. You’ve told me that. I believe it. Do you think I think she did get there?”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=
 
 Effie Perine sniffed.
 s=none;e:effie=upset
@@ -7985,43 +7976,46 @@ Spade made a harsh noise in his throat and went to the corridor door.
 s=none;e:spade=annoyed
 
 “I’m going out and find her if I have to dig up sewers,” he said.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=thinking;i=
 
 “Stay here till I’m back or you hear from me. For Christ’s sake let’s do something right.”
-
+;e:spade=scowling;i=2
 
 He went out, walked half the distance to the elevators, and retraced his steps.
-s=none;e:spade=thinking
+s=none;e:spade=thinking;b=office-hall
 
 Effie Perine was sitting at her desk when he opened the door.
-e:effie=upset
+e:effie=upset;b=office-outer
 
 He said:
 
 
 “You ought to know better than to pay any attention to me when I talk like that.”
-s=spade;e:spade=weary
+s=spade;e:spade=weary;e:spade=serious;i=3
 
 “If you think I pay any attention to you you’re crazy,” she replied, “only”﻿—
-s=effie;e:effie=sadsmile;m=allowbreak;m=nospace
+s=effie;e:effie=sadsmile;m=allowbreak;m=nospace;e:effie=unhappy;i=;e:effie=weary;i=2;e:effie=serious;i=;e:effie=annoyed;i=
 
 she crossed her arms and felt her shoulders, and her mouth twitched uncertainly﻿—
 s=
 
 “I won’t be able to wear an evening gown for two weeks, you big brute.”
-s=effie;i=2;m=
+s=effie;i=2;m=;e:effie=unhappy;i=
 
 He grinned humbly, said,
 s=
 
 “I’m no damned good, darling,”
-s=none;e:spade=sadsmile;m=allowbreak
+s=none;e:spade=sadsmile;m=allowbreak;s=spade;e:spade=contemplative;i=2
 
-made an exaggerated bow, and went out again.
-m=;s=
+made an exaggerated bow,
+s=
+
+and went out again.
+m=;b=office-hall
 
 —
-s=
+s=;f:b:office-hall=blur(3px)
 
 Two yellow taxicabs were at the corner-stand to which Spade went. Their chauffeurs were standing together talking.
 e:spade=neutral;b=street
@@ -8030,22 +8024,22 @@ Spade asked:
 x:spade=hat
 
 “Where’s the red-faced blond driver that was here at noon?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=serious;i=
 
 “Got a load,” one of the chauffeurs said.
-n:chauffeur1=Chauffeur;s=chauffeur1;e:chauffeur1=neutral
+n:chauffeur1=Chauffeur;s=chauffeur1;e:chauffeur1=neutral;z:chauffeur1=92,,10;i=2
 
 “Will he be back here?”
-s=spade
+s=spade;e:spade=suspicious;i=
 
 “I guess so.”
-s=chauffeur1;i=2
+s=chauffeur1;i=
 
 The other chauffeur ducked his head to the east.
-s=none;n:chauffeur2=Other Chauffeur;e:chauffeur2=neutral
+s=none;n:chauffeur2=Chauffeur;e:chauffeur2=neutral
 
 “Here he comes now.”
-s=chauffeur2;e:chauffeur2=ducked
+s=chauffeur2;e:chauffeur2=ducked;z:chauffeur2=90,,8
 
 Spade walked down to the corner and stood by the curb until the red-faced blond chauffeur had parked his cab and got out. Then Spade went up to him and said:
 s=none;n:chauffeur3=Red-Faced Chauffeur;e:chauffeur3=neutral
@@ -8054,85 +8048,85 @@ s=none;n:chauffeur3=Red-Faced Chauffeur;e:chauffeur3=neutral
 s=spade;e:spade=serious
 
 “Sure,” the red-faced man said, “I remember that.”
-s=chauffeur3
+s=chauffeur3;z:chauffeur3=92,53,12;e:chauffeur3=annoyed;i=
 
 “I told you to take her to a Ninth-Avenue-number. You didn’t take her there. Where did you take her?”
-s=spade;e:spade=serious;i=3
+s=spade;e:spade=serious;i=3;e:spade=;i=
 
 The chauffeur rubbed his cheek with a grimy hand and looked doubtfully at Spade.
 s=none;e:chauffeur3=wary
 
 “I don’t know about this.”
-s=chauffeur3
+s=chauffeur3;e:chauffeur3=contemplative;i=
 
 “It’s all right,” Spade assured him, giving him one of his cards.
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=serious;i=
 
 “If you want to play safe, though, we can ride up to your office and get your superintendent’s OK.”<e>"OK" => modernism and its consequences.</e>
-
+;e:spade=suspicious;i=2;e:spade=;i=2;e:spade=suspicious;i=
 
 “I guess it’s all right. I took her to the Ferry Building.”
-s=chauffeur3;e:chauffeur3=contemplative
+s=chauffeur3;e:chauffeur3=contemplative;e:chauffeur3=contemplative;i=2
 
 “By herself?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=serious;i=
 
 “Yeah. Sure.”
-s=chauffeur3;i=2
+s=chauffeur3;i=2;e:chauffeur3=wary;i=
 
 “Didn’t take her anywhere else first?”
-s=spade
+s=spade;e:spade=suspicious;i=
 
 “No. It was like this: after we dropped you I went on out Sacramento, and when we got to Polk she rapped on the glass and said she wanted to get a newspaper, so I stopped at the corner and whistled for a kid, and she got her paper.”
-s=chauffeur3
+s=chauffeur3;e:chauffeur3=contemplative;i=
 
 “Which paper?”
-s=spade
+s=spade;e:spade=;i=
 
 “The *Call*. Then I went on out Sacramento some more, and just after we’d crossed Van Ness she knocked on the glass again and said take her to the Ferry Building.”
 s=chauffeur3;e:chauffeur3=thinking
 
 “Was she excited or anything?”
-s=spade
+s=spade;e:spade=suspicious;i=2
 
 “Not so’s I noticed.”
-s=chauffeur3
+s=chauffeur3;e:chauffeur3=contemplative;i=
 
 “And when you got to the Ferry Building?”
 s=spade
 
 “She paid me off, and that was all.”
-s=chauffeur3;e:chauffeur3=;i=2
+s=chauffeur3;e:chauffeur3=;i=2;e:chauffeur3=annoyed;i=
 
 “Anybody waiting for her there?”
-s=spade
+s=spade;e:spade=serious;i=
 
 “I didn’t see them if they was.”
-s=chauffeur3
+s=chauffeur3;e:chauffeur3=thinking;i=
 
 “Which way did she go?”
-s=spade
+s=spade;e:spade=;i=
 
 “At the Ferry? I don’t know. Maybe upstairs, or towards the stairs.”
-s=chauffeur3;e:chauffeur3=thinking
+s=chauffeur3;e:chauffeur3=thinking;e:chauffeur3=contemplative;i=2
 
 “Take the newspaper with her?”
-s=spade
+s=spade;e:spade=serious;i=
 
 “Yeah, she had it tucked under her arm when she paid me.”
-s=chauffeur3;e:chauffeur3=neutral
+s=chauffeur3;e:chauffeur3=neutral;e:chauffeur3=contemplative;i=
 
 “With the pink sheet outside, or one of the white?”
-s=spade
+s=spade;e:spade=thinking;i=
 
 “Hell, Cap, I don’t remember that.”
-s=chauffeur3;e:chauffeur3=annoyed
+s=chauffeur3;e:chauffeur3=annoyed;e:chauffeur3=annoyed;i=
 
 Spade thanked the chauffeur, said,
 s=
 
 “Get yourself a smoke,”
-s=none;e:spade=neutral;m=allowbreak
+e:spade=neutral;m=allowbreak;s=spade
 
 and gave him a silver dollar.
 m=;s=
@@ -8173,8 +8167,11 @@ The blue gown she had worn the previous night was hanging across the foot of her
 The polychrome box that had held jewelry in her dressing table drawer now stood empty on the dressing table top.
 e:spade=serious
 
-Spade frowned at it, ran his tongue across his lips, strolled through the rooms, looking around but not touching anything, then left the Coronet and went downtown again.
-e:spade=scowling;f:b:brigid-apt-living=blur(3px)
+Spade frowned at it, ran his tongue across his lips, strolled through the rooms, looking around but not touching anything,
+e:spade=scowling;m=allowbreak
+
+then left the Coronet and went downtown again.
+m=;f:b:brigid-apt-living=blur(3px)
 
 In the doorway of Spade’s office-building he came face to face with the boy he had left at Gutman’s.
 e:spade=surprised;e:youth=neutral;b=office-wide
@@ -8204,10 +8201,10 @@ Spade chuckled.
 s=none;e:spade=happy
 
 “The cheaper the crook, the gaudier the patter,” he said cheerfully.
-s=spade
+s=spade;e:spade=happy;i=
 
 “Well, let’s go.”
-
+;e:spade=smirking;i=
 
 They walked up Sutter Street side by side.
 s=none;e:spade=neutral;e:youth=wary;b=sf-wide
@@ -8219,13 +8216,13 @@ They walked a little more than a block in silence. Then Spade asked pleasantly:
 
 
 “How long have you been off the gooseberry lay, son?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=curious;i=
 
 The boy did not show that he had heard the question.
 s=none;e:youth=neutral
 
 “Did you ever﻿—?” Spade began, and stopped.
-s=spade;e:spade=thinking
+s=spade;e:spade=thinking;e:spade=suspicious;i=
 
 A soft light began to glow in his yellowish eyes. He did not address the boy again.
 s=none;e:spade=contemplative
