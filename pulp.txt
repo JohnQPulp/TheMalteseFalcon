@@ -14983,5 +14983,5 @@ s=spade;e:spade=contemplative;i=
 “Well, send her in.”
 ;e:spade=weary;i=
 
-<e>The End. And what an anticlimactic one at that. Where was all the communism we were promised?</e>
+<e>The End. And what an anticlimactic one for all the communism-enjoyers out there who were expecting so much more. But at least Sam got the girl or three or zero or something.</e>
 r=title
