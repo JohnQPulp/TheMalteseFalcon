@@ -14183,10 +14183,10 @@ He turned the pages rapidly until he found the one he wanted, ran his finger dow
 
 
 He called a number and said:
-f:b:spade-bedroom-living=blur(3px)
+
 
 “Hello, is Sergeant Polhaus there?﻿… Will you call him, please? This is Samuel Spade.﻿…”
-s=spade;x:spade=
+s=spade;x:spade=;f:b:spade-bedroom-living=blur(3px);m=nospeaker
 
 He stared into space, waiting.
 s=none
@@ -14219,7 +14219,7 @@ s=spade;e:spade=smirking
 
 
 Spade slowly replaced receiver on prong, telephone on shelf.
-s=none;e:spade=thinking;x:spade=;f:b:spade-bedroom-living=
+s=none;e:spade=thinking;x:spade=;f:b:spade-bedroom-living=;m=
 
 He wet his lips and looked down at his hands. Their palms were wet. He filled his deep chest with air. His eyes were glittering between straightened lids.
 e:spade=serious
@@ -14233,11 +14233,8 @@ e:brigid=surprised
 Spade, face to face with her, very close to her, tall, big-boned and thick-muscled, coldly smiling, hard of jaw and eye, said:
 e:spade=smirking
 
-“They’ll talk when they’re nailed﻿—about us. We’re sitting on dynamite, and we’ve only got minutes to get set for the police.”
-s=spade;e:spade=serious
-
-“Give me all of it﻿—fast. Gutman sent you and Cairo to Constantinople?”
-e:spade=serious
+“They’ll talk when they’re nailed﻿—about us. We’re sitting on dynamite, and we’ve only got minutes to get set for the police. Give me all of it﻿—fast. Gutman sent you and Cairo to Constantinople?”
+s=spade;e:spade=serious;e:spade=annoyedsmile;i=
 
 She started to speak, hesitated, and bit her lip.
 s=none;e:brigid=nervous
@@ -14249,64 +14246,64 @@ He put a hand on her shoulder.
 s=spade;e:spade=angry
 
 “I’m in this with you and you’re not going to gum it. Talk. He sent you to Constantinople?”
-
+;e:spade=angry;i=3
 
 “Y-yes, he sent me. I met Joe there and﻿—and asked him to help me. Then we﻿—”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=confused;i=
 
 “Wait. You asked Cairo to help you get it from Kemidov?”
 s=spade;e:spade=serious
 
 “Yes.”
-s=brigid
+s=brigid;e:brigid=wary;i=2
 
 “For Gutman?”
-s=spade
+s=spade;e:spade=;i=
 
 She hesitated again, squirmed under the hard angry glare of his eyes, swallowed, and said:
 s=none;e:brigid=fearful
 
 “No, not then. We thought we would get it for ourselves.”
-s=brigid
+s=brigid;e:brigid=serious;i=2
 
 “All right. Then?”
 s=spade;e:spade=annoyed
 
 “Oh, then I began to be afraid that Joe wouldn’t play fair with me, so﻿—so I asked Floyd Thursby to help me.”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 “And he did. Well?”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “Well, we got it and went to Hong Kong.”
-s=brigid;e:brigid=thinking
+s=brigid;e:brigid=thinking;e:brigid=unhappy;i=3
 
 “With Cairo? Or had you ditched him before that?”
-s=spade
+s=spade;e:spade=annoyed;i=
 
 “Yes. We left him in Constantinople, in jail﻿—something about a check.”
 s=brigid;i=2
 
 “Something you fixed up to hold him there?”
-s=spade
+s=spade;e:spade=;i=
 
 She looked shamefacedly at Spade and whispered:
 s=none;e:brigid=upset
 
 “Yes.”
-s=brigid
+s=brigid;e:brigid=unhappy;i=
 
 “Right. Now you and Thursby are in Hong Kong with the bird.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=scowling;i=2
 
 “Yes, and then﻿—I didn’t know him very well﻿—I didn’t know whether I could trust him.”
-s=brigid;e:brigid=wary
+s=brigid;e:brigid=wary;e:brigid=wary;i=2
 
 “I thought it would be safer﻿—anyway, I met Captain Jacobi and I knew his boat was coming here, so I asked him to bring a package for me﻿—and that was the bird.”
-
+;e:brigid=confused;i=
 
 “I wasn’t sure I could trust Thursby, or that Joe or﻿—or somebody working for Gutman might not be on the boat we came on﻿—and that seemed the safest plan.”
-
+;e:brigid=unhappylookdown;i=
 
 “All right. Then you and Thursby caught one of the fast boats over. Then what?”
 s=spade;e:spade=serious
@@ -14315,22 +14312,22 @@ s=spade;e:spade=serious
 s=brigid;e:brigid=fearful
 
 “And I was afraid he’d have learned that we had left Hong Kong for San Francisco. He was in New York and I knew if he heard that by cable he would have plenty of time to get here by the time we did, or before.”
-
+;e:brigid=serious;i=2
 
 “He did. I didn’t know that then, but I was afraid of it, and I had to wait here until Captain Jacobi’s boat arrived. And I was afraid Gutman would find me﻿—or find Floyd and buy him over.”
-e:brigid=contemplative
+e:brigid=contemplative;e:brigid=nervous;i=
 
 “That’s why I came to you and asked you to watch him for﻿—”
-e:brigid=contemplative
+e:brigid=contemplative;e:brigid=unhappy;i=2
 
 “That’s a lie,” Spade said.
 s=spade;e:spade=angry
 
 “You had Thursby hooked and you knew it. He was a sucker for women. His record shows that﻿—the only falls he took were over women. And once a chump, always a chump.”
-
+;e:spade=angry;i=3
 
 “Maybe you didn’t know his record, but you’d know you had him safe.”
-
+;e:spade=scowling;i=2
 
 She blushed and looked timidly at him.
 s=none;e:brigid=nervous
@@ -14339,19 +14336,19 @@ He said:
 e:spade=serious
 
 “You wanted to get him out of the way before Jacobi came with the loot. What was your scheme?”
-s=spade
+s=spade;e:spade=scowling;i=;e:spade=pinch;i=
 
 “I﻿—I knew he’d left the States with a gambler after some trouble.”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 “I didn’t know what it was, but I thought that if it was anything serious and he saw a detective watching him he’d think it was on account of the old trouble, and would be frightened into going away. I didn’t think﻿—”
-
+;e:brigid=confused;i=
 
 “You told him he was being shadowed,” Spade said confidently.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=
 
 “Miles hadn’t many brains, but he wasn’t clumsy enough to be spotted the first night.”
-
+;e:spade=angry;i=
 
 “I told him, yes. When we went out for a walk that night I pretended to discover Mr. Archer following us and pointed him out to Floyd.”
 s=brigid;e:brigid=unhappy
@@ -14359,17 +14356,14 @@ s=brigid;e:brigid=unhappy
 She sobbed.
 s=none
 
-“But please believe, Sam, that I wouldn’t have done it if I had thought Floyd would kill him. I thought he’d be frightened into leaving the city.”
-s=brigid;e:brigid=upset
-
-“I didn’t for a minute think he’d shoot him like that.”
-
+“But please believe, Sam, that I wouldn’t have done it if I had thought Floyd would kill him. I thought he’d be frightened into leaving the city. I didn’t for a minute think he’d shoot him like that.”
+s=brigid;e:brigid=upset;e:brigid=weary;i=2
 
 Spade smiled wolfishly with his lips, but not at all with his eyes. He said:
 s=none;e:spade=smirking
 
 “If you thought he wouldn’t you were right, angel.”
-s=spade
+s=spade;e:spade=angrysmile;i=
 
 The girl’s upraised face held utter astonishment.
 s=none;e:brigid=surprised
@@ -14378,7 +14372,7 @@ Spade said:
 e:spade=serious
 
 “Thursby didn’t shoot him.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 Incredulity joined astonishment in the girl’s face.
 s=none;e:brigid=confused
@@ -14387,7 +14381,7 @@ Spade said:
 
 
 “Miles hadn’t many brains, but, Christ! he had too many years’ experience as a detective to be caught like that by the man he was shadowing.”
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=scowling;i=
 
 “Up a blind alley with his gun tucked away on his hip and his overcoat buttoned? Not a chance. He was as dumb as any man ought to be, but he wasn’t quite that dumb.”
 
@@ -14396,19 +14390,19 @@ s=spade;e:spade=annoyed
 e:spade=serious
 
 “You’d told us Thursby was a bad actor. He couldn’t have tricked Miles into the alley like that, and he couldn’t have driven him in. He was dumb, but not dumb enough for that.”
-
+;e:spade=;i=
 
 He ran his tongue over the inside of his lips and smiled affectionately at the girl. He said:
 s=none;e:spade=smirking
 
 “But he’d’ve gone up there with you, angel, if he was sure nobody else was up there.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=2
 
 “You were his client, so he would have had no reason for not dropping the shadow on your say-so, and if you caught up with him and asked him to go up there he’d’ve gone. He was just dumb enough for that.”
-
+;e:spade=annoyedsmile;i=
 
 “He’d’ve looked you up and down and licked his lips and gone grinning from ear to ear﻿—and then you could’ve stood as close to him as you liked in the dark and put a hole through him with the gun you had got from Thursby that evening.”
-
+;e:spade=lewd;i=
 
 Brigid O’Shaughnessy shrank back from him until the edge of the table stopped her. She looked at him with terrified eyes and cried:
 s=none;e:brigid=fearful
@@ -14423,19 +14417,19 @@ He looked at the watch on his wrist.
 s=none;e:spade=serious
 
 “The police will be blowing in any minute now and we’re sitting on dynamite. Talk!”
-s=spade
+s=spade;e:spade=angry;i=2
 
 She put the back of a hand on her forehead.
 s=none;e:brigid=upset
 
 “Oh, why do you accuse me of such a terrible﻿—?”
-s=brigid
+s=brigid;e:brigid=unhappy;i=
 
 “Will you stop it?” he demanded in a low impatient voice.
-s=spade;e:spade=annoyed
+s=spade;e:spade=annoyed;e:spade=angry;i=
 
 “This isn’t the spot for the schoolgirl act. Listen to me. The pair of us are sitting under the gallows.”
-
+;e:spade=serious;i=
 
 He took hold of her wrists and made her stand up straight in front of him.
 s=none;e:spade=serious
@@ -14444,16 +14438,16 @@ s=none;e:spade=serious
 s=spade;e:spade=angry
 
 “I﻿—I﻿—How did you know he﻿—he licked his lips and looked﻿—?”
-s=brigid;e:brigid=confused
+s=brigid;e:brigid=confused;e:brigid=fearfulbowed;i=2
 
 Spade laughed harshly.
 s=none;e:spade=smirking
 
 “I knew Miles.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 “But never mind that. Why did you shoot him?”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=angry;i=3
 
 She twisted her wrists out of Spade’s fingers and put her hands up around the back of his neck, pulling his head down until his mouth all but touched hers.
 s=none;e:brigid=nervous
@@ -14468,7 +14462,7 @@ Her dark-lashed lids were half down over velvet eyes. Her voice was hushed, thro
 
 
 “I didn’t mean to, at first. I didn’t, really. I meant what I told you, but when I saw Floyd couldn’t be frightened I﻿—”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=weary;i=2
 
 Spade slapped her shoulder. He said:
 s=none;e:spade=angry
@@ -14477,19 +14471,19 @@ s=none;e:spade=angry
 s=spade
 
 “You got the gun from Thursby that day﻿—that night. You had already rented the apartment at the Coronet. You had trunks there and none at the hotel and when I looked the apartment over I found a rent-receipt dated five or six days before the time you told me you rented it.”
-
+;e:spade=scowling;i=
 
 She swallowed with difficulty and her voice was humble.
 s=none
 
 “Yes, that’s a lie, Sam. I did intend to if Floyd﻿—I﻿—I can’t look at you and tell you this, Sam.”
-s=brigid
+s=brigid;e:brigid=unhappy;i=
 
 She pulled his head farther down until her cheek was against his cheek, her mouth by his ear, and whispered:
 s=none
 
 “I knew Floyd wouldn’t be easily frightened, but I thought that if he knew somebody was shadowing him either he’d﻿—Oh, I can’t say it, Sam!”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=upset;i=3
 
 She clung to him, sobbing.
 s=none;e:brigid=upset
@@ -14501,37 +14495,37 @@ e:spade=serious
 s=spade
 
 “If Thursby was the one then you were rid of him. If Miles was, then you could see that Floyd was caught and you’d be rid of him. That it?”
-
+;e:spade=;i=
 
 “S-something like that.”
 s=brigid;e:brigid=nervous
 
 “And when you found that Thursby didn’t mean to tackle him you borrowed the gun and did it yourself. Right?”
-s=spade;e:spade=scowling
+s=spade;e:spade=scowling;e:spade=angry;i=
 
 “Yes﻿—though not exactly.”
-s=brigid;i=2
+s=brigid;i=2;e:brigid=unhappy;i=
 
 “But exact enough. And you had that plan up your sleeve from the first. You thought Floyd would be nailed for the killing.”
-s=spade;i=2
+s=spade;i=2;e:spade=angry;i=3
 
 “I﻿—I thought they’d hold him at least until after Captain Jacobi had arrived with the falcon and﻿—”
-s=brigid;e:brigid=wary
+s=brigid;e:brigid=wary;e:brigid=weary;i=2
 
 “And you didn’t know then that Gutman was here hunting for you. You didn’t suspect that or you wouldn’t have shaken your gunman.”
 s=spade;e:spade=serious
 
 “You knew Gutman was here as soon as you heard Thursby had been shot. Then you knew you needed another protector, so you came back to me. Right?”
-
+;e:spade=;i=
 
 “Yes, but﻿—oh, sweetheart!﻿—it wasn’t only that. I would have come back to you sooner or later. From the first instant I saw you I knew﻿—”
-s=brigid;e:brigid=sadsmile
+s=brigid;e:brigid=sadsmile;e:brigid=sadsmile;i=2
 
 Spade said tenderly:
 s=none;e:spade=smirking
 
 “You angel! Well, if you get a good break you’ll be out of San Quentin in twenty years and you can come back to me then.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=2
 
 She took her cheek away from his, drawing her head far back to stare up without comprehension at him.
 s=none;e:brigid=confused
@@ -14564,13 +14558,13 @@ His voice was soft, gentle. He said:
 
 
 “I’m going to send you over. The chances are you’ll get off with life. That means you’ll be out again in twenty years. You’re an angel. I’ll wait for you.”
-s=spade
+s=spade;e:spade=excited;i=
 
 He cleared his throat.
 s=none;e:spade=serious
 
 “If they hang you I’ll always remember you.”
-s=spade
+s=spade;e:spade=scowling;i=2;e:spade=;i=2
 
 She dropped her hands and stood erect.
 s=none;e:brigid=neutral
@@ -14579,7 +14573,7 @@ Her face became smooth and untroubled except for the faintest of dubious glints 
 e:brigid=wary
 
 “Don’t, Sam, don’t say that even in fun. Oh, you frightened me for a moment! I really thought you﻿—You know you do such wild and unpredictable things that﻿—”
-s=brigid;i=2
+s=brigid;i=2;e:brigid=sadsmile;i=
 
 She broke off.
 s=none
@@ -14591,7 +14585,7 @@ Her cheeks and the flesh around her mouth shivered and fear came back into her e
 e:brigid=fearful
 
 “What﻿—? Sam!”
-s=brigid
+s=brigid;e:brigid=upsetthroat;i=
 
 She put her hands to her throat again and lost her erectness.
 s=none
@@ -14603,10 +14597,10 @@ His yellow-white face was damp with sweat and though he held his smile he could 
 
 
 “Don’t be silly. You’re taking the fall. One of us has got to take it, after the talking those birds will do. They’d hang me sure. You’re likely to get a better break. Well?”
-s=spade;e:spade=weary
+s=spade;e:spade=weary;e:spade=annoyedsmile;i=
 
 “But﻿—but, Sam, you can’t! Not after what we’ve been to each other. You can’t﻿—”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=throat;i=
 
 “Like hell I can’t.”
 s=spade;e:spade=angry
@@ -14615,61 +14609,61 @@ She took a long trembling breath.
 s=none
 
 “You’ve been playing with me? Only pretending you cared﻿—to trap me like this? You didn’t﻿—care at all? You didn’t﻿—don’t﻿—l-love me?”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 “I think I do,” Spade said. “What of it?”
-s=spade;e:spade=angrysmile
+s=spade;e:spade=angrysmile;e:spade=annoyedsmile;i=2
 
 The muscles holding his smile in place stood out like wales.
 s=none
 
 “I’m not Thursby. I’m not Jacobi. I won’t play the sap for you.”
-s=spade;e:spade=angrysmile;i=2
+s=spade;i=
 
 “That is not just,” she cried.
-s=brigid;e:brigid=angry
+s=brigid;e:brigid=angry;e:brigid=upsetthroat;i=
 
 Tears came to her eyes.
 s=none;e:brigid=upset
 
 “It’s unfair. It’s contemptible of you. You know it was not that. You can’t say that.”
-s=brigid
+s=brigid;e:brigid=weary;i=
 
 “Like hell I can’t,” Spade said. “You came into my bed to stop me asking questions. You led me out yesterday for Gutman with that phoney call for help.”
 s=spade;e:spade=angry
 
 “Last night you came here with them and waited outside for me and came in with me. You were in my arms when the trap was sprung﻿—I couldn’t have gone for a gun if I’d had one on me and couldn’t have made a fight of it if I had wanted to.”
-
+;e:spade=angry;i=3
 
 “And if they didn’t take you away with them it was only because Gutman’s got too much sense to trust you except for short stretches when he has to and because he thought I’d play the sap for you and﻿—not wanting to hurt you﻿—wouldn’t be able to hurt him.”
-
+;e:spade=scowling;i=2
 
 Brigid O’Shaughnessy blinked her tears away. She took a step towards him and stood looking him in the eyes, straight and proud.
 s=none;e:brigid=serious
 
 “You called me a liar,” she said. “Now you are lying. You’re lying if you say you don’t know down in your heart that, in spite of anything I’ve done, I love you.”
-s=brigid
+s=brigid;e:brigid=weary;i=2
 
 Spade made a short abrupt bow. His eyes were becoming bloodshot, but there was no other change in his damp and yellowish fixedly smiling face.
 s=none;e:spade=smirking
 
 “Maybe I do,” he said. “What of it? I should trust you?”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 “You who arranged that nice little trick for﻿—for my predecessor, Thursby? You who knocked off Miles, a man you had nothing against, in cold blood, just like swatting a fly, for the sake of double-crossing Thursby?”<e><book>In Cold Blood|Capote</book> to <a href="https://www.imdb.com/title/tt0074937">Capote</a> full circle.</e>
 
 
 “You who double-crossed Gutman, Cairo, Thursby﻿—one, two, three? You who’ve never played square with me for half an hour at a stretch since I’ve known you?”
-
+;e:spade=angrysmile;i=
 
 “I should trust you? No, no, darling. I wouldn’t do it even if I could. Why should I?”
-
+;e:spade=lewd;i=
 
 Her eyes were steady under his and her hushed voice was steady when she replied:
 s=none;e:brigid=serious
 
 “Why should you? If you’ve been playing with me, if you do not love me, there is no answer to that. If you did, no answer would be needed.”
-s=brigid
+s=brigid;e:brigid=fearfulbowed;i=2;e:brigid=upsetthroat;i=
 
 Blood streaked Spade’s eyeballs now and his long-held smile had become a frightful grimace.
 s=none;e:spade=angry
@@ -14678,7 +14672,7 @@ He cleared his throat huskily and said:
 
 
 “Making speeches is no damned good now.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=scowling;i=
 
 He put a hand on her shoulder. The hand shook and jerked.
 s=none
@@ -14687,40 +14681,40 @@ s=none
 s=spade;e:spade=angry
 
 “You killed Miles and you’re going over for it. I could have helped you by letting the others go and standing off the police the best way I could. It’s too late for that now. I can’t help you now. And I wouldn’t if I could.”
-
+;e:spade=scowling;i=2
 
 She put a hand on his hand on her shoulder.
 s=none;e:brigid=sadsmile
 
 “Don’t help me then,” she whispered, “but don’t hurt me. Let me go away now.”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=nervous;i=
 
 “No,” he said. “I’m sunk if I haven’t got you to hand over to the police when they come. That’s the only thing that can keep me from going down with the others.”
 s=spade;e:spade=serious
 
 “You won’t do that for me?”
-s=brigid;i=2
+s=brigid;i=2;e:brigid=upset;i=;e:brigid=confused;i=;e:brigid=fearfulbowed;i=
 
 “I won’t play the sap for you.”
-s=spade
+s=spade;e:spade=;i=
 
 “Don’t say that, please.”
-s=brigid;i=3
+s=brigid;i=3;e:brigid=unhappy;i=2
 
 She took his hand from her shoulder and held it to her face.
 s=none
 
 “Why must you do this to me, Sam? Surely Mr. Archer wasn’t as much to you as﻿—”
-s=brigid
+s=brigid;e:brigid=upsetthroat;i=
 
 “Miles,” Spade said hoarsely, “was a son of a bitch.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=
 
 “I found that out the first week we were in business together and I meant to kick him out as soon as the year was up. You didn’t do me a damned bit of harm by killing him.”
-
+e:spade=angry
 
 “Then what?”
-s=brigid;e:brigid=confused
+s=brigid;e:brigid=confused;e:brigid=nervous;i=
 
 Spade pulled his hand out of hers. He no longer either smiled or grimaced.
 s=none;e:spade=serious
@@ -14729,31 +14723,31 @@ His wet yellow face was set hard and deeply lined. His eyes burned madly. He sai
 
 
 “Listen. This isn’t a damned bit of good. You’ll never understand me, but I’ll try once more and then we’ll give it up. Listen.”
-s=spade
+s=spade;e:spade=annoyed;i=
 
 “When a man’s partner is killed he’s supposed to do something about it. It doesn’t make any difference what you thought of him. He was your partner and you’re supposed to do something about it.”
-
+;e:spade=scowling;i=2
 
 “Then it happens we were in the detective business. Well, when one of your organization gets killed it’s bad business to let the killer get away with it. It’s bad all around﻿—bad for that one organization, bad for every detective everywhere.”
-
+;e:spade=;i=
 
 “Third, I’m a detective and expecting me to run criminals down and then let them go free is like asking a dog to catch a rabbit and let it go.”
-
+;e:spade=angry;i=3
 
 “It can be done, all right, and sometimes it is done, but it’s not the natural thing. The only way I could have let you go was by letting Gutman and Cairo and the kid go. That’s﻿—”
-
+;e:spade=angry;i=
 
 “You’re not serious,” she said. “You don’t expect me to think that these things you’re saying are sufficient reason for sending me to the﻿—”
-s=brigid;e:brigid=surprised
+s=brigid;e:brigid=surprised;e:brigid=throat;i=
 
 “Wait till I’m through and then you can talk.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=annoyed;i=
 
 “Fourth, no matter what I wanted to do now it would be absolutely impossible for me to let you go without having myself dragged to the gallows with the others.”
 
 
 “Next, I’ve no reason in God’s world to think I can trust you and if I did this and got away with it you’d have something on me that you could use whenever you happened to want to.”
-
+;e:spade=angry;i=3
 
 “That’s five of them. The sixth would be that, since I’ve also got something on you, I couldn’t be sure you wouldn’t decide to shoot a hole in *me* some day.”
 
@@ -14768,7 +14762,7 @@ e:spade=scowling
 
 
 “You know,” she whispered, “whether you do or not.”
-s=brigid;e:brigid=serious
+s=brigid;e:brigid=serious;e:brigid=wary;i=2
 
 “I don’t. It’s easy enough to be nuts about you.”
 s=spade;e:spade=serious
@@ -14777,13 +14771,13 @@ He looked hungrily from her hair to her feet and up to her eyes again.
 s=none
 
 “But I don’t know what that amounts to. Does anybody ever? But suppose I do? What of it?”
-s=spade
+s=spade;e:spade=scowling;i=2
 
 “Maybe next month I won’t. I’ve been through it before﻿—when it lasted that long. Then what? Then I’ll think I played the sap. And if I did it and got sent over then I’d be sure I was the sap.”
-
+;e:spade=annoyed;i=
 
 “Well, if I send you over I’ll be sorry as hell﻿—I’ll have some rotten nights﻿—but that’ll pass. Listen.”
-
+;e:spade=serious;i=2
 
 He took her by the shoulders and bent her back, leaning over her.
 s=none;e:spade=serious
@@ -14792,7 +14786,7 @@ s=none;e:spade=serious
 s=spade;e:spade=angry
 
 “I won’t because all of me wants to﻿—wants to say to hell with the consequences and do it﻿—and because﻿—God damn you﻿—you’ve counted on that with me the same as you counted on that with the others.”
-
+;e:spade=scowling;i=
 
 He took his hands from her shoulders and let them fall to his sides.
 s=none;e:spade=weary
@@ -14801,13 +14795,13 @@ She put her hands up to his cheeks and drew his face down again.
 e:brigid=serious
 
 “Look at me,” she said, “and tell me the truth. Would you have done this to me if the falcon had been real and you had been paid your money?”
-s=brigid
+s=brigid;e:brigid=unhappy;i=
 
 “What difference does that make now? Don’t be too sure I’m as crooked as I’m supposed to be.”
 s=spade;e:spade=serious
 
 “That kind of reputation might be good business﻿—bringing in high-priced jobs and making it easier to deal with the enemy.”
-
+;e:spade=annoyed;i=
 
 She looked at him, saying nothing.
 s=none
@@ -14816,7 +14810,7 @@ He moved his shoulders a little and said:
 
 
 “Well, a lot of money would have been at least one more item on the other side of the scales.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=curious;i=
 
 She put her face up to his face. Her mouth was slightly open with lips a little thrust out. She whispered:
 s=none;e:brigid=sadsmile
@@ -14828,7 +14822,7 @@ Spade set the edges of his teeth together and said through them:
 s=none;e:spade=angry
 
 “I won’t play the sap for you.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 She put her mouth to his, slowly, her arms around him, and came into his arms.
 s=none
@@ -14855,52 +14849,52 @@ Polhaus said:
 s=none
 
 “Got them.”
-s=tom
+s=tom;e:tom=confused;i=
 
 “Swell. Come in. Here’s another one for you.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 Spade pressed the girl forward.
 s=
 
 “She killed Miles. And I’ve got some exhibits﻿—the boy’s guns, one of Cairo’s, a black statuette that all the hell was about, and a thousand-dollar bill that I was supposed to be bribed with.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=scowling;i=2
 
 He looked at Dundy, drew his brows together, leaned forward to peer into the Lieutenant’s face, and burst out laughing.
 s=none;e:spade=happy
 
 “What in hell’s the matter with your little playmate, Tom? He looks heartbroken.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=2
 
 He laughed again.
 s=
 
 “I bet, by God! when he heard Gutman’s story he thought he had me at last.”
-s=spade;e:spade=smirking;i=3
+s=spade;e:spade=smirking;i=3;e:spade=smirkingchin;i=
 
 “Cut it out, Sam,” Tom grumbled. “We didn’t think﻿—”
-s=tom;e:tom=annoyed
+s=tom;e:tom=annoyed;e:tom=scowling;i=2
 
 “Like hell he didn’t,” Spade said merrily.
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 “He came up here with his mouth watering, though you’d have sense enough to know I’d been stringing Gutman.”
-
+i=;e:spade=annoyedsmile;i=
 
 “Cut it out,” Tom grumbled again, looking uneasily sidewise at his superior.
-s=tom;e:tom=nervous
+s=tom;e:tom=nervous;e:tom=weary;i=;e:tom=annoyed;i=
 
 “Anyways we got it from Cairo. Gutman’s dead. The kid had just finished shooting him up when we got there.”
-e:tom=serious
+e:tom=serious;e:tom=contemplative;i=2;e:tom=nervous;i=
 
 Spade nodded.
 s=none;e:spade=serious
 
 “He ought to have expected that,” he said.
-s=spade
+s=spade;e:spade=scowling;i=2;e:spade=contemplative;i=
 
 —
-s=none
+s=none;f:b:spade-passageway=blur(3px)
 
 Effie Perine put down her newspaper and jumped out of Spade’s chair when he came into the office at a little after nine o’clock Monday morning.
 e:effie=surprised;b=office-inner;x:spade=hat
@@ -14909,13 +14903,13 @@ He said:
 
 
 “Morning, angel.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=contemplative;i=2
 
 “Is that﻿—what the papers have﻿—right?” she asked.
-s=effie;e:effie=nervous
+s=effie;e:effie=nervous;e:effie=fearful;i=
 
 “Yes, ma’am.”
-s=spade;i=2
+s=spade;i=2;e:spade=serious;i=3
 
 He dropped his hat on the desk and sat down.
 s=none;x:spade=
@@ -14930,25 +14924,25 @@ He raised his head, grinned, and said mockingly:
 e:spade=smirking
 
 “So much for your woman’s intuition.”
-s=spade
+s=spade;e:spade=excited;i=
 
 Her voice was queer as the expression on her face.
 s=none
 
 “You did that, Sam, to her?”
-s=effie
+s=effie;e:effie=annoyed;i=
 
 He nodded.
 s=none;e:spade=serious
 
 “Your Sam’s a detective.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 He looked sharply at her. He put his arm around her waist, his hand on her hip.
 s=
 
 “She did kill Miles, angel,” he said gently, “offhand, like that.”
-s=spade;e:spade=contemplative
+s=spade;e:spade=contemplative;e:spade=serious;i=2
 
 He snapped the fingers of his other hand.
 s=
@@ -14957,10 +14951,10 @@ She escaped from his arm as if it had hurt her.
 s=none;e:effie=fearful
 
 “Don’t, please, don’t touch me,” she said brokenly.
-s=effie;e:effie=upset
+s=effie;e:effie=upset;e:effie=wary;i=
 
 “I know﻿—I know you’re right. You’re right. But don’t touch me now﻿—not now.”
-
+;e:effie=weary;i=2
 
 Spade’s face became pale as his collar.
 s=none;e:spade=surprised
@@ -14984,10 +14978,10 @@ Spade, looking down at his desk, nodded almost imperceptibly.
 s=none;e:spade=thinking
 
 “Yes,” he said, and shivered.
-s=spade
+s=spade;e:spade=contemplative;i=
 
 “Well, send her in.”
-
+;e:spade=weary;i=
 
 <e>The End. And what an anticlimactic one at that. Where was all the communism we were promised?</e>
 r=title
