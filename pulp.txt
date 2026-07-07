@@ -12818,19 +12818,19 @@ Spade, idly jingling his handful of pistols, nodded at Cairo’s rounded back an
 
 
 “It’ll be all right with him?”
-s=spade;e:spade=curious
+s=spade;e:spade=curious;e:spade=scowling;i=2
 
 “I don’t know,” the fat man replied placidly.
-s=gutman;e:gutman=neutral
+s=gutman;e:gutman=neutral;e:gutman=unhappy;i=
 
 “That part will have to be strictly up to you, sir.”
-
+;e:gutman=serious;i=3
 
 Spade’s smile made his v-shaped chin more salient. He said:
 s=none;e:spade=smirking
 
 “Cairo.”
-s=spade
+s=spade;e:spade=annoyedsmile;i=
 
 The Levantine screwed his dark anxious face around over his shoulder.
 s=none;e:cairo=nervous
@@ -12839,28 +12839,25 @@ Spade said:
 
 
 “Let him rest awhile. We’re going to give him to the police. We ought to get the details fixed before he comes to.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=
 
 Cairo asked bitterly:
 s=
 
 “Don’t you think you’ve done enough to him without that?”
-s=cairo;e:cairo=upset
+s=cairo;e:cairo=upset;e:cairo=upset;i=2
 
 Spade said:
 s=
 
 “No.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 Cairo left the sofa and went close to the fat man.
 s=none
 
-“Please don’t do this thing, Mr. Gutman,” he begged.
-s=cairo;e:cairo=unhappy
-
-“You must realize that—”
-s=cairo
+“Please don’t do this thing, Mr. Gutman,” he begged. “You must realize that—”
+s=cairo;e:cairo=unhappy;e:cairo=nervous;i=
 
 Spade interrupted him:
 s=
@@ -12872,7 +12869,7 @@ Though Gutman’s smile was a bit sad, even wistful in its way, he nodded his he
 s=none;e:gutman=sadsmile
 
 “I don’t like it either,” he told the Levantine, “but we can’t help ourselves now. We really can’t.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 Spade asked:
 s=
@@ -12884,37 +12881,37 @@ Cairo wet his lips and turned slowly to face Spade.
 s=none;e:cairo=wary
 
 “Suppose,” he said, and swallowed.
-s=cairo
+s=cairo;e:cairo=unhappy;i=2
 
 “Have I—? Can I choose?”
-
+;e:cairo=serious;i=2
 
 “You can,” Spade assured him seriously,
-s=spade
+s=spade;e:spade=;i=
 
 “but you ought to know that if the answer is ‘out’ we’ll give you to the police with your boyfriend.”
 
 
 “Oh, come, Mr. Spade,” Gutman protested, “that is not—”
-s=gutman;e:gutman=wary
+s=gutman;e:gutman=wary;e:gutman=confused;i=
 
 “Like hell we’ll let him walk out on us,” Spade said.
 s=spade;e:spade=angry
 
 “He’ll either come in or he’ll go in. We can’t have a lot of loose ends hanging around.”
-s=spade
+s=spade;e:spade=angry;i=3
 
 He scowled at Gutman and burst out irritably:
 s=
 
 “Jesus God! is this the first thing you guys ever stole? You’re a fine lot of lollipops! What are you going to do next—get down and pray?”
-e:spade=annoyed;s=spade
+e:spade=annoyed;s=spade;e:spade=scowling;i=
 
 He directed his scowl at Cairo.
 s=
 
 “Well? Which?”
-e:spade=scowling;s=spade
+e:spade=scowling;s=spade;e:spade=serious;i=2
 
 “You give me no choice.”
 s=cairo;e:cairo=unhappy
@@ -12923,13 +12920,13 @@ Cairo’s narrow shoulders moved in a hopeless shrug.
 s=none
 
 “I come in.”
-s=cairo
+s=cairo;e:cairo=serious;i=2
 
 “Good,” Spade said and looked at Gutman and at Brigid O’Shaughnessy.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=annoyed;i=2
 
 “Sit down.”
-
+;e:spade=annoyed;i=
 
 The girl sat down gingerly on the end of the sofa by the unconscious boy’s feet.
 s=none;e:brigid=wary
@@ -12950,25 +12947,25 @@ s=none;e:gutman=nervous
 s=gutman
 
 “I don’t really care, sir. What I had in mind was that it would be best for all concerned if we did not get out of each other’s sight until our business has been transacted.”
-
+;e:gutman=serious;i=3
 
 He looked at the sofa and at Spade again, sharply.
 s=none;e:gutman=suspicious
 
 “You have the envelope?”
-s=gutman
+s=gutman;e:gutman=;i=
 
 Spade shook his head, looking at the sofa and then at the girl. He smiled with his eyes and said:
 s=none;e:spade=neutral
 
 “Miss O’Shaughnessy has it.”
-s=spade;e:spade=contemplative
+s=spade;e:spade=contemplative;e:spade=curious;i=2
 
 “Yes, I have it,” she murmured, putting a hand inside her coat.
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=unhappy;i=
 
 “I picked it up.…”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 “That’s all right,” Spade told her.
 s=spade;e:spade=neutral
@@ -12980,43 +12977,43 @@ He addressed Gutman:
 s=
 
 “We won’t have to lose sight of each other. I can have the falcon brought here.”
-s=spade
+s=spade;e:spade=excited;i=
 
 “That will be excellent,” Gutman purred.
-s=gutman;e:gutman=happy
+s=gutman;e:gutman=happy;e:gutman=;i=2
 
 “Then, sir, in exchange for the ten thousand dollars and Wilmer you will give us the falcon and an hour or two of grace—so we won’t be in the city when you surrender him to the authorities.”
-
+;e:gutman=wary;i=
 
 “You don’t have to duck,” Spade said. “It’ll be airtight.”
 s=spade;e:spade=neutral
 
 “That may be, sir, but nevertheless we’ll feel safer well out of the city when Wilmer is being questioned by your District Attorney.”
-s=gutman;e:gutman=wary
+s=gutman;e:gutman=wary;e:gutman=unhappy;i=
 
 “Suit yourself,” Spade replied. “I can hold him here all day if you want.”
-s=spade
+s=spade;e:spade=;i=2
 
 He began to roll a cigarette.
 s=none
 
 “Let’s get the details fixed. Why did he shoot Thursby? And why and where and how did he shoot Jacobi?”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=contemplative;i=2
 
 Gutman smiled indulgently, shaking his head and purring:
 s=
 
 “Now come, sir, you can’t expect that. We’ve given you the money and Wilmer. That is our part of the agreement.”
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=smirking;i=
 
 “I do expect it,” Spade said.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=2
 
 He held his lighter to his cigarette.
 s=none
 
 “A fall-guy is what I asked for, and he’s not a fall-guy unless he’s a cinch to take the fall. Well, to cinch that I’ve got to know what’s what.”
-s=spade;x:spade=cig
+s=spade;x:spade=cig;e:spade=serious;i=3
 
 He pulled his brows together.
 s=none;e:spade=scowling
@@ -13028,19 +13025,19 @@ Gutman leaned forward and wagged a fat finger at the pistols on the table beside
 s=none;e:gutman=serious
 
 “There’s ample evidence of his guilt, sir. Both men were shot with those weapons. It’s a very simple matter for the police-department-experts to determine that the bullets that killed the men were fired from those weapons.”
-s=gutman
+s=gutman;e:gutman=wary;i=
 
 “You know that; you’ve mentioned it yourself. And that, it seems to me, is ample proof of his guilt.”
-
+;e:gutman=nervous;i=
 
 “Maybe,” Spade agreed, “but the thing’s more complicated than that and I’ve got to know what happened so I can be sure the parts that won’t fit in are covered up.”
-s=spade
+s=spade;e:spade=suspicious;i=
 
 Cairo’s eyes were round and hot.
 s=none;e:cairo=angry
 
 “Apparently you’ve forgotten that you assured us it would be a very simple affair,” Cairo said.
-s=cairo
+s=cairo;e:cairo=serious;i=
 
 He turned his excited dark face to Gutman.
 s=none;e:cairo=angry
@@ -13049,7 +13046,7 @@ s=none;e:cairo=angry
 s=cairo
 
 “It doesn’t make a damned bit of difference what either of you think,” Spade said bluntly.
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=serious;i=
 
 “It’s too late for that now and you’re in too deep. Why did he kill Thursby?”
 s=spade;e:spade=serious
@@ -13061,19 +13058,19 @@ s=none;e:gutman=sadsmile
 s=gutman
 
 “I begin to think that we made a mistake in not letting you alone from the very first. By Gad, I do, sir!”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 Spade moved his hand carelessly.
 s=none;e:spade=neutral
 
 “You haven’t done so bad. You’re staying out of jail and you’re getting the falcon. What do you want?”
-s=spade
+s=spade;e:spade=;i=;x:spade=;e:spade=scowling;i=2;e:spade=;i=2
 
 He put his cigarette in a corner of his mouth and said around it:
 s=
 
 “Anyhow you know where you stand now. Why did he kill Thursby?”
-s=spade
+s=spade;x:spade=cig;e:spade=serious;i=2
 
 Gutman stopped rocking.
 s=none;e:gutman=serious
@@ -13082,49 +13079,52 @@ s=none;e:gutman=serious
 s=gutman
 
 “We knew that removing him in just that manner would make her stop and think that perhaps it would be best to patch up her differences with us after all, besides leaving her without so violent a protector.”
-
+;e:gutman=serious;i=3
 
 “You see, sir, I am being candid with you?”
-s=gutman
+s=gutman;e:gutman=serious;i=2
 
 “Yes. Keep it up. You didn’t think he might have the falcon?”
-s=spade
+s=spade;e:spade=smirking;i=2
 
 Gutman shook his head so that his round cheeks wobbled.
 s=none;e:gutman=neutral
 
 “We didn’t think that for a minute,” he replied.
-s=gutman
+s=gutman;e:gutman=wary;i=
 
 He smiled benevolently.
 s=none;e:gutman=happy;
 
 “We had the advantage of knowing Miss O’Shaughnessy far too well for that and, while we didn’t know then that she had given the falcon to Captain Jacobi in Hong Kong to be brought over on the *Paloma* while they took a faster boat, still we didn’t for a minute think that, if only one of them knew where it was, Thursby was the one.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 Spade nodded thoughtfully and asked:
 s=
 
 “You didn’t try to make a deal with him before you gave him the works?”
-s=spade;e:spade=thinking
+s=spade;e:spade=thinking;e:spade=thinking;i=2;e:spade=suspicious;i=
 
 “Yes, sir, we certainly did. I talked to him myself that night.”
 s=gutman;e:gutman=serious;
 
-“Wilmer had located him two days before and had been trying to follow him to wherever he was meeting Miss O’Shaughnessy, but Thursby was too crafty for that even if he didn’t know he was being watched. So that night Wilmer went to his hotel, learned he wasn’t in, and waited outside for him.”
+“Wilmer had located him two days before and had been trying to follow him to wherever he was meeting Miss O’Shaughnessy, but Thursby was too crafty for that even if he didn’t know he was being watched.”
+;e:gutman=serious;i=3
 
+“So that night Wilmer went to his hotel, learned he wasn’t in, and waited outside for him.”
+;e:gutman=unhappy;i=
 
 “I suppose Thursby returned immediately after killing your partner. Be that as it may, Wilmer brought him to see me. We could do nothing with him. He was quite determinedly loyal to Miss O’Shaughnessy.”
-
+;e:gutman=contemplative;i=
 
 “Well, sir, Wilmer followed him back to his hotel and did what he did.”
-s=gutman
+s=gutman;e:gutman=wary;i=
 
 Spade thought for a moment.
 s=none;e:spade=thinking
 
 “That sounds all right. Now Jacobi.”
-s=spade
+s=spade;e:spade=thinking;i=2
 
 Gutman looked at Spade with grave eyes and said:
 s=
@@ -13136,7 +13136,7 @@ The girl gasped,
 s=
 
 “Oh!”
-s=brigid;e:brigid=handmouth;m=allowbreak
+s=brigid;e:brigid=handmouth;m=allowbreak;e:brigid=horrifiedhandmouth;i=
 
 and put a hand to her mouth.
 m=;s=
@@ -13145,31 +13145,31 @@ Spade’s voice was heavy and even.
 s=none;e:spade=serious
 
 “Never mind that now. Tell me what happened.”
-s=spade
+s=spade;e:spade=;i=
 
 After a shrewd look at Spade, Gutman smiled.
 s=none;e:gutman=smirking
 
 “Just as you say, sir,” he said.
-s=gutman;x:spade=
+s=gutman;x:spade=;e:gutman=partialwink;i=
 
 “Well, Cairo, as you know, got in touch with me—I sent for him—after he left police headquarters the night—or morning—he was up here. We recognized the mutual advantage of pooling forces.”
-
+;e:gutman=smirking;i=
 
 He directed his smile at the Levantine.
 s=none;e:gutman=smirking
 
 “Mr. Cairo is a man of nice judgment. The *Paloma* was his thought.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 “He saw the notice of its arrival in the papers that morning and remembered that he had heard in Hong Kong that Jacobi and Miss O’Shaughnessy had been seen together.”
-
+;e:gutman=smirking;i=
 
 “That was when he had been trying to find her there, and he thought at first that she had left on the *Paloma*, though later he learned that she hadn’t.”
-s=gutman;e:gutman=thinking
+s=gutman;e:gutman=thinking;e:gutman=;i=2
 
 “Well, sir, when he saw the notice of arrival in the paper he guessed just what had happened: she had given the bird to Jacobi to bring here for her. Jacobi did not know what it was, of course. Miss O’Shaughnessy is too discreet for that.”
-
+;e:gutman=smirking;i=3
 
 He beamed at the girl, rocked his chair twice, and went on:
 s=
@@ -13177,14 +13177,17 @@ s=
 “Mr. Cairo and Wilmer and I went to call on Captain Jacobi and were fortunate enough to arrive while Miss O’Shaughnessy was there. In many ways it was a difficult conference, but finally, by midnight we had persuaded Miss O’Shaughnessy to come to terms, or so we thought.”
 s=gutman
 
-“We then left the boat and set out for my hotel, where I was to pay Miss O’Shaughnessy and receive the bird. Well, sir, we mere men should have known better than to suppose ourselves capable of coping with her. En route, she and Captain Jacobi and the falcon slipped completely through our fingers.”
+“We then left the boat and set out for my hotel, where I was to pay Miss O’Shaughnessy and receive the bird. Well, sir, we mere men should have known better than to suppose ourselves capable of coping with her.”
 s=gutman
+
+“En route, she and Captain Jacobi and the falcon slipped completely through our fingers.”
+;e:gutman=excited;i=
 
 He laughed merrily.
 s=none;e:gutman=happy
 
 “By Gad, sir, it was neatly done.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 Spade looked at the girl. Her eyes, large and dark with pleading, met his.
 s=none;e:spade=serious
@@ -13193,55 +13196,55 @@ He asked Gutman:
 
 
 “You touched off the boat before you left?”
-s=spade
+s=spade;e:spade=thinking;i=
 
 “Not intentionally, no, sir,” the fat man replied, “though I dare say we—or Wilmer at least—were responsible for the fire.”
-s=gutman;e:gutman=neutral
+s=gutman;e:gutman=neutral;e:gutman=serious;i=3
 
 “He had been out trying to find the falcon while the rest of us were talking in the cabin and no doubt was careless with matches.”
 
 
 “That’s fine,” Spade said. “If any slip-up makes it necessary for us to try him for Jacobi’s murder we can also hang an arson-rap on him.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=;i=2
 
 “All right. Now about the shooting.”
-e:spade=serious
+i=
 
 “Well, sir, we dashed around town all day trying to find them and we found them late this afternoon. We weren’t sure at first that we’d found them. All we were sure of was that we’d found Miss O’Shaughnessy’s apartment.”
 s=gutman;e:gutman=serious
 
 “But when we listened at the door we heard them moving around inside, so we were pretty confident we had them and rang the bell. When she asked us who we were and we told her—through the door—we heard a window going up.”
-
+;e:gutman=serious;i=3
 
 “We knew what that meant, of course; so Wilmer hurried downstairs as fast as he could and around to the rear of the building to cover the fire-escape. And when he turned into the alley he ran right plumb smack into Captain Jacobi running away with the falcon under his arm.”
-s=gutman
+s=gutman;e:gutman=unhappy;i=
 
 “That was a difficult situation to handle, but Wilmer did every bit as well as he could.”
-s=gutman
+s=gutman;e:gutman=confused;i=
 
 “He shot Jacobi—more than once—but Jacobi was too tough to either fall or drop the falcon, and he was too close for Wilmer to keep out of his way. He knocked Wilmer down and ran on. And this was in broad daylight, you understand, in the afternoon.”
-s=gutman
+s=gutman;e:gutman=nervous;i=2
 
 “When Wilmer got up he could see a policeman coming up from the block below. So he had to give it up.”
-s=gutman
+s=gutman;e:gutman=serious;i=3
 
 “He dodged into the open back door of the building next the Coronet, through into the street, and then up to join us—and very fortunate he was, sir, to make it without being seen.”
 s=gutman
 
 “Well, sir, there we were—stumped again. Miss O’Shaughnessy had opened the door for Mr. Cairo and me after she had shut the window behind Jacobi, and she—”
-s=gutman
+s=gutman;e:gutman=thinking;i=;e:gutman=unhappy;i=
 
 He broke off to smile at a memory.
 s=none;e:gutman=happy
 
 “We persuaded—that is the word, sir—her to tell us that she had told Jacobi to take the falcon to you. It seemed very unlikely that he’d live to go that far, even if the police didn’t pick him up, but that was the only chance we had, sir.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 “And so, once more, we persuaded Miss O’Shaughnessy to give us a little assistance. We—well—persuaded her to phone your office in an attempt to draw you away before Jacobi got there, and we sent Wilmer after him.”
-
+;e:gutman=partialwink;i=
 
 “Unfortunately it had taken us too long to decide and to persuade Miss O’Shaughnessy to—”
-
+;e:gutman=contemplative;i=
 
 The boy on the sofa groaned and rolled over on his side. His eyes opened and closed several times.
 s=none;e:youth=weary
@@ -13250,7 +13253,7 @@ The girl stood up and moved into the angle of table and wall again.
 e:brigid=nervous
 
 “—cooperate with us,” Gutman concluded hurriedly, “and so you had the falcon before we could reach you.”
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=unhappy;i=
 
 The boy put one foot on the floor, raised himself on an elbow, opened his eyes wide, put the other foot down, sat up, and looked around.
 s=none;e:youth=confused
@@ -13271,7 +13274,7 @@ Spade, sitting on the corner of the table, swinging his legs carelessly, said:
 
 
 “Now listen, kid. If you come over here and start cutting up I’m going to kick you in the face. Sit down and shut up and behave and you’ll last longer.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=serious;i=2
 
 The boy looked at Gutman.
 s=none;e:youth=scowling
@@ -13280,7 +13283,7 @@ Gutman smiled benignly at him and said:
 
 
 “Well, Wilmer, I’m sorry indeed to lose you, and I want you to know that I couldn’t be any fonder of you if you were my own son; but—well, by Gad!—if you lose a son it’s possible to get another—and there’s only one Maltese falcon.”
-s=gutman;e:gutman=happy
+s=gutman;e:gutman=happy;e:gutman=sadsmile;i=2
 
 Spade laughed.
 s=none;e:spade=happy
@@ -13295,7 +13298,7 @@ Gutman’s sigh did not affect the benignity of his smile. He said to Spade:
 e:gutman=happy
 
 “When you’re young you simply don’t understand things.”
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=happy;i=2
 
 Cairo had an arm around the boy’s shoulders again and was whispering to him.
 s=none;e:cairo=nervous
@@ -13304,10 +13307,10 @@ Spade grinned at Gutman and addressed Brigid O’Shaughnessy:
 
 
 “I think it’d be swell if you’d see what you can find us to eat in the kitchen, with plenty of coffee. Will you? I don’t like to leave my guests.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “Surely,” she said and started towards the door.
-s=brigid;e:brigid=neutral
+s=brigid;e:brigid=neutral;e:brigid=confused;i=;e:brigid=upset;i=2
 
 Gutman stopped rocking.
 s=none;e:gutman=serious
@@ -13319,7 +13322,7 @@ He held up a thick hand.
 s=none
 
 “Hadn’t you better leave the envelope in here? You don’t want to get grease-spots on it.”
-s=gutman
+s=gutman;e:gutman=smirking;i=
 
 The girl’s eyes questioned Spade.
 s=none;e:brigid=confused
@@ -13328,7 +13331,7 @@ He said in an indifferent tone:
 
 
 “It’s still his.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 She put her hand inside her coat, took out the envelope, and gave it to Spade.
 s=none;e:brigid=neutral
@@ -13340,22 +13343,22 @@ Spade tossed it into Gutman’s lap, saying:
 s=spade;e:spade=annoyed
 
 “You misunderstand me,” Gutman replied suavely.
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=smirking;i=2
 
 “It’s not that at all, but business should be transacted in a businesslike manner.”
-
+i=3
 
 He opened the flap of the envelope, took out the thousand-dollar bills, counted them, and chuckled so that his belly bounced.
 s=none;e:gutman=happy
 
 “For instance there are only nine bills here now.”
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=happy;i=
 
 He spread them out on his fat knees and thighs.
 s=none
 
 “There were ten when I handed it to you, as you very well know.”
-s=gutman
+s=gutman;e:gutman=excited;i=
 
 His smile was broad and jovial and triumphant.
 s=none;e:gutman=happy
@@ -13364,7 +13367,7 @@ Spade looked at Brigid O’Shaughnessy and asked:
 
 
 “Well?”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=contemplative;i=2
 
 She shook her head sidewise with emphasis. She did not say anything, though her lips moved slightly, as if she had tried to.
 s=none;e:brigid=fearful
@@ -13382,34 +13385,34 @@ Then Spade stood up and his face was dull and placid. He picked up the three pis
 e:spade=serious
 
 “I want to know about this. We”—
-s=spade;m=allowbreak;m=nospace
+s=spade;m=allowbreak;m=nospace;e:spade=scowling;i=2;e:spade=;i=
 
 he nodded at the girl, but without looking at her—
 s=
 
 “are going in the bathroom. The door will be open and I’ll be facing it. Unless you want a three-story drop there’s no way out of here except past the bathroom door. Don’t try to make it.”
-m=;s=spade;i=2
+m=;s=spade;i=2;e:spade=scowling;i=2
 
 “Really, sir,” Gutman protested, “it’s not necessary, and certainly not very courteous of you, to threaten us in this manner. You must know that we’ve not the least desire to leave.”
-s=gutman;e:gutman=wary
+s=gutman;e:gutman=wary;e:gutman=confused;i=
 
 “I’ll know a lot when I’m through.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=annoyed;i=
 
 Spade was patient but resolute.
 s=none
 
 “This trick upsets things. I’ve got to find the answer. It won’t take long.”
-s=spade
+s=spade;e:spade=;i=
 
 He touched the girl’s elbow.
 s=none
 
 “Come on.”
-s=spade
+s=spade;e:spade=serious;i=2
 
 —
-s=none
+s=none;f:b:spade-bedroom-living-night=blur(3px)
 
 In the bathroom Brigid O’Shaughnessy found words.
 s=none;e:brigid=fearful;b=spade-bathroom-night
@@ -13418,19 +13421,19 @@ She put her hands up flat on Spade’s chest and her face up close to his and wh
 
 
 “I did not take that bill, Sam.”
-s=brigid
+s=brigid;e:brigid=upset;i=
 
 “I don’t think you did,” he said, “but I’ve got to know. Take your clothes off.”
 s=spade;e:spade=serious
 
 “You won’t take my word for it?”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=confused;i=
 
 “No. Take your clothes off.”
-s=spade;e:spade=serious;i=2
+s=spade;e:spade=serious;i=2;e:spade=;i=
 
 “I won’t.”
-s=brigid;e:brigid=angry
+s=brigid;e:brigid=angry;e:brigid=weary;i=
 
 “All right. We’ll go back to the other room and I’ll have them taken off.”
 s=spade;e:spade=serious
@@ -13442,22 +13445,22 @@ s=none;e:brigid=horrifiedhandmouth
 s=brigid
 
 “I will,” he said. “I’ve got to know what happened to that bill and I’m not going to be held up by anybody’s maidenly modesty.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=
 
 “Oh, it isn’t that.”
-s=brigid;e:brigid=nervous
+s=brigid;e:brigid=nervous;e:brigid=upset;i=
 
 She came close to him and put her hands on his chest again.
 s=none
 
 “I’m not ashamed to be naked before you, but—can’t you see?—not like this. Can’t you see that if you make me you’ll—you’ll be killing something?”
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=upset;i=2
 
 He did not raise his voice.
 s=none;e:spade=serious
 
-“I don’t know anything about that. I’ve got to know what happened to the bill. Take them off.”<e>Getting some real <book>Three Musketeers|Anne of Austria</book> vibes from this sequence.</e>
-s=spade
+“I don’t know anything about that. I’ve got to know what happened to the bill. Take them off.”<e><book>Three Musketeers|Anne of Austria</book> vibes.</e>
+s=spade;e:spade=scowling;i=2
 
 She looked at his unblinking yellow-grey eyes and her face became pink and then white again.
 s=none;e:brigid=fearful
@@ -13490,13 +13493,13 @@ He picked up his pistols.
 
 
 He shut the bathroom door behind him and went into the living-room.
-e:spade=serious;b=spade-bedroom-living-night
+e:spade=serious;b=spade-bedroom-living-night;f:b:spade-bedroom-living-night=
 
 Gutman smiled amiably at him from the rocking chair.
 s=none;e:gutman=happy
 
 “Find it?” he asked.
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 Cairo, sitting beside the boy on the sofa, looked at Spade with questioning opaque eyes.
 s=none;e:cairo=curious
@@ -13508,52 +13511,52 @@ Spade told Gutman:
 
 
 “No, I didn’t find it. You palmed it.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=
 
 The fat man chuckled.
 s=none;e:gutman=happy
 
 “I palmed it?”
-s=gutman
+s=gutman;e:gutman=smirking;i=3
 
 “Yes,” Spade said, jingling the pistols in his hand.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=angry;i=
 
 “Do you want to say so or do you want to stand for a frisk?”
-
+;e:spade=angry;i=3
 
 “Stand for—?”
 s=gutman;e:gutman=confused
 
 “You’re going to admit it,” Spade said, “or I’m going to search you. There’s no third way.”
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=;i=
 
 Gutman looked up at Spade’s hard face and laughed outright.
 s=none;e:gutman=happy
 
 “By Gad, sir, I believe you would. I really do. You’re a character, sir, if you don’t mind my saying so.”
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=happy;i=2
 
 “You palmed it,” Spade said.
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=annoyed;i=
 
 “Yes, sir, that I did.”
-s=gutman
+s=gutman;e:gutman=partialwink;i=
 
 The fat man took a crumpled bill from his vest-pocket, smoothed it on a wide thigh, took the envelope holding the nine bills from his coat-pocket, and put the smoothed bill in with the others.
 s=none;e:gutman=neutral
 
 “I must have my little joke every now and then and I was curious to know what you’d do in a situation of that sort. I must say that you passed the test with flying colors, sir.”
-s=gutman;e:gutman=smirking
+s=gutman;e:gutman=smirking;e:gutman=happy;i=2
 
 “It never occurred to me that you’d hit on such a simple and direct way of getting at the truth.”
-
+;e:gutman=happy;i=;e:gutman=smirking;i=3;;e:gutman=happy;i=
 
 Spade sneered at him without bitterness.
 s=none;e:spade=smirking
 
 “That’s the kind of thing I’d expect from somebody the punk’s age.”
-s=spade
+s=spade;e:spade=;i=
 
 Gutman chuckled.
 s=none;e:gutman=happy
@@ -13577,10 +13580,10 @@ Brigid O’Shaughnessy was filling an aluminum percolator.
 e:brigid=neutral;b=spade-kitchen-night
 
 “Find everything?” Spade asked.
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “Yes,” she replied in a cool voice, not raising her head.
-s=brigid;e:brigid=serious
+s=brigid;e:brigid=serious;e:brigid=unhappy;i=2;e:brigid=unhappylookdown;i=
 
 Then she set the percolator aside and came to the door.
 s=none
@@ -13589,10 +13592,10 @@ She blushed and her eyes were large and moist and chiding.
 e:brigid=sadsmile
 
 “You shouldn’t have done that to me, Sam,” she said softly.
-s=brigid;e:brigid=upset
+s=brigid;e:brigid=upset;e:brigid=confused;i=
 
 “I had to find out, angel.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=
 
 He bent down, kissed her mouth lightly,
 s=none;e:spade=neutral;m=allowbreak
@@ -13607,52 +13610,52 @@ Gutman smiled at Spade and offered him the white envelope, saying:
 
 
 “This will soon be yours; you might as well take it now.”
-s=gutman;e:gutman=happy
+s=gutman;e:gutman=happy;e:gutman=smirking;i=
 
 Spade did not take it. He sat in the armchair and said:
 s=none;e:spade=serious
 
 “There’s plenty of time for that. We haven’t done enough talking about the money-end. I ought to have more than ten thousand.”
-s=spade
+s=spade;e:spade=;i=2
 
 Gutman said:
 s=
 
 “Ten thousand dollars is a lot of money.”
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=serious;i=3
 
 Spade said:
 s=
 
 “You’re quoting me, but it’s not all the money in the world.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “No, sir, it’s not. I grant you that. But it’s a lot of money to be picked up in as few days and as easily as you’re getting it.”
-s=gutman
+s=gutman;e:gutman=wary;i=
 
 “You think it’s been so damned easy?” Spade asked, and shrugged.
 s=spade;e:spade=annoyed
 
 “Well, maybe, but that’s my business.”
-
+;e:spade=scowling;i=2
 
 “It certainly is,” the fat man agreed.
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=curious;i=
 
 He screwed up his eyes, moved his head to indicate the kitchen, and lowered his voice.
 s=none
 
 “Are you sharing with her?”
-s=gutman
+s=gutman;e:gutman=;i=
 
 Spade said:
 s=
 
 “That’s my business too.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=serious;i=2
 
 “It certainly is,” the fat man agreed once more, “but”—
-s=gutman;m=allowbreak;m=nospace;
+s=gutman;m=allowbreak;m=nospace;;e:gutman=serious;i=3
 
 he hesitated—
 s=
@@ -13661,19 +13664,19 @@ s=
 s=gutman;i=2;m=
 
 “Go ahead.”
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “If you don’t—I dare say you’ll give her some money in any event, but—if you don’t give her as much as she thinks she ought to have, my word of advice is—be careful.”
-s=gutman;e:gutman=wary
+s=gutman;e:gutman=wary;e:gutman=serious;i=3
 
 Spade’s eyes held a mocking light. He asked:
 s=none;e:spade=smirking
 
 “Bad?”
-s=spade
+s=spade;e:spade=annoyedsmile;i=;e:spade=excited;i=
 
 “Bad,” the fat man replied.
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=partialwink;i=
 
 Spade grinned and began to roll a cigarette.
 s=none;e:spade=smirking
@@ -13700,7 +13703,7 @@ The boy snarled,
 
 
 “Keep away from me,”
-s=youth;e:youth=angry;m=allowbreak
+s=youth;e:youth=angry;m=allowbreak;e:youth=scowling;i=2
 
 and put his face between his hands again.
 m=;s=
@@ -13715,31 +13718,31 @@ Spade, grinning, jerked a thumb at the sofa and told her:
 
 
 “The course of true love. How’s the food coming along?”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=curious;i=2
 
 “It’s coming,” she said and went back to the kitchen.
-s=brigid;e:brigid=contemplative
+s=brigid;e:brigid=contemplative;e:brigid=unhappy;i=3
 
 Spade lighted his cigarette and addressed Gutman:
 s=
 
 “Let’s talk about money.”
-s=spade;e:spade=serious;x:spade=cig
+s=spade;e:spade=serious;x:spade=cig;e:spade=;i=
 
 “Willingly, sir, with all my heart,” the fat man replied,
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=confused;i=
 
 “but I might as well tell you frankly right now that ten thousand is every cent I can raise.”
-
+;e:gutman=unhappy;i=
 
 Spade exhaled smoke.
 s=none;e:spade=neutral
 
 “I ought to have twenty.”
-s=spade
+s=spade;e:spade=curious;i=
 
 “I wish you could. I’d give it to you gladly if I had it, but ten thousand dollars is every cent I can manage, on my word of honor. Of course, sir, you understand that is simply the first payment. Later—”
-s=gutman
+s=gutman;e:gutman=weary;i=
 
 Spade laughed.
 s=none;e:spade=happy
@@ -13751,16 +13754,16 @@ Gutman smiled and frowned and shook his head.
 s=none;e:gutman=serious
 
 “Mr. Spade, I’ve told you frankly and candidly and on my word of honor as a gentleman that ten thousand dollars is all the money I’ve got—every penny—and all I can raise.”
-s=gutman
+s=gutman;e:gutman=serious;i=3
 
 “But you didn’t say positively.”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=smirking;i=2
 
 Gutman laughed and said:
 s=
 
 “Positively.”
-s=gutman;e:gutman=happy
+s=gutman;e:gutman=happy;e:gutman=happy;i=2
 
 Spade said gloomily:
 s=
@@ -13772,7 +13775,7 @@ Gutman handed him the envelope. Spade counted the bills and was putting them in 
 s=none;e:gutman=neutral
 
 —
-
+f:b:spade-bedroom-living-night=blur(3px)
 
 The boy would not eat. Cairo took a cup of coffee.
 e:youth=weary;e:cairo=neutral
@@ -13808,22 +13811,22 @@ Half an hour later the boy stirred, awakened, and sat up yawning.
 e:youth=weary
 
 Gutman looked at his watch and questioned Spade:
-
+;f:b:spade-bedroom-living-night=
 
 “Can you get it now?”
-s=gutman;e:gutman=curious
+s=gutman;e:gutman=curious;e:gutman=unhappy;i=
 
 “Give me another hour.”
-s=spade;e:spade=neutral
+s=spade;e:spade=neutral;e:spade=;i=2
 
 Gutman nodded and went back to his book.
 s=none
 
 At seven o’clock Spade went to the telephone and called Effie Perine’s number.
-b=spade-bedroom-living
+b=spade-passageway
 
 “Hello, Mrs. Perine?… This is Mr. Spade. Will you let me talk to Effie, please?… Yes, it is.… Thanks.”
-s=spade;x:spade=;f:b:spade-bedroom-living=blur(3px)
+s=spade;x:spade=;f:b:spade-passageway=blur(3px);m=nospeaker
 
 He whistled two lines of “En Cuba,” softly.
 s=none;e:spade=happy
@@ -13835,16 +13838,16 @@ s=spade;i=2
 s=spade;e:spade=serious
 
 The street doorbell rang at ten minutes of eight. Spade went to the telephone-box and pressed the button that released the lock.
-s=none;x:spade=;f:b:spade-bedroom-living=
+s=none;x:spade=;f:b:spade-passageway=;m=
 
 Gutman put down his book and rose smiling.
-s=none;e:gutman=happy
+s=none;e:gutman=happy;b=spade-bedroom-living
 
 “You don’t mind if I go to the door with you?” he asked.
-s=gutman
+s=gutman;e:gutman=happy;i=2;e:gutman=partialwink;i=;e:gutman=smirking;i=
 
 “OK,” Spade told him.
-s=spade
+s=spade;e:spade=;i=2
 
 Gutman followed him to the corridor door. Spade opened it.
 s=none;b=spade-passageway
@@ -13862,7 +13865,7 @@ He took it saying:
 
 
 “Thanks a lot, lady. I’m sorry to spoil your day of rest, but this—”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=excited;i=
 
 “It’s not the first one you’ve spoiled,” she replied, laughing,
 s=effie;e:effie=happy;m=allowbreak;x:effie=hat,coat
@@ -13877,7 +13880,7 @@ He shook his head.
 s=none
 
 “No, thanks.”
-s=spade
+s=spade;e:spade=smirking;i=2
 
 She said,
 s=
@@ -13904,13 +13907,13 @@ Spade stepped back from the table saying:
 
 
 “There you are.”
-s=spade
+s=spade;e:spade=;i=2
 
 Gutman’s fat fingers made short work of cord and paper and excelsior, and he had the black bird in his hands.
 s=none
 
 “Ah,” he said huskily, “now, after seventeen years!”
-s=gutman;e:gutman=excited
+s=gutman;e:gutman=excited;e:gutman=excited;i=2;e:gutman=sadsmile;i=
 
 His eyes were moist.
 s=none
@@ -13928,7 +13931,7 @@ Gutman set the bird down on the table again and fumbled at a pocket.
 
 
 “It’s it,” he said, “but we’ll make sure.”
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=happy;i=2
 
 Sweat glistened on his round cheeks. His fingers twitched as he took out a gold pocketknife and opened it.
 s=none;e:gutman=nervous
@@ -13970,16 +13973,16 @@ He pulled her to him and grasped her chin with his other hand, raising her face 
 e:spade=angry
 
 “All right,” he growled into her face.
-s=spade;e:spade=angry
+s=spade;e:spade=angry;e:spade=scowling;i=
 
 “You’ve had *your* little joke. Now tell us about it.”
-
+;e:spade=angry;i=
 
 She cried:
 s=
 
 “No, Sam, no! That is the one I got from Kemidov. I swear—”
-s=brigid;e:brigid=fearful
+s=brigid;e:brigid=fearful;e:brigid=nervous;i=
 
 Joel Cairo thrust himself between Spade and Gutman and began to emit words in a shrill spluttering stream:
 s=
@@ -14009,19 +14012,19 @@ Then he shook himself and was—by the time his bulbs had stopped jouncing—aga
 e:gutman=happy
 
 “Come, sir,” he said good-naturedly, “there’s no need of going on like that.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 “Everybody errs at times and you may be sure this is every bit as severe a blow to me as to anyone else. Yes, that is the Russian’s hand, there’s no doubt of it.”
-e:gutman=thinking
+e:gutman=thinking;e:gutman=unhappy;i=
 
 “Well, sir, what do you suggest? Shall we stand here and shed tears and call each other names? Or shall we”—
-m=allowbreak;m=nospace
+m=allowbreak;m=nospace;e:gutman=sadsmile;i=2
 
 he paused and his smile was a cherub’s—
 s=
 
 “go to Constantinople?”
-s=gutman;e:gutman=smirking;m=
+s=gutman;e:gutman=smirking;m=;e:gutman=excited;i=
 
 Cairo took his hands from his face and his eyes bulged. He stammered:
 s=none;e:cairo=surprised
@@ -14036,13 +14039,13 @@ Gutman patted his fat hands together. His eyes twinkled. His voice was a complac
 e:gutman=happy
 
 “For seventeen years I have wanted that little item and have been trying to get it. If I must spend another year on the quest—well, sir—that will be an additional expenditure in time of only”—
-s=gutman;m=allowbreak;m=nospace
+s=gutman;m=allowbreak;m=nospace;e:gutman=happy;i=2
 
 his lips moved silently as he calculated—
 s=
 
-“five and fifteen-seventeenths percent.”<e>Smart converter of fractions to mixed-percentage-fractions. (Dumbass otherwise.)</e>
-e:gutman=thinking;m=;s=gutman
+“five and fifteen-seventeenths percent.”<e>Literature's greatest converter of fractions to mixed-percentage-fractions.</e>
+e:gutman=thinking;m=;s=gutman;e:gutman=smirking;i=3
 
 The Levantine giggled and cried:
 s=
@@ -14072,40 +14075,40 @@ Then he spoke, mimicking the fat man’s throaty purr:
 
 
 “Well, sir, I must say you’re a swell lot of thieves!”
-s=spade;e:spade=smirking
+s=spade;e:spade=smirking;e:spade=lewd;i=;e:spade=annoyedsmile;i=
 
 Gutman chuckled.
 s=none;e:gutman=happy
 
 “We’ve little enough to boast about, and that’s a fact, sir,” he said.
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 “But, well, we’re none of us dead yet and there’s not a bit of use thinking the world’s come to an end just because we’ve run into a little setback.”
-s=gutman
+s=gutman;e:gutman=happy;i=
 
 He brought his left hand from behind him and held it out towards Spade, pink smooth hilly palm up.
 s=none
 
 “I’ll have to ask you for that envelope, sir.”
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=wary;i=
 
 Spade did not move. His face was wooden. He said:
 s=none;e:spade=neutral
 
 “I held up my end. You got your dingus. It’s your hard luck, not mine, that it wasn’t what you wanted.”
-s=spade;e:spade=serious
+s=spade;e:spade=serious;e:spade=;i=
 
 “Now come, sir,” Gutman said persuasively,
 s=gutman;e:gutman=smirking
 
 “we’ve all failed and there’s no reason for expecting any one of us to bear the brunt of it, and—”
-
+;e:gutman=smirking;i=3
 
 He brought his right hand from behind him. In the hand was a small pistol, an ornately engraved and inlaid affair of silver and gold and mother-of-pearl.
 s=none
 
 “In short, sir, I must ask you to return my ten thousand dollars.”
-s=gutman;e:gutman=serious
+s=gutman;e:gutman=serious;e:gutman=smirking;i=2
 
 Spade’s face did not change.
 s=none;e:spade=neutral
@@ -14117,22 +14120,22 @@ He put that bill into his trousers-pocket. He tucked the envelope’s flap in ov
 
 
 “That’ll take care of my time and expenses,” he said.
-s=spade;e:spade=smirking
+s=spade;e:spade=excited
 
 Gutman, after a little pause, imitated Spade’s shrug and accepted the envelope. He said:
 s=none;e:gutman=neutral
 
 “Now, sir, we will say goodbye to you, unless”—
-s=gutman;m=allowbreak;m=nospace
+s=gutman;m=allowbreak;m=nospace;e:gutman=wary;i=
 
 the fat puffs around his eyes crinkled—
 s=
 
 “you care to undertake the Constantinople expedition with us.”
-s=gutman;e:gutman=contemplative;m=
+s=gutman;e:gutman=contemplative;m=;e:gutman=;i=
 
 “You don’t? Well, sir, frankly I’d like to have you along. You’re a man to my liking, a man of many resources and nice judgment.”
-
+;e:gutman=confused;i=
 
 “Because we know you’re a man of nice judgment we know we can say goodbye with every assurance that you’ll hold the details of our little enterprise in confidence.”
 s=gutman;e:gutman=smirking
@@ -14141,22 +14144,22 @@ s=gutman;e:gutman=smirking
 s=gutman
 
 “I understand that,” Spade replied.
-s=spade
+s=spade;e:spade=;i=2
 
 “I was sure you would. I’m also sure that, now there’s no alternative, you’ll somehow manage the police without a fall-guy.”
-s=gutman
+s=gutman;e:gutman=happy;i=
 
 “I’ll make out all right,” Spade replied.
-s=spade
+s=spade;e:spade=contemplative;i=2
 
 “I was sure you would. Well, sir, the shortest farewells are the best. Adieu.”
-s=gutman
+s=gutman;e:gutman=smirking;i=
 
 He made a portly bow.
 s=none
 
 “And to you, Miss O’Shaughnessy, adieu. I leave you the rara avis on the table as a little memento.”
-s=gutman
+s=gutman;e:gutman=happy;i=2
 
 ## XX<br>If They Hang You
 r=title
